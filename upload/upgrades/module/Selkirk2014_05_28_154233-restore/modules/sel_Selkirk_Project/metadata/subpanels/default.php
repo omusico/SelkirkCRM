@@ -1,0 +1,59 @@
+<?php
+$module_name='sel_Selkirk_Project';
+$subpanel_layout = array (
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopCreateButton',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'popup_module' => 'sel_Selkirk_Project',
+    ),
+  ),
+  'where' => '',
+  'list_fields' => 
+  array (
+    'name' => 
+    array (
+      'vname' => 'LBL_NAME',
+      'widget_class' => 'SubPanelDetailViewLink',
+      'width' => '45%',
+      'default' => true,
+    ),
+    'project_type' => 
+    array (
+      'type' => 'enum',
+      'default' => true,
+      'studio' => 'visible',
+      'vname' => 'LBL_PROJECT_TYPE',
+      'width' => '10%',
+    ),
+    'status' => 
+    array (
+      'type' => 'enum',
+      'default' => true,
+      'studio' => 'visible',
+      'vname' => 'LBL_STATUS',
+      'width' => '10%',
+    ),
+    'edit_button' => 
+    array (
+      'vname' => 'LBL_EDIT_BUTTON',
+      'widget_class' => 'SubPanelEditButton',
+      'module' => 'sel_Selkirk_Project',
+      'width' => '4%',
+      'default' => true,
+    ),
+    'remove_button' => 
+    array (
+      'vname' => 'LBL_REMOVE',
+      'widget_class' => 'SubPanelRemoveButton',
+      'module' => 'sel_Selkirk_Project',
+      'width' => '5%',
+      'default' => true,
+    ),
+  ),
+);

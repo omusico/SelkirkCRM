@@ -1,0 +1,25 @@
+<?php
+// created: 2014-06-24 16:22:27
+$mod_strings = array (
+  'LBL_ACCOUNTS' => 'Clients_not_used',
+  'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Clients_not_used',
+  'LBL_CONTACTS' => 'Contacts_not_used',
+  'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts_not_used',
+  'LBL_CASES' => 'Cases_not_used',
+  'LBL_CASES_SUBPANEL_TITLE' => 'Cases_not_used',
+  'LBL_NOTES' => 'Notes_not_used',
+  'LBL_CALLS' => 'Calls_not_used',
+  'LBL_EMAILS' => 'Emails_not_used',
+  'LNK_NEW_BUG' => 'Report Bug_not_used_not_used',
+  'LNK_BUG_LIST' => 'View Bugs_not_used_not_used',
+  'LNK_IMPORT_BUGS' => 'Import Bugs_not_used_not_used',
+  'LBL_LIST_FORM_TITLE' => 'Bug_not_used_not_used List',
+  'LBL_SEARCH_FORM_TITLE' => 'Bug_not_used_not_used Search',
+  'LBL_TASKS' => 'Tasks_not_used',
+  'LBL_MEETINGS' => 'Meetings_not_used',
+  'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documents_not_used_not_used',
+  'LBL_PROJECTS' => 'Projects_not_used',
+  'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projects_not_used',
+  'LBL_LIST_MY_BUGS' => 'My Assigned Bugs_not_used_not_used',
+  'LBL_MODULE_NAME' => 'Bugs_not_used',
+);

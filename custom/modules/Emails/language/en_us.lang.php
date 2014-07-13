@@ -1,0 +1,28 @@
+<?php
+// created: 2014-06-24 16:22:26
+$mod_strings = array (
+  'LBL_EMAILS_ACCOUNTS_REL' => 'Emails:Clients_not_used',
+  'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Clients_not_used',
+  'LBL_EMAILS_CONTACTS_REL' => 'Emails:Contacts_not_used',
+  'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts_not_used',
+  'LBL_EMAILS_OPPORTUNITIES_REL' => 'Emails:Opportunities_not_used',
+  'LBL_OPPORTUNITY_SUBPANEL_TITLE' => 'Opportunities_not_used',
+  'LBL_EMAILS_CASES_REL' => 'Emails:Cases_not_used',
+  'LBL_CASES_SUBPANEL_TITLE' => 'Cases_not_used',
+  'LNK_NEW_EMAIL' => 'Send Email_not_used',
+  'LNK_EMAIL_LIST' => 'Emails_not_used',
+  'LBL_LIST_FORM_TITLE' => 'Email_not_used List',
+  'LBL_SEARCH_FORM_TITLE' => 'Email_not_used Search',
+  'LBL_EMAILS_NOTES_REL' => 'Emails:Notes_not_used',
+  'LBL_NOTES_SUBPANEL_TITLE' => 'Attachments',
+  'LBL_MY_EMAILS' => 'My Emails_not_used',
+  'LBL_EMAILS_BUGS_REL' => 'Emails:Bugs_not_used',
+  'LBL_EMAILS_LEADS_REL' => 'Emails:Leads_not_used',
+  'LBL_EMAILS_PROJECT_REL' => 'Emails:Project_not_used',
+  'LBL_EMAILS_PROSPECT_REL' => 'Emails:Prospect',
+  'LBL_EMAILS_TASKS_REL' => 'Emails:Tasks_not_used',
+  'LBL_EMAILS_MEETINGS_REL' => 'Emails:Meetings_not_used',
+  'LBL_LEADS_SUBPANEL_TITLE' => 'Leads_not_used',
+  'LBL_BUGS_SUBPANEL_TITLE' => 'Bugs_not_used',
+  'LBL_PROJECT_SUBPANEL_TITLE' => 'Projects_not_used',
+);

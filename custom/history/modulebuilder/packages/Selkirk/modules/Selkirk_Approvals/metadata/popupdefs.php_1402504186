@@ -1,0 +1,27 @@
+<?php
+$popupMeta = array (
+    'moduleMain' => 'sel_Selkirk_Approvals',
+    'varName' => 'sel_Selkirk_Approvals',
+    'orderBy' => 'sel_selkirk_approvals.name',
+    'whereClauses' => array (
+  'name' => 'sel_selkirk_approvals.name',
+),
+    'searchInputs' => array (
+  0 => 'sel_selkirk_approvals_number',
+  1 => 'name',
+  2 => 'priority',
+  3 => 'status',
+),
+    'listviewdefs' => array (
+  'ASSIGNED_USER_NAME' => 
+  array (
+    'link' => true,
+    'type' => 'relate',
+    'studio' => 'visible',
+    'label' => 'LBL_ASSIGNED_TO_NAME',
+    'id' => 'ASSIGNED_USER_ID',
+    'width' => '10%',
+    'default' => true,
+  ),
+),
+);

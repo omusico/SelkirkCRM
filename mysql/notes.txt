@@ -1,0 +1,6 @@
+
+To Setup Crontab Note: In order to run Sugar Schedulers, add the following line to the crontab file: 
+*    *    *    *    *     cd /srv/connect.cbrdi.ca/htdocs/SelkirkCRM_001; php -f cron.php > /dev/null 2>&1
+
+
+

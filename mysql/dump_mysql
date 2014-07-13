@@ -1,0 +1,7 @@
+
+mysqldump -u root -h 127.0.0.1 selkirkcrm > selkirkcrm_xxx.sql
+
+mysqlcheck -u root -h 127.0.0.1  selkirkcrm
+
+
+

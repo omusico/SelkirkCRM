@@ -1,0 +1,58 @@
+<?php
+// created: 2014-06-06 15:24:38
+$layout_defs = array (
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopCreateButton',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'popup_module' => 'sel_Selkirk_Approvals',
+    ),
+  ),
+  'where' => '',
+  'list_fields' => 
+  array (
+    'name' => 
+    array (
+      'vname' => 'LBL_NAME',
+      'widget_class' => 'SubPanelDetailViewLink',
+      'width' => '45%',
+      'default' => true,
+    ),
+    'selkirk_person_title' => 
+    array (
+      'type' => 'enum',
+      'default' => true,
+      'studio' => 'visible',
+      'vname' => 'LBL_SELKIRK_PERSON_TITLE',
+      'width' => '10%',
+    ),
+    'date_approved' => 
+    array (
+      'type' => 'date',
+      'vname' => 'LBL_DATE_APPROVED',
+      'width' => '10%',
+      'default' => true,
+    ),
+    'edit_button' => 
+    array (
+      'vname' => 'LBL_EDIT_BUTTON',
+      'widget_class' => 'SubPanelEditButton',
+      'module' => 'sel_Selkirk_Approvals',
+      'width' => '4%',
+      'default' => true,
+    ),
+    'remove_button' => 
+    array (
+      'vname' => 'LBL_REMOVE',
+      'widget_class' => 'SubPanelRemoveButton',
+      'module' => 'sel_Selkirk_Approvals',
+      'width' => '5%',
+      'default' => true,
+    ),
+  ),
+);

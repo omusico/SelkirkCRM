@@ -1,0 +1,28 @@
+<?php
+$module_name = 'sel_Selkirk_MileStone';
+$listViewDefs [$module_name] = 
+array (
+  'NAME' => 
+  array (
+    'width' => '32%',
+    'label' => 'LBL_NAME',
+    'default' => true,
+    'link' => true,
+  ),
+  'DESCRIPTION' => 
+  array (
+    'type' => 'text',
+    'label' => 'LBL_DESCRIPTION',
+    'sortable' => false,
+    'width' => '10%',
+    'default' => true,
+  ),
+  'MILESTONE_DATE' => 
+  array (
+    'type' => 'date',
+    'label' => 'LBL_MILESTONE_DATE',
+    'width' => '10%',
+    'default' => true,
+  ),
+);
+?>

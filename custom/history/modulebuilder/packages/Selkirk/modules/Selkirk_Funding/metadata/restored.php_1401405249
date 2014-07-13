@@ -1,0 +1,65 @@
+<?php
+// created: 2014-05-30 01:14:04
+$layout_defs = array (
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopCreateButton',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'popup_module' => 'sel_Selkirk_Funding',
+    ),
+  ),
+  'where' => '',
+  'list_fields' => 
+  array (
+    'name' => 
+    array (
+      'vname' => 'LBL_NAME',
+      'widget_class' => 'SubPanelDetailViewLink',
+      'width' => '45%',
+      'default' => true,
+    ),
+    'funding_start_date' => 
+    array (
+      'type' => 'date',
+      'vname' => 'LBL_FUNDING_START_DATE',
+      'width' => '10%',
+      'default' => true,
+    ),
+    'funding_end_date' => 
+    array (
+      'type' => 'date',
+      'vname' => 'LBL_FUNDING_END_DATE',
+      'width' => '10%',
+      'default' => true,
+    ),
+    'amount' => 
+    array (
+      'type' => 'currency',
+      'default' => true,
+      'vname' => 'LBL_AMOUNT',
+      'currency_format' => true,
+      'width' => '10%',
+    ),
+    'edit_button' => 
+    array (
+      'vname' => 'LBL_EDIT_BUTTON',
+      'widget_class' => 'SubPanelEditButton',
+      'module' => 'sel_Selkirk_Funding',
+      'width' => '4%',
+      'default' => true,
+    ),
+    'remove_button' => 
+    array (
+      'vname' => 'LBL_REMOVE',
+      'widget_class' => 'SubPanelRemoveButton',
+      'module' => 'sel_Selkirk_Funding',
+      'width' => '5%',
+      'default' => true,
+    ),
+  ),
+);
