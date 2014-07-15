@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
- // created: 2014-06-24 17:18:31
+ // created: 2014-07-14 14:05:10
 $layout_defs["sel_Selkirk_Document"]["subpanel_setup"]['sel_selkirk_document_sel_selkirk_client'] = array (
   'order' => 100,
   'module' => 'sel_Selkirk_Client',
@@ -26,7 +26,7 @@ $layout_defs["sel_Selkirk_Document"]["subpanel_setup"]['sel_selkirk_document_sel
 );
 
 
- // created: 2014-06-24 17:18:31
+ // created: 2014-07-14 14:05:10
 $layout_defs["sel_Selkirk_Document"]["subpanel_setup"]['sel_selkirk_document_sel_selkirk_project'] = array (
   'order' => 100,
   'module' => 'sel_Selkirk_Project',
@@ -50,7 +50,7 @@ $layout_defs["sel_Selkirk_Document"]["subpanel_setup"]['sel_selkirk_document_sel
 );
 
 
- // created: 2014-06-24 17:18:31
+ // created: 2014-07-14 14:05:10
 $layout_defs["sel_Selkirk_Document"]["subpanel_setup"]['sel_selkirk_document_sel_selkirk_service'] = array (
   'order' => 100,
   'module' => 'sel_Selkirk_Service',

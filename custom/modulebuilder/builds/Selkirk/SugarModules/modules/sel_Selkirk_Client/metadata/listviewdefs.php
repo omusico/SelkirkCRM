@@ -9,28 +9,12 @@ array (
     'default' => true,
     'link' => true,
   ),
-  'PHONE' => 
+  'ASSIGNED_USER_NAME' => 
   array (
-    'type' => 'varchar',
-    'label' => 'LBL_PHONE',
-    'width' => '10%',
-    'default' => true,
-  ),
-  'SEKIRK_CLIENT_TYPE_01' => 
-  array (
-    'type' => 'enum',
-    'default' => true,
-    'studio' => 'visible',
-    'label' => 'LBL_SEKIRK_CLIENT_TYPE_01',
-    'width' => '10%',
-  ),
-  'PRIMARY_CONTACT' => 
-  array (
-    'type' => 'relate',
-    'studio' => 'visible',
-    'label' => 'LBL_PRIMARY_CONTACT',
-    'id' => 'SEL_SELKIRK_CONTACT_ID_C',
     'link' => true,
+    'type' => 'relate',
+    'label' => 'LBL_ASSIGNED_TO_NAME',
+    'id' => 'ASSIGNED_USER_ID',
     'width' => '10%',
     'default' => true,
   ),

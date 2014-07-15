@@ -14,11 +14,22 @@ $dashletData['sel_Selkirk_ActivityDashlet']['searchFields'] = array (
   ),
 );
 $dashletData['sel_Selkirk_ActivityDashlet']['columns'] = array (
-  'assigned_user_name' => 
+  'contacted_by' => 
   array (
-    'width' => '8%',
-    'label' => 'LBL_LIST_ASSIGNED_USER',
-    'name' => 'assigned_user_name',
+    'type' => 'relate',
+    'studio' => 'visible',
+    'label' => 'LBL_CONTACTED_BY',
+    'id' => 'USER_ID_C',
+    'link' => true,
+    'width' => '10%',
+    'default' => true,
+  ),
+  'name' => 
+  array (
+    'type' => 'name',
+    'link' => true,
+    'label' => 'LBL_NAME',
+    'width' => '10%',
     'default' => true,
   ),
   'contact_date' => 
@@ -27,6 +38,7 @@ $dashletData['sel_Selkirk_ActivityDashlet']['columns'] = array (
     'label' => 'LBL_CONTACT_DATE',
     'width' => '10%',
     'default' => true,
+    'name' => 'contact_date',
   ),
   'description' => 
   array (
@@ -35,6 +47,7 @@ $dashletData['sel_Selkirk_ActivityDashlet']['columns'] = array (
     'sortable' => false,
     'width' => '10%',
     'default' => true,
+    'name' => 'description',
   ),
   'sel_selkirk_client_sel_selkirk_activity_name' => 
   array (
@@ -44,5 +57,6 @@ $dashletData['sel_Selkirk_ActivityDashlet']['columns'] = array (
     'id' => 'SEL_SELKIRK_CLIENT_SEL_SELKIRK_ACTIVITYSEL_SELKIRK_CLIENT_IDA',
     'width' => '10%',
     'default' => true,
+    'name' => 'sel_selkirk_client_sel_selkirk_activity_name',
   ),
 );

@@ -156,7 +156,7 @@ $dictionary['User']['fields']['address_state']['len']='25';
 
  
 
-// created: 2014-06-24 17:18:31
+// created: 2014-07-14 14:05:10
 $dictionary["User"]["fields"]["sel_selkirk_team_users"] = array (
   'name' => 'sel_selkirk_team_users',
   'type' => 'link',

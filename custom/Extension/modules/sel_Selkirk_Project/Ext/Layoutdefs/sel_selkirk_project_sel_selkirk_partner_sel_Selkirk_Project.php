@@ -1,5 +1,5 @@
 <?php
- // created: 2014-06-24 17:18:31
+ // created: 2014-07-14 14:05:10
 $layout_defs["sel_Selkirk_Project"]["subpanel_setup"]['sel_selkirk_project_sel_selkirk_partner'] = array (
   'order' => 100,
   'module' => 'sel_Selkirk_Partner',

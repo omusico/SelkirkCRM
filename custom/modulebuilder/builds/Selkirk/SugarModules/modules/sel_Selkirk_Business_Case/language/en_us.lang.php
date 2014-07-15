@@ -103,4 +103,5 @@ $mod_strings = array (
   'LBL_RISKS' => 'Risks',
   'LBL_FUTURE_DEVELOPMENT' => 'Future Development',
   'LBL_EDITVIEW_PANEL7' => 'Risk and Future Development',
+  'LBL_EDITVIEW_PANEL8' => 'New Panel 8',
 );

@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
-// created: 2014-06-24 17:18:32
+// created: 2014-07-14 14:05:11
 $dictionary["sel_Selkirk_Approvals"]["fields"]["sel_selkirk_business_case_sel_selkirk_approvals"] = array (
   'name' => 'sel_selkirk_business_case_sel_selkirk_approvals',
   'type' => 'link',

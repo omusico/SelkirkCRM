@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
- // created: 2014-06-24 17:18:32
+ // created: 2014-07-14 14:05:12
 $layout_defs["sel_Selkirk_Contact"]["subpanel_setup"]['sel_selkirk_client_sel_selkirk_contact'] = array (
   'order' => 100,
   'module' => 'sel_Selkirk_Client',
@@ -26,7 +26,7 @@ $layout_defs["sel_Selkirk_Contact"]["subpanel_setup"]['sel_selkirk_client_sel_se
 );
 
 
- // created: 2014-06-24 17:18:31
+ // created: 2014-07-14 14:05:10
 $layout_defs["sel_Selkirk_Contact"]["subpanel_setup"]['sel_selkirk_contact_sel_selkirk_activity'] = array (
   'order' => 100,
   'module' => 'sel_Selkirk_Activity',

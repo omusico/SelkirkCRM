@@ -1,5 +1,5 @@
 <?php
-// created: 2014-07-11 14:29:01
+// created: 2014-07-14 16:24:20
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -69,6 +69,7 @@ $mod_strings = array (
   'LBL_RISKS' => 'Risks',
   'LBL_FUTURE_DEVELOPMENT' => 'Future Development',
   'LBL_EDITVIEW_PANEL7' => 'Risk and Future Development',
+  'LBL_EDITVIEW_PANEL8' => 'New Panel 8',
   'LBL_SEL_SELKIRK_BUSINESS_CASE_SEL_SELKIRK_APPROVALS_FROM_SEL_SELKIRK_APPROVALS_TITLE' => 'Approvals',
   'LBL_SEL_SELKIRK_PROJECT_SEL_SELKIRK_BUSINESS_CASE_FROM_SEL_SELKIRK_PROJECT_TITLE' => 'Projects',
   'LBL_SEL_SELKIRK_BUSINESS_CASE_SEL_SELKIRK_APPROVALS_01_FROM_SEL_SELKIRK_APPROVALS_01_TITLE' => 'Selkirk_Approvals_01',

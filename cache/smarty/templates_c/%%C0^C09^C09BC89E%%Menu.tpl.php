@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-06-24 16:56:02
+<?php /* Smarty version 2.6.11, created on 2014-07-14 14:05:10
          compiled from modules/ModuleBuilder/tpls/MBModule/Menu.tpl */ ?>
 <?php echo '<?php'; ?>
 

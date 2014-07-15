@@ -5796,3 +5796,5 @@ Mon Jul  7 15:21:45 2014 [7752][1][FATAL] aor_reports for aor_report_aor_fields 
 Mon Jul  7 15:21:45 2014 [7752][1][FATAL] error loading relationship aor_reports
 Mon Jul  7 16:04:16 2014 [7953][1][FATAL]  Query Failed: SELECT id FROM aor_field WHERE aor_field.aor_report_id = 'e2aef1ae-adb2-47d3-1021-53bb1da3987d' AND aor_field.deleted=0: MySQL error 1146: Table 'selkirkcrm.aor_field' doesn't exist
 Fri Jul 11 14:54:27 2014 [30811][3e399179-4cc4-3671-5dac-539a0d3c7707][FATAL] IP Address mismatch: SESSION IP: 207.216.198.254 CLIENT IP: 199.60.151.122
+Mon Jul 14 14:07:37 2014 [17054][-none-][FATAL] SECURITY: User authentication for lperepol failed
+Mon Jul 14 14:07:37 2014 [17054][-none-][FATAL] FAILED LOGIN:attempts[1] - lperepol

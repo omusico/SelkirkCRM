@@ -1,5 +1,5 @@
 <?php
-// created: 2014-06-24 17:18:31
+// created: 2014-07-14 14:05:10
 $dictionary["sel_selkirk_document_sel_selkirk_service"] = array (
   'true_relationship_type' => 'many-to-many',
   'relationships' => 
