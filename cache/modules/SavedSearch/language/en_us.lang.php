@@ -1,5 +1,5 @@
 <?php
-// created: 2014-07-14 16:20:16
+// created: 2014-07-15 12:09:27
 $mod_strings = array (
   'LBL_MODULE_TITLE' => 'My Saved Searches',
   'LBL_SEARCH_FORM_TITLE' => 'My Saved Searches : Search',

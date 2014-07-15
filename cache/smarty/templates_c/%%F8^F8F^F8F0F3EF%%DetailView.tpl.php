@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-07-07 14:21:52
+<?php /* Smarty version 2.6.11, created on 2014-07-15 11:07:32
          compiled from cache/modules/sel_Selkirk_Contact/DetailView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/modules/sel_Selkirk_Contact/DetailView.tpl', 33, false),array('function', 'counter', 'cache/modules/sel_Selkirk_Contact/DetailView.tpl', 38, false),array('function', 'sugar_translate', 'cache/modules/sel_Selkirk_Contact/DetailView.tpl', 47, false),array('modifier', 'strip_semicolon', 'cache/modules/sel_Selkirk_Contact/DetailView.tpl', 48, false),array('modifier', 'escape', 'cache/modules/sel_Selkirk_Contact/DetailView.tpl', 395, false),array('modifier', 'url2html', 'cache/modules/sel_Selkirk_Contact/DetailView.tpl', 395, false),array('modifier', 'nl2br', 'cache/modules/sel_Selkirk_Contact/DetailView.tpl', 395, false),)), $this); ?>
