@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-07-15 11:15:44
+<?php /* Smarty version 2.6.11, created on 2014-07-15 15:57:15
          compiled from modules/ACLRoles/DetailView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_action_menu', 'modules/ACLRoles/DetailView.tpl', 73, false),)), $this); ?>

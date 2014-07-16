@@ -12,14 +12,14 @@ array (
         'default' => true,
         'width' => '10%',
       ),
-      'business_cycle' => 
+      'status' => 
       array (
         'type' => 'enum',
         'default' => true,
         'studio' => 'visible',
-        'label' => 'LBL_BUSINESS_CYCLE',
+        'label' => 'LBL_STATUS',
         'width' => '10%',
-        'name' => 'business_cycle',
+        'name' => 'status',
       ),
       'email' => 
       array (
@@ -56,6 +56,15 @@ array (
         'default' => true,
         'width' => '10%',
       ),
+      'status' => 
+      array (
+        'type' => 'enum',
+        'default' => true,
+        'studio' => 'visible',
+        'label' => 'LBL_STATUS',
+        'width' => '10%',
+        'name' => 'status',
+      ),
       'address_line_1' => 
       array (
         'type' => 'varchar',
@@ -71,15 +80,6 @@ array (
         'width' => '10%',
         'default' => true,
         'name' => 'email',
-      ),
-      'business_cycle' => 
-      array (
-        'type' => 'enum',
-        'default' => true,
-        'studio' => 'visible',
-        'label' => 'LBL_BUSINESS_CYCLE',
-        'width' => '10%',
-        'name' => 'business_cycle',
       ),
       'assigned_user_name' => 
       array (

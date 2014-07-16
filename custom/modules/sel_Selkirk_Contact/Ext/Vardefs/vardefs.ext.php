@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
-// created: 2014-07-14 14:05:12
+// created: 2014-07-16 11:41:10
 $dictionary["sel_Selkirk_Contact"]["fields"]["sel_selkirk_client_sel_selkirk_contact"] = array (
   'name' => 'sel_selkirk_client_sel_selkirk_contact',
   'type' => 'link',
@@ -14,7 +14,19 @@ $dictionary["sel_Selkirk_Contact"]["fields"]["sel_selkirk_client_sel_selkirk_con
 );
 
 
-// created: 2014-07-14 14:05:10
+// created: 2014-07-16 11:41:09
+$dictionary["sel_Selkirk_Contact"]["fields"]["sel_selkirk_contact_securitygroups"] = array (
+  'name' => 'sel_selkirk_contact_securitygroups',
+  'type' => 'link',
+  'relationship' => 'sel_selkirk_contact_securitygroups',
+  'source' => 'non-db',
+  'module' => 'SecurityGroups',
+  'bean_name' => 'SecurityGroup',
+  'vname' => 'LBL_SEL_SELKIRK_CONTACT_SECURITYGROUPS_FROM_SECURITYGROUPS_TITLE',
+);
+
+
+// created: 2014-07-16 11:41:09
 $dictionary["sel_Selkirk_Contact"]["fields"]["sel_selkirk_contact_sel_selkirk_activity"] = array (
   'name' => 'sel_selkirk_contact_sel_selkirk_activity',
   'type' => 'link',

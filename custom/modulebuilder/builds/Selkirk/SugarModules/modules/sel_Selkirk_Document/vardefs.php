@@ -79,6 +79,32 @@ $dictionary['sel_Selkirk_Document'] = array(
     'len' => '255',
     'size' => '20',
   ),
+  'document_name' => 
+  array (
+    'name' => 'document_name',
+    'vname' => 'LBL_NAME',
+    'type' => 'name',
+    'link' => true,
+    'dbType' => 'varchar',
+    'len' => '255',
+    'required' => true,
+    'unified_search' => false,
+    'full_text_search' => 
+    array (
+      'boost' => 3,
+    ),
+    'massupdate' => 0,
+    'no_default' => false,
+    'comments' => '',
+    'help' => '',
+    'importable' => 'true',
+    'duplicate_merge' => 'disabled',
+    'duplicate_merge_dom_value' => '0',
+    'audited' => false,
+    'reportable' => true,
+    'merge_filter' => 'disabled',
+    'size' => '20',
+  ),
 ),
 	'relationships'=>array (
 ),

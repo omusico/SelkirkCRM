@@ -125,3 +125,10 @@ $app_list_strings['record_type_display']['Tasks']='Task_not_used';
 $app_list_strings['parent_type_display']['Tasks']='Task_not_used';
 $app_list_strings['moduleList']['sel_Selkirk_Lead']='Selkirk_Lead_not_used';
 $app_list_strings['moduleListSingular']['sel_Selkirk_Lead']='Selkirk_Lead_not_used';
+$GLOBALS['app_list_strings']['selkirk_person_title_list']=array (
+  'president_CEO' => 'President and CEO',
+  'vp_admin_Finance' => 'VP Admin & Finance',
+  'director_of_finance_and_ancillary_services' => 'Director of Finance and Ancillary Services',
+  'vp_education_students' => 'VP Education & Students',
+  'department_head' => 'Department Head (Dean or Director)',
+);

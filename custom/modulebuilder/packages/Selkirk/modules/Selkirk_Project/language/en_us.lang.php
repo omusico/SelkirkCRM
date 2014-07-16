@@ -66,7 +66,7 @@ $mod_strings = array (
   'LBL_SEL_SELKIRK_PROJECT_SUBPANEL_TITLE' => 'Project',
   'LBL_NEW_FORM_TITLE' => 'New Project',
   'LBL_PROJECT_TYPE' => 'Project Type',
-  'LBL_STATUS' => 'Status',
+  'LBL_STATUS' => 'Business Cycle',
   'LBL_FUNDING_START_DATE' => 'Funding Start Date',
   'LBL_FUNDING_END_DATE' => 'Funding End Date',
   'LBL_PRIMARY_CONTACT' => 'Primary Contact',
@@ -76,4 +76,5 @@ $mod_strings = array (
   'LBL_PROJECT_LEAD_USER_ID' => 'Project Lead (related User ID)',
   'LBL_PROJECT_LEAD' => 'Project Lead',
   'LBL_NOTES' => 'Notes',
+  'LBL_BUSINESS_CYCLE' => 'Business Cycle',
 );

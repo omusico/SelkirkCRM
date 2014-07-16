@@ -9,6 +9,14 @@ array (
     'default' => true,
     'link' => true,
   ),
+  'STATUS' => 
+  array (
+    'type' => 'enum',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_STATUS',
+    'width' => '10%',
+  ),
   'EMAIL' => 
   array (
     'type' => 'varchar',
@@ -29,14 +37,6 @@ array (
     'label' => 'LBL_CELL_PHONE',
     'width' => '10%',
     'default' => true,
-  ),
-  'BUSINESS_CYCLE' => 
-  array (
-    'type' => 'enum',
-    'default' => true,
-    'studio' => 'visible',
-    'label' => 'LBL_BUSINESS_CYCLE',
-    'width' => '10%',
   ),
   'ASSIGNED_USER_NAME' => 
   array (

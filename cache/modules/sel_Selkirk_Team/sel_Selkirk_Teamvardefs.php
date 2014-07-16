@@ -226,6 +226,16 @@
       'bean_name' => 'sel_Selkirk_Project',
       'vname' => 'LBL_SEL_SELKIRK_PROJECT_SEL_SELKIRK_TEAM_FROM_SEL_SELKIRK_PROJECT_TITLE',
     ),
+    'sel_selkirk_team_securitygroups' => 
+    array (
+      'name' => 'sel_selkirk_team_securitygroups',
+      'type' => 'link',
+      'relationship' => 'sel_selkirk_team_securitygroups',
+      'source' => 'non-db',
+      'module' => 'SecurityGroups',
+      'bean_name' => 'SecurityGroup',
+      'vname' => 'LBL_SEL_SELKIRK_TEAM_SECURITYGROUPS_FROM_SECURITYGROUPS_TITLE',
+    ),
     'sel_selkirk_business_case_sel_selkirk_team' => 
     array (
       'name' => 'sel_selkirk_business_case_sel_selkirk_team',

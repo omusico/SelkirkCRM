@@ -1,5 +1,5 @@
 <?php
-// created: 2014-07-14 14:05:12
+// created: 2014-07-16 11:41:10
 $dictionary["sel_Selkirk_Client"]["fields"]["sel_selkirk_client_sel_selkirk_service"] = array (
   'name' => 'sel_selkirk_client_sel_selkirk_service',
   'type' => 'link',

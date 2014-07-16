@@ -888,6 +888,16 @@
       'rows' => '6',
       'cols' => '80',
     ),
+    'sel_selkirk_business_case_securitygroups' => 
+    array (
+      'name' => 'sel_selkirk_business_case_securitygroups',
+      'type' => 'link',
+      'relationship' => 'sel_selkirk_business_case_securitygroups',
+      'source' => 'non-db',
+      'module' => 'SecurityGroups',
+      'bean_name' => 'SecurityGroup',
+      'vname' => 'LBL_SEL_SELKIRK_BUSINESS_CASE_SECURITYGROUPS_FROM_SECURITYGROUPS_TITLE',
+    ),
     'sel_selkirk_business_case_sel_selkirk_approvals' => 
     array (
       'name' => 'sel_selkirk_business_case_sel_selkirk_approvals',
@@ -898,6 +908,17 @@
       'bean_name' => 'sel_Selkirk_Approvals',
       'side' => 'right',
       'vname' => 'LBL_SEL_SELKIRK_BUSINESS_CASE_SEL_SELKIRK_APPROVALS_FROM_SEL_SELKIRK_APPROVALS_TITLE',
+    ),
+    'sel_selkirk_business_case_sel_selkirk_document' => 
+    array (
+      'name' => 'sel_selkirk_business_case_sel_selkirk_document',
+      'type' => 'link',
+      'relationship' => 'sel_selkirk_business_case_sel_selkirk_document',
+      'source' => 'non-db',
+      'module' => 'sel_Selkirk_Document',
+      'bean_name' => 'sel_Selkirk_Document',
+      'side' => 'right',
+      'vname' => 'LBL_SEL_SELKIRK_BUSINESS_CASE_SEL_SELKIRK_DOCUMENT_FROM_SEL_SELKIRK_DOCUMENT_TITLE',
     ),
     'sel_selkirk_business_case_sel_selkirk_team' => 
     array (

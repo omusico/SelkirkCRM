@@ -281,6 +281,16 @@
       'side' => 'right',
       'vname' => 'LBL_SEL_SELKIRK_PROJECT_SEL_SELKIRK_MILESTONE_FROM_SEL_SELKIRK_MILESTONE_TITLE',
     ),
+    'sel_selkirk_milestone_securitygroups' => 
+    array (
+      'name' => 'sel_selkirk_milestone_securitygroups',
+      'type' => 'link',
+      'relationship' => 'sel_selkirk_milestone_securitygroups',
+      'source' => 'non-db',
+      'module' => 'SecurityGroups',
+      'bean_name' => 'SecurityGroup',
+      'vname' => 'LBL_SEL_SELKIRK_MILESTONE_SECURITYGROUPS_FROM_SECURITYGROUPS_TITLE',
+    ),
   ),
   'relationships' => 
   array (

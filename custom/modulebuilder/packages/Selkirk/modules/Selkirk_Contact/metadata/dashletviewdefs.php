@@ -8,7 +8,7 @@ $dashletData['sel_Selkirk_ContactDashlet']['searchFields'] = array (
   array (
     'default' => '',
   ),
-  'business_cycle' => 
+  'status' => 
   array (
     'default' => '',
   ),
@@ -26,27 +26,21 @@ $dashletData['sel_Selkirk_ContactDashlet']['columns'] = array (
     'default' => true,
     'name' => 'name',
   ),
+  'status' => 
+  array (
+    'type' => 'enum',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_STATUS',
+    'width' => '10%',
+  ),
   'email' => 
   array (
     'type' => 'varchar',
     'label' => 'LBL_EMAIL',
     'width' => '10%',
     'default' => true,
-  ),
-  'business_cycle' => 
-  array (
-    'type' => 'enum',
-    'default' => true,
-    'studio' => 'visible',
-    'label' => 'LBL_BUSINESS_CYCLE',
-    'width' => '10%',
-  ),
-  'date_entered' => 
-  array (
-    'width' => '15%',
-    'label' => 'LBL_DATE_ENTERED',
-    'default' => true,
-    'name' => 'date_entered',
+    'name' => 'email',
   ),
   'assigned_user_name' => 
   array (
@@ -54,19 +48,5 @@ $dashletData['sel_Selkirk_ContactDashlet']['columns'] = array (
     'label' => 'LBL_LIST_ASSIGNED_USER',
     'name' => 'assigned_user_name',
     'default' => true,
-  ),
-  'date_modified' => 
-  array (
-    'width' => '15%',
-    'label' => 'LBL_DATE_MODIFIED',
-    'name' => 'date_modified',
-    'default' => false,
-  ),
-  'created_by' => 
-  array (
-    'width' => '8%',
-    'label' => 'LBL_CREATED',
-    'name' => 'created_by',
-    'default' => false,
   ),
 );

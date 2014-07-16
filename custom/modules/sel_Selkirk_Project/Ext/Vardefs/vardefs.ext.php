@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
-// created: 2014-07-14 14:05:10
+// created: 2014-07-16 11:41:09
 $dictionary["sel_Selkirk_Project"]["fields"]["sel_selkirk_document_sel_selkirk_project"] = array (
   'name' => 'sel_selkirk_document_sel_selkirk_project',
   'type' => 'link',
@@ -14,7 +14,19 @@ $dictionary["sel_Selkirk_Project"]["fields"]["sel_selkirk_document_sel_selkirk_p
 );
 
 
-// created: 2014-07-14 14:05:11
+// created: 2014-07-16 11:41:09
+$dictionary["sel_Selkirk_Project"]["fields"]["sel_selkirk_project_securitygroups"] = array (
+  'name' => 'sel_selkirk_project_securitygroups',
+  'type' => 'link',
+  'relationship' => 'sel_selkirk_project_securitygroups',
+  'source' => 'non-db',
+  'module' => 'SecurityGroups',
+  'bean_name' => 'SecurityGroup',
+  'vname' => 'LBL_SEL_SELKIRK_PROJECT_SECURITYGROUPS_FROM_SECURITYGROUPS_TITLE',
+);
+
+
+// created: 2014-07-16 11:41:09
 $dictionary["sel_Selkirk_Project"]["fields"]["sel_selkirk_project_sel_selkirk_business_case"] = array (
   'name' => 'sel_selkirk_project_sel_selkirk_business_case',
   'type' => 'link',
@@ -26,7 +38,7 @@ $dictionary["sel_Selkirk_Project"]["fields"]["sel_selkirk_project_sel_selkirk_bu
 );
 
 
-// created: 2014-07-14 14:05:11
+// created: 2014-07-16 11:41:09
 $dictionary["sel_Selkirk_Project"]["fields"]["sel_selkirk_project_sel_selkirk_partner"] = array (
   'name' => 'sel_selkirk_project_sel_selkirk_partner',
   'type' => 'link',
@@ -39,7 +51,7 @@ $dictionary["sel_Selkirk_Project"]["fields"]["sel_selkirk_project_sel_selkirk_pa
 );
 
 
-// created: 2014-07-14 14:05:11
+// created: 2014-07-16 11:41:09
 $dictionary["sel_Selkirk_Project"]["fields"]["sel_selkirk_project_sel_selkirk_milestone"] = array (
   'name' => 'sel_selkirk_project_sel_selkirk_milestone',
   'type' => 'link',
@@ -52,7 +64,7 @@ $dictionary["sel_Selkirk_Project"]["fields"]["sel_selkirk_project_sel_selkirk_mi
 );
 
 
-// created: 2014-07-14 14:05:11
+// created: 2014-07-16 11:41:09
 $dictionary["sel_Selkirk_Project"]["fields"]["sel_selkirk_project_sel_selkirk_service"] = array (
   'name' => 'sel_selkirk_project_sel_selkirk_service',
   'type' => 'link',
@@ -65,7 +77,7 @@ $dictionary["sel_Selkirk_Project"]["fields"]["sel_selkirk_project_sel_selkirk_se
 );
 
 
-// created: 2014-07-14 14:05:11
+// created: 2014-07-16 11:41:09
 $dictionary["sel_Selkirk_Project"]["fields"]["sel_selkirk_project_sel_selkirk_team"] = array (
   'name' => 'sel_selkirk_project_sel_selkirk_team',
   'type' => 'link',
@@ -77,7 +89,7 @@ $dictionary["sel_Selkirk_Project"]["fields"]["sel_selkirk_project_sel_selkirk_te
 );
 
 
-// created: 2014-07-14 14:05:11
+// created: 2014-07-16 11:41:09
 $dictionary["sel_Selkirk_Project"]["fields"]["sel_selkirk_project_sel_selkirk_funding"] = array (
   'name' => 'sel_selkirk_project_sel_selkirk_funding',
   'type' => 'link',

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-07-15 12:09:27
+<?php /* Smarty version 2.6.11, created on 2014-07-16 11:09:00
          compiled from cache/modules/sel_Selkirk_Business_Case/SearchForm_basic.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'cache/modules/sel_Selkirk_Business_Case/SearchForm_basic.tpl', 33, false),array('function', 'math', 'cache/modules/sel_Selkirk_Business_Case/SearchForm_basic.tpl', 34, false),array('function', 'sugar_translate', 'cache/modules/sel_Selkirk_Business_Case/SearchForm_basic.tpl', 43, false),array('function', 'sugar_getimagepath', 'cache/modules/sel_Selkirk_Business_Case/SearchForm_basic.tpl', 72, false),array('modifier', 'count', 'cache/modules/sel_Selkirk_Business_Case/SearchForm_basic.tpl', 59, false),)), $this); ?>

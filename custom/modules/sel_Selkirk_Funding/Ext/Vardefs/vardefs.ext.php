@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
-// created: 2014-07-14 14:05:11
+// created: 2014-07-16 11:41:09
 $dictionary["sel_Selkirk_Funding"]["fields"]["sel_selkirk_project_sel_selkirk_funding"] = array (
   'name' => 'sel_selkirk_project_sel_selkirk_funding',
   'type' => 'link',
@@ -33,6 +33,18 @@ $dictionary["sel_Selkirk_Funding"]["fields"]["sel_selkirk_project_sel_selkirk_fu
   'reportable' => false,
   'side' => 'right',
   'vname' => 'LBL_SEL_SELKIRK_PROJECT_SEL_SELKIRK_FUNDING_FROM_SEL_SELKIRK_FUNDING_TITLE',
+);
+
+
+// created: 2014-07-16 11:41:08
+$dictionary["sel_Selkirk_Funding"]["fields"]["sel_selkirk_funding_securitygroups"] = array (
+  'name' => 'sel_selkirk_funding_securitygroups',
+  'type' => 'link',
+  'relationship' => 'sel_selkirk_funding_securitygroups',
+  'source' => 'non-db',
+  'module' => 'SecurityGroups',
+  'bean_name' => 'SecurityGroup',
+  'vname' => 'LBL_SEL_SELKIRK_FUNDING_SECURITYGROUPS_FROM_SECURITYGROUPS_TITLE',
 );
 
 ?>

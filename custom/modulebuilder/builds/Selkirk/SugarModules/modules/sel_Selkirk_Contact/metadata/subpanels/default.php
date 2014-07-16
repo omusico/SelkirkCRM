@@ -37,14 +37,6 @@ $subpanel_layout = array (
       'width' => '10%',
       'default' => true,
     ),
-    'business_cycle' => 
-    array (
-      'type' => 'enum',
-      'default' => true,
-      'studio' => 'visible',
-      'vname' => 'LBL_BUSINESS_CYCLE',
-      'width' => '10%',
-    ),
     'assigned_user_name' => 
     array (
       'link' => true,
@@ -56,6 +48,14 @@ $subpanel_layout = array (
       'widget_class' => 'SubPanelDetailViewLink',
       'target_module' => 'Users',
       'target_record_key' => 'assigned_user_id',
+    ),
+    'status' => 
+    array (
+      'type' => 'enum',
+      'default' => true,
+      'studio' => 'visible',
+      'vname' => 'LBL_STATUS',
+      'width' => '10%',
     ),
     'edit_button' => 
     array (

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-07-14 14:07:18
+<?php /* Smarty version 2.6.11, created on 2014-07-16 07:24:27
          compiled from cache/modules/dash_DashboardManager/DetailView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/modules/dash_DashboardManager/DetailView.tpl', 33, false),array('function', 'counter', 'cache/modules/dash_DashboardManager/DetailView.tpl', 38, false),array('function', 'sugar_translate', 'cache/modules/dash_DashboardManager/DetailView.tpl', 47, false),array('modifier', 'strip_semicolon', 'cache/modules/dash_DashboardManager/DetailView.tpl', 48, false),array('modifier', 'escape', 'cache/modules/dash_DashboardManager/DetailView.tpl', 83, false),array('modifier', 'url2html', 'cache/modules/dash_DashboardManager/DetailView.tpl', 83, false),array('modifier', 'nl2br', 'cache/modules/dash_DashboardManager/DetailView.tpl', 83, false),)), $this); ?>

@@ -79,4 +79,6 @@ $mod_strings = array (
   'LBL_EXTENTION' => 'Extention',
   'LBL_EXTENSION' => 'Extension',
   'LBL_BUSINESS_CYCLE' => 'Business Cycle',
+  'LBL_CONTACT_TYPE' => 'Contact Type',
+  'LBL_STATUS' => 'Status',
 );

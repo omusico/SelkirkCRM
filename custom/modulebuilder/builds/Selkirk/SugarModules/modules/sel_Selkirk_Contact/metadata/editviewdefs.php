@@ -44,9 +44,9 @@ array (
           ),
           1 => 
           array (
-            'name' => 'business_cycle',
+            'name' => 'status',
             'studio' => 'visible',
-            'label' => 'LBL_BUSINESS_CYCLE',
+            'label' => 'LBL_STATUS',
           ),
         ),
         1 => 
@@ -126,7 +126,6 @@ array (
             'name' => 'assigned_user_name',
             'label' => 'LBL_ASSIGNED_TO_NAME',
           ),
-          1 => '',
         ),
         10 => 
         array (

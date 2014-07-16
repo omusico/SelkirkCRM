@@ -1,5 +1,5 @@
 <?php
-// created: 2014-07-07 16:03:16
+// created: 2014-07-16 11:54:46
 $sugar_config = array (
   'addAjaxBannedModules' => 
   array (
@@ -323,7 +323,7 @@ $sugar_config = array (
     'timeout' => 86400,
   ),
   'js_custom_version' => 1,
-  'js_lang_version' => 30,
+  'js_lang_version' => 32,
   'languages' => 
   array (
     'en_us' => 'English (US)',
@@ -399,8 +399,8 @@ $sugar_config = array (
     'default_limit' => 1000,
   ),
   'rss_cache_time' => '10800',
-  'save_query' => 'all',
-  'search_wildcard_char' => '%',
+  'save_query' => 'no',
+  'search_wildcard_char' => '*',
   'search_wildcard_infront' => false,
   'securitysuite_additive' => true,
   'securitysuite_filter_user_list' => false,

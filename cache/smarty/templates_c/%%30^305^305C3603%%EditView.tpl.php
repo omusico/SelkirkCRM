@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.11, created on 2014-07-14 16:15:34
+<?php /* Smarty version 2.6.11, created on 2014-07-16 11:36:45
          compiled from cache/modules/sel_Selkirk_Document/EditView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 44, false),array('function', 'counter', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 50, false),array('function', 'sugar_translate', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 56, false),array('function', 'sugar_getimage', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 167, false),array('function', 'html_options', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 237, false),array('function', 'sugar_getimagepath', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 265, false),array('function', 'sugar_getscript', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 500, false),array('modifier', 'strip_semicolon', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 57, false),array('modifier', 'default', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 178, false),array('modifier', 'lookup', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 262, false),array('modifier', 'count', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 342, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 44, false),array('function', 'counter', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 50, false),array('function', 'sugar_translate', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 56, false),array('function', 'sugar_getimage', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 167, false),array('function', 'html_options', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 237, false),array('function', 'sugar_getimagepath', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 265, false),array('function', 'sugar_getscript', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 536, false),array('modifier', 'strip_semicolon', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 57, false),array('modifier', 'default', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 178, false),array('modifier', 'lookup', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 262, false),array('modifier', 'count', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 342, false),)), $this); ?>
 
 
 <script>
@@ -129,7 +129,7 @@ value='<?php echo $this->_tpl_vars['value']; ?>
 <?php echo smarty_function_counter(array('name' => 'panelFieldCount'), $this);?>
 
 
-<script type="text/javascript" src='include/SugarFields/Fields/File/SugarFieldFile.js?v=qQyn1KGXICCg1iE68-9oew'></script>
+<script type="text/javascript" src='include/SugarFields/Fields/File/SugarFieldFile.js?v=J7Isbb1L9W-AcsbDHmjzNA'></script>
 <?php if (! empty ( $this->_tpl_vars['fields']['uploadfile']['value'] )):  $this->assign('showRemove', true);  else:  $this->assign('showRemove', false);  endif;  $this->assign('noChange', false); ?>
 <input type="hidden" name="deleteAttachment" value="0">
 <input type="hidden" name="<?php echo $this->_tpl_vars['fields']['uploadfile']['name']; ?>
@@ -581,7 +581,7 @@ SyncToHidden(e.result.raw.key);
 <?php echo smarty_function_counter(array('name' => 'fieldsUsed'), $this);?>
 
 
-<td valign="top" width='37.5%' >
+<td valign="top" width='37.5%' colspan='3'>
 <?php echo smarty_function_counter(array('name' => 'panelFieldCount'), $this);?>
 
 
@@ -594,13 +594,71 @@ cols="80"
 title='' tabindex="0" 
  ><?php echo $this->_tpl_vars['value']; ?>
 </textarea>
-<td valign="top" id='_label' width='12.5%' scope="col">
-&nbsp;
+</tr>
+<?php $this->_smarty_vars['capture']['tr'] = ob_get_contents();  $this->assign('tableRow', ob_get_contents());ob_end_clean();  if ($this->_tpl_vars['fieldsUsed'] > 0):  echo $this->_tpl_vars['tableRow']; ?>
+
+<?php endif;  echo smarty_function_counter(array('name' => 'fieldsUsed','start' => 0,'print' => false,'assign' => 'fieldsUsed'), $this);?>
+
+<?php ob_start(); ?>
+<tr>
+<td valign="top" id='sel_selkirk_business_case_sel_selkirk_document_name_label' width='12.5%' scope="col">
+<?php ob_start();  echo smarty_function_sugar_translate(array('label' => 'LBL_SEL_SELKIRK_BUSINESS_CASE_SEL_SELKIRK_DOCUMENT_FROM_SEL_SELKIRK_BUSINESS_CASE_TITLE','module' => 'sel_Selkirk_Document'), $this); $this->_smarty_vars['capture']['label'] = ob_get_contents();  $this->assign('label', ob_get_contents());ob_end_clean();  echo ((is_array($_tmp=$this->_tpl_vars['label'])) ? $this->_run_mod_handler('strip_semicolon', true, $_tmp) : smarty_modifier_strip_semicolon($_tmp)); ?>
+:
 </td>
 <?php echo smarty_function_counter(array('name' => 'fieldsUsed'), $this);?>
 
 
-<td valign="top" width='37.5%' >
+<td valign="top" width='37.5%' colspan='3'>
+<?php echo smarty_function_counter(array('name' => 'panelFieldCount'), $this);?>
+
+
+<input type="text" name="<?php echo $this->_tpl_vars['fields']['sel_selkirk_business_case_sel_selkirk_document_name']['name']; ?>
+" class="sqsEnabled" tabindex="0" id="<?php echo $this->_tpl_vars['fields']['sel_selkirk_business_case_sel_selkirk_document_name']['name']; ?>
+" size="" value="<?php echo $this->_tpl_vars['fields']['sel_selkirk_business_case_sel_selkirk_document_name']['value']; ?>
+" title='' autocomplete="off"  	 >
+<input type="hidden" name="<?php echo $this->_tpl_vars['fields']['sel_selkirk_business_case_sel_selkirk_document_name']['id_name']; ?>
+" 
+id="<?php echo $this->_tpl_vars['fields']['sel_selkirk_business_case_sel_selkirk_document_name']['id_name']; ?>
+" 
+value="<?php echo $this->_tpl_vars['fields']['sel_selkirae30ss_case_ida']['value']; ?>
+">
+<span class="id-ff multiple">
+<button type="button" name="btn_<?php echo $this->_tpl_vars['fields']['sel_selkirk_business_case_sel_selkirk_document_name']['name']; ?>
+" id="btn_<?php echo $this->_tpl_vars['fields']['sel_selkirk_business_case_sel_selkirk_document_name']['name']; ?>
+" tabindex="0" title="<?php echo smarty_function_sugar_translate(array('label' => 'LBL_SELECT_BUTTON_TITLE'), $this);?>
+" class="button firstChild" value="<?php echo smarty_function_sugar_translate(array('label' => 'LBL_SELECT_BUTTON_LABEL'), $this);?>
+"
+onclick='open_popup(
+"<?php echo $this->_tpl_vars['fields']['sel_selkirk_business_case_sel_selkirk_document_name']['module']; ?>
+", 
+600, 
+400, 
+"", 
+true, 
+false, 
+<?php echo '{"call_back_function":"set_return","form_name":"EditView","field_to_name_array":{"id":"sel_selkirae30ss_case_ida","name":"sel_selkirk_business_case_sel_selkirk_document_name"}}'; ?>
+, 
+"single", 
+true
+);' ><img src="<?php echo smarty_function_sugar_getimagepath(array('file' => "id-ff-select.png"), $this);?>
+"></button><button type="button" name="btn_clr_<?php echo $this->_tpl_vars['fields']['sel_selkirk_business_case_sel_selkirk_document_name']['name']; ?>
+" id="btn_clr_<?php echo $this->_tpl_vars['fields']['sel_selkirk_business_case_sel_selkirk_document_name']['name']; ?>
+" tabindex="0" title="<?php echo smarty_function_sugar_translate(array('label' => 'LBL_ACCESSKEY_CLEAR_RELATE_TITLE'), $this);?>
+"  class="button lastChild"
+onclick="SUGAR.clearRelateField(this.form, '<?php echo $this->_tpl_vars['fields']['sel_selkirk_business_case_sel_selkirk_document_name']['name']; ?>
+', '<?php echo $this->_tpl_vars['fields']['sel_selkirk_business_case_sel_selkirk_document_name']['id_name']; ?>
+');"  value="<?php echo smarty_function_sugar_translate(array('label' => 'LBL_ACCESSKEY_CLEAR_RELATE_LABEL'), $this);?>
+" ><img src="<?php echo smarty_function_sugar_getimagepath(array('file' => "id-ff-clear.png"), $this);?>
+"></button>
+</span>
+<script type="text/javascript">
+SUGAR.util.doWhen(
+		"typeof(sqs_objects) != 'undefined' && typeof(sqs_objects['<?php echo $this->_tpl_vars['form_name']; ?>
+_<?php echo $this->_tpl_vars['fields']['sel_selkirk_business_case_sel_selkirk_document_name']['name']; ?>
+']) != 'undefined'",
+		enableQS
+);
+</script>
 </tr>
 <?php $this->_smarty_vars['capture']['tr'] = ob_get_contents();  $this->assign('tableRow', ob_get_contents());ob_end_clean();  if ($this->_tpl_vars['fieldsUsed'] > 0):  echo $this->_tpl_vars['tableRow']; ?>
 
@@ -698,5 +756,7 @@ addToValidate(\'EditView\', \'category_id\', \'enum\', false,\'';  echo smarty_f
 addToValidate(\'EditView\', \'subcategory_id\', \'enum\', false,\'';  echo smarty_function_sugar_translate(array('label' => 'LBL_SF_SUBCATEGORY','module' => 'sel_Selkirk_Document','for_js' => true), $this); echo '\' );
 addToValidate(\'EditView\', \'status_id\', \'enum\', false,\'';  echo smarty_function_sugar_translate(array('label' => 'LBL_DOC_STATUS','module' => 'sel_Selkirk_Document','for_js' => true), $this); echo '\' );
 addToValidate(\'EditView\', \'status\', \'varchar\', false,\'';  echo smarty_function_sugar_translate(array('label' => 'LBL_DOC_STATUS','module' => 'sel_Selkirk_Document','for_js' => true), $this); echo '\' );
+addToValidate(\'EditView\', \'sel_selkirk_business_case_sel_selkirk_document_name\', \'relate\', false,\'';  echo smarty_function_sugar_translate(array('label' => 'LBL_SEL_SELKIRK_BUSINESS_CASE_SEL_SELKIRK_DOCUMENT_FROM_SEL_SELKIRK_BUSINESS_CASE_TITLE','module' => 'sel_Selkirk_Document','for_js' => true), $this); echo '\' );
 addToValidateBinaryDependency(\'EditView\', \'assigned_user_name\', \'alpha\', false,\'';  echo smarty_function_sugar_translate(array('label' => 'ERR_SQS_NO_MATCH_FIELD','module' => 'sel_Selkirk_Document','for_js' => true), $this); echo ': ';  echo smarty_function_sugar_translate(array('label' => 'LBL_ASSIGNED_TO','module' => 'sel_Selkirk_Document','for_js' => true), $this); echo '\', \'assigned_user_id\' );
-</script>'; ?>
+addToValidateBinaryDependency(\'EditView\', \'sel_selkirk_business_case_sel_selkirk_document_name\', \'alpha\', false,\'';  echo smarty_function_sugar_translate(array('label' => 'ERR_SQS_NO_MATCH_FIELD','module' => 'sel_Selkirk_Document','for_js' => true), $this); echo ': ';  echo smarty_function_sugar_translate(array('label' => 'LBL_SEL_SELKIRK_BUSINESS_CASE_SEL_SELKIRK_DOCUMENT_FROM_SEL_SELKIRK_BUSINESS_CASE_TITLE','module' => 'sel_Selkirk_Document','for_js' => true), $this); echo '\', \'sel_selkirae30ss_case_ida\' );
+</script><script language="javascript">if(typeof sqs_objects == \'undefined\'){var sqs_objects = new Array;}sqs_objects[\'EditView_sel_selkirk_business_case_sel_selkirk_document_name\']={"form":"EditView","method":"query","modules":["sel_Selkirk_Business_Case"],"group":"or","field_list":["name","id"],"populate_list":["sel_selkirk_business_case_sel_selkirk_document_name","sel_selkirae30ss_case_ida"],"required_list":["parent_id"],"conditions":[{"name":"name","op":"like_custom","end":"%","value":""}],"order":"name","limit":"30","no_match_text":"No Match"};</script>'; ?>

@@ -1,5 +1,5 @@
 <?php
-// created: 2014-07-15 12:09:26
+// created: 2014-07-16 12:03:22
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -32,7 +32,7 @@ $mod_strings = array (
   'LBL_SEL_SELKIRK_PROJECT_SUBPANEL_TITLE' => 'Project',
   'LBL_NEW_FORM_TITLE' => 'New Project',
   'LBL_PROJECT_TYPE' => 'Project Type',
-  'LBL_STATUS' => 'Status',
+  'LBL_STATUS' => 'Business Cycle',
   'LBL_FUNDING_START_DATE' => 'Funding Start Date',
   'LBL_FUNDING_END_DATE' => 'Funding End Date',
   'LBL_PRIMARY_CONTACT' => 'Primary Contact',
@@ -42,6 +42,7 @@ $mod_strings = array (
   'LBL_PROJECT_LEAD_USER_ID' => 'Project Lead (related User ID)',
   'LBL_PROJECT_LEAD' => 'Project Lead',
   'LBL_NOTES' => 'Notes',
+  'LBL_BUSINESS_CYCLE' => 'Business Cycle',
   'LBL_SEL_SELKIRK_PROJECT_SEL_SELKIRK_CLIENT_FROM_SEL_SELKIRK_CLIENT_TITLE' => 'Partners',
   'LBL_SEL_SELKIRK_PROJECT_SEL_SELKIRK_CLIENT_1_FROM_SEL_SELKIRK_CLIENT_TITLE' => 'Partners',
   'LBL_SEL_SELKIRK_PROJECT_SEL_SELKIRK_SERVICE_FROM_SEL_SELKIRK_SERVICE_TITLE' => 'Services',
@@ -56,4 +57,6 @@ $mod_strings = array (
   'LBL_SEL_SELKIRK_DOCUMENT_SEL_SELKIRK_PROJECT_FROM_SEL_SELKIRK_DOCUMENT_TITLE' => 'Document',
   'LBL_SEL_SELKIRK_PROJECT_SEL_SELKIRK_TEAM_FROM_SEL_SELKIRK_TEAM_TITLE' => 'Team',
   'LBL_SEL_SELKIRK_TEAM_SEL_SELKIRK_PROJECT_FROM_SEL_SELKIRK_TEAM_TITLE' => 'Team',
+  'LBL_SEL_SELKIRK_PROJECT_SECURITYGROUPS_FROM_SECURITYGROUPS_TITLE' => 'Security Groups Management',
+  'LBL_SEL_SELKIRK_DOCUMENT_SEL_SELKIRK_PROJECT_FROM_SEL_SELKIRK_TEMPLATE_TITLE' => 'Document',
 );

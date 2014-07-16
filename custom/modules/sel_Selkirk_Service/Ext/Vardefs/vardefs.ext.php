@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
-// created: 2014-07-14 14:05:12
+// created: 2014-07-16 11:41:10
 $dictionary["sel_Selkirk_Service"]["fields"]["sel_selkirk_client_sel_selkirk_service"] = array (
   'name' => 'sel_selkirk_client_sel_selkirk_service',
   'type' => 'link',
@@ -36,7 +36,19 @@ $dictionary["sel_Selkirk_Service"]["fields"]["sel_selkirk_client_sel_selkirk_ser
 );
 
 
-// created: 2014-07-14 14:05:11
+// created: 2014-07-16 11:41:08
+$dictionary["sel_Selkirk_Service"]["fields"]["sel_selkirk_service_securitygroups"] = array (
+  'name' => 'sel_selkirk_service_securitygroups',
+  'type' => 'link',
+  'relationship' => 'sel_selkirk_service_securitygroups',
+  'source' => 'non-db',
+  'module' => 'SecurityGroups',
+  'bean_name' => 'SecurityGroup',
+  'vname' => 'LBL_SEL_SELKIRK_SERVICE_SECURITYGROUPS_FROM_SECURITYGROUPS_TITLE',
+);
+
+
+// created: 2014-07-16 11:41:09
 $dictionary["sel_Selkirk_Service"]["fields"]["sel_selkirk_project_sel_selkirk_service"] = array (
   'name' => 'sel_selkirk_project_sel_selkirk_service',
   'type' => 'link',
@@ -70,7 +82,7 @@ $dictionary["sel_Selkirk_Service"]["fields"]["sel_selkirk_project_sel_selkirk_se
 );
 
 
-// created: 2014-07-14 14:05:10
+// created: 2014-07-16 11:41:09
 $dictionary["sel_Selkirk_Service"]["fields"]["sel_selkirk_document_sel_selkirk_service"] = array (
   'name' => 'sel_selkirk_document_sel_selkirk_service',
   'type' => 'link',

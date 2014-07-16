@@ -86,4 +86,5 @@ $sugar_config['addAjaxBannedModules']['38'] = 'Notes';
 $sugar_config['addAjaxBannedModules']['39'] = 'Contacts';
 $sugar_config['addAjaxBannedModules']['40'] = 'Leads';
 $sugar_config['addAjaxBannedModules']['41'] = 'Meetings';
+$sugar_config['save_query'] = 'no';
 /***CONFIGURATOR***/

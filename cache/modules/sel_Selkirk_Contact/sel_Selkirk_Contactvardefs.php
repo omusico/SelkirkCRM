@@ -460,11 +460,11 @@
       'len' => '10',
       'size' => '20',
     ),
-    'business_cycle' => 
+    'status' => 
     array (
       'required' => false,
-      'name' => 'business_cycle',
-      'vname' => 'LBL_BUSINESS_CYCLE',
+      'name' => 'status',
+      'vname' => 'LBL_STATUS',
       'type' => 'enum',
       'massupdate' => 0,
       'default' => 'active',
@@ -480,7 +480,7 @@
       'merge_filter' => 'disabled',
       'len' => 100,
       'size' => '20',
-      'options' => 'business_cycle_list',
+      'options' => 'contact_status_list',
       'studio' => 'visible',
       'dependency' => false,
     ),
@@ -493,6 +493,16 @@
       'module' => 'sel_Selkirk_Client',
       'bean_name' => 'sel_Selkirk_Client',
       'vname' => 'LBL_SEL_SELKIRK_CLIENT_SEL_SELKIRK_CONTACT_FROM_SEL_SELKIRK_CLIENT_TITLE',
+    ),
+    'sel_selkirk_contact_securitygroups' => 
+    array (
+      'name' => 'sel_selkirk_contact_securitygroups',
+      'type' => 'link',
+      'relationship' => 'sel_selkirk_contact_securitygroups',
+      'source' => 'non-db',
+      'module' => 'SecurityGroups',
+      'bean_name' => 'SecurityGroup',
+      'vname' => 'LBL_SEL_SELKIRK_CONTACT_SECURITYGROUPS_FROM_SECURITYGROUPS_TITLE',
     ),
     'sel_selkirk_contact_sel_selkirk_activity' => 
     array (

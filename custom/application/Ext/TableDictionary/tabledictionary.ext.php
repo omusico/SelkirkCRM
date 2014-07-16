@@ -8,6 +8,16 @@ include('custom/metadata/sel_selkirk_client_sel_selkirk_partnerMetaData.php');
 
  
  //WARNING: The contents of this file are auto-generated
+include('custom/metadata/sel_selkirk_service_securitygroupsMetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/sel_selkirk_funding_securitygroupsMetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 include('custom/metadata/fp_events_leads_1MetaData.php');
 
 
@@ -104,6 +114,11 @@ include('custom/metadata/sel_selkirk_team_usersMetaData.php');
 
  
  //WARNING: The contents of this file are auto-generated
+include('custom/metadata/sel_selkirk_client_securitygroupsMetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 include('custom/metadata/sel_selkirk_partner_sel_selkirk_clientMetaData.php');
 
 
@@ -129,7 +144,22 @@ include('custom/metadata/sel_selkirk_project_sel_selkirk_clientMetaData.php');
 
  
  //WARNING: The contents of this file are auto-generated
+include('custom/metadata/sel_selkirk_approvals_securitygroupsMetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 include('custom/metadata/sel_selkirk_document_sel_selkirk_clientMetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/sel_selkirk_template_sel_selkirk_documentMetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/sel_selkirk_activity_securitygroupsMetaData.php');
 
 
  
@@ -169,6 +199,16 @@ include('custom/metadata/sel_selkirk_client_sel_selkirk_contactMetaData.php');
 
  
  //WARNING: The contents of this file are auto-generated
+include('custom/metadata/sel_selkirk_document_securitygroupsMetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/sel_selkirk_project_securitygroupsMetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 include('custom/metadata/sel_selkirk_project_sel_selkirk_fundingMetaData.php');
 
 
@@ -194,6 +234,11 @@ include('custom/metadata/sel_selkirk_project_sel_selkirk_documentMetaData.php');
 
  
  //WARNING: The contents of this file are auto-generated
+include('custom/metadata/sel_selkirk_team_securitygroupsMetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 include('custom/metadata/sel_selkirk_contact_sel_selkirk_activityMetaData.php');
 
 
@@ -209,6 +254,11 @@ include('custom/metadata/fp_events_fp_event_locations_1MetaData.php');
 
  
  //WARNING: The contents of this file are auto-generated
+include('custom/metadata/sel_selkirk_business_case_securitygroupsMetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 include('custom/metadata/sel_selkirk_business_case_sel_selkirk_approvals_01MetaData.php');
 
 
@@ -220,12 +270,27 @@ include('custom/metadata/fp_events_contactsMetaData.php');
 
  
  //WARNING: The contents of this file are auto-generated
+include('custom/metadata/sel_selkirk_milestone_securitygroupsMetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 include('custom/metadata/fp_event_locations_fp_events_1MetaData.php');
 
 
  
  //WARNING: The contents of this file are auto-generated
+include('custom/metadata/sel_selkirk_contact_securitygroupsMetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 include('custom/metadata/sel_selkirk_project_sel_selkirk_teamMetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/sel_selkirk_partner_securitygroupsMetaData.php');
 
 
  
@@ -236,6 +301,11 @@ include('custom/metadata/sel_selkirk_team_sel_selkirk_projectMetaData.php');
  
  //WARNING: The contents of this file are auto-generated
 include('custom/metadata/sel_selkirk_project_sel_selkirk_serviceMetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/sel_selkirk_business_case_sel_selkirk_documentMetaData.php');
 
 
  

@@ -1,5 +1,5 @@
 <?php
-// created: 2014-07-15 12:06:21
+// created: 2014-07-16 11:54:46
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -34,4 +34,5 @@ $mod_strings = array (
   'LBL_MILESTONE_DATE' => 'Milestone Date',
   'LBL_NOTIFCATION_SENT' => 'Notifcation Sent',
   'LBL_SEL_SELKIRK_PROJECT_SEL_SELKIRK_MILESTONE_FROM_SEL_SELKIRK_PROJECT_TITLE' => 'Selkirk_Project',
+  'LBL_SEL_SELKIRK_MILESTONE_SECURITYGROUPS_FROM_SECURITYGROUPS_TITLE' => 'Security Groups Management',
 );

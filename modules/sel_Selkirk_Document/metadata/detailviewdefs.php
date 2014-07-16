@@ -60,7 +60,17 @@ array (
         3 => 
         array (
           0 => 'description',
-          1 => '',
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'sel_selkirk_business_case_sel_selkirk_document_name',
+          ),
+          1 => 
+          array (
+            'name' => 'sel_selkirk_template_sel_selkirk_document_name',
+          ),
         ),
       ),
     ),

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-07-15 11:06:38
+<?php /* Smarty version 2.6.11, created on 2014-07-16 12:03:39
          compiled from cache/modules/sel_Selkirk_Contact/SearchForm_basic.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'cache/modules/sel_Selkirk_Contact/SearchForm_basic.tpl', 33, false),array('function', 'math', 'cache/modules/sel_Selkirk_Contact/SearchForm_basic.tpl', 34, false),array('function', 'sugar_translate', 'cache/modules/sel_Selkirk_Contact/SearchForm_basic.tpl', 43, false),array('function', 'html_options', 'cache/modules/sel_Selkirk_Contact/SearchForm_basic.tpl', 78, false),array('function', 'sugar_getimage', 'cache/modules/sel_Selkirk_Contact/SearchForm_basic.tpl', 160, false),array('function', 'sugar_getimagepath', 'cache/modules/sel_Selkirk_Contact/SearchForm_basic.tpl', 177, false),array('modifier', 'count', 'cache/modules/sel_Selkirk_Contact/SearchForm_basic.tpl', 164, false),)), $this); ?>
@@ -70,14 +70,14 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', '
 	
 	<td scope="row" nowrap="nowrap" width='1%' >
 		
-		<label for='business_cycle_basic' ><?php echo smarty_function_sugar_translate(array('label' => 'LBL_BUSINESS_CYCLE','module' => 'sel_Selkirk_Contact'), $this);?>
+		<label for='status_basic' ><?php echo smarty_function_sugar_translate(array('label' => 'LBL_STATUS','module' => 'sel_Selkirk_Contact'), $this);?>
 </label>
     	</td>
 
 	
 	<td  nowrap="nowrap" width='1%'>
 			
-<?php echo smarty_function_html_options(array('id' => 'business_cycle_basic','name' => 'business_cycle_basic[]','options' => $this->_tpl_vars['fields']['business_cycle_basic']['options'],'size' => '6','style' => "width: 150px",'multiple' => '1','selected' => $this->_tpl_vars['fields']['business_cycle_basic']['value']), $this);?>
+<?php echo smarty_function_html_options(array('id' => 'status_basic','name' => 'status_basic[]','options' => $this->_tpl_vars['fields']['status_basic']['options'],'size' => '6','style' => "width: 150px",'multiple' => '1','selected' => $this->_tpl_vars['fields']['status_basic']['value']), $this);?>
 
    	   	</td>
     

@@ -1,5 +1,5 @@
 <?php
-// created: 2014-07-15 11:59:13
+// created: 2014-07-16 12:03:39
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -45,6 +45,9 @@ $mod_strings = array (
   'LBL_EXTENTION' => 'Extention',
   'LBL_EXTENSION' => 'Extension',
   'LBL_BUSINESS_CYCLE' => 'Business Cycle',
+  'LBL_CONTACT_TYPE' => 'Contact Type',
+  'LBL_STATUS' => 'Status',
   'LBL_SEL_SELKIRK_CLIENT_SEL_SELKIRK_CONTACT_FROM_SEL_SELKIRK_CLIENT_TITLE' => 'Organization',
   'LBL_SEL_SELKIRK_CONTACT_SEL_SELKIRK_ACTIVITY_FROM_SEL_SELKIRK_ACTIVITY_TITLE' => 'Contact History',
+  'LBL_SEL_SELKIRK_CONTACT_SECURITYGROUPS_FROM_SECURITYGROUPS_TITLE' => 'Security Groups Management',
 );

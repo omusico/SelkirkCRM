@@ -76,4 +76,5 @@ $mod_strings = array (
   'LBL_PROJECT_LEAD_USER_ID' => 'Project Lead (related User ID)',
   'LBL_PROJECT_LEAD' => 'Project Lead',
   'LBL_NOTES' => 'Notes',
+  'LBL_BUSINESS_CYCLE' => 'Business Cycle',
 );

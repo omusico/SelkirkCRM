@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
- // created: 2014-07-14 14:05:10
+ // created: 2014-07-16 11:41:09
 $layout_defs["sel_Selkirk_Team"]["subpanel_setup"]['sel_selkirk_team_users'] = array (
   'order' => 100,
   'module' => 'Users',
@@ -15,6 +15,10 @@ $layout_defs["sel_Selkirk_Team"]["subpanel_setup"]['sel_selkirk_team_users'] = a
   array (
     0 => 
     array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
       'widget_class' => 'SubPanelTopSelectButton',
       'mode' => 'MultiSelect',
     ),
@@ -22,7 +26,7 @@ $layout_defs["sel_Selkirk_Team"]["subpanel_setup"]['sel_selkirk_team_users'] = a
 );
 
 
- // created: 2014-07-14 14:05:10
+ // created: 2014-07-16 11:41:09
 $layout_defs["sel_Selkirk_Team"]["subpanel_setup"]['sel_selkirk_project_sel_selkirk_team'] = array (
   'order' => 100,
   'module' => 'sel_Selkirk_Project',
@@ -46,7 +50,31 @@ $layout_defs["sel_Selkirk_Team"]["subpanel_setup"]['sel_selkirk_project_sel_selk
 );
 
 
- // created: 2014-07-14 14:05:11
+ // created: 2014-07-16 11:41:09
+$layout_defs["sel_Selkirk_Team"]["subpanel_setup"]['sel_selkirk_team_securitygroups'] = array (
+  'order' => 100,
+  'module' => 'SecurityGroups',
+  'subpanel_name' => 'ForUsers',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_SEL_SELKIRK_TEAM_SECURITYGROUPS_FROM_SECURITYGROUPS_TITLE',
+  'get_subpanel_data' => 'sel_selkirk_team_securitygroups',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
+ // created: 2014-07-16 11:41:10
 $layout_defs["sel_Selkirk_Team"]["subpanel_setup"]['sel_selkirk_business_case_sel_selkirk_team'] = array (
   'order' => 100,
   'module' => 'sel_Selkirk_Business_Case',

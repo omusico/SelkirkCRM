@@ -75,7 +75,7 @@ class sel_Selkirk_Contact_sugar extends Basic {
 		var $title;
 		var $email;
 		var $extension;
-		var $business_cycle;
+		var $status;
 		function sel_Selkirk_Contact_sugar(){	
 		parent::Basic();
 	}

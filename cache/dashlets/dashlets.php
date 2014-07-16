@@ -1,5 +1,5 @@
 <?php
-// created: 2014-07-14 14:05:29
+// created: 2014-07-16 11:41:26
 $dashletsFiles = array (
   'AOD_IndexDashlet' => 
   array (
@@ -173,6 +173,13 @@ $dashletsFiles = array (
     'meta' => 'modules/FP_events/Dashlets/FP_eventsDashlet/FP_eventsDashlet.meta.php',
     'module' => 'FP_events',
   ),
+  'sel_Selkirk_TemplateDashlet' => 
+  array (
+    'file' => 'modules/sel_Selkirk_Template/Dashlets/sel_Selkirk_TemplateDashlet/sel_Selkirk_TemplateDashlet.php',
+    'class' => 'sel_Selkirk_TemplateDashlet',
+    'meta' => 'modules/sel_Selkirk_Template/Dashlets/sel_Selkirk_TemplateDashlet/sel_Selkirk_TemplateDashlet.meta.php',
+    'module' => 'sel_Selkirk_Template',
+  ),
   'sel_Selkirk_ApprovalsDashlet' => 
   array (
     'file' => 'modules/sel_Selkirk_Approvals/Dashlets/sel_Selkirk_ApprovalsDashlet/sel_Selkirk_ApprovalsDashlet.php',
@@ -242,13 +249,6 @@ $dashletsFiles = array (
     'class' => 'sel_Selkirk_MileStoneDashlet',
     'meta' => 'modules/sel_Selkirk_MileStone/Dashlets/sel_Selkirk_MileStoneDashlet/sel_Selkirk_MileStoneDashlet.meta.php',
     'module' => 'sel_Selkirk_MileStone',
-  ),
-  'sel_Selkirk_LeadDashlet' => 
-  array (
-    'file' => 'modules/sel_Selkirk_Lead/Dashlets/sel_Selkirk_LeadDashlet/sel_Selkirk_LeadDashlet.php',
-    'class' => 'sel_Selkirk_LeadDashlet',
-    'meta' => 'modules/sel_Selkirk_Lead/Dashlets/sel_Selkirk_LeadDashlet/sel_Selkirk_LeadDashlet.meta.php',
-    'module' => 'sel_Selkirk_Lead',
   ),
   'sel_Selkirk_TeamDashlet' => 
   array (

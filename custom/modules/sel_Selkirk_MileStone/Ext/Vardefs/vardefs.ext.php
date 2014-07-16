@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
-// created: 2014-07-14 14:05:11
+// created: 2014-07-16 11:41:09
 $dictionary["sel_Selkirk_MileStone"]["fields"]["sel_selkirk_project_sel_selkirk_milestone"] = array (
   'name' => 'sel_selkirk_project_sel_selkirk_milestone',
   'type' => 'link',
@@ -33,6 +33,18 @@ $dictionary["sel_Selkirk_MileStone"]["fields"]["sel_selkirk_project_sel_selkirk_
   'reportable' => false,
   'side' => 'right',
   'vname' => 'LBL_SEL_SELKIRK_PROJECT_SEL_SELKIRK_MILESTONE_FROM_SEL_SELKIRK_MILESTONE_TITLE',
+);
+
+
+// created: 2014-07-16 11:41:10
+$dictionary["sel_Selkirk_MileStone"]["fields"]["sel_selkirk_milestone_securitygroups"] = array (
+  'name' => 'sel_selkirk_milestone_securitygroups',
+  'type' => 'link',
+  'relationship' => 'sel_selkirk_milestone_securitygroups',
+  'source' => 'non-db',
+  'module' => 'SecurityGroups',
+  'bean_name' => 'SecurityGroup',
+  'vname' => 'LBL_SEL_SELKIRK_MILESTONE_SECURITYGROUPS_FROM_SECURITYGROUPS_TITLE',
 );
 
 ?>

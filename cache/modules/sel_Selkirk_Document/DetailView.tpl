@@ -171,18 +171,57 @@ SUGAR.util.doWhen(function(){
 {$label|strip_semicolon}:
 {/if}
 </td>
-<td width='37.5%'  >
+<td width='37.5%' colspan='3' >
 {if !$fields.description.hidden}
 {counter name="panelFieldCount"}
 
 <span class="sugar_field" id="{$fields.description.name|escape:'html'|url2html|nl2br}">{$fields.description.value|escape:'htmlentitydecode'|escape:'html'|url2html|nl2br}</span>
 {/if}
 </td>
+</tr>
+{/capture}
+{if $fieldsUsed > 0 && $fieldsUsed != $fieldsHidden}
+{$tableRow}
+{/if}
+{counter name="fieldsUsed" start=0 print=false assign="fieldsUsed"}
+{counter name="fieldsHidden" start=0 print=false assign="fieldsHidden"}
+{capture name="tr" assign="tableRow"}
+<tr>
 {counter name="fieldsUsed"}
 <td width='12.5%' scope="col">
-&nbsp;
+{if !$fields.sel_selkirk_business_case_sel_selkirk_document_name.hidden}
+{capture name="label" assign="label"}{sugar_translate label='LBL_SEL_SELKIRK_BUSINESS_CASE_SEL_SELKIRK_DOCUMENT_FROM_SEL_SELKIRK_BUSINESS_CASE_TITLE' module='sel_Selkirk_Document'}{/capture}
+{$label|strip_semicolon}:
+{/if}
 </td>
 <td width='37.5%'  >
+{if !$fields.sel_selkirk_business_case_sel_selkirk_document_name.hidden}
+{counter name="panelFieldCount"}
+
+{if !empty($fields.sel_selkirae30ss_case_ida.value)}
+{capture assign="detail_url"}index.php?module=sel_Selkirk_Business_Case&action=DetailView&record={$fields.sel_selkirae30ss_case_ida.value}{/capture}
+<a href="{sugar_ajax_url url=$detail_url}">{/if}
+<span id="sel_selkirae30ss_case_ida" class="sugar_field" data-id-value="{$fields.sel_selkirae30ss_case_ida.value}">{$fields.sel_selkirk_business_case_sel_selkirk_document_name.value}</span>
+{if !empty($fields.sel_selkirae30ss_case_ida.value)}</a>{/if}
+{/if}
+</td>
+{counter name="fieldsUsed"}
+<td width='12.5%' scope="col">
+{if !$fields.sel_selkirk_template_sel_selkirk_document_name.hidden}
+{capture name="label" assign="label"}{sugar_translate label='LBL_SEL_SELKIRK_TEMPLATE_SEL_SELKIRK_DOCUMENT_FROM_SEL_SELKIRK_TEMPLATE_TITLE' module='sel_Selkirk_Document'}{/capture}
+{$label|strip_semicolon}:
+{/if}
+</td>
+<td width='37.5%'  >
+{if !$fields.sel_selkirk_template_sel_selkirk_document_name.hidden}
+{counter name="panelFieldCount"}
+
+{if !empty($fields.sel_selkir95fdemplate_ida.value)}
+{capture assign="detail_url"}index.php?module=sel_Selkirk_Template&action=DetailView&record={$fields.sel_selkir95fdemplate_ida.value}{/capture}
+<a href="{sugar_ajax_url url=$detail_url}">{/if}
+<span id="sel_selkir95fdemplate_ida" class="sugar_field" data-id-value="{$fields.sel_selkir95fdemplate_ida.value}">{$fields.sel_selkirk_template_sel_selkirk_document_name.value}</span>
+{if !empty($fields.sel_selkir95fdemplate_ida.value)}</a>{/if}
+{/if}
 </td>
 </tr>
 {/capture}

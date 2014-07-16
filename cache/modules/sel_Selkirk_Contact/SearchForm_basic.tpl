@@ -71,13 +71,13 @@
 	
 	<td scope="row" nowrap="nowrap" width='1%' >
 		
-		<label for='business_cycle_basic' >{sugar_translate label='LBL_BUSINESS_CYCLE' module='sel_Selkirk_Contact'}</label>
+		<label for='status_basic' >{sugar_translate label='LBL_STATUS' module='sel_Selkirk_Contact'}</label>
     	</td>
 
 	
 	<td  nowrap="nowrap" width='1%'>
 			
-{html_options id='business_cycle_basic' name='business_cycle_basic[]' options=$fields.business_cycle_basic.options size="6" style="width: 150px" multiple="1" selected=$fields.business_cycle_basic.value}
+{html_options id='status_basic' name='status_basic[]' options=$fields.status_basic.options size="6" style="width: 150px" multiple="1" selected=$fields.status_basic.value}
    	   	</td>
     
       

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-07-14 14:05:09
+<?php /* Smarty version 2.6.11, created on 2014-07-16 09:10:03
          compiled from modules/ModuleBuilder/tpls/MBModule/vardef.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'strstr', 'modules/ModuleBuilder/tpls/MBModule/vardef.tpl', 41, false),)), $this); ?>

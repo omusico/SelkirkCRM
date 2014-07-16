@@ -86,4 +86,21 @@ $relationships = array (
     'from_studio' => false,
     'relationship_name' => 'sel_selkirk_document_sel_selkirk_service',
   ),
+  'sel_selkirk_document_securitygroups' => 
+  array (
+    'rhs_label' => 'Security Groups Management',
+    'lhs_label' => 'Document',
+    'lhs_subpanel' => 'default',
+    'rhs_subpanel' => 'ForUsers',
+    'lhs_module' => 'sel_Selkirk_Document',
+    'rhs_module' => 'SecurityGroups',
+    'relationship_type' => 'many-to-many',
+    'readonly' => false,
+    'deleted' => false,
+    'relationship_only' => false,
+    'for_activities' => false,
+    'is_custom' => false,
+    'from_studio' => false,
+    'relationship_name' => 'sel_selkirk_document_securitygroups',
+  ),
 );

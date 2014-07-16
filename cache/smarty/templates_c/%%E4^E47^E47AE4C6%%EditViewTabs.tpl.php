@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-07-07 15:34:21
+<?php /* Smarty version 2.6.11, created on 2014-07-16 11:06:34
          compiled from modules/Studio/TabGroups/EditViewTabs.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getjspath', 'modules/Studio/TabGroups/EditViewTabs.tpl', 43, false),array('function', 'html_options', 'modules/Studio/TabGroups/EditViewTabs.tpl', 117, false),array('function', 'sugar_help', 'modules/Studio/TabGroups/EditViewTabs.tpl', 118, false),array('function', 'counter', 'modules/Studio/TabGroups/EditViewTabs.tpl', 138, false),)), $this); ?>
