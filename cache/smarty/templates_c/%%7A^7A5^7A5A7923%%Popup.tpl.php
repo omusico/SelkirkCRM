@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.11, created on 2014-07-16 07:25:46
+<?php /* Smarty version 2.6.11, created on 2014-07-17 15:47:32
          compiled from cache/modules/Users/Popup.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getjspath', 'cache/modules/Users/Popup.tpl', 8, false),array('function', 'sugar_getimage', 'cache/modules/Users/Popup.tpl', 81, false),array('function', 'sugar_action_menu', 'cache/modules/Users/Popup.tpl', 134, false),array('function', 'counter', 'cache/modules/Users/Popup.tpl', 139, false),array('function', 'sugar_translate', 'cache/modules/Users/Popup.tpl', 144, false),array('function', 'sugar_evalcolumn_old', 'cache/modules/Users/Popup.tpl', 195, false),array('function', 'sugar_currency_format', 'cache/modules/Users/Popup.tpl', 197, false),array('function', 'multienum_to_array', 'cache/modules/Users/Popup.tpl', 212, false),array('function', 'sugar_field', 'cache/modules/Users/Popup.tpl', 218, false),array('modifier', 'default', 'cache/modules/Users/Popup.tpl', 142, false),array('modifier', 'lower', 'cache/modules/Users/Popup.tpl', 144, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getjspath', 'cache/modules/Users/Popup.tpl', 8, false),array('function', 'sugar_getimage', 'cache/modules/Users/Popup.tpl', 72, false),array('function', 'sugar_action_menu', 'cache/modules/Users/Popup.tpl', 125, false),array('function', 'counter', 'cache/modules/Users/Popup.tpl', 130, false),array('function', 'sugar_translate', 'cache/modules/Users/Popup.tpl', 135, false),array('function', 'sugar_evalcolumn_old', 'cache/modules/Users/Popup.tpl', 186, false),array('function', 'sugar_currency_format', 'cache/modules/Users/Popup.tpl', 188, false),array('function', 'multienum_to_array', 'cache/modules/Users/Popup.tpl', 203, false),array('function', 'sugar_field', 'cache/modules/Users/Popup.tpl', 209, false),array('modifier', 'default', 'cache/modules/Users/Popup.tpl', 133, false),array('modifier', 'lower', 'cache/modules/Users/Popup.tpl', 135, false),)), $this); ?>
 
 <?php $this->assign('alt_start', $this->_tpl_vars['navStrings']['start']);  $this->assign('alt_next', $this->_tpl_vars['navStrings']['next']);  $this->assign('alt_prev', $this->_tpl_vars['navStrings']['previous']);  $this->assign('alt_end', $this->_tpl_vars['navStrings']['end']); ?>
 
@@ -70,24 +70,6 @@ function clearAll() {
 </td>
 </tr>
 </table>
-	<form action="index.php" method="post" name="MassUpdate" id="MassUpdate">
-	<?php echo $this->_tpl_vars['MODE']; ?>
-
-<input type="hidden" name="mu" value="false" />
-<input type='hidden' name='massupdate' value='true' />
-<?php echo $this->_tpl_vars['massUpdateData']; ?>
-
-<input type='hidden' name='Leads_LEAD_offset' value=''><input type='hidden' name='saved_associated_data' value=''><input type='hidden' name='module' value='<?php echo $this->_tpl_vars['module']; ?>
-'><input type='hidden' name='action' value='Popup'><input type='hidden' name='return_module' value='<?php echo $this->_tpl_vars['module']; ?>
-'><input type='hidden' name='return_action' value='Popup'><input type='hidden' name='hide_clear_button' value='true'><input type='hidden' name='current_query_by_page' value='<?php echo $this->_tpl_vars['current_query']; ?>
-'>
-
-	<?php echo $this->_tpl_vars['multiSelectData']; ?>
-
-	<input class="button" type="button" id="MassUpdate_select_button" value='<?php echo $this->_tpl_vars['APP']['LBL_SELECT_BUTTON_LABEL']; ?>
-' onclick="send_back_selected('<?php echo $this->_tpl_vars['module']; ?>
-',document.MassUpdate,'mass[]','<?php echo $this->_tpl_vars['APP']['ERR_NOTHING_SELECTED']; ?>
-');">
 <?php echo $this->_tpl_vars['jsLang']; ?>
 
 <?php echo $this->_tpl_vars['LIST_HEADER']; ?>
@@ -461,5 +443,3 @@ S1' bgcolor='<?php echo $this->_tpl_vars['_bgColor']; ?>
 	<?php echo $this->_tpl_vars['APP']['LBL_SEARCH_POPULATE_ONLY']; ?>
 
 <?php endif; ?>
-
-	</form>

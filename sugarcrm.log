@@ -2,3 +2,374 @@ Tue Jul 15 22:55:44 2014 [31929][-none-][FATAL] SECURITY: User authentication fo
 Tue Jul 15 22:55:44 2014 [31929][-none-][FATAL] FAILED LOGIN:attempts[1] - bwilson
 Wed Jul 16 09:21:15 2014 [10139][-none-][FATAL] SECURITY: User authentication for admin failed
 Wed Jul 16 09:21:15 2014 [10139][-none-][FATAL] FAILED LOGIN:attempts[1] - admin
+Wed Jul 16 14:07:14 2014 [13323][1][FATAL] quotes for projects_quotes failed to load
+
+Wed Jul 16 14:07:14 2014 [13323][1][FATAL] holidays for users_holidays failed to load
+
+Wed Jul 16 14:07:14 2014 [13323][1][FATAL] project_resource for projects_users_resources failed to load
+
+Wed Jul 16 14:07:14 2014 [13323][1][FATAL] project_resource for projects_contacts_resources failed to load
+
+Wed Jul 16 14:07:14 2014 [13323][1][FATAL] holidays for users_holidays failed to load
+
+Wed Jul 16 14:07:14 2014 [13323][1][FATAL] project_resource for projects_users_resources failed to load
+
+Wed Jul 16 14:07:14 2014 [13323][1][FATAL] ERROR: mkdir_recursive(): argument custom/modules/Users/language is already a file.
+Wed Jul 16 14:07:14 2014 [13323][1][FATAL] assigned_user_link for tracker_user_id failed to load
+
+Wed Jul 16 14:07:14 2014 [13323][1][FATAL] Class Connectors does not exist, unable to rename.
+Wed Jul 16 14:07:14 2014 [13323][1][FATAL] Class CustomFields does not exist, unable to rename.
+Wed Jul 16 14:07:14 2014 [13323][1][FATAL] Class Audit does not exist, unable to rename.
+Wed Jul 16 14:07:14 2014 [13323][1][FATAL] holidays for users_holidays failed to load
+
+Wed Jul 16 14:07:14 2014 [13323][1][FATAL] project_resource for projects_users_resources failed to load
+
+Wed Jul 16 14:07:14 2014 [13323][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Jul 16 14:07:14 2014 [13323][1][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Jul 16 14:07:14 2014 [13323][1][FATAL] tasks for aos_contracts_tasks failed to load
+
+Wed Jul 16 14:07:14 2014 [13323][1][FATAL] notes for aos_contracts_notes failed to load
+
+Wed Jul 16 14:07:14 2014 [13323][1][FATAL] meetings for aos_contracts_meetings failed to load
+
+Wed Jul 16 14:07:14 2014 [13323][1][FATAL] calls for aos_contracts_calls failed to load
+
+Wed Jul 16 14:07:14 2014 [13323][1][FATAL] emails for emails_aos_contracts_rel failed to load
+
+Wed Jul 16 14:29:15 2014 [13588][-none-][FATAL] SECURITY: User authentication for admin failed
+Wed Jul 16 14:29:15 2014 [13588][-none-][FATAL] FAILED LOGIN:attempts[1] - admin
+Wed Jul 16 14:29:39 2014 [13784][-none-][FATAL] SECURITY: User authentication for admin failed
+Wed Jul 16 14:29:39 2014 [13784][-none-][FATAL] FAILED LOGIN:attempts[2] - admin
+Thu Jul 17 14:54:26 2014 [31253][-none-][FATAL] SECURITY: User authentication for lperepolkin1 failed
+Thu Jul 17 14:54:26 2014 [31253][-none-][FATAL] FAILED LOGIN:attempts[1] - lperepolkin1
+Thu Jul 17 14:54:41 2014 [31253][-none-][FATAL] SECURITY: User authentication for lperepolkin1 failed
+Thu Jul 17 14:54:41 2014 [31253][-none-][FATAL] FAILED LOGIN:attempts[2] - lperepolkin1
+Thu Jul 17 14:55:05 2014 [31287][-none-][FATAL] SECURITY: User authentication for lperepolkin1 failed
+Thu Jul 17 14:55:05 2014 [31287][-none-][FATAL] FAILED LOGIN:attempts[3] - lperepolkin1
+Thu Jul 17 14:57:19 2014 [31318][-none-][FATAL] SECURITY: User authentication for admin failed
+Thu Jul 17 14:57:19 2014 [31318][-none-][FATAL] FAILED LOGIN:attempts[1] - admin
+Thu Aug 14 18:46:25 2014 [9387][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 18:56:16 2014 [9811][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 19:08:30 2014 [10270][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 19:13:43 2014 [10331][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 19:23:58 2014 [10477][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 19:32:52 2014 [10520][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 19:35:39 2014 [10532][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 19:35:59 2014 [10564][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 19:39:56 2014 [10576][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 19:44:12 2014 [10610][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 19:47:46 2014 [10637][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 19:49:25 2014 [10675][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 19:49:32 2014 [10678][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 19:50:39 2014 [10693][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 19:51:06 2014 [10704][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 19:52:51 2014 [10721][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 20:09:54 2014 [10851][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 20:11:59 2014 [10873][-none-][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='UserPreferences' AND  deleted = 0: MySQL error 2006: MySQL server has gone away
+Thu Aug 14 20:11:59 2014 [10854][1][FATAL] Error retrieving Admin account info Query Failed: SELECT id FROM users WHERE id = '1' AND is_admin = 1 AND deleted = 0 AND status = 'Active' LIMIT 0,1: MySQL error 2006: MySQL server has gone away
+Thu Aug 14 20:12:04 2014 [10868][-none-][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='Administration' AND  deleted = 0: MySQL error 2006: MySQL server has gone away
+Thu Aug 14 20:12:05 2014 [10868][-none-][FATAL] Unable to retrieve system settings Query Failed: SELECT category, name, value FROM config: MySQL error 2006: MySQL server has gone away
+Thu Aug 14 20:12:05 2014 [10863][-none-][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='Administration' AND  deleted = 0: MySQL error 2006: MySQL server has gone away
+Thu Aug 14 20:12:06 2014 [10873][-none-][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='Administration' AND  deleted = 0: MySQL error 2006: MySQL server has gone away
+Thu Aug 14 20:12:06 2014 [10863][-none-][FATAL] Unable to retrieve system settings Query Failed: SELECT category, name, value FROM config: MySQL error 2006: MySQL server has gone away
+Thu Aug 14 20:12:07 2014 [10873][-none-][FATAL] Unable to retrieve system settings Query Failed: SELECT category, name, value FROM config: MySQL error 2006: MySQL server has gone away
+Thu Aug 14 20:14:33 2014 [10885][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Thu Aug 14 20:15:06 2014 [10880][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Thu Aug 14 20:15:06 2014 [10890][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Thu Aug 14 20:20:41 2014 [10906][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Thu Aug 14 20:20:41 2014 [10922][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Thu Aug 14 20:20:47 2014 [10919][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Thu Aug 14 20:23:05 2014 [10936][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Thu Aug 14 20:23:10 2014 [10963][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Thu Aug 14 20:23:10 2014 [10959][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Thu Aug 14 20:23:10 2014 [10960][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Thu Aug 14 20:23:12 2014 [10975][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Thu Aug 14 20:23:12 2014 [10981][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Thu Aug 14 20:23:12 2014 [10966][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Thu Aug 14 20:23:20 2014 [10942][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Thu Aug 14 20:27:42 2014 [10995][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 20:32:17 2014 [11061][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 20:32:17 2014 [11030][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 20:37:18 2014 [11098][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 20:38:20 2014 [11114][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 20:45:55 2014 [11128][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 20:48:57 2014 [11146][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 20:49:02 2014 [11133][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 20:49:57 2014 [11150][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 20:54:09 2014 [11192][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 20:58:05 2014 [11234][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 20:58:08 2014 [11224][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 20:58:19 2014 [11238][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 20:58:19 2014 [11248][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 20:58:23 2014 [11257][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 20:58:30 2014 [11250][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 21:10:04 2014 [11311][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 21:53:28 2014 [11302][1][FATAL]  Query Failed: UPDATE job_queue SET deleted=1 WHERE status='done' AND date_modified < '2014-08-07 21:08:56': MySQL error 1205: Lock wait timeout exceeded; try restarting transaction
+Thu Aug 14 21:56:06 2014 [11387][1][FATAL]  Query Failed: UPDATE job_queue SET deleted=1 WHERE status='done' AND date_modified < '2014-08-07 21:22:57': MySQL error 1205: Lock wait timeout exceeded; try restarting transaction
+Thu Aug 14 21:56:30 2014 [11302][1][FATAL]  Query Failed: DELETE FROM job_queue WHERE status='done' AND date_modified < '2014-07-24 21:08:56': MySQL error 1205: Lock wait timeout exceeded; try restarting transaction
+Thu Aug 14 21:59:17 2014 [11387][1][FATAL]  Query Failed: DELETE FROM job_queue WHERE status='done' AND date_modified < '2014-07-24 21:22:57': MySQL error 1205: Lock wait timeout exceeded; try restarting transaction
+Thu Aug 14 22:02:16 2014 [11387][1][FATAL] Error updating table: job_queue: Query Failed: UPDATE job_queue
+					SET assigned_user_id='1',name='Clean Jobs Queue',date_modified='2014-08-14 21:22:57',scheduler_id='396d371d-e467-12ed-becc-53a1ea5bdab6',execute_time='2014-08-14 21:10:00',status='done',resolution='success',message=NULL,target='function::cleanJobQueue',data=NULL,requeue=0,retry_count=NULL,failure_count=NULL,job_delay=0,client='CRON2f2bdc99e4ae312fb8f8b41e5fe268c0:11387',percent_complete=NULL
+					 WHERE  job_queue.id = '87dee5f5-86cb-4ae8-67dc-53ed28fb926e' AND deleted=0: MySQL error 1205: Lock wait timeout exceeded; try restarting transaction
+Thu Aug 14 22:02:29 2014 [11352][1][FATAL]  Query Failed: UPDATE job_queue SET deleted=1 WHERE status='done' AND date_modified < '2014-08-07 21:10:40': MySQL error 1205: Lock wait timeout exceeded; try restarting transaction
+Thu Aug 14 22:02:41 2014 [11387][1][FATAL] Job 87dee5f5-86cb-4ae8-67dc-53ed28fb926e (Clean Jobs Queue) failed in CRON run
+Thu Aug 14 22:03:22 2014 [11352][1][FATAL]  Query Failed: DELETE FROM job_queue WHERE status='done' AND date_modified < '2014-07-24 21:10:40': MySQL error 1205: Lock wait timeout exceeded; try restarting transaction
+Thu Aug 14 22:04:51 2014 [11352][1][FATAL] Error updating table: job_queue: Query Failed: UPDATE job_queue
+					SET assigned_user_id='1',name='Clean Jobs Queue',date_modified='2014-08-14 21:10:40',scheduler_id='396d371d-e467-12ed-becc-53a1ea5bdab6',execute_time='2014-08-14 21:10:00',status='done',resolution='success',message=NULL,target='function::cleanJobQueue',data=NULL,requeue=0,retry_count=NULL,failure_count=NULL,job_delay=0,client='CRON2f2bdc99e4ae312fb8f8b41e5fe268c0:11352',percent_complete=NULL
+					 WHERE  job_queue.id = '1276a894-396f-42ef-b9ae-53ed28147a6d' AND deleted=0: MySQL error 1205: Lock wait timeout exceeded; try restarting transaction
+Thu Aug 14 22:05:06 2014 [11444][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 22:05:39 2014 [11387][1][FATAL] Error updating table: job_queue: Query Failed: UPDATE job_queue
+					SET assigned_user_id='1',name='Clean Jobs Queue',date_modified='2014-08-14 21:22:57',scheduler_id='396d371d-e467-12ed-becc-53a1ea5bdab6',execute_time='2014-08-14 21:10:00',status='done',resolution='failure',message='Unexpected failure, please check PHP logs and sugarcrm.log\n',target='function::cleanJobQueue',data=NULL,requeue=0,retry_count=NULL,failure_count=1,job_delay=0,client='CRON2f2bdc99e4ae312fb8f8b41e5fe268c0:11387',percent_complete=NULL
+					 WHERE  job_queue.id = '87dee5f5-86cb-4ae8-67dc-53ed28fb926e' AND deleted=0: MySQL error 1205: Lock wait timeout exceeded; try restarting transaction
+Thu Aug 14 22:06:14 2014 [11352][1][FATAL] Job 1276a894-396f-42ef-b9ae-53ed28147a6d (Clean Jobs Queue) failed in CRON run
+Thu Aug 14 22:07:25 2014 [11404][1][FATAL]  Query Failed: UPDATE job_queue SET status='running', date_modified='2014-08-14 21:21:39', client='CRON2f2bdc99e4ae312fb8f8b41e5fe268c0:11404' WHERE id='489a19dc-f4b3-3ce6-73ae-53ed271fe306' AND status='queued': MySQL error 1205: Lock wait timeout exceeded; try restarting transaction
+Thu Aug 14 22:08:46 2014 [11521][1][FATAL]  Query Failed: UPDATE job_queue SET status='running', date_modified='2014-08-14 21:46:51', client='CRON2f2bdc99e4ae312fb8f8b41e5fe268c0:11521' WHERE id='489a19dc-f4b3-3ce6-73ae-53ed271fe306' AND status='queued': MySQL error 1205: Lock wait timeout exceeded; try restarting transaction
+Thu Aug 14 22:09:23 2014 [11501][1][FATAL]  Query Failed: UPDATE job_queue SET status='running', date_modified='2014-08-14 21:46:53', client='CRON2f2bdc99e4ae312fb8f8b41e5fe268c0:11501' WHERE id='489a19dc-f4b3-3ce6-73ae-53ed271fe306' AND status='queued': MySQL error 1205: Lock wait timeout exceeded; try restarting transaction
+Thu Aug 14 22:09:55 2014 [11404][1][FATAL] Error updating table: job_queue: Query Failed: UPDATE job_queue
+					SET assigned_user_id='1',name='Clean Jobs Queue',date_modified='2014-08-14 21:21:39',scheduler_id='396d371d-e467-12ed-becc-53a1ea5bdab6',execute_time='2014-08-14 21:10:00',status='running',resolution='queued',message=NULL,target='function::cleanJobQueue',data=NULL,requeue=0,retry_count=NULL,failure_count=NULL,job_delay=0,client='CRON2f2bdc99e4ae312fb8f8b41e5fe268c0:11404',percent_complete=NULL
+					 WHERE  job_queue.id = '489a19dc-f4b3-3ce6-73ae-53ed271fe306' AND deleted=0: MySQL error 1205: Lock wait timeout exceeded; try restarting transaction
+Thu Aug 14 22:10:38 2014 [11521][1][FATAL] Error updating table: job_queue: Query Failed: UPDATE job_queue
+					SET assigned_user_id='1',name='Clean Jobs Queue',date_modified='2014-08-14 21:46:51',scheduler_id='396d371d-e467-12ed-becc-53a1ea5bdab6',execute_time='2014-08-14 21:10:00',status='running',resolution='queued',message=NULL,target='function::cleanJobQueue',data=NULL,requeue=0,retry_count=NULL,failure_count=NULL,job_delay=0,client='CRON2f2bdc99e4ae312fb8f8b41e5fe268c0:11521',percent_complete=NULL
+					 WHERE  job_queue.id = '489a19dc-f4b3-3ce6-73ae-53ed271fe306' AND deleted=0: MySQL error 1205: Lock wait timeout exceeded; try restarting transaction
+Thu Aug 14 22:10:57 2014 [11501][1][FATAL] Error updating table: job_queue: Query Failed: UPDATE job_queue
+					SET assigned_user_id='1',name='Clean Jobs Queue',date_modified='2014-08-14 21:46:53',scheduler_id='396d371d-e467-12ed-becc-53a1ea5bdab6',execute_time='2014-08-14 21:10:00',status='running',resolution='queued',message=NULL,target='function::cleanJobQueue',data=NULL,requeue=0,retry_count=NULL,failure_count=NULL,job_delay=0,client='CRON2f2bdc99e4ae312fb8f8b41e5fe268c0:11501',percent_complete=NULL
+					 WHERE  job_queue.id = '489a19dc-f4b3-3ce6-73ae-53ed271fe306' AND deleted=0: MySQL error 1205: Lock wait timeout exceeded; try restarting transaction
+Thu Aug 14 22:12:13 2014 [11352][1][FATAL] Error updating table: job_queue: Query Failed: UPDATE job_queue
+					SET assigned_user_id='1',name='Clean Jobs Queue',date_modified='2014-08-14 21:10:40',scheduler_id='396d371d-e467-12ed-becc-53a1ea5bdab6',execute_time='2014-08-14 21:10:00',status='done',resolution='failure',message='Unexpected failure, please check PHP logs and sugarcrm.log\n',target='function::cleanJobQueue',data=NULL,requeue=0,retry_count=NULL,failure_count=1,job_delay=0,client='CRON2f2bdc99e4ae312fb8f8b41e5fe268c0:11352',percent_complete=NULL
+					 WHERE  job_queue.id = '1276a894-396f-42ef-b9ae-53ed28147a6d' AND deleted=0: MySQL error 1205: Lock wait timeout exceeded; try restarting transaction
+Thu Aug 14 22:12:17 2014 [11554][1][FATAL]  Query Failed: UPDATE job_queue SET status='running', date_modified='2014-08-14 21:54:15', client='CRON2f2bdc99e4ae312fb8f8b41e5fe268c0:11554' WHERE id='489a19dc-f4b3-3ce6-73ae-53ed271fe306' AND status='queued': MySQL error 1205: Lock wait timeout exceeded; try restarting transaction
+Thu Aug 14 22:39:54 2014 [11683][1][FATAL] Error inserting into table: job_queue: Query Failed: INSERT INTO job_queue (assigned_user_id,id,name,deleted,date_entered,date_modified,scheduler_id,execute_time,status,resolution,target,requeue,job_delay,client)
+					VALUES ('1','26edbcbe-d267-0489-20bd-53ed3a01561e','Milestone Notification',0,'2014-08-14 22:17:30','2014-08-14 22:17:30','81311c5d-eab4-c4fc-8eda-53a1eb3b1455','2014-08-14 22:17:30','queued','queued','function::milestone_notification',0,0,''): MySQL error 1205: Lock wait timeout exceeded; try restarting transaction
+Thu Aug 14 22:54:10 2014 [11758][1][FATAL] Error updating table: job_queue: Query Failed: UPDATE job_queue
+					SET assigned_user_id='1',name='Milestone Notification',date_modified='2014-08-14 22:23:19',scheduler_id='81311c5d-eab4-c4fc-8eda-53a1eb3b1455',execute_time='2014-08-14 22:17:00',status='running',resolution='queued',message=NULL,target='function::milestone_notification',data=NULL,requeue=0,retry_count=NULL,failure_count=NULL,job_delay=0,client='CRON2f2bdc99e4ae312fb8f8b41e5fe268c0:11758',percent_complete=NULL
+					 WHERE  job_queue.id = 'b789f301-d653-0c19-67c1-53ed393816a2' AND deleted=0: MySQL error 1205: Lock wait timeout exceeded; try restarting transaction
+Thu Aug 14 22:59:21 2014 [11816][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 23:02:30 2014 [11839][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 23:41:14 2014 [11932][1][FATAL] Job runs too frequently, throttled to protect the system.
+Thu Aug 14 23:41:23 2014 [12003][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 00:07:00 2014 [12275][-none-][FATAL] Could not connect to DB server localhost as root. port : MySQL server has gone away
+Fri Aug 15 00:14:32 2014 [12279][-none-][FATAL] Could not connect to DB server localhost as root. port : MySQL server has gone away
+Fri Aug 15 01:05:14 2014 [12626][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 01:05:40 2014 [12495][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 01:09:55 2014 [12712][-none-][FATAL] Could not connect to DB server localhost as root. port : MySQL server has gone away
+Fri Aug 15 01:19:22 2014 [12497][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 01:26:04 2014 [12841][-none-][FATAL] Could not connect to DB server localhost as root. port : MySQL server has gone away
+Fri Aug 15 01:29:59 2014 [12696][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 01:30:00 2014 [12739][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 01:51:11 2014 [12873][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 02:15:07 2014 [13088][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 02:15:09 2014 [13064][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 02:15:12 2014 [13127][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 02:15:27 2014 [13029][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 02:36:20 2014 [13213][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 02:38:14 2014 [13156][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 02:40:26 2014 [13332][-none-][FATAL] Could not connect to DB server localhost as root. port : MySQL server has gone away
+Fri Aug 15 03:02:27 2014 [13353][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 03:30:04 2014 [13477][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 04:35:41 2014 [13961][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 04:35:46 2014 [13956][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 04:35:50 2014 [13959][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 04:39:07 2014 [13933][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 04:39:35 2014 [13967][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 04:42:01 2014 [14054][-none-][FATAL] Could not connect to DB server localhost as root. port : MySQL server has gone away
+Fri Aug 15 04:54:24 2014 [14009][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 04:54:26 2014 [14067][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 04:56:22 2014 [14126][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 04:56:29 2014 [14121][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 04:58:09 2014 [14115][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 04:58:08 2014 [14087][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 05:19:51 2014 [14178][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 05:38:41 2014 [14321][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 05:51:59 2014 [14412][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 05:52:14 2014 [14391][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 06:11:35 2014 [14552][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 06:11:37 2014 [14519][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 06:16:02 2014 [14575][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 06:34:08 2014 [14740][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 06:35:10 2014 [14675][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 06:44:43 2014 [14750][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 07:06:49 2014 [14849][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 07:07:00 2014 [14863][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 07:07:25 2014 [14828][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 07:42:23 2014 [15105][-none-][FATAL] Could not connect to DB server localhost as root. port : MySQL server has gone away
+Fri Aug 15 08:00:16 2014 [15143][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 08:33:07 2014 [15266][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 08:38:20 2014 [15362][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 08:46:09 2014 [15488][-none-][FATAL] Could not connect to DB server localhost as root. port : MySQL server has gone away
+Fri Aug 15 09:02:39 2014 [15545][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 09:11:25 2014 [15553][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 09:20:24 2014 [15612][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 09:20:25 2014 [15675][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 09:20:41 2014 [15637][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 09:20:44 2014 [15654][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 09:28:14 2014 [15702][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 09:29:26 2014 [15696][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 09:37:56 2014 [15804][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 09:41:23 2014 [15803][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 10:03:35 2014 [15913][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 10:08:33 2014 [16010][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 10:51:33 2014 [16189][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 10:53:59 2014 [16320][-none-][FATAL] Could not connect to DB server localhost as root. port : MySQL server has gone away
+Fri Aug 15 10:54:00 2014 [16301][-none-][FATAL] Could not connect to DB server localhost as root. port : MySQL server has gone away
+Fri Aug 15 11:13:08 2014 [16287][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 11:35:54 2014 [16560][-none-][FATAL] Could not connect to DB server localhost as root. port : MySQL server has gone away
+Fri Aug 15 11:38:12 2014 [16581][-none-][FATAL] Could not connect to DB server localhost as root. port : MySQL server has gone away
+Fri Aug 15 11:46:41 2014 [16371][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 11:46:47 2014 [16392][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 11:59:36 2014 [16558][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 12:26:44 2014 [16680][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 12:31:27 2014 [16835][-none-][FATAL] Could not connect to DB server localhost as root. port : MySQL server has gone away
+Fri Aug 15 12:35:56 2014 [16823][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 13:01:47 2014 [17056][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 13:16:33 2014 [17009][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 13:38:06 2014 [17139][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 13:37:52 2014 [17115][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 14:12:37 2014 [17422][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 14:18:42 2014 [17438][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 14:33:37 2014 [17635][-none-][FATAL] Could not connect to DB server localhost as root. port : MySQL server has gone away
+Fri Aug 15 14:44:53 2014 [17688][-none-][FATAL] Could not connect to DB server localhost as root. port : MySQL server has gone away
+Fri Aug 15 15:14:33 2014 [17994][-none-][FATAL] Could not connect to DB server localhost as root. port : Too many connections
+Fri Aug 15 15:14:33 2014 [17983][-none-][FATAL] Could not connect to DB server localhost as root. port : Too many connections
+Fri Aug 15 15:41:03 2014 [17965][-none-][FATAL]  Query Failed: SELECT id FROM outbound_email WHERE type = 'system': MySQL error 2006: MySQL server has gone away
+Fri Aug 15 15:41:09 2014 [17984][-none-][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='Employees' AND  deleted = 0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 15:41:32 2014 [17769][1][FATAL] Failed to load user preferences Query Failed: SELECT contents FROM user_preferences WHERE assigned_user_id='1' AND category = 'global' AND deleted = 0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 15:41:47 2014 [17965][-none-][FATAL]  Query Failed: INSERT INTO outbound_email (id,name,type,user_id,mail_sendtype,mail_smtptype,mail_smtpserver,mail_smtpport,mail_smtpuser,mail_smtppass,mail_smtpauth_req,mail_smtpssl) VALUES ('34529acb-ba0b-05c0-cc91-53ee2a7adab8','system','system','1','SMTP','other','',25,'','',1,0): MySQL error 2006: MySQL server has gone away
+Fri Aug 15 15:42:05 2014 [18044][-none-][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='Employees' AND  deleted = 0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 15:42:25 2014 [17769][1][FATAL] Error filling in user array:  Query Failed: SELECT id, first_name, last_name, user_name from users WHERE 1=1 ORDER BY first_name, last_name ASC: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 15:43:26 2014 [17984][-none-][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='EmailAddresses' AND  deleted = 0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 15:44:23 2014 [17984][-none-][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='UserPreferences' AND  deleted = 0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 15:44:43 2014 [18044][-none-][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='EmailAddresses' AND  deleted = 0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 08:44:53 2014 [17739][-none-][FATAL] Unable to retrieve system settings Query Failed: SELECT category, name, value FROM config WHERE category = 'captcha': MySQL error 2006: MySQL server has gone away
+Fri Aug 15 15:44:56 2014 [17789][1][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='dash_DashboardManager' AND  deleted = 0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 15:45:34 2014 [17984][-none-][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='Administration' AND  deleted = 0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 15:45:49 2014 [18044][-none-][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='UserPreferences' AND  deleted = 0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 15:46:06 2014 [17984][-none-][FATAL] Unable to retrieve system settings Query Failed: SELECT category, name, value FROM config: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 15:46:56 2014 [17789][1][FATAL]  Query Failed: SELECT dash_dashboardmanager_users_2dash_dashboardmanager_ida id FROM dash_dashboardmanager_users_2_c  WHERE dash_dashboardmanager_users_2_c.dash_dashboardmanager_users_2users_idb = '1' AND dash_dashboardmanager_users_2_c.deleted=0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 15:48:20 2014 [18146][-none-][FATAL] Could not connect to DB server localhost as root. port : Connection refused
+Fri Aug 15 15:48:26 2014 [17789][1][FATAL]  Query Failed: SELECT dash_dashboardmanager_users_1dash_dashboardmanager_ida id FROM dash_dashboardmanager_users_1_c  WHERE dash_dashboardmanager_users_1_c.dash_dashboardmanager_users_1users_idb = '1' AND dash_dashboardmanager_users_1_c.deleted=0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 15:48:28 2014 [18063][-none-][FATAL] Could not connect to DB server localhost as root. port : Connection refused
+Fri Aug 15 15:49:25 2014 [17789][1][FATAL]  Query Failed: SELECT dash_dashboardmanager_usersdash_dashboardmanager_ida id FROM dash_dashboardmanager_users_c  WHERE dash_dashboardmanager_users_c.dash_dashboardmanager_usersusers_idb = '1' AND dash_dashboardmanager_users_c.deleted=0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 15:48:59 2014 [18044][-none-][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='Administration' AND  deleted = 0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 15:50:41 2014 [17789][1][FATAL]  Query Failed: SELECT ea.email_address, ea.email_address_caps, ea.invalid_email, ea.opt_out, ea.date_created, ea.date_modified,
+                ear.id, ear.email_address_id, ear.bean_id, ear.bean_module, ear.primary_address, ear.reply_to_address, ear.deleted
+                FROM email_addresses ea LEFT JOIN email_addr_bean_rel ear ON ea.id = ear.email_address_id
+                WHERE ear.bean_module = 'Users'
+                AND ear.bean_id = '1'
+                AND ear.deleted = 0
+                ORDER BY ear.reply_to_address, ear.primary_address DESC: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 15:50:42 2014 [18044][-none-][FATAL] Unable to retrieve system settings Query Failed: SELECT category, name, value FROM config: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 15:52:21 2014 [18092][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Fri Aug 15 15:55:14 2014 [17789][1][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='SchedulersJobs' AND  deleted = 0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 15:56:29 2014 [17789][1][FATAL]  Query Failed: SELECT id FROM job_queue WHERE status='running' AND date_modified <= '2014-08-14 14:59:59': MySQL error 2006: MySQL server has gone away
+Fri Aug 15 15:56:49 2014 [17789][1][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='Schedulers' AND  deleted = 0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 15:57:07 2014 [18120][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Fri Aug 15 15:57:15 2014 [18147][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Fri Aug 15 15:57:39 2014 [17789][1][FATAL]  Query Failed:  SELECT  schedulers.*  , jt0.user_name created_by_name , jt0.created_by created_by_name_owner  , 'Users' created_by_name_mod , jt1.user_name modified_by_name , jt1.created_by modified_by_name_owner  , 'Users' modified_by_name_mod FROM schedulers   LEFT JOIN  users jt0 ON jt0.id=schedulers.created_by AND jt0.deleted=0
+ AND jt0.deleted=0  LEFT JOIN  users jt1 ON schedulers.modified_user_id=jt1.id AND jt1.deleted=0
+
+ AND jt1.deleted=0 where (schedulers.status='Active' AND NOT EXISTS(SELECT id FROM job_queue WHERE scheduler_id=schedulers.id AND status!='done')) AND schedulers.deleted=0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 15:57:47 2014 [17789][1][FATAL]  Query Failed: SELECT id FROM job_queue WHERE execute_time <= '2014-08-15 14:59:59' AND status = 'queued' ORDER BY date_entered ASC LIMIT 0,1: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 15:57:47 2014 [17789][1][FATAL]  Get One Failed:SELECT id FROM job_queue WHERE execute_time <= '2014-08-15 14:59:59' AND status = 'queued' ORDER BY date_entered ASC: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 16:02:42 2014 [18200][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Fri Aug 15 16:06:01 2014 [18336][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Fri Aug 15 16:06:06 2014 [18323][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Fri Aug 15 16:06:17 2014 [18319][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Fri Aug 15 16:06:22 2014 [18328][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Fri Aug 15 16:06:28 2014 [18291][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Fri Aug 15 16:06:35 2014 [18365][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Fri Aug 15 16:07:21 2014 [18332][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Fri Aug 15 16:16:49 2014 [18415][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 16:16:56 2014 [18376][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 16:17:01 2014 [18352][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 16:17:07 2014 [18397][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 16:17:13 2014 [18362][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 16:17:19 2014 [18401][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 16:17:26 2014 [18411][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 16:17:43 2014 [18361][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 16:18:02 2014 [18427][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 16:19:21 2014 [18479][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 16:19:34 2014 [18559][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 16:21:50 2014 [18583][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 16:23:30 2014 [18619][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 16:26:42 2014 [18656][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 16:30:49 2014 [18717][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 16:33:03 2014 [18736][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 16:38:09 2014 [18820][-none-][FATAL] Could not connect to DB server localhost as root. port : MySQL server has gone away
+Fri Aug 15 16:53:29 2014 [18833][-none-][FATAL] Could not connect to DB server localhost as root. port : MySQL server has gone away
+Fri Aug 15 17:22:22 2014 [18932][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 17:41:24 2014 [19125][-none-][FATAL] Could not connect to DB server localhost as root. port : MySQL server has gone away
+Fri Aug 15 17:51:19 2014 [19113][-none-][FATAL] Could not connect to DB server localhost as root. port : MySQL server has gone away
+Fri Aug 15 18:08:11 2014 [19123][1][FATAL] Failed to load user preferences Query Failed: SELECT contents FROM user_preferences WHERE assigned_user_id='1' AND category = 'global' AND deleted = 0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:08:11 2014 [19086][1][FATAL] Error filling in user array:  Query Failed: SELECT id, first_name, last_name, user_name from users WHERE 1=1 ORDER BY first_name, last_name ASC: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:08:09 2014 [19035][1][FATAL]  Query Failed:  SELECT  schedulers.*  , jt0.user_name created_by_name , jt0.created_by created_by_name_owner  , 'Users' created_by_name_mod , jt1.user_name modified_by_name , jt1.created_by modified_by_name_owner  , 'Users' modified_by_name_mod FROM schedulers   LEFT JOIN  users jt0 ON jt0.id=schedulers.created_by AND jt0.deleted=0
+ AND jt0.deleted=0  LEFT JOIN  users jt1 ON schedulers.modified_user_id=jt1.id AND jt1.deleted=0
+
+ AND jt1.deleted=0 where (schedulers.status='Active' AND NOT EXISTS(SELECT id FROM job_queue WHERE scheduler_id=schedulers.id AND status!='done')) AND schedulers.deleted=0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:08:18 2014 [19053][1][FATAL] Failed to load user preferences Query Failed: SELECT contents FROM user_preferences WHERE assigned_user_id='1' AND category = 'global' AND deleted = 0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:08:18 2014 [19014][1][FATAL]  Query Failed: SELECT dash_dashboardmanager_users_1dash_dashboardmanager_ida id FROM dash_dashboardmanager_users_1_c  WHERE dash_dashboardmanager_users_1_c.dash_dashboardmanager_users_1users_idb = '1' AND dash_dashboardmanager_users_1_c.deleted=0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:08:07 2014 [19031][1][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='SchedulersJobs' AND  deleted = 0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:09:10 2014 [19014][1][FATAL]  Query Failed: SELECT dash_dashboardmanager_usersdash_dashboardmanager_ida id FROM dash_dashboardmanager_users_c  WHERE dash_dashboardmanager_users_c.dash_dashboardmanager_usersusers_idb = '1' AND dash_dashboardmanager_users_c.deleted=0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:09:03 2014 [19039][1][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='SchedulersJobs' AND  deleted = 0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:09:32 2014 [19031][1][FATAL]  Query Failed: SELECT id FROM job_queue WHERE status='running' AND date_modified <= '2014-08-14 17:22:10': MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:10:09 2014 [19014][1][FATAL]  Query Failed: SELECT ea.email_address, ea.email_address_caps, ea.invalid_email, ea.opt_out, ea.date_created, ea.date_modified,
+                ear.id, ear.email_address_id, ear.bean_id, ear.bean_module, ear.primary_address, ear.reply_to_address, ear.deleted
+                FROM email_addresses ea LEFT JOIN email_addr_bean_rel ear ON ea.id = ear.email_address_id
+                WHERE ear.bean_module = 'Users'
+                AND ear.bean_id = '1'
+                AND ear.deleted = 0
+                ORDER BY ear.reply_to_address, ear.primary_address DESC: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:10:13 2014 [19053][1][FATAL] Error filling in user array:  Query Failed: SELECT id, first_name, last_name, user_name from users WHERE 1=1 ORDER BY first_name, last_name ASC: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:10:17 2014 [19031][1][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='Schedulers' AND  deleted = 0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:10:22 2014 [19035][1][FATAL]  Query Failed: SELECT id FROM job_queue WHERE execute_time <= '2014-08-15 17:22:11' AND status = 'queued' ORDER BY date_entered ASC LIMIT 0,1: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:10:22 2014 [19035][1][FATAL]  Get One Failed:SELECT id FROM job_queue WHERE execute_time <= '2014-08-15 17:22:11' AND status = 'queued' ORDER BY date_entered ASC: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:10:52 2014 [19123][1][FATAL] Error filling in user array:  Query Failed: SELECT id, first_name, last_name, user_name from users WHERE 1=1 ORDER BY first_name, last_name ASC: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:11:36 2014 [19039][1][FATAL]  Query Failed: SELECT id FROM job_queue WHERE status='running' AND date_modified <= '2014-08-14 17:22:11': MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:11:58 2014 [19014][1][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='SchedulersJobs' AND  deleted = 0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:13:07 2014 [19014][1][FATAL]  Query Failed: SELECT id FROM job_queue WHERE status='running' AND date_modified <= '2014-08-14 17:22:10': MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:13:07 2014 [19014][1][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='Schedulers' AND  deleted = 0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:13:17 2014 [19039][1][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='Schedulers' AND  deleted = 0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:16:00 2014 [19014][1][FATAL]  Query Failed:  SELECT  schedulers.*  , jt0.user_name created_by_name , jt0.created_by created_by_name_owner  , 'Users' created_by_name_mod , jt1.user_name modified_by_name , jt1.created_by modified_by_name_owner  , 'Users' modified_by_name_mod FROM schedulers   LEFT JOIN  users jt0 ON jt0.id=schedulers.created_by AND jt0.deleted=0
+ AND jt0.deleted=0  LEFT JOIN  users jt1 ON schedulers.modified_user_id=jt1.id AND jt1.deleted=0
+
+ AND jt1.deleted=0 where (schedulers.status='Active' AND NOT EXISTS(SELECT id FROM job_queue WHERE scheduler_id=schedulers.id AND status!='done')) AND schedulers.deleted=0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:16:58 2014 [19031][1][FATAL]  Query Failed:  SELECT  schedulers.*  , jt0.user_name created_by_name , jt0.created_by created_by_name_owner  , 'Users' created_by_name_mod , jt1.user_name modified_by_name , jt1.created_by modified_by_name_owner  , 'Users' modified_by_name_mod FROM schedulers   LEFT JOIN  users jt0 ON jt0.id=schedulers.created_by AND jt0.deleted=0
+ AND jt0.deleted=0  LEFT JOIN  users jt1 ON schedulers.modified_user_id=jt1.id AND jt1.deleted=0
+
+ AND jt1.deleted=0 where (schedulers.status='Active' AND NOT EXISTS(SELECT id FROM job_queue WHERE scheduler_id=schedulers.id AND status!='done')) AND schedulers.deleted=0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:16:58 2014 [19039][1][FATAL]  Query Failed:  SELECT  schedulers.*  , jt0.user_name created_by_name , jt0.created_by created_by_name_owner  , 'Users' created_by_name_mod , jt1.user_name modified_by_name , jt1.created_by modified_by_name_owner  , 'Users' modified_by_name_mod FROM schedulers   LEFT JOIN  users jt0 ON jt0.id=schedulers.created_by AND jt0.deleted=0
+ AND jt0.deleted=0  LEFT JOIN  users jt1 ON schedulers.modified_user_id=jt1.id AND jt1.deleted=0
+
+ AND jt1.deleted=0 where (schedulers.status='Active' AND NOT EXISTS(SELECT id FROM job_queue WHERE scheduler_id=schedulers.id AND status!='done')) AND schedulers.deleted=0: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:16:58 2014 [19031][1][FATAL]  Query Failed: SELECT id FROM job_queue WHERE execute_time <= '2014-08-15 17:22:10' AND status = 'queued' ORDER BY date_entered ASC LIMIT 0,1: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:16:58 2014 [19031][1][FATAL]  Get One Failed:SELECT id FROM job_queue WHERE execute_time <= '2014-08-15 17:22:10' AND status = 'queued' ORDER BY date_entered ASC: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:16:58 2014 [19039][1][FATAL]  Query Failed: SELECT id FROM job_queue WHERE execute_time <= '2014-08-15 17:22:11' AND status = 'queued' ORDER BY date_entered ASC LIMIT 0,1: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:16:58 2014 [19039][1][FATAL]  Get One Failed:SELECT id FROM job_queue WHERE execute_time <= '2014-08-15 17:22:11' AND status = 'queued' ORDER BY date_entered ASC: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:17:41 2014 [19014][1][FATAL]  Query Failed: SELECT id FROM job_queue WHERE execute_time <= '2014-08-15 17:22:10' AND status = 'queued' ORDER BY date_entered ASC LIMIT 0,1: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:18:12 2014 [19014][1][FATAL]  Get One Failed:SELECT id FROM job_queue WHERE execute_time <= '2014-08-15 17:22:10' AND status = 'queued' ORDER BY date_entered ASC: MySQL error 2006: MySQL server has gone away
+Fri Aug 15 18:18:49 2014 [19262][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Fri Aug 15 18:23:43 2014 [19176][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Fri Aug 15 18:24:52 2014 [19157][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Fri Aug 15 18:27:34 2014 [19369][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Fri Aug 15 18:27:41 2014 [19440][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Fri Aug 15 18:27:46 2014 [19460][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Fri Aug 15 18:28:11 2014 [19457][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Fri Aug 15 18:28:31 2014 [19453][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Fri Aug 15 18:28:36 2014 [19447][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Fri Aug 15 18:29:41 2014 [19463][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Fri Aug 15 18:29:51 2014 [19466][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Fri Aug 15 18:30:12 2014 [19480][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Fri Aug 15 18:31:49 2014 [19494][-none-][FATAL] Could not connect to DB server localhost as root. port : No such file or directory
+Fri Aug 15 18:34:51 2014 [19525][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 18:34:57 2014 [19535][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 18:39:42 2014 [19587][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 18:40:00 2014 [19578][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 18:45:17 2014 [19623][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 18:49:38 2014 [19668][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 18:51:36 2014 [19687][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 18:55:26 2014 [19701][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 18:59:12 2014 [19736][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 19:00:42 2014 [19743][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 19:00:43 2014 [19759][1][FATAL] Job runs too frequently, throttled to protect the system.
+Fri Aug 15 19:01:01 2014 [19816][1][FATAL] Job runs too frequently, throttled to protect the system.

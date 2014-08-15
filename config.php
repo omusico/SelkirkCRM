@@ -1,6 +1,8 @@
 <?php
-// created: 2014-07-16 11:54:46
+// created: 2014-07-17 15:55:05
 $sugar_config = array (
+  'SAML_X509Cert' => '',
+  'SAML_loginurl' => '',
   'addAjaxBannedModules' => 
   array (
     0 => 'SecurityGroups',
@@ -82,6 +84,7 @@ $sugar_config = array (
       'initialNumber' => '1',
     ),
   ),
+  'authenticationClass' => '',
   'cache_dir' => 'cache/',
   'calculate_response_time' => false,
   'calendar' => 
@@ -132,6 +135,7 @@ $sugar_config = array (
     'min_cron_interval' => 30,
   ),
   'currency' => '',
+  'dashlet_auto_refresh_min' => '30',
   'dashlet_display_row_options' => 
   array (
     0 => '1',
@@ -279,6 +283,7 @@ $sugar_config = array (
   'default_locale_name_format' => 's f l',
   'default_max_tabs' => 10,
   'default_module' => 'Home',
+  'default_module_favicon' => false,
   'default_navigation_paradigm' => 'gm',
   'default_number_grouping_seperator' => ',',
   'default_password' => '',
@@ -298,9 +303,11 @@ $sugar_config = array (
   'default_user_is_admin' => false,
   'default_user_name' => '',
   'demoData' => 'no',
+  'developerMode' => true,
   'disable_convert_lead' => false,
   'disable_export' => false,
   'disable_persistent_connections' => 'false',
+  'disabled_languages' => 'es_es,ru_ru',
   'display_email_template_variable_chooser' => false,
   'display_inbound_email_buttons' => false,
   'dump_slow_queries' => false,
@@ -308,8 +315,16 @@ $sugar_config = array (
   'email_default_client' => 'sugar',
   'email_default_delete_attachments' => true,
   'email_default_editor' => 'html',
+  'email_xss' => 'YToxMzp7czo2OiJhcHBsZXQiO3M6NjoiYXBwbGV0IjtzOjQ6ImJhc2UiO3M6NDoiYmFzZSI7czo1OiJlbWJlZCI7czo1OiJlbWJlZCI7czo0OiJmb3JtIjtzOjQ6ImZvcm0iO3M6NToiZnJhbWUiO3M6NToiZnJhbWUiO3M6ODoiZnJhbWVzZXQiO3M6ODoiZnJhbWVzZXQiO3M6NjoiaWZyYW1lIjtzOjY6ImlmcmFtZSI7czo2OiJpbXBvcnQiO3M6ODoiXD9pbXBvcnQiO3M6NToibGF5ZXIiO3M6NToibGF5ZXIiO3M6NDoibGluayI7czo0OiJsaW5rIjtzOjY6Im9iamVjdCI7czo2OiJvYmplY3QiO3M6MzoieG1wIjtzOjM6InhtcCI7czo2OiJzY3JpcHQiO3M6Njoic2NyaXB0Ijt9',
+  'enable_action_menu' => true,
   'export_delimiter' => ',',
   'export_excel_compatible' => false,
+  'hide_history_contacts_emails' => 
+  array (
+    'Cases' => true,
+    'Accounts' => true,
+    'Opportunities' => true,
+  ),
   'history_max_viewed' => 50,
   'host_name' => 'rdi-connect.sgrc.selkirk.ca',
   'import_max_execution_time' => 3600,
@@ -323,7 +338,7 @@ $sugar_config = array (
     'timeout' => 86400,
   ),
   'js_custom_version' => 1,
-  'js_lang_version' => 32,
+  'js_lang_version' => 33,
   'languages' => 
   array (
     'en_us' => 'English (US)',
@@ -402,21 +417,22 @@ $sugar_config = array (
   'save_query' => 'no',
   'search_wildcard_char' => '*',
   'search_wildcard_infront' => false,
-  'securitysuite_additive' => true,
+  'securitysuite_additive' => false,
   'securitysuite_filter_user_list' => false,
   'securitysuite_inherit_assigned' => true,
   'securitysuite_inherit_creator' => true,
   'securitysuite_inherit_parent' => true,
-  'securitysuite_popup_select' => false,
-  'securitysuite_strict_rights' => false,
+  'securitysuite_popup_select' => true,
+  'securitysuite_strict_rights' => true,
   'securitysuite_user_popup' => true,
-  'securitysuite_user_role_precedence' => true,
+  'securitysuite_user_role_precedence' => false,
   'securitysuite_version' => '6.5.16',
   'session_dir' => '',
   'showDetailData' => true,
   'showThemePicker' => true,
   'site_url' => 'http://rdi-connect.sgrc.selkirk.ca/SelkirkCRM',
   'slow_query_time_msec' => '100',
+  'stack_trace_errors' => false,
   'sugar_version' => '6.5.16',
   'sugarbeet' => false,
   'suitecrm_version' => '7.1.1',
@@ -460,20 +476,4 @@ $sugar_config = array (
   'use_real_names' => true,
   'vcal_time' => '2',
   'verify_client_ip' => true,
-  'email_xss' => 'YToxMzp7czo2OiJhcHBsZXQiO3M6NjoiYXBwbGV0IjtzOjQ6ImJhc2UiO3M6NDoiYmFzZSI7czo1OiJlbWJlZCI7czo1OiJlbWJlZCI7czo0OiJmb3JtIjtzOjQ6ImZvcm0iO3M6NToiZnJhbWUiO3M6NToiZnJhbWUiO3M6ODoiZnJhbWVzZXQiO3M6ODoiZnJhbWVzZXQiO3M6NjoiaWZyYW1lIjtzOjY6ImlmcmFtZSI7czo2OiJpbXBvcnQiO3M6ODoiXD9pbXBvcnQiO3M6NToibGF5ZXIiO3M6NToibGF5ZXIiO3M6NDoibGluayI7czo0OiJsaW5rIjtzOjY6Im9iamVjdCI7czo2OiJvYmplY3QiO3M6MzoieG1wIjtzOjM6InhtcCI7czo2OiJzY3JpcHQiO3M6Njoic2NyaXB0Ijt9',
-  'default_module_favicon' => false,
-  'dashlet_auto_refresh_min' => '30',
-  'enable_action_menu' => true,
-  'stack_trace_errors' => false,
-  'developerMode' => true,
-  'disabled_languages' => 'es_es,ru_ru',
-  'hide_history_contacts_emails' => 
-  array (
-    'Cases' => true,
-    'Accounts' => true,
-    'Opportunities' => true,
-  ),
-  'SAML_loginurl' => '',
-  'SAML_X509Cert' => '',
-  'authenticationClass' => '',
 );

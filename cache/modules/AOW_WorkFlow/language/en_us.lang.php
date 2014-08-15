@@ -1,5 +1,5 @@
 <?php
-// created: 2014-07-16 20:25:01
+// created: 2014-08-15 21:23:02
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -19,15 +19,15 @@ $mod_strings = array (
   'LBL_REMOVE' => 'Remove',
   'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
   'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
-  'LBL_LIST_FORM_TITLE' => 'WorkFlow_not_used List',
+  'LBL_LIST_FORM_TITLE' => 'ZWorkFlow_not_used List',
   'LBL_MODULE_NAME' => 'WorkFlow',
   'LBL_MODULE_TITLE' => 'WorkFlow',
   'LBL_HOMEPAGE_TITLE' => 'My Work Flow',
-  'LNK_NEW_RECORD' => 'Create WorkFlow_not_used',
-  'LNK_LIST' => 'View WorkFlow_not_used',
+  'LNK_NEW_RECORD' => 'Create ZWorkFlow_not_used',
+  'LNK_LIST' => 'View ZWorkFlow_not_used',
   'LNK_PROCESSED_LIST' => 'View Process Audit',
-  'LNK_IMPORT_AOW_WORKFLOW' => 'Import WorkFlow_not_used',
-  'LBL_SEARCH_FORM_TITLE' => 'Search WorkFlow_not_used',
+  'LNK_IMPORT_AOW_WORKFLOW' => 'Import ZWorkFlow_not_used',
+  'LBL_SEARCH_FORM_TITLE' => 'Search ZWorkFlow_not_used',
   'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
   'LBL_AOW_WORKFLOW_SUBPANEL_TITLE' => 'WorkFlow',

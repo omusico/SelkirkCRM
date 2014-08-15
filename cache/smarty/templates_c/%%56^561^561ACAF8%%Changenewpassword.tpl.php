@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-07-15 22:56:54
+<?php /* Smarty version 2.6.11, created on 2014-07-30 12:24:14
          compiled from modules/Users/Changenewpassword.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getjspath', 'modules/Users/Changenewpassword.tpl', 52, false),)), $this); ?>

@@ -1,7 +1,7 @@
 <?php
-// created: 2014-06-24 16:22:25
+// created: 2014-07-16 14:07:14
 $mod_strings = array (
-  'LBL_CALLS' => 'Calls_not_used',
-  'LBL_EMAILS' => 'Emails_not_used',
-  'LBL_MEETINGS' => 'Meetings_not_used',
+  'LBL_CALLS' => 'ZCalls_not_used',
+  'LBL_EMAILS' => 'ZEmails_not_used',
+  'LBL_MEETINGS' => 'ZMeetings_not_used',
 );

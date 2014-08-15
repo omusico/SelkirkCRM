@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.11, created on 2014-07-16 09:06:09
+<?php /* Smarty version 2.6.11, created on 2014-07-17 15:55:45
          compiled from cache/modules/sel_Selkirk_Contact/DetailView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/modules/sel_Selkirk_Contact/DetailView.tpl', 33, false),array('function', 'counter', 'cache/modules/sel_Selkirk_Contact/DetailView.tpl', 38, false),array('function', 'sugar_translate', 'cache/modules/sel_Selkirk_Contact/DetailView.tpl', 47, false),array('modifier', 'strip_semicolon', 'cache/modules/sel_Selkirk_Contact/DetailView.tpl', 48, false),array('modifier', 'escape', 'cache/modules/sel_Selkirk_Contact/DetailView.tpl', 395, false),array('modifier', 'url2html', 'cache/modules/sel_Selkirk_Contact/DetailView.tpl', 395, false),array('modifier', 'nl2br', 'cache/modules/sel_Selkirk_Contact/DetailView.tpl', 395, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/modules/sel_Selkirk_Contact/DetailView.tpl', 33, false),array('function', 'counter', 'cache/modules/sel_Selkirk_Contact/DetailView.tpl', 38, false),array('function', 'sugar_translate', 'cache/modules/sel_Selkirk_Contact/DetailView.tpl', 47, false),array('modifier', 'strip_semicolon', 'cache/modules/sel_Selkirk_Contact/DetailView.tpl', 48, false),array('modifier', 'escape', 'cache/modules/sel_Selkirk_Contact/DetailView.tpl', 389, false),array('modifier', 'url2html', 'cache/modules/sel_Selkirk_Contact/DetailView.tpl', 389, false),array('modifier', 'nl2br', 'cache/modules/sel_Selkirk_Contact/DetailView.tpl', 389, false),)), $this); ?>
 
 
 <script language="javascript">
@@ -94,26 +94,26 @@ SUGAR.util.doWhen(function(){
 <?php echo smarty_function_counter(array('name' => 'fieldsUsed'), $this);?>
 
 <td width='12.5%' scope="col">
-<?php if (! $this->_tpl_vars['fields']['business_cycle']['hidden']):  ob_start();  echo smarty_function_sugar_translate(array('label' => 'LBL_BUSINESS_CYCLE','module' => 'sel_Selkirk_Contact'), $this); $this->_smarty_vars['capture']['label'] = ob_get_contents();  $this->assign('label', ob_get_contents());ob_end_clean();  echo ((is_array($_tmp=$this->_tpl_vars['label'])) ? $this->_run_mod_handler('strip_semicolon', true, $_tmp) : smarty_modifier_strip_semicolon($_tmp)); ?>
+<?php if (! $this->_tpl_vars['fields']['status']['hidden']):  ob_start();  echo smarty_function_sugar_translate(array('label' => 'LBL_STATUS','module' => 'sel_Selkirk_Contact'), $this); $this->_smarty_vars['capture']['label'] = ob_get_contents();  $this->assign('label', ob_get_contents());ob_end_clean();  echo ((is_array($_tmp=$this->_tpl_vars['label'])) ? $this->_run_mod_handler('strip_semicolon', true, $_tmp) : smarty_modifier_strip_semicolon($_tmp)); ?>
 :
 <?php endif; ?>
 </td>
 <td width='37.5%'  >
-<?php if (! $this->_tpl_vars['fields']['business_cycle']['hidden']):  echo smarty_function_counter(array('name' => 'panelFieldCount'), $this);?>
+<?php if (! $this->_tpl_vars['fields']['status']['hidden']):  echo smarty_function_counter(array('name' => 'panelFieldCount'), $this);?>
 
 
 
-<?php if (is_string ( $this->_tpl_vars['fields']['business_cycle']['options'] )): ?>
-<input type="hidden" class="sugar_field" id="<?php echo $this->_tpl_vars['fields']['business_cycle']['name']; ?>
-" value="<?php echo $this->_tpl_vars['fields']['business_cycle']['options']; ?>
+<?php if (is_string ( $this->_tpl_vars['fields']['status']['options'] )): ?>
+<input type="hidden" class="sugar_field" id="<?php echo $this->_tpl_vars['fields']['status']['name']; ?>
+" value="<?php echo $this->_tpl_vars['fields']['status']['options']; ?>
 ">
-<?php echo $this->_tpl_vars['fields']['business_cycle']['options']; ?>
+<?php echo $this->_tpl_vars['fields']['status']['options']; ?>
 
 <?php else: ?>
-<input type="hidden" class="sugar_field" id="<?php echo $this->_tpl_vars['fields']['business_cycle']['name']; ?>
-" value="<?php echo $this->_tpl_vars['fields']['business_cycle']['value']; ?>
+<input type="hidden" class="sugar_field" id="<?php echo $this->_tpl_vars['fields']['status']['name']; ?>
+" value="<?php echo $this->_tpl_vars['fields']['status']['value']; ?>
 ">
-<?php echo $this->_tpl_vars['fields']['business_cycle']['options'][$this->_tpl_vars['fields']['business_cycle']['value']]; ?>
+<?php echo $this->_tpl_vars['fields']['status']['options'][$this->_tpl_vars['fields']['status']['value']]; ?>
 
 <?php endif;  endif; ?>
 </td>
@@ -375,7 +375,7 @@ SUGAR.util.doWhen(function(){
 :
 <?php endif; ?>
 </td>
-<td width='37.5%'  >
+<td width='37.5%' colspan='3' >
 <?php if (! $this->_tpl_vars['fields']['assigned_user_name']['hidden']):  echo smarty_function_counter(array('name' => 'panelFieldCount'), $this);?>
 
 
@@ -383,13 +383,6 @@ SUGAR.util.doWhen(function(){
 "><?php echo $this->_tpl_vars['fields']['assigned_user_name']['value']; ?>
 </span>
 <?php endif; ?>
-</td>
-<?php echo smarty_function_counter(array('name' => 'fieldsUsed'), $this);?>
-
-<td width='12.5%' scope="col">
-&nbsp;
-</td>
-<td width='37.5%'  >
 </td>
 </tr>
 <?php $this->_smarty_vars['capture']['tr'] = ob_get_contents();  $this->assign('tableRow', ob_get_contents());ob_end_clean();  if ($this->_tpl_vars['fieldsUsed'] > 0 && $this->_tpl_vars['fieldsUsed'] != $this->_tpl_vars['fieldsHidden']):  echo $this->_tpl_vars['tableRow']; ?>
