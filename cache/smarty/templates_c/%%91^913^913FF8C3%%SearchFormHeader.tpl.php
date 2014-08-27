@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-07-17 15:49:52
+<?php /* Smarty version 2.6.11, created on 2014-08-26 15:48:40
          compiled from cache/modules/sel_Selkirk_Client/SearchFormHeader.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getjspath', 'cache/modules/sel_Selkirk_Client/SearchFormHeader.tpl', 4, false),)), $this); ?>
