@@ -1,5 +1,5 @@
 <?php
-// created: 2014-07-16 11:41:08
+// created: 2014-09-02 14:59:47
 $dictionary["sel_selkirk_activity_securitygroups"] = array (
   'true_relationship_type' => 'many-to-many',
   'relationships' => 

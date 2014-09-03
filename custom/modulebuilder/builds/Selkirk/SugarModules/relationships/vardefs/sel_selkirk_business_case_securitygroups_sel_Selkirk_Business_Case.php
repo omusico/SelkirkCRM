@@ -1,5 +1,5 @@
 <?php
-// created: 2014-07-16 11:41:10
+// created: 2014-09-02 14:59:50
 $dictionary["sel_Selkirk_Business_Case"]["fields"]["sel_selkirk_business_case_securitygroups"] = array (
   'name' => 'sel_selkirk_business_case_securitygroups',
   'type' => 'link',

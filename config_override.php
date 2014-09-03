@@ -9,7 +9,7 @@ $sugar_config['default_module_favicon'] = false;
 $sugar_config['dashlet_auto_refresh_min'] = '30';
 $sugar_config['enable_action_menu'] = true;
 $sugar_config['stack_trace_errors'] = false;
-$sugar_config['developerMode'] = true;
+$sugar_config['developerMode'] = false;
 $sugar_config['disabled_languages'] = 'es_es,ru_ru';
 $sugar_config['hide_history_contacts_emails']['Cases'] = true;
 $sugar_config['hide_history_contacts_emails']['Accounts'] = true;
@@ -88,3 +88,7 @@ $sugar_config['addAjaxBannedModules']['40'] = 'Leads';
 $sugar_config['addAjaxBannedModules']['41'] = 'Meetings';
 $sugar_config['save_query'] = 'no';
 /***CONFIGURATOR***/
+
+$sugar_config['resource_management']['default_limit'] = 5000; // default is 1000
+
+

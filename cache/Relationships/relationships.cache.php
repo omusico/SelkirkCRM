@@ -4450,19 +4450,54 @@
     array (
       'sel_selkirk_service_securitygroups' => 
       array (
-        'lhs_module' => 'sel_Selkirk_Service',
-        'lhs_table' => 'sel_selkirk_service',
+        'lhs_module' => 'SecurityGroups',
+        'lhs_table' => 'securitygroups',
         'lhs_key' => 'id',
-        'rhs_module' => 'SecurityGroups',
-        'rhs_table' => 'securitygroups',
+        'rhs_module' => 'sel_Selkirk_Service',
+        'rhs_table' => 'sel_selkirk_service',
         'rhs_key' => 'id',
+        'join_table' => 'securitygroups_records',
+        'join_key_lhs' => 'securitygroup_id',
+        'join_key_rhs' => 'record_id',
         'relationship_type' => 'many-to-many',
-        'join_table' => 'sel_selkirk_service_securitygroups_c',
-        'join_key_lhs' => 'sel_selkirk_service_securitygroupssel_selkirk_service_ida',
-        'join_key_rhs' => 'sel_selkirk_service_securitygroupssecuritygroups_idb',
+        'relationship_role_column' => 'module',
+        'relationship_role_column_value' => 'sel_selkirk_service',
       ),
     ),
-    'table' => 'sel_selkirk_service_securitygroups_c',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sel_Selkirk_Service',
+    'rhs_table' => 'sel_selkirk_service',
+    'rhs_key' => 'id',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
+    'relationship_type' => 'many-to-many',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'sel_selkirk_service',
+  ),
+  'sel_selkirk_client_sel_student_activity' => 
+  array (
+    'name' => 'sel_selkirk_client_sel_student_activity',
+    'true_relationship_type' => 'one-to-many',
+    'relationships' => 
+    array (
+      'sel_selkirk_client_sel_student_activity' => 
+      array (
+        'lhs_module' => 'sel_Selkirk_Client',
+        'lhs_table' => 'sel_selkirk_client',
+        'lhs_key' => 'id',
+        'rhs_module' => 'sel_Student_Activity',
+        'rhs_table' => 'sel_student_activity',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'sel_selkirk_client_sel_student_activity_c',
+        'join_key_lhs' => 'sel_selkirk_client_sel_student_activitysel_selkirk_client_ida',
+        'join_key_rhs' => 'sel_selkirk_client_sel_student_activitysel_student_activity_idb',
+      ),
+    ),
+    'table' => 'sel_selkirk_client_sel_student_activity_c',
     'fields' => 
     array (
       0 => 
@@ -4486,13 +4521,13 @@
       ),
       3 => 
       array (
-        'name' => 'sel_selkirk_service_securitygroupssel_selkirk_service_ida',
+        'name' => 'sel_selkirk_client_sel_student_activitysel_selkirk_client_ida',
         'type' => 'varchar',
         'len' => 36,
       ),
       4 => 
       array (
-        'name' => 'sel_selkirk_service_securitygroupssecuritygroups_idb',
+        'name' => 'sel_selkirk_client_sel_student_activitysel_student_activity_idb',
         'type' => 'varchar',
         'len' => 36,
       ),
@@ -4501,7 +4536,7 @@
     array (
       0 => 
       array (
-        'name' => 'sel_selkirk_service_securitygroupsspk',
+        'name' => 'sel_selkirk_client_sel_student_activityspk',
         'type' => 'primary',
         'fields' => 
         array (
@@ -4510,25 +4545,33 @@
       ),
       1 => 
       array (
-        'name' => 'sel_selkirk_service_securitygroups_alt',
+        'name' => 'sel_selkirk_client_sel_student_activity_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'sel_selkirk_client_sel_student_activitysel_selkirk_client_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'sel_selkirk_client_sel_student_activity_alt',
         'type' => 'alternate_key',
         'fields' => 
         array (
-          0 => 'sel_selkirk_service_securitygroupssel_selkirk_service_ida',
-          1 => 'sel_selkirk_service_securitygroupssecuritygroups_idb',
+          0 => 'sel_selkirk_client_sel_student_activitysel_student_activity_idb',
         ),
       ),
     ),
-    'lhs_module' => 'sel_Selkirk_Service',
-    'lhs_table' => 'sel_selkirk_service',
+    'lhs_module' => 'sel_Selkirk_Client',
+    'lhs_table' => 'sel_selkirk_client',
     'lhs_key' => 'id',
-    'rhs_module' => 'SecurityGroups',
-    'rhs_table' => 'securitygroups',
+    'rhs_module' => 'sel_Student_Activity',
+    'rhs_table' => 'sel_student_activity',
     'rhs_key' => 'id',
     'relationship_type' => 'many-to-many',
-    'join_table' => 'sel_selkirk_service_securitygroups_c',
-    'join_key_lhs' => 'sel_selkirk_service_securitygroupssel_selkirk_service_ida',
-    'join_key_rhs' => 'sel_selkirk_service_securitygroupssecuritygroups_idb',
+    'join_table' => 'sel_selkirk_client_sel_student_activity_c',
+    'join_key_lhs' => 'sel_selkirk_client_sel_student_activitysel_selkirk_client_ida',
+    'join_key_rhs' => 'sel_selkirk_client_sel_student_activitysel_student_activity_idb',
   ),
   'sel_selkirk_funding_securitygroups' => 
   array (
@@ -4538,85 +4581,32 @@
     array (
       'sel_selkirk_funding_securitygroups' => 
       array (
-        'lhs_module' => 'sel_Selkirk_Funding',
-        'lhs_table' => 'sel_selkirk_funding',
+        'lhs_module' => 'SecurityGroups',
+        'lhs_table' => 'securitygroups',
         'lhs_key' => 'id',
-        'rhs_module' => 'SecurityGroups',
-        'rhs_table' => 'securitygroups',
+        'rhs_module' => 'sel_Selkirk_Funding',
+        'rhs_table' => 'sel_selkirk_funding',
         'rhs_key' => 'id',
+        'join_table' => 'securitygroups_records',
+        'join_key_lhs' => 'securitygroup_id',
+        'join_key_rhs' => 'record_id',
         'relationship_type' => 'many-to-many',
-        'join_table' => 'sel_selkirk_funding_securitygroups_c',
-        'join_key_lhs' => 'sel_selkirk_funding_securitygroupssel_selkirk_funding_ida',
-        'join_key_rhs' => 'sel_selkirk_funding_securitygroupssecuritygroups_idb',
+        'relationship_role_column' => 'module',
+        'relationship_role_column_value' => 'sel_selkirk_funding',
       ),
     ),
-    'table' => 'sel_selkirk_funding_securitygroups_c',
-    'fields' => 
-    array (
-      0 => 
-      array (
-        'name' => 'id',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-      1 => 
-      array (
-        'name' => 'date_modified',
-        'type' => 'datetime',
-      ),
-      2 => 
-      array (
-        'name' => 'deleted',
-        'type' => 'bool',
-        'len' => '1',
-        'default' => '0',
-        'required' => true,
-      ),
-      3 => 
-      array (
-        'name' => 'sel_selkirk_funding_securitygroupssel_selkirk_funding_ida',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-      4 => 
-      array (
-        'name' => 'sel_selkirk_funding_securitygroupssecuritygroups_idb',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-    ),
-    'indices' => 
-    array (
-      0 => 
-      array (
-        'name' => 'sel_selkirk_funding_securitygroupsspk',
-        'type' => 'primary',
-        'fields' => 
-        array (
-          0 => 'id',
-        ),
-      ),
-      1 => 
-      array (
-        'name' => 'sel_selkirk_funding_securitygroups_alt',
-        'type' => 'alternate_key',
-        'fields' => 
-        array (
-          0 => 'sel_selkirk_funding_securitygroupssel_selkirk_funding_ida',
-          1 => 'sel_selkirk_funding_securitygroupssecuritygroups_idb',
-        ),
-      ),
-    ),
-    'lhs_module' => 'sel_Selkirk_Funding',
-    'lhs_table' => 'sel_selkirk_funding',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
     'lhs_key' => 'id',
-    'rhs_module' => 'SecurityGroups',
-    'rhs_table' => 'securitygroups',
+    'rhs_module' => 'sel_Selkirk_Funding',
+    'rhs_table' => 'sel_selkirk_funding',
     'rhs_key' => 'id',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
     'relationship_type' => 'many-to-many',
-    'join_table' => 'sel_selkirk_funding_securitygroups_c',
-    'join_key_lhs' => 'sel_selkirk_funding_securitygroupssel_selkirk_funding_ida',
-    'join_key_rhs' => 'sel_selkirk_funding_securitygroupssecuritygroups_idb',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'sel_selkirk_funding',
   ),
   'fp_events_leads_1' => 
   array (
@@ -6644,6 +6634,41 @@
       ),
     ),
   ),
+  'sel_student_activity_securitygroups' => 
+  array (
+    'name' => 'sel_student_activity_securitygroups',
+    'true_relationship_type' => 'many-to-many',
+    'relationships' => 
+    array (
+      'sel_student_activity_securitygroups' => 
+      array (
+        'lhs_module' => 'SecurityGroups',
+        'lhs_table' => 'securitygroups',
+        'lhs_key' => 'id',
+        'rhs_module' => 'sel_Student_Activity',
+        'rhs_table' => 'sel_student_activity',
+        'rhs_key' => 'id',
+        'join_table' => 'securitygroups_records',
+        'join_key_lhs' => 'securitygroup_id',
+        'join_key_rhs' => 'record_id',
+        'relationship_type' => 'many-to-many',
+        'relationship_role_column' => 'module',
+        'relationship_role_column_value' => 'sel_student_activity',
+      ),
+    ),
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sel_Student_Activity',
+    'rhs_table' => 'sel_student_activity',
+    'rhs_key' => 'id',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
+    'relationship_type' => 'many-to-many',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'sel_student_activity',
+  ),
   'fp_events_prospects_1' => 
   array (
     'name' => 'fp_events_prospects_1',
@@ -6841,6 +6866,41 @@
     'join_table' => 'aos_quotes_os_contracts_c',
     'join_key_lhs' => 'aos_quotese81e_quotes_ida',
     'join_key_rhs' => 'aos_quotes4dc0ntracts_idb',
+  ),
+  'sel_selkirk_template_securitygroups' => 
+  array (
+    'name' => 'sel_selkirk_template_securitygroups',
+    'true_relationship_type' => 'many-to-many',
+    'relationships' => 
+    array (
+      'sel_selkirk_template_securitygroups' => 
+      array (
+        'lhs_module' => 'SecurityGroups',
+        'lhs_table' => 'securitygroups',
+        'lhs_key' => 'id',
+        'rhs_module' => 'sel_Selkirk_Template',
+        'rhs_table' => 'sel_selkirk_template',
+        'rhs_key' => 'id',
+        'join_table' => 'securitygroups_records',
+        'join_key_lhs' => 'securitygroup_id',
+        'join_key_rhs' => 'record_id',
+        'relationship_type' => 'many-to-many',
+        'relationship_role_column' => 'module',
+        'relationship_role_column_value' => 'sel_selkirk_template',
+      ),
+    ),
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sel_Selkirk_Template',
+    'rhs_table' => 'sel_selkirk_template',
+    'rhs_key' => 'id',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
+    'relationship_type' => 'many-to-many',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'sel_selkirk_template',
   ),
   'sel_selkirk_project_sel_selkirk_partner' => 
   array (
@@ -7123,6 +7183,41 @@
     'join_key_lhs' => 'fp_events_fp_event_delegates_1fp_events_ida',
     'join_key_rhs' => 'fp_events_fp_event_delegates_1fp_event_delegates_idb',
   ),
+  'sel_student_project_securitygroups' => 
+  array (
+    'name' => 'sel_student_project_securitygroups',
+    'true_relationship_type' => 'many-to-many',
+    'relationships' => 
+    array (
+      'sel_student_project_securitygroups' => 
+      array (
+        'lhs_module' => 'SecurityGroups',
+        'lhs_table' => 'securitygroups',
+        'lhs_key' => 'id',
+        'rhs_module' => 'sel_Student_Project',
+        'rhs_table' => 'sel_student_project',
+        'rhs_key' => 'id',
+        'join_table' => 'securitygroups_records',
+        'join_key_lhs' => 'securitygroup_id',
+        'join_key_rhs' => 'record_id',
+        'relationship_type' => 'many-to-many',
+        'relationship_role_column' => 'module',
+        'relationship_role_column_value' => 'sel_student_project',
+      ),
+    ),
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sel_Student_Project',
+    'rhs_table' => 'sel_student_project',
+    'rhs_key' => 'id',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
+    'relationship_type' => 'many-to-many',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'sel_student_project',
+  ),
   'aos_contracts_documents' => 
   array (
     'name' => 'aos_contracts_documents',
@@ -7313,85 +7408,32 @@
     array (
       'sel_selkirk_client_securitygroups' => 
       array (
-        'lhs_module' => 'sel_Selkirk_Client',
-        'lhs_table' => 'sel_selkirk_client',
+        'lhs_module' => 'SecurityGroups',
+        'lhs_table' => 'securitygroups',
         'lhs_key' => 'id',
-        'rhs_module' => 'SecurityGroups',
-        'rhs_table' => 'securitygroups',
+        'rhs_module' => 'sel_Selkirk_Client',
+        'rhs_table' => 'sel_selkirk_client',
         'rhs_key' => 'id',
+        'join_table' => 'securitygroups_records',
+        'join_key_lhs' => 'securitygroup_id',
+        'join_key_rhs' => 'record_id',
         'relationship_type' => 'many-to-many',
-        'join_table' => 'sel_selkirk_client_securitygroups_c',
-        'join_key_lhs' => 'sel_selkirk_client_securitygroupssel_selkirk_client_ida',
-        'join_key_rhs' => 'sel_selkirk_client_securitygroupssecuritygroups_idb',
+        'relationship_role_column' => 'module',
+        'relationship_role_column_value' => 'sel_selkirk_client',
       ),
     ),
-    'table' => 'sel_selkirk_client_securitygroups_c',
-    'fields' => 
-    array (
-      0 => 
-      array (
-        'name' => 'id',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-      1 => 
-      array (
-        'name' => 'date_modified',
-        'type' => 'datetime',
-      ),
-      2 => 
-      array (
-        'name' => 'deleted',
-        'type' => 'bool',
-        'len' => '1',
-        'default' => '0',
-        'required' => true,
-      ),
-      3 => 
-      array (
-        'name' => 'sel_selkirk_client_securitygroupssel_selkirk_client_ida',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-      4 => 
-      array (
-        'name' => 'sel_selkirk_client_securitygroupssecuritygroups_idb',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-    ),
-    'indices' => 
-    array (
-      0 => 
-      array (
-        'name' => 'sel_selkirk_client_securitygroupsspk',
-        'type' => 'primary',
-        'fields' => 
-        array (
-          0 => 'id',
-        ),
-      ),
-      1 => 
-      array (
-        'name' => 'sel_selkirk_client_securitygroups_alt',
-        'type' => 'alternate_key',
-        'fields' => 
-        array (
-          0 => 'sel_selkirk_client_securitygroupssel_selkirk_client_ida',
-          1 => 'sel_selkirk_client_securitygroupssecuritygroups_idb',
-        ),
-      ),
-    ),
-    'lhs_module' => 'sel_Selkirk_Client',
-    'lhs_table' => 'sel_selkirk_client',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
     'lhs_key' => 'id',
-    'rhs_module' => 'SecurityGroups',
-    'rhs_table' => 'securitygroups',
+    'rhs_module' => 'sel_Selkirk_Client',
+    'rhs_table' => 'sel_selkirk_client',
     'rhs_key' => 'id',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
     'relationship_type' => 'many-to-many',
-    'join_table' => 'sel_selkirk_client_securitygroups_c',
-    'join_key_lhs' => 'sel_selkirk_client_securitygroupssel_selkirk_client_ida',
-    'join_key_rhs' => 'sel_selkirk_client_securitygroupssecuritygroups_idb',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'sel_selkirk_client',
   ),
   'aos_quotes_project' => 
   array (
@@ -7577,85 +7619,32 @@
     array (
       'sel_selkirk_approvals_securitygroups' => 
       array (
-        'lhs_module' => 'sel_Selkirk_Approvals',
-        'lhs_table' => 'sel_selkirk_approvals',
+        'lhs_module' => 'SecurityGroups',
+        'lhs_table' => 'securitygroups',
         'lhs_key' => 'id',
-        'rhs_module' => 'SecurityGroups',
-        'rhs_table' => 'securitygroups',
+        'rhs_module' => 'sel_Selkirk_Approvals',
+        'rhs_table' => 'sel_selkirk_approvals',
         'rhs_key' => 'id',
+        'join_table' => 'securitygroups_records',
+        'join_key_lhs' => 'securitygroup_id',
+        'join_key_rhs' => 'record_id',
         'relationship_type' => 'many-to-many',
-        'join_table' => 'sel_selkirk_approvals_securitygroups_c',
-        'join_key_lhs' => 'sel_selkirk_approvals_securitygroupssel_selkirk_approvals_ida',
-        'join_key_rhs' => 'sel_selkirk_approvals_securitygroupssecuritygroups_idb',
+        'relationship_role_column' => 'module',
+        'relationship_role_column_value' => 'sel_selkirk_approvals',
       ),
     ),
-    'table' => 'sel_selkirk_approvals_securitygroups_c',
-    'fields' => 
-    array (
-      0 => 
-      array (
-        'name' => 'id',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-      1 => 
-      array (
-        'name' => 'date_modified',
-        'type' => 'datetime',
-      ),
-      2 => 
-      array (
-        'name' => 'deleted',
-        'type' => 'bool',
-        'len' => '1',
-        'default' => '0',
-        'required' => true,
-      ),
-      3 => 
-      array (
-        'name' => 'sel_selkirk_approvals_securitygroupssel_selkirk_approvals_ida',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-      4 => 
-      array (
-        'name' => 'sel_selkirk_approvals_securitygroupssecuritygroups_idb',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-    ),
-    'indices' => 
-    array (
-      0 => 
-      array (
-        'name' => 'sel_selkirk_approvals_securitygroupsspk',
-        'type' => 'primary',
-        'fields' => 
-        array (
-          0 => 'id',
-        ),
-      ),
-      1 => 
-      array (
-        'name' => 'sel_selkirk_approvals_securitygroups_alt',
-        'type' => 'alternate_key',
-        'fields' => 
-        array (
-          0 => 'sel_selkirk_approvals_securitygroupssel_selkirk_approvals_ida',
-          1 => 'sel_selkirk_approvals_securitygroupssecuritygroups_idb',
-        ),
-      ),
-    ),
-    'lhs_module' => 'sel_Selkirk_Approvals',
-    'lhs_table' => 'sel_selkirk_approvals',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
     'lhs_key' => 'id',
-    'rhs_module' => 'SecurityGroups',
-    'rhs_table' => 'securitygroups',
+    'rhs_module' => 'sel_Selkirk_Approvals',
+    'rhs_table' => 'sel_selkirk_approvals',
     'rhs_key' => 'id',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
     'relationship_type' => 'many-to-many',
-    'join_table' => 'sel_selkirk_approvals_securitygroups_c',
-    'join_key_lhs' => 'sel_selkirk_approvals_securitygroupssel_selkirk_approvals_ida',
-    'join_key_rhs' => 'sel_selkirk_approvals_securitygroupssecuritygroups_idb',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'sel_selkirk_approvals',
   ),
   'sel_selkirk_document_sel_selkirk_client' => 
   array (
@@ -7849,85 +7838,32 @@
     array (
       'sel_selkirk_activity_securitygroups' => 
       array (
-        'lhs_module' => 'sel_Selkirk_Activity',
-        'lhs_table' => 'sel_selkirk_activity',
+        'lhs_module' => 'SecurityGroups',
+        'lhs_table' => 'securitygroups',
         'lhs_key' => 'id',
-        'rhs_module' => 'SecurityGroups',
-        'rhs_table' => 'securitygroups',
+        'rhs_module' => 'sel_Selkirk_Activity',
+        'rhs_table' => 'sel_selkirk_activity',
         'rhs_key' => 'id',
+        'join_table' => 'securitygroups_records',
+        'join_key_lhs' => 'securitygroup_id',
+        'join_key_rhs' => 'record_id',
         'relationship_type' => 'many-to-many',
-        'join_table' => 'sel_selkirk_activity_securitygroups_c',
-        'join_key_lhs' => 'sel_selkirk_activity_securitygroupssel_selkirk_activity_ida',
-        'join_key_rhs' => 'sel_selkirk_activity_securitygroupssecuritygroups_idb',
+        'relationship_role_column' => 'module',
+        'relationship_role_column_value' => 'sel_selkirk_activity',
       ),
     ),
-    'table' => 'sel_selkirk_activity_securitygroups_c',
-    'fields' => 
-    array (
-      0 => 
-      array (
-        'name' => 'id',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-      1 => 
-      array (
-        'name' => 'date_modified',
-        'type' => 'datetime',
-      ),
-      2 => 
-      array (
-        'name' => 'deleted',
-        'type' => 'bool',
-        'len' => '1',
-        'default' => '0',
-        'required' => true,
-      ),
-      3 => 
-      array (
-        'name' => 'sel_selkirk_activity_securitygroupssel_selkirk_activity_ida',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-      4 => 
-      array (
-        'name' => 'sel_selkirk_activity_securitygroupssecuritygroups_idb',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-    ),
-    'indices' => 
-    array (
-      0 => 
-      array (
-        'name' => 'sel_selkirk_activity_securitygroupsspk',
-        'type' => 'primary',
-        'fields' => 
-        array (
-          0 => 'id',
-        ),
-      ),
-      1 => 
-      array (
-        'name' => 'sel_selkirk_activity_securitygroups_alt',
-        'type' => 'alternate_key',
-        'fields' => 
-        array (
-          0 => 'sel_selkirk_activity_securitygroupssel_selkirk_activity_ida',
-          1 => 'sel_selkirk_activity_securitygroupssecuritygroups_idb',
-        ),
-      ),
-    ),
-    'lhs_module' => 'sel_Selkirk_Activity',
-    'lhs_table' => 'sel_selkirk_activity',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
     'lhs_key' => 'id',
-    'rhs_module' => 'SecurityGroups',
-    'rhs_table' => 'securitygroups',
+    'rhs_module' => 'sel_Selkirk_Activity',
+    'rhs_table' => 'sel_selkirk_activity',
     'rhs_key' => 'id',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
     'relationship_type' => 'many-to-many',
-    'join_table' => 'sel_selkirk_activity_securitygroups_c',
-    'join_key_lhs' => 'sel_selkirk_activity_securitygroupssel_selkirk_activity_ida',
-    'join_key_rhs' => 'sel_selkirk_activity_securitygroupssecuritygroups_idb',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'sel_selkirk_activity',
   ),
   'aos_quotes_aos_invoices' => 
   array (
@@ -8289,19 +8225,54 @@
     array (
       'sel_selkirk_document_securitygroups' => 
       array (
-        'lhs_module' => 'sel_Selkirk_Document',
-        'lhs_table' => 'sel_selkirk_document',
+        'lhs_module' => 'SecurityGroups',
+        'lhs_table' => 'securitygroups',
         'lhs_key' => 'id',
-        'rhs_module' => 'SecurityGroups',
-        'rhs_table' => 'securitygroups',
+        'rhs_module' => 'sel_Selkirk_Document',
+        'rhs_table' => 'sel_selkirk_document',
         'rhs_key' => 'id',
+        'join_table' => 'securitygroups_records',
+        'join_key_lhs' => 'securitygroup_id',
+        'join_key_rhs' => 'record_id',
         'relationship_type' => 'many-to-many',
-        'join_table' => 'sel_selkirk_document_securitygroups_c',
-        'join_key_lhs' => 'sel_selkirk_document_securitygroupssel_selkirk_document_ida',
-        'join_key_rhs' => 'sel_selkirk_document_securitygroupssecuritygroups_idb',
+        'relationship_role_column' => 'module',
+        'relationship_role_column_value' => 'sel_selkirk_document',
       ),
     ),
-    'table' => 'sel_selkirk_document_securitygroups_c',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sel_Selkirk_Document',
+    'rhs_table' => 'sel_selkirk_document',
+    'rhs_key' => 'id',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
+    'relationship_type' => 'many-to-many',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'sel_selkirk_document',
+  ),
+  'sel_student_project_sel_selkirk_document' => 
+  array (
+    'name' => 'sel_student_project_sel_selkirk_document',
+    'true_relationship_type' => 'many-to-many',
+    'relationships' => 
+    array (
+      'sel_student_project_sel_selkirk_document' => 
+      array (
+        'lhs_module' => 'sel_Student_Project',
+        'lhs_table' => 'sel_student_project',
+        'lhs_key' => 'id',
+        'rhs_module' => 'sel_Selkirk_Document',
+        'rhs_table' => 'sel_selkirk_document',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'sel_student_project_sel_selkirk_document_c',
+        'join_key_lhs' => 'sel_student_project_sel_selkirk_documentsel_student_project_ida',
+        'join_key_rhs' => 'sel_student_project_sel_selkirk_documentsel_selkirk_document_idb',
+      ),
+    ),
+    'table' => 'sel_student_project_sel_selkirk_document_c',
     'fields' => 
     array (
       0 => 
@@ -8325,13 +8296,13 @@
       ),
       3 => 
       array (
-        'name' => 'sel_selkirk_document_securitygroupssel_selkirk_document_ida',
+        'name' => 'sel_student_project_sel_selkirk_documentsel_student_project_ida',
         'type' => 'varchar',
         'len' => 36,
       ),
       4 => 
       array (
-        'name' => 'sel_selkirk_document_securitygroupssecuritygroups_idb',
+        'name' => 'sel_student_project_sel_selkirk_documentsel_selkirk_document_idb',
         'type' => 'varchar',
         'len' => 36,
       ),
@@ -8340,7 +8311,7 @@
     array (
       0 => 
       array (
-        'name' => 'sel_selkirk_document_securitygroupsspk',
+        'name' => 'sel_student_project_sel_selkirk_documentspk',
         'type' => 'primary',
         'fields' => 
         array (
@@ -8349,25 +8320,25 @@
       ),
       1 => 
       array (
-        'name' => 'sel_selkirk_document_securitygroups_alt',
+        'name' => 'sel_student_project_sel_selkirk_document_alt',
         'type' => 'alternate_key',
         'fields' => 
         array (
-          0 => 'sel_selkirk_document_securitygroupssel_selkirk_document_ida',
-          1 => 'sel_selkirk_document_securitygroupssecuritygroups_idb',
+          0 => 'sel_student_project_sel_selkirk_documentsel_student_project_ida',
+          1 => 'sel_student_project_sel_selkirk_documentsel_selkirk_document_idb',
         ),
       ),
     ),
-    'lhs_module' => 'sel_Selkirk_Document',
-    'lhs_table' => 'sel_selkirk_document',
+    'lhs_module' => 'sel_Student_Project',
+    'lhs_table' => 'sel_student_project',
     'lhs_key' => 'id',
-    'rhs_module' => 'SecurityGroups',
-    'rhs_table' => 'securitygroups',
+    'rhs_module' => 'sel_Selkirk_Document',
+    'rhs_table' => 'sel_selkirk_document',
     'rhs_key' => 'id',
     'relationship_type' => 'many-to-many',
-    'join_table' => 'sel_selkirk_document_securitygroups_c',
-    'join_key_lhs' => 'sel_selkirk_document_securitygroupssel_selkirk_document_ida',
-    'join_key_rhs' => 'sel_selkirk_document_securitygroupssecuritygroups_idb',
+    'join_table' => 'sel_student_project_sel_selkirk_document_c',
+    'join_key_lhs' => 'sel_student_project_sel_selkirk_documentsel_student_project_ida',
+    'join_key_rhs' => 'sel_student_project_sel_selkirk_documentsel_selkirk_document_idb',
   ),
   'sel_selkirk_project_securitygroups' => 
   array (
@@ -8377,85 +8348,32 @@
     array (
       'sel_selkirk_project_securitygroups' => 
       array (
-        'lhs_module' => 'sel_Selkirk_Project',
-        'lhs_table' => 'sel_selkirk_project',
+        'lhs_module' => 'SecurityGroups',
+        'lhs_table' => 'securitygroups',
         'lhs_key' => 'id',
-        'rhs_module' => 'SecurityGroups',
-        'rhs_table' => 'securitygroups',
+        'rhs_module' => 'sel_Selkirk_Project',
+        'rhs_table' => 'sel_selkirk_project',
         'rhs_key' => 'id',
+        'join_table' => 'securitygroups_records',
+        'join_key_lhs' => 'securitygroup_id',
+        'join_key_rhs' => 'record_id',
         'relationship_type' => 'many-to-many',
-        'join_table' => 'sel_selkirk_project_securitygroups_c',
-        'join_key_lhs' => 'sel_selkirk_project_securitygroupssel_selkirk_project_ida',
-        'join_key_rhs' => 'sel_selkirk_project_securitygroupssecuritygroups_idb',
+        'relationship_role_column' => 'module',
+        'relationship_role_column_value' => 'sel_selkirk_project',
       ),
     ),
-    'table' => 'sel_selkirk_project_securitygroups_c',
-    'fields' => 
-    array (
-      0 => 
-      array (
-        'name' => 'id',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-      1 => 
-      array (
-        'name' => 'date_modified',
-        'type' => 'datetime',
-      ),
-      2 => 
-      array (
-        'name' => 'deleted',
-        'type' => 'bool',
-        'len' => '1',
-        'default' => '0',
-        'required' => true,
-      ),
-      3 => 
-      array (
-        'name' => 'sel_selkirk_project_securitygroupssel_selkirk_project_ida',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-      4 => 
-      array (
-        'name' => 'sel_selkirk_project_securitygroupssecuritygroups_idb',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-    ),
-    'indices' => 
-    array (
-      0 => 
-      array (
-        'name' => 'sel_selkirk_project_securitygroupsspk',
-        'type' => 'primary',
-        'fields' => 
-        array (
-          0 => 'id',
-        ),
-      ),
-      1 => 
-      array (
-        'name' => 'sel_selkirk_project_securitygroups_alt',
-        'type' => 'alternate_key',
-        'fields' => 
-        array (
-          0 => 'sel_selkirk_project_securitygroupssel_selkirk_project_ida',
-          1 => 'sel_selkirk_project_securitygroupssecuritygroups_idb',
-        ),
-      ),
-    ),
-    'lhs_module' => 'sel_Selkirk_Project',
-    'lhs_table' => 'sel_selkirk_project',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
     'lhs_key' => 'id',
-    'rhs_module' => 'SecurityGroups',
-    'rhs_table' => 'securitygroups',
+    'rhs_module' => 'sel_Selkirk_Project',
+    'rhs_table' => 'sel_selkirk_project',
     'rhs_key' => 'id',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
     'relationship_type' => 'many-to-many',
-    'join_table' => 'sel_selkirk_project_securitygroups_c',
-    'join_key_lhs' => 'sel_selkirk_project_securitygroupssel_selkirk_project_ida',
-    'join_key_rhs' => 'sel_selkirk_project_securitygroupssecuritygroups_idb',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'sel_selkirk_project',
   ),
   'sel_selkirk_project_sel_selkirk_funding' => 
   array (
@@ -9210,85 +9128,32 @@
     array (
       'sel_selkirk_business_case_securitygroups' => 
       array (
-        'lhs_module' => 'sel_Selkirk_Business_Case',
-        'lhs_table' => 'sel_selkirk_business_case',
+        'lhs_module' => 'SecurityGroups',
+        'lhs_table' => 'securitygroups',
         'lhs_key' => 'id',
-        'rhs_module' => 'SecurityGroups',
-        'rhs_table' => 'securitygroups',
+        'rhs_module' => 'sel_Selkirk_Business_Case',
+        'rhs_table' => 'sel_selkirk_business_case',
         'rhs_key' => 'id',
+        'join_table' => 'securitygroups_records',
+        'join_key_lhs' => 'securitygroup_id',
+        'join_key_rhs' => 'record_id',
         'relationship_type' => 'many-to-many',
-        'join_table' => 'sel_selkirk_business_case_securitygroups_c',
-        'join_key_lhs' => 'sel_selkir7c7bss_case_ida',
-        'join_key_rhs' => 'sel_selkirk_business_case_securitygroupssecuritygroups_idb',
+        'relationship_role_column' => 'module',
+        'relationship_role_column_value' => 'sel_selkirk_business_case',
       ),
     ),
-    'table' => 'sel_selkirk_business_case_securitygroups_c',
-    'fields' => 
-    array (
-      0 => 
-      array (
-        'name' => 'id',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-      1 => 
-      array (
-        'name' => 'date_modified',
-        'type' => 'datetime',
-      ),
-      2 => 
-      array (
-        'name' => 'deleted',
-        'type' => 'bool',
-        'len' => '1',
-        'default' => '0',
-        'required' => true,
-      ),
-      3 => 
-      array (
-        'name' => 'sel_selkir7c7bss_case_ida',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-      4 => 
-      array (
-        'name' => 'sel_selkirk_business_case_securitygroupssecuritygroups_idb',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-    ),
-    'indices' => 
-    array (
-      0 => 
-      array (
-        'name' => 'sel_selkirk_business_case_securitygroupsspk',
-        'type' => 'primary',
-        'fields' => 
-        array (
-          0 => 'id',
-        ),
-      ),
-      1 => 
-      array (
-        'name' => 'sel_selkirk_business_case_securitygroups_alt',
-        'type' => 'alternate_key',
-        'fields' => 
-        array (
-          0 => 'sel_selkir7c7bss_case_ida',
-          1 => 'sel_selkirk_business_case_securitygroupssecuritygroups_idb',
-        ),
-      ),
-    ),
-    'lhs_module' => 'sel_Selkirk_Business_Case',
-    'lhs_table' => 'sel_selkirk_business_case',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
     'lhs_key' => 'id',
-    'rhs_module' => 'SecurityGroups',
-    'rhs_table' => 'securitygroups',
+    'rhs_module' => 'sel_Selkirk_Business_Case',
+    'rhs_table' => 'sel_selkirk_business_case',
     'rhs_key' => 'id',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
     'relationship_type' => 'many-to-many',
-    'join_table' => 'sel_selkirk_business_case_securitygroups_c',
-    'join_key_lhs' => 'sel_selkir7c7bss_case_ida',
-    'join_key_rhs' => 'sel_selkirk_business_case_securitygroupssecuritygroups_idb',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'sel_selkirk_business_case',
   ),
   'fp_events_contacts' => 
   array (
@@ -9407,85 +9272,32 @@
     array (
       'sel_selkirk_milestone_securitygroups' => 
       array (
-        'lhs_module' => 'sel_Selkirk_MileStone',
-        'lhs_table' => 'sel_selkirk_milestone',
+        'lhs_module' => 'SecurityGroups',
+        'lhs_table' => 'securitygroups',
         'lhs_key' => 'id',
-        'rhs_module' => 'SecurityGroups',
-        'rhs_table' => 'securitygroups',
+        'rhs_module' => 'sel_Selkirk_MileStone',
+        'rhs_table' => 'sel_selkirk_milestone',
         'rhs_key' => 'id',
+        'join_table' => 'securitygroups_records',
+        'join_key_lhs' => 'securitygroup_id',
+        'join_key_rhs' => 'record_id',
         'relationship_type' => 'many-to-many',
-        'join_table' => 'sel_selkirk_milestone_securitygroups_c',
-        'join_key_lhs' => 'sel_selkirk_milestone_securitygroupssel_selkirk_milestone_ida',
-        'join_key_rhs' => 'sel_selkirk_milestone_securitygroupssecuritygroups_idb',
+        'relationship_role_column' => 'module',
+        'relationship_role_column_value' => 'sel_selkirk_milestone',
       ),
     ),
-    'table' => 'sel_selkirk_milestone_securitygroups_c',
-    'fields' => 
-    array (
-      0 => 
-      array (
-        'name' => 'id',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-      1 => 
-      array (
-        'name' => 'date_modified',
-        'type' => 'datetime',
-      ),
-      2 => 
-      array (
-        'name' => 'deleted',
-        'type' => 'bool',
-        'len' => '1',
-        'default' => '0',
-        'required' => true,
-      ),
-      3 => 
-      array (
-        'name' => 'sel_selkirk_milestone_securitygroupssel_selkirk_milestone_ida',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-      4 => 
-      array (
-        'name' => 'sel_selkirk_milestone_securitygroupssecuritygroups_idb',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-    ),
-    'indices' => 
-    array (
-      0 => 
-      array (
-        'name' => 'sel_selkirk_milestone_securitygroupsspk',
-        'type' => 'primary',
-        'fields' => 
-        array (
-          0 => 'id',
-        ),
-      ),
-      1 => 
-      array (
-        'name' => 'sel_selkirk_milestone_securitygroups_alt',
-        'type' => 'alternate_key',
-        'fields' => 
-        array (
-          0 => 'sel_selkirk_milestone_securitygroupssel_selkirk_milestone_ida',
-          1 => 'sel_selkirk_milestone_securitygroupssecuritygroups_idb',
-        ),
-      ),
-    ),
-    'lhs_module' => 'sel_Selkirk_MileStone',
-    'lhs_table' => 'sel_selkirk_milestone',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
     'lhs_key' => 'id',
-    'rhs_module' => 'SecurityGroups',
-    'rhs_table' => 'securitygroups',
+    'rhs_module' => 'sel_Selkirk_MileStone',
+    'rhs_table' => 'sel_selkirk_milestone',
     'rhs_key' => 'id',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
     'relationship_type' => 'many-to-many',
-    'join_table' => 'sel_selkirk_milestone_securitygroups_c',
-    'join_key_lhs' => 'sel_selkirk_milestone_securitygroupssel_selkirk_milestone_ida',
-    'join_key_rhs' => 'sel_selkirk_milestone_securitygroupssecuritygroups_idb',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'sel_selkirk_milestone',
   ),
   'fp_event_locations_fp_events_1' => 
   array (
@@ -9592,19 +9404,54 @@
     array (
       'sel_selkirk_contact_securitygroups' => 
       array (
-        'lhs_module' => 'sel_Selkirk_Contact',
-        'lhs_table' => 'sel_selkirk_contact',
+        'lhs_module' => 'SecurityGroups',
+        'lhs_table' => 'securitygroups',
         'lhs_key' => 'id',
-        'rhs_module' => 'SecurityGroups',
-        'rhs_table' => 'securitygroups',
+        'rhs_module' => 'sel_Selkirk_Contact',
+        'rhs_table' => 'sel_selkirk_contact',
         'rhs_key' => 'id',
+        'join_table' => 'securitygroups_records',
+        'join_key_lhs' => 'securitygroup_id',
+        'join_key_rhs' => 'record_id',
         'relationship_type' => 'many-to-many',
-        'join_table' => 'sel_selkirk_contact_securitygroups_c',
-        'join_key_lhs' => 'sel_selkirk_contact_securitygroupssel_selkirk_contact_ida',
-        'join_key_rhs' => 'sel_selkirk_contact_securitygroupssecuritygroups_idb',
+        'relationship_role_column' => 'module',
+        'relationship_role_column_value' => 'sel_selkirk_contact',
       ),
     ),
-    'table' => 'sel_selkirk_contact_securitygroups_c',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sel_Selkirk_Contact',
+    'rhs_table' => 'sel_selkirk_contact',
+    'rhs_key' => 'id',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
+    'relationship_type' => 'many-to-many',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'sel_selkirk_contact',
+  ),
+  'sel_student_project_sel_student_activity' => 
+  array (
+    'name' => 'sel_student_project_sel_student_activity',
+    'true_relationship_type' => 'one-to-many',
+    'relationships' => 
+    array (
+      'sel_student_project_sel_student_activity' => 
+      array (
+        'lhs_module' => 'sel_Student_Project',
+        'lhs_table' => 'sel_student_project',
+        'lhs_key' => 'id',
+        'rhs_module' => 'sel_Student_Activity',
+        'rhs_table' => 'sel_student_activity',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'sel_student_project_sel_student_activity_c',
+        'join_key_lhs' => 'sel_student_project_sel_student_activitysel_student_project_ida',
+        'join_key_rhs' => 'sel_student_project_sel_student_activitysel_student_activity_idb',
+      ),
+    ),
+    'table' => 'sel_student_project_sel_student_activity_c',
     'fields' => 
     array (
       0 => 
@@ -9628,13 +9475,13 @@
       ),
       3 => 
       array (
-        'name' => 'sel_selkirk_contact_securitygroupssel_selkirk_contact_ida',
+        'name' => 'sel_student_project_sel_student_activitysel_student_project_ida',
         'type' => 'varchar',
         'len' => 36,
       ),
       4 => 
       array (
-        'name' => 'sel_selkirk_contact_securitygroupssecuritygroups_idb',
+        'name' => 'sel_student_project_sel_student_activitysel_student_activity_idb',
         'type' => 'varchar',
         'len' => 36,
       ),
@@ -9643,7 +9490,7 @@
     array (
       0 => 
       array (
-        'name' => 'sel_selkirk_contact_securitygroupsspk',
+        'name' => 'sel_student_project_sel_student_activityspk',
         'type' => 'primary',
         'fields' => 
         array (
@@ -9652,25 +9499,33 @@
       ),
       1 => 
       array (
-        'name' => 'sel_selkirk_contact_securitygroups_alt',
+        'name' => 'sel_student_project_sel_student_activity_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'sel_student_project_sel_student_activitysel_student_project_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'sel_student_project_sel_student_activity_alt',
         'type' => 'alternate_key',
         'fields' => 
         array (
-          0 => 'sel_selkirk_contact_securitygroupssel_selkirk_contact_ida',
-          1 => 'sel_selkirk_contact_securitygroupssecuritygroups_idb',
+          0 => 'sel_student_project_sel_student_activitysel_student_activity_idb',
         ),
       ),
     ),
-    'lhs_module' => 'sel_Selkirk_Contact',
-    'lhs_table' => 'sel_selkirk_contact',
+    'lhs_module' => 'sel_Student_Project',
+    'lhs_table' => 'sel_student_project',
     'lhs_key' => 'id',
-    'rhs_module' => 'SecurityGroups',
-    'rhs_table' => 'securitygroups',
+    'rhs_module' => 'sel_Student_Activity',
+    'rhs_table' => 'sel_student_activity',
     'rhs_key' => 'id',
     'relationship_type' => 'many-to-many',
-    'join_table' => 'sel_selkirk_contact_securitygroups_c',
-    'join_key_lhs' => 'sel_selkirk_contact_securitygroupssel_selkirk_contact_ida',
-    'join_key_rhs' => 'sel_selkirk_contact_securitygroupssecuritygroups_idb',
+    'join_table' => 'sel_student_project_sel_student_activity_c',
+    'join_key_lhs' => 'sel_student_project_sel_student_activitysel_student_project_ida',
+    'join_key_rhs' => 'sel_student_project_sel_student_activitysel_student_activity_idb',
   ),
   'sel_selkirk_project_sel_selkirk_team' => 
   array (
@@ -9768,85 +9623,32 @@
     array (
       'sel_selkirk_partner_securitygroups' => 
       array (
-        'lhs_module' => 'sel_Selkirk_Partner',
-        'lhs_table' => 'sel_selkirk_partner',
+        'lhs_module' => 'SecurityGroups',
+        'lhs_table' => 'securitygroups',
         'lhs_key' => 'id',
-        'rhs_module' => 'SecurityGroups',
-        'rhs_table' => 'securitygroups',
+        'rhs_module' => 'sel_Selkirk_Partner',
+        'rhs_table' => 'sel_selkirk_partner',
         'rhs_key' => 'id',
+        'join_table' => 'securitygroups_records',
+        'join_key_lhs' => 'securitygroup_id',
+        'join_key_rhs' => 'record_id',
         'relationship_type' => 'many-to-many',
-        'join_table' => 'sel_selkirk_partner_securitygroups_c',
-        'join_key_lhs' => 'sel_selkirk_partner_securitygroupssel_selkirk_partner_ida',
-        'join_key_rhs' => 'sel_selkirk_partner_securitygroupssecuritygroups_idb',
+        'relationship_role_column' => 'module',
+        'relationship_role_column_value' => 'sel_selkirk_partner',
       ),
     ),
-    'table' => 'sel_selkirk_partner_securitygroups_c',
-    'fields' => 
-    array (
-      0 => 
-      array (
-        'name' => 'id',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-      1 => 
-      array (
-        'name' => 'date_modified',
-        'type' => 'datetime',
-      ),
-      2 => 
-      array (
-        'name' => 'deleted',
-        'type' => 'bool',
-        'len' => '1',
-        'default' => '0',
-        'required' => true,
-      ),
-      3 => 
-      array (
-        'name' => 'sel_selkirk_partner_securitygroupssel_selkirk_partner_ida',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-      4 => 
-      array (
-        'name' => 'sel_selkirk_partner_securitygroupssecuritygroups_idb',
-        'type' => 'varchar',
-        'len' => 36,
-      ),
-    ),
-    'indices' => 
-    array (
-      0 => 
-      array (
-        'name' => 'sel_selkirk_partner_securitygroupsspk',
-        'type' => 'primary',
-        'fields' => 
-        array (
-          0 => 'id',
-        ),
-      ),
-      1 => 
-      array (
-        'name' => 'sel_selkirk_partner_securitygroups_alt',
-        'type' => 'alternate_key',
-        'fields' => 
-        array (
-          0 => 'sel_selkirk_partner_securitygroupssel_selkirk_partner_ida',
-          1 => 'sel_selkirk_partner_securitygroupssecuritygroups_idb',
-        ),
-      ),
-    ),
-    'lhs_module' => 'sel_Selkirk_Partner',
-    'lhs_table' => 'sel_selkirk_partner',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
     'lhs_key' => 'id',
-    'rhs_module' => 'SecurityGroups',
-    'rhs_table' => 'securitygroups',
+    'rhs_module' => 'sel_Selkirk_Partner',
+    'rhs_table' => 'sel_selkirk_partner',
     'rhs_key' => 'id',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
     'relationship_type' => 'many-to-many',
-    'join_table' => 'sel_selkirk_partner_securitygroups_c',
-    'join_key_lhs' => 'sel_selkirk_partner_securitygroupssel_selkirk_partner_ida',
-    'join_key_rhs' => 'sel_selkirk_partner_securitygroupssecuritygroups_idb',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'sel_selkirk_partner',
   ),
   'sel_selkirk_project_sel_selkirk_service' => 
   array (
@@ -14178,6 +13980,39 @@
     'rhs_key' => 'assigned_user_id',
     'relationship_type' => 'one-to-many',
   ),
+  'sel_student_activity_modified_user' => 
+  array (
+    'name' => 'sel_student_activity_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sel_Student_Activity',
+    'rhs_table' => 'sel_student_activity',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'sel_student_activity_created_by' => 
+  array (
+    'name' => 'sel_student_activity_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sel_Student_Activity',
+    'rhs_table' => 'sel_student_activity',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'sel_student_activity_assigned_user' => 
+  array (
+    'name' => 'sel_student_activity_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sel_Student_Activity',
+    'rhs_table' => 'sel_student_activity',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
   'sel_selkirk_team_modified_user' => 
   array (
     'name' => 'sel_selkirk_team_modified_user',
@@ -14439,6 +14274,39 @@
     'lhs_key' => 'id',
     'rhs_module' => 'sel_Selkirk_Partner',
     'rhs_table' => 'sel_selkirk_partner',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'sel_student_project_modified_user' => 
+  array (
+    'name' => 'sel_student_project_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sel_Student_Project',
+    'rhs_table' => 'sel_student_project',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'sel_student_project_created_by' => 
+  array (
+    'name' => 'sel_student_project_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sel_Student_Project',
+    'rhs_table' => 'sel_student_project',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'sel_student_project_assigned_user' => 
+  array (
+    'name' => 'sel_student_project_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sel_Student_Project',
+    'rhs_table' => 'sel_student_project',
     'rhs_key' => 'assigned_user_id',
     'relationship_type' => 'one-to-many',
   ),

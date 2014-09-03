@@ -2,11 +2,11 @@
  //WARNING: The contents of this file are auto-generated
 
 
- // created: 2014-07-16 11:41:08
+ // created: 2014-09-02 14:59:48
 $layout_defs["sel_Selkirk_Service"]["subpanel_setup"]['sel_selkirk_service_securitygroups'] = array (
   'order' => 100,
   'module' => 'SecurityGroups',
-  'subpanel_name' => 'ForUsers',
+  'subpanel_name' => 'default',
   'sort_order' => 'asc',
   'sort_by' => 'id',
   'title_key' => 'LBL_SEL_SELKIRK_SERVICE_SECURITYGROUPS_FROM_SECURITYGROUPS_TITLE',
@@ -26,7 +26,7 @@ $layout_defs["sel_Selkirk_Service"]["subpanel_setup"]['sel_selkirk_service_secur
 );
 
 
- // created: 2014-07-16 11:41:09
+ // created: 2014-09-02 14:59:49
 $layout_defs["sel_Selkirk_Service"]["subpanel_setup"]['sel_selkirk_document_sel_selkirk_service'] = array (
   'order' => 100,
   'module' => 'sel_Selkirk_Document',

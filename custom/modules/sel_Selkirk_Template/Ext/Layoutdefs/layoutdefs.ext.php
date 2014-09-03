@@ -2,15 +2,15 @@
  //WARNING: The contents of this file are auto-generated
 
 
- // created: 2014-07-16 11:41:08
-$layout_defs["sel_Selkirk_Template"]["subpanel_setup"]['sel_selkirk_document_securitygroups'] = array (
+ // created: 2014-09-02 14:59:48
+$layout_defs["sel_Selkirk_Template"]["subpanel_setup"]['sel_selkirk_template_securitygroups'] = array (
   'order' => 100,
   'module' => 'SecurityGroups',
-  'subpanel_name' => 'ForUsers',
+  'subpanel_name' => 'default',
   'sort_order' => 'asc',
   'sort_by' => 'id',
-  'title_key' => 'LBL_SEL_SELKIRK_DOCUMENT_SECURITYGROUPS_FROM_SECURITYGROUPS_TITLE',
-  'get_subpanel_data' => 'sel_selkirk_document_securitygroups',
+  'title_key' => 'LBL_SEL_SELKIRK_TEMPLATE_SECURITYGROUPS_FROM_SECURITYGROUPS_TITLE',
+  'get_subpanel_data' => 'sel_selkirk_template_securitygroups',
   'top_buttons' => 
   array (
     0 => 
@@ -26,7 +26,7 @@ $layout_defs["sel_Selkirk_Template"]["subpanel_setup"]['sel_selkirk_document_sec
 );
 
 
- // created: 2014-07-16 11:41:08
+ // created: 2014-09-02 14:59:48
 $layout_defs["sel_Selkirk_Template"]["subpanel_setup"]['sel_selkirk_template_sel_selkirk_document'] = array (
   'order' => 100,
   'module' => 'sel_Selkirk_Document',

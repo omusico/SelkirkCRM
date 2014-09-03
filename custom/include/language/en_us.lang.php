@@ -134,3 +134,13 @@ $app_list_strings['moduleListSingular']['FP_Event_Locations']='ZLocations_not_us
 $app_list_strings['record_type_display']['Contacts']='ZContact_not_used';
 $app_list_strings['parent_type_display']['Contacts']='ZContact_not_used';
 $app_list_strings['record_type_display_notes']['Contacts']='ZContact_not_used';
+$app_list_strings['moduleList']['sel_Selkirk_Student_Project']='Student Projects';
+$app_list_strings['moduleListSingular']['sel_Selkirk_Student_Project']='Student Project';
+$app_list_strings['moduleList']['sel_Selkirk_Student_Project_Activity']='Student Project Activities';
+$app_list_strings['moduleListSingular']['sel_Selkirk_Student_Project_Activity']='Student Project Activity';
+$app_list_strings['moduleList']['sel_Student_Activity']='Student Activities';
+$app_list_strings['moduleList']['sel_Student_Project']='Student Projects';
+$app_list_strings['moduleListSingular']['sel_Student_Activity']='Student Activity';
+$app_list_strings['moduleListSingular']['sel_Student_Project']='Student Project';
+$app_strings['LBL_GROUPTAB1_1409682380'] = 'Student Research Projects';
+?>

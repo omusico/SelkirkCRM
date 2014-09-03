@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-07-17 15:47:46
+<?php /* Smarty version 2.6.11, created on 2014-09-03 10:19:07
          compiled from include/SearchForm/tpls/footer.tpl */ ?>
 {*
 /*********************************************************************************

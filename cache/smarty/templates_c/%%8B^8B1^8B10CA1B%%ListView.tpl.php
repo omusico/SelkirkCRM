@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-07-17 15:46:25
+<?php /* Smarty version 2.6.11, created on 2014-09-03 10:19:07
          compiled from include/SugarFields/Fields/Bool/ListView.tpl */ ?>
 
     <?php if (strval ( $this->_tpl_vars['parentFieldArray'][$this->_tpl_vars['col']] ) == '1' || strval ( $this->_tpl_vars['parentFieldArray'][$this->_tpl_vars['col']] ) == 'yes' || strval ( $this->_tpl_vars['parentFieldArray'][$this->_tpl_vars['col']] ) == 'on'):  $this->assign('checked', 'CHECKED');  else:  $this->assign('checked', "");  endif; ?>

@@ -1,5 +1,5 @@
 <?php
-// created: 2014-07-16 11:54:46
+// created: 2014-09-02 11:26:20
 $GLOBALS['tabStructure'] = array (
   'LBL_GROUPTAB0_1400340999' => 
   array (
@@ -21,6 +21,15 @@ $GLOBALS['tabStructure'] = array (
       12 => 'sel_Selkirk_Approvals',
       13 => 'AOR_Reports',
       14 => 'sel_Selkirk_Team',
+    ),
+  ),
+  'LBL_GROUPTAB1_1409682380' => 
+  array (
+    'label' => 'LBL_GROUPTAB1_1409682380',
+    'modules' => 
+    array (
+      0 => 'sel_Student_Project',
+      1 => 'sel_Student_Activity',
     ),
   ),
 );

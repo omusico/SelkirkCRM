@@ -1,5 +1,5 @@
 <?php
-// created: 2014-07-17 15:55:05
+// created: 2014-09-03 09:02:52
 $sugar_config = array (
   'SAML_X509Cert' => '',
   'SAML_loginurl' => '',
@@ -303,7 +303,7 @@ $sugar_config = array (
   'default_user_is_admin' => false,
   'default_user_name' => '',
   'demoData' => 'no',
-  'developerMode' => true,
+  'developerMode' => false,
   'disable_convert_lead' => false,
   'disable_export' => false,
   'disable_persistent_connections' => 'false',
@@ -338,7 +338,7 @@ $sugar_config = array (
     'timeout' => 86400,
   ),
   'js_custom_version' => 1,
-  'js_lang_version' => 33,
+  'js_lang_version' => 40,
   'languages' => 
   array (
     'en_us' => 'English (US)',
@@ -411,20 +411,20 @@ $sugar_config = array (
       3 => 'Administration',
       4 => 'Sync',
     ),
-    'default_limit' => 1000,
+    'default_limit' => 5000,
   ),
   'rss_cache_time' => '10800',
   'save_query' => 'no',
   'search_wildcard_char' => '*',
   'search_wildcard_infront' => false,
-  'securitysuite_additive' => false,
+  'securitysuite_additive' => true,
   'securitysuite_filter_user_list' => false,
-  'securitysuite_inherit_assigned' => true,
-  'securitysuite_inherit_creator' => true,
-  'securitysuite_inherit_parent' => true,
-  'securitysuite_popup_select' => true,
+  'securitysuite_inherit_assigned' => false,
+  'securitysuite_inherit_creator' => false,
+  'securitysuite_inherit_parent' => false,
+  'securitysuite_popup_select' => false,
   'securitysuite_strict_rights' => true,
-  'securitysuite_user_popup' => true,
+  'securitysuite_user_popup' => false,
   'securitysuite_user_role_precedence' => false,
   'securitysuite_version' => '6.5.16',
   'session_dir' => '',

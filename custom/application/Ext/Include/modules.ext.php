@@ -194,6 +194,9 @@ $moduleList[] = 'sel_Selkirk_Template';
 $beanList['sel_Selkirk_Contact'] = 'sel_Selkirk_Contact';
 $beanFiles['sel_Selkirk_Contact'] = 'modules/sel_Selkirk_Contact/sel_Selkirk_Contact.php';
 $moduleList[] = 'sel_Selkirk_Contact';
+$beanList['sel_Student_Activity'] = 'sel_Student_Activity';
+$beanFiles['sel_Student_Activity'] = 'modules/sel_Student_Activity/sel_Student_Activity.php';
+$moduleList[] = 'sel_Student_Activity';
 $beanList['sel_Selkirk_Team'] = 'sel_Selkirk_Team';
 $beanFiles['sel_Selkirk_Team'] = 'modules/sel_Selkirk_Team/sel_Selkirk_Team.php';
 $moduleList[] = 'sel_Selkirk_Team';
@@ -218,6 +221,9 @@ $moduleList[] = 'sel_Selkirk_Client';
 $beanList['sel_Selkirk_Partner'] = 'sel_Selkirk_Partner';
 $beanFiles['sel_Selkirk_Partner'] = 'modules/sel_Selkirk_Partner/sel_Selkirk_Partner.php';
 $moduleList[] = 'sel_Selkirk_Partner';
+$beanList['sel_Student_Project'] = 'sel_Student_Project';
+$beanFiles['sel_Student_Project'] = 'modules/sel_Student_Project/sel_Student_Project.php';
+$moduleList[] = 'sel_Student_Project';
 
 
 ?>

@@ -310,6 +310,16 @@
       'bean_name' => 'sel_Selkirk_Team',
       'vname' => 'LBL_SEL_SELKIRK_TEAM_SECURITYGROUPS_FROM_SEL_SELKIRK_TEAM_TITLE',
     ),
+    'sel_student_activity_securitygroups' => 
+    array (
+      'name' => 'sel_student_activity_securitygroups',
+      'type' => 'link',
+      'relationship' => 'sel_student_activity_securitygroups',
+      'source' => 'non-db',
+      'module' => 'sel_Student_Activity',
+      'bean_name' => 'sel_Student_Activity',
+      'vname' => 'LBL_SEL_STUDENT_ACTIVITY_SECURITYGROUPS_FROM_SEL_STUDENT_ACTIVITY_TITLE',
+    ),
     'sel_selkirk_service_securitygroups' => 
     array (
       'name' => 'sel_selkirk_service_securitygroups',
@@ -349,6 +359,26 @@
       'module' => 'sel_Selkirk_Project',
       'bean_name' => 'sel_Selkirk_Project',
       'vname' => 'LBL_SEL_SELKIRK_PROJECT_SECURITYGROUPS_FROM_SEL_SELKIRK_PROJECT_TITLE',
+    ),
+    'sel_selkirk_template_securitygroups' => 
+    array (
+      'name' => 'sel_selkirk_template_securitygroups',
+      'type' => 'link',
+      'relationship' => 'sel_selkirk_template_securitygroups',
+      'source' => 'non-db',
+      'module' => 'sel_Selkirk_Template',
+      'bean_name' => 'sel_Selkirk_Template',
+      'vname' => 'LBL_SEL_SELKIRK_TEMPLATE_SECURITYGROUPS_FROM_SEL_SELKIRK_TEMPLATE_TITLE',
+    ),
+    'sel_student_project_securitygroups' => 
+    array (
+      'name' => 'sel_student_project_securitygroups',
+      'type' => 'link',
+      'relationship' => 'sel_student_project_securitygroups',
+      'source' => 'non-db',
+      'module' => 'sel_Student_Project',
+      'bean_name' => 'sel_Student_Project',
+      'vname' => 'LBL_SEL_STUDENT_PROJECT_SECURITYGROUPS_FROM_SEL_STUDENT_PROJECT_TITLE',
     ),
     'sel_selkirk_approvals_securitygroups' => 
     array (

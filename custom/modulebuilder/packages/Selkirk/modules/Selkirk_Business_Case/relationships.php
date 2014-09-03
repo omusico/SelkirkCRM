@@ -68,23 +68,6 @@ $relationships = array (
     'from_studio' => false,
     'relationship_name' => 'sel_selkirk_business_case_sel_selkirk_team',
   ),
-  'sel_selkirk_business_case_securitygroups' => 
-  array (
-    'rhs_label' => 'Security Groups Management',
-    'lhs_label' => 'Business Case',
-    'lhs_subpanel' => 'default',
-    'rhs_subpanel' => 'ForUsers',
-    'lhs_module' => 'sel_Selkirk_Business_Case',
-    'rhs_module' => 'SecurityGroups',
-    'relationship_type' => 'many-to-many',
-    'readonly' => false,
-    'deleted' => false,
-    'relationship_only' => false,
-    'for_activities' => false,
-    'is_custom' => false,
-    'from_studio' => false,
-    'relationship_name' => 'sel_selkirk_business_case_securitygroups',
-  ),
   'sel_selkirk_business_case_sel_selkirk_document' => 
   array (
     'rhs_label' => 'Document',
@@ -100,5 +83,22 @@ $relationships = array (
     'is_custom' => false,
     'from_studio' => false,
     'relationship_name' => 'sel_selkirk_business_case_sel_selkirk_document',
+  ),
+  'sel_selkirk_business_case_securitygroups' => 
+  array (
+    'rhs_label' => 'Security Groups Management',
+    'lhs_label' => 'Business Case',
+    'lhs_subpanel' => 'default',
+    'rhs_subpanel' => 'default',
+    'lhs_module' => 'sel_Selkirk_Business_Case',
+    'rhs_module' => 'SecurityGroups',
+    'relationship_type' => 'many-to-many',
+    'readonly' => false,
+    'deleted' => false,
+    'relationship_only' => false,
+    'for_activities' => false,
+    'is_custom' => false,
+    'from_studio' => false,
+    'relationship_name' => 'sel_selkirk_business_case_securitygroups',
   ),
 );

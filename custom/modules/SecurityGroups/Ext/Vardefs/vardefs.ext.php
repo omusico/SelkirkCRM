@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
-// created: 2014-07-16 11:41:09
+// created: 2014-09-02 14:59:49
 $dictionary["SecurityGroup"]["fields"]["sel_selkirk_document_securitygroups"] = array (
   'name' => 'sel_selkirk_document_securitygroups',
   'type' => 'link',
@@ -14,7 +14,7 @@ $dictionary["SecurityGroup"]["fields"]["sel_selkirk_document_securitygroups"] = 
 );
 
 
-// created: 2014-07-16 11:41:09
+// created: 2014-09-02 14:59:48
 $dictionary["SecurityGroup"]["fields"]["sel_selkirk_contact_securitygroups"] = array (
   'name' => 'sel_selkirk_contact_securitygroups',
   'type' => 'link',
@@ -26,7 +26,7 @@ $dictionary["SecurityGroup"]["fields"]["sel_selkirk_contact_securitygroups"] = a
 );
 
 
-// created: 2014-07-16 11:41:10
+// created: 2014-09-02 14:59:50
 $dictionary["SecurityGroup"]["fields"]["sel_selkirk_business_case_securitygroups"] = array (
   'name' => 'sel_selkirk_business_case_securitygroups',
   'type' => 'link',
@@ -38,7 +38,7 @@ $dictionary["SecurityGroup"]["fields"]["sel_selkirk_business_case_securitygroups
 );
 
 
-// created: 2014-07-16 11:41:08
+// created: 2014-09-02 14:59:47
 $dictionary["SecurityGroup"]["fields"]["sel_selkirk_activity_securitygroups"] = array (
   'name' => 'sel_selkirk_activity_securitygroups',
   'type' => 'link',
@@ -50,7 +50,7 @@ $dictionary["SecurityGroup"]["fields"]["sel_selkirk_activity_securitygroups"] = 
 );
 
 
-// created: 2014-07-16 11:41:09
+// created: 2014-09-02 14:59:48
 $dictionary["SecurityGroup"]["fields"]["sel_selkirk_team_securitygroups"] = array (
   'name' => 'sel_selkirk_team_securitygroups',
   'type' => 'link',
@@ -62,7 +62,19 @@ $dictionary["SecurityGroup"]["fields"]["sel_selkirk_team_securitygroups"] = arra
 );
 
 
-// created: 2014-07-16 11:41:08
+// created: 2014-09-02 14:59:48
+$dictionary["SecurityGroup"]["fields"]["sel_student_activity_securitygroups"] = array (
+  'name' => 'sel_student_activity_securitygroups',
+  'type' => 'link',
+  'relationship' => 'sel_student_activity_securitygroups',
+  'source' => 'non-db',
+  'module' => 'sel_Student_Activity',
+  'bean_name' => 'sel_Student_Activity',
+  'vname' => 'LBL_SEL_STUDENT_ACTIVITY_SECURITYGROUPS_FROM_SEL_STUDENT_ACTIVITY_TITLE',
+);
+
+
+// created: 2014-09-02 14:59:48
 $dictionary["SecurityGroup"]["fields"]["sel_selkirk_service_securitygroups"] = array (
   'name' => 'sel_selkirk_service_securitygroups',
   'type' => 'link',
@@ -74,7 +86,7 @@ $dictionary["SecurityGroup"]["fields"]["sel_selkirk_service_securitygroups"] = a
 );
 
 
-// created: 2014-07-16 11:41:10
+// created: 2014-09-02 14:59:50
 $dictionary["SecurityGroup"]["fields"]["sel_selkirk_milestone_securitygroups"] = array (
   'name' => 'sel_selkirk_milestone_securitygroups',
   'type' => 'link',
@@ -86,7 +98,7 @@ $dictionary["SecurityGroup"]["fields"]["sel_selkirk_milestone_securitygroups"] =
 );
 
 
-// created: 2014-07-16 11:41:11
+// created: 2014-09-02 14:59:51
 $dictionary["SecurityGroup"]["fields"]["sel_selkirk_client_securitygroups"] = array (
   'name' => 'sel_selkirk_client_securitygroups',
   'type' => 'link',
@@ -98,7 +110,7 @@ $dictionary["SecurityGroup"]["fields"]["sel_selkirk_client_securitygroups"] = ar
 );
 
 
-// created: 2014-07-16 11:41:09
+// created: 2014-09-02 14:59:49
 $dictionary["SecurityGroup"]["fields"]["sel_selkirk_project_securitygroups"] = array (
   'name' => 'sel_selkirk_project_securitygroups',
   'type' => 'link',
@@ -110,7 +122,31 @@ $dictionary["SecurityGroup"]["fields"]["sel_selkirk_project_securitygroups"] = a
 );
 
 
-// created: 2014-07-16 11:41:10
+// created: 2014-09-02 14:59:48
+$dictionary["SecurityGroup"]["fields"]["sel_selkirk_template_securitygroups"] = array (
+  'name' => 'sel_selkirk_template_securitygroups',
+  'type' => 'link',
+  'relationship' => 'sel_selkirk_template_securitygroups',
+  'source' => 'non-db',
+  'module' => 'sel_Selkirk_Template',
+  'bean_name' => 'sel_Selkirk_Template',
+  'vname' => 'LBL_SEL_SELKIRK_TEMPLATE_SECURITYGROUPS_FROM_SEL_SELKIRK_TEMPLATE_TITLE',
+);
+
+
+// created: 2014-09-02 14:59:51
+$dictionary["SecurityGroup"]["fields"]["sel_student_project_securitygroups"] = array (
+  'name' => 'sel_student_project_securitygroups',
+  'type' => 'link',
+  'relationship' => 'sel_student_project_securitygroups',
+  'source' => 'non-db',
+  'module' => 'sel_Student_Project',
+  'bean_name' => 'sel_Student_Project',
+  'vname' => 'LBL_SEL_STUDENT_PROJECT_SECURITYGROUPS_FROM_SEL_STUDENT_PROJECT_TITLE',
+);
+
+
+// created: 2014-09-02 14:59:50
 $dictionary["SecurityGroup"]["fields"]["sel_selkirk_approvals_securitygroups"] = array (
   'name' => 'sel_selkirk_approvals_securitygroups',
   'type' => 'link',
@@ -122,7 +158,7 @@ $dictionary["SecurityGroup"]["fields"]["sel_selkirk_approvals_securitygroups"] =
 );
 
 
-// created: 2014-07-16 11:41:08
+// created: 2014-09-02 14:59:48
 $dictionary["SecurityGroup"]["fields"]["sel_selkirk_funding_securitygroups"] = array (
   'name' => 'sel_selkirk_funding_securitygroups',
   'type' => 'link',
@@ -134,7 +170,7 @@ $dictionary["SecurityGroup"]["fields"]["sel_selkirk_funding_securitygroups"] = a
 );
 
 
-// created: 2014-07-16 11:41:11
+// created: 2014-09-02 14:59:51
 $dictionary["SecurityGroup"]["fields"]["sel_selkirk_partner_securitygroups"] = array (
   'name' => 'sel_selkirk_partner_securitygroups',
   'type' => 'link',

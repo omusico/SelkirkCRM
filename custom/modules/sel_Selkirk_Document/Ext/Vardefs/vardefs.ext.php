@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
-// created: 2014-07-16 11:41:09
+// created: 2014-09-02 14:59:49
 $dictionary["sel_Selkirk_Document"]["fields"]["sel_selkirk_document_sel_selkirk_client"] = array (
   'name' => 'sel_selkirk_document_sel_selkirk_client',
   'type' => 'link',
@@ -14,7 +14,7 @@ $dictionary["sel_Selkirk_Document"]["fields"]["sel_selkirk_document_sel_selkirk_
 );
 
 
-// created: 2014-07-16 11:41:09
+// created: 2014-09-02 14:59:49
 $dictionary["sel_Selkirk_Document"]["fields"]["sel_selkirk_document_sel_selkirk_project"] = array (
   'name' => 'sel_selkirk_document_sel_selkirk_project',
   'type' => 'link',
@@ -26,7 +26,7 @@ $dictionary["sel_Selkirk_Document"]["fields"]["sel_selkirk_document_sel_selkirk_
 );
 
 
-// created: 2014-07-16 11:41:09
+// created: 2014-09-02 14:59:49
 $dictionary["sel_Selkirk_Document"]["fields"]["sel_selkirk_document_securitygroups"] = array (
   'name' => 'sel_selkirk_document_securitygroups',
   'type' => 'link',
@@ -38,7 +38,7 @@ $dictionary["sel_Selkirk_Document"]["fields"]["sel_selkirk_document_securitygrou
 );
 
 
-// created: 2014-07-16 11:41:08
+// created: 2014-09-02 14:59:48
 $dictionary["sel_Selkirk_Document"]["fields"]["sel_selkirk_template_sel_selkirk_document"] = array (
   'name' => 'sel_selkirk_template_sel_selkirk_document',
   'type' => 'link',
@@ -72,7 +72,7 @@ $dictionary["sel_Selkirk_Document"]["fields"]["sel_selkir95fdemplate_ida"] = arr
 );
 
 
-// created: 2014-07-16 11:41:10
+// created: 2014-09-02 14:59:50
 $dictionary["sel_Selkirk_Document"]["fields"]["sel_selkirk_business_case_sel_selkirk_document"] = array (
   'name' => 'sel_selkirk_business_case_sel_selkirk_document',
   'type' => 'link',
@@ -106,7 +106,19 @@ $dictionary["sel_Selkirk_Document"]["fields"]["sel_selkirae30ss_case_ida"] = arr
 );
 
 
-// created: 2014-07-16 11:41:09
+// created: 2014-09-02 14:59:51
+$dictionary["sel_Selkirk_Document"]["fields"]["sel_student_project_sel_selkirk_document"] = array (
+  'name' => 'sel_student_project_sel_selkirk_document',
+  'type' => 'link',
+  'relationship' => 'sel_student_project_sel_selkirk_document',
+  'source' => 'non-db',
+  'module' => 'sel_Student_Project',
+  'bean_name' => 'sel_Student_Project',
+  'vname' => 'LBL_SEL_STUDENT_PROJECT_SEL_SELKIRK_DOCUMENT_FROM_SEL_STUDENT_PROJECT_TITLE',
+);
+
+
+// created: 2014-09-02 14:59:49
 $dictionary["sel_Selkirk_Document"]["fields"]["sel_selkirk_document_sel_selkirk_service"] = array (
   'name' => 'sel_selkirk_document_sel_selkirk_service',
   'type' => 'link',

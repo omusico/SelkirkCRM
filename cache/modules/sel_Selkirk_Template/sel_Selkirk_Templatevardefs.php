@@ -321,15 +321,15 @@
       'source' => 'non-db',
       'Comment' => 'Document status for Meta-Data framework',
     ),
-    'sel_selkirk_document_securitygroups' => 
+    'sel_selkirk_template_securitygroups' => 
     array (
-      'name' => 'sel_selkirk_document_securitygroups',
+      'name' => 'sel_selkirk_template_securitygroups',
       'type' => 'link',
-      'relationship' => 'sel_selkirk_document_securitygroups',
+      'relationship' => 'sel_selkirk_template_securitygroups',
       'source' => 'non-db',
       'module' => 'SecurityGroups',
       'bean_name' => 'SecurityGroup',
-      'vname' => 'LBL_SEL_SELKIRK_DOCUMENT_SECURITYGROUPS_FROM_SECURITYGROUPS_TITLE',
+      'vname' => 'LBL_SEL_SELKIRK_TEMPLATE_SECURITYGROUPS_FROM_SECURITYGROUPS_TITLE',
     ),
     'sel_selkirk_template_sel_selkirk_document' => 
     array (

@@ -385,3 +385,123 @@ Tue Aug 26 15:41:56 2014 [17446][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] ao
 
 Tue Aug 26 15:41:56 2014 [17446][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
 
+Thu Aug 28 13:15:30 2014 [29572][-none-][FATAL] SECURITY: User authentication for lperepol  failed
+Thu Aug 28 13:15:30 2014 [29572][-none-][FATAL] FAILED LOGIN:attempts[1] - lperepol 
+Thu Aug 28 13:15:49 2014 [29582][-none-][FATAL] SECURITY: User authentication for lperepol failed
+Thu Aug 28 13:15:49 2014 [29582][-none-][FATAL] FAILED LOGIN:attempts[2] - lperepol
+Thu Aug 28 16:05:15 2014 [32153][-none-][FATAL] SECURITY: User authentication for lperepolkin failed
+Thu Aug 28 16:05:15 2014 [32153][-none-][FATAL] FAILED LOGIN:attempts[1] - lperepolkin
+Fri Aug 29 12:16:25 2014 [5100][-none-][FATAL] SECURITY: User authentication for cbrdi failed
+Fri Aug 29 12:16:25 2014 [5100][-none-][FATAL] FAILED LOGIN:attempts[1] - cbrdi
+Fri Aug 29 13:52:42 2014 [6284][-none-][FATAL] SECURITY: User authentication for cbrdi failed
+Fri Aug 29 13:52:42 2014 [6284][-none-][FATAL] FAILED LOGIN:attempts[1] - cbrdi
+Tue Sep  2 10:18:33 2014 [28705][1][FATAL] quotes for projects_quotes failed to load
+
+Tue Sep  2 10:18:33 2014 [28705][1][FATAL] holidays for users_holidays failed to load
+
+Tue Sep  2 10:18:33 2014 [28705][1][FATAL] project_resource for projects_users_resources failed to load
+
+Tue Sep  2 10:18:33 2014 [28705][1][FATAL] project_resource for projects_contacts_resources failed to load
+
+Tue Sep  2 10:18:33 2014 [28705][1][FATAL] holidays for users_holidays failed to load
+
+Tue Sep  2 10:18:33 2014 [28705][1][FATAL] project_resource for projects_users_resources failed to load
+
+Tue Sep  2 10:18:33 2014 [28705][1][FATAL] assigned_user_link for tracker_user_id failed to load
+
+Tue Sep  2 10:18:33 2014 [28705][1][FATAL] Class Connectors does not exist, unable to rename.
+Tue Sep  2 10:18:33 2014 [28705][1][FATAL] Class CustomFields does not exist, unable to rename.
+Tue Sep  2 10:18:33 2014 [28705][1][FATAL] Class Audit does not exist, unable to rename.
+Tue Sep  2 10:18:33 2014 [28705][1][FATAL] holidays for users_holidays failed to load
+
+Tue Sep  2 10:18:33 2014 [28705][1][FATAL] project_resource for projects_users_resources failed to load
+
+Tue Sep  2 10:18:33 2014 [28705][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Tue Sep  2 10:18:33 2014 [28705][1][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Tue Sep  2 10:18:33 2014 [28705][1][FATAL] tasks for aos_contracts_tasks failed to load
+
+Tue Sep  2 10:18:33 2014 [28705][1][FATAL] notes for aos_contracts_notes failed to load
+
+Tue Sep  2 10:18:33 2014 [28705][1][FATAL] meetings for aos_contracts_meetings failed to load
+
+Tue Sep  2 10:18:33 2014 [28705][1][FATAL] calls for aos_contracts_calls failed to load
+
+Tue Sep  2 10:18:33 2014 [28705][1][FATAL] emails for emails_aos_contracts_rel failed to load
+
+Tue Sep  2 10:19:12 2014 [28878][1][FATAL] quotes for projects_quotes failed to load
+
+Tue Sep  2 10:19:12 2014 [28878][1][FATAL] holidays for users_holidays failed to load
+
+Tue Sep  2 10:19:12 2014 [28878][1][FATAL] project_resource for projects_users_resources failed to load
+
+Tue Sep  2 10:19:12 2014 [28878][1][FATAL] project_resource for projects_contacts_resources failed to load
+
+Tue Sep  2 10:19:12 2014 [28878][1][FATAL] holidays for users_holidays failed to load
+
+Tue Sep  2 10:19:12 2014 [28878][1][FATAL] project_resource for projects_users_resources failed to load
+
+Tue Sep  2 10:19:12 2014 [28878][1][FATAL] assigned_user_link for tracker_user_id failed to load
+
+Tue Sep  2 10:19:12 2014 [28878][1][FATAL] Class Connectors does not exist, unable to rename.
+Tue Sep  2 10:19:12 2014 [28878][1][FATAL] Class CustomFields does not exist, unable to rename.
+Tue Sep  2 10:19:12 2014 [28878][1][FATAL] Class Audit does not exist, unable to rename.
+Tue Sep  2 10:19:12 2014 [28878][1][FATAL] holidays for users_holidays failed to load
+
+Tue Sep  2 10:19:12 2014 [28878][1][FATAL] project_resource for projects_users_resources failed to load
+
+Tue Sep  2 10:19:13 2014 [28878][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Tue Sep  2 10:19:13 2014 [28878][1][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Tue Sep  2 10:19:13 2014 [28878][1][FATAL] tasks for aos_contracts_tasks failed to load
+
+Tue Sep  2 10:19:13 2014 [28878][1][FATAL] notes for aos_contracts_notes failed to load
+
+Tue Sep  2 10:19:13 2014 [28878][1][FATAL] meetings for aos_contracts_meetings failed to load
+
+Tue Sep  2 10:19:13 2014 [28878][1][FATAL] calls for aos_contracts_calls failed to load
+
+Tue Sep  2 10:19:13 2014 [28878][1][FATAL] emails for emails_aos_contracts_rel failed to load
+
+Tue Sep  2 10:57:21 2014 [28982][1][FATAL] Error creating table: sel_selkir6cdc_activity_c Query Failed: CREATE TABLE sel_selkir6cdc_activity_c (id varchar(36)  NOT NULL ,date_modified datetime  NULL ,deleted bool  DEFAULT '0' NULL ,sel_selkir0a45project_ida varchar(36)  NULL ,sel_selkir58b5ctivity_idb varchar(36)  NULL  , PRIMARY KEY (id),   KEY sel_selkirk_student_project_sel_selkirk_student_project_activity_ida1 (sel_selkir0a45project_ida),   KEY sel_selkirk_student_project_sel_selkirk_student_project_activity_alt (sel_selkir58b5ctivity_idb)) CHARACTER SET utf8 COLLATE utf8_general_ci: MySQL error 1059: Identifier name 'sel_selkirk_student_project_sel_selkirk_student_project_activity_ida1' is too long
+Tue Sep  2 11:00:12 2014 [29151][1][FATAL] Error creating table: sel_selkirf3d0t_project_c Query Failed: CREATE TABLE sel_selkirf3d0t_project_c (id varchar(36)  NOT NULL ,date_modified datetime  NULL ,deleted bool  DEFAULT '0' NULL ,sel_selkir478eproject_ida varchar(36)  NULL ,sel_selkir6420ctivity_idb varchar(36)  NULL  , PRIMARY KEY (id),   KEY sel_selkirk_student_project_activity_sel_selkirk_student_project_ida1 (sel_selkir478eproject_ida),   KEY sel_selkirk_student_project_activity_sel_selkirk_student_project_alt (sel_selkir6420ctivity_idb)) CHARACTER SET utf8 COLLATE utf8_general_ci: MySQL error 1059: Identifier name 'sel_selkirk_student_project_activity_sel_selkirk_student_project_ida1' is too long
+Tue Sep  2 11:08:00 2014 [29281][1][FATAL] Error creating table: sel_selkir6cdc_activity_c Query Failed: CREATE TABLE sel_selkir6cdc_activity_c (id varchar(36)  NOT NULL ,date_modified datetime  NULL ,deleted bool  DEFAULT '0' NULL ,sel_selkir0a45project_ida varchar(36)  NULL ,sel_selkir58b5ctivity_idb varchar(36)  NULL  , PRIMARY KEY (id),   KEY sel_selkirk_student_project_sel_selkirk_student_project_activity_ida1 (sel_selkir0a45project_ida),   KEY sel_selkirk_student_project_sel_selkirk_student_project_activity_alt (sel_selkir58b5ctivity_idb)) CHARACTER SET utf8 COLLATE utf8_general_ci: MySQL error 1059: Identifier name 'sel_selkirk_student_project_sel_selkirk_student_project_activity_ida1' is too long
+Tue Sep  2 11:09:26 2014 [29254][1][FATAL] Error creating table: sel_selkir6cdc_activity_c Query Failed: CREATE TABLE sel_selkir6cdc_activity_c (id varchar(36)  NOT NULL ,date_modified datetime  NULL ,deleted bool  DEFAULT '0' NULL ,sel_selkir0a45project_ida varchar(36)  NULL ,sel_selkir58b5ctivity_idb varchar(36)  NULL  , PRIMARY KEY (id),   KEY sel_selkirk_student_project_sel_selkirk_student_project_activity_alt (sel_selkir0a45project_ida, sel_selkir58b5ctivity_idb)) CHARACTER SET utf8 COLLATE utf8_general_ci: MySQL error 1059: Identifier name 'sel_selkirk_student_project_sel_selkirk_student_project_activity_alt' is too long
+Tue Sep  2 11:20:52 2014 [29509][1][FATAL] quotes for projects_quotes failed to load
+
+Tue Sep  2 11:20:53 2014 [29509][1][FATAL] holidays for users_holidays failed to load
+
+Tue Sep  2 11:20:53 2014 [29509][1][FATAL] project_resource for projects_users_resources failed to load
+
+Tue Sep  2 11:20:53 2014 [29509][1][FATAL] project_resource for projects_contacts_resources failed to load
+
+Tue Sep  2 11:20:53 2014 [29509][1][FATAL] holidays for users_holidays failed to load
+
+Tue Sep  2 11:20:53 2014 [29509][1][FATAL] project_resource for projects_users_resources failed to load
+
+Tue Sep  2 11:20:53 2014 [29509][1][FATAL] assigned_user_link for tracker_user_id failed to load
+
+Tue Sep  2 11:20:53 2014 [29509][1][FATAL] Class Connectors does not exist, unable to rename.
+Tue Sep  2 11:20:53 2014 [29509][1][FATAL] Class CustomFields does not exist, unable to rename.
+Tue Sep  2 11:20:53 2014 [29509][1][FATAL] Class Audit does not exist, unable to rename.
+Tue Sep  2 11:20:53 2014 [29509][1][FATAL] holidays for users_holidays failed to load
+
+Tue Sep  2 11:20:53 2014 [29509][1][FATAL] project_resource for projects_users_resources failed to load
+
+Tue Sep  2 11:20:53 2014 [29509][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Tue Sep  2 11:20:53 2014 [29509][1][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Tue Sep  2 11:20:53 2014 [29509][1][FATAL] tasks for aos_contracts_tasks failed to load
+
+Tue Sep  2 11:20:53 2014 [29509][1][FATAL] notes for aos_contracts_notes failed to load
+
+Tue Sep  2 11:20:53 2014 [29509][1][FATAL] meetings for aos_contracts_meetings failed to load
+
+Tue Sep  2 11:20:53 2014 [29509][1][FATAL] calls for aos_contracts_calls failed to load
+
+Tue Sep  2 11:20:53 2014 [29509][1][FATAL] emails for emails_aos_contracts_rel failed to load
+
+Wed Sep  3 08:45:04 2014 [6074][18d76693-877a-bc05-c518-5396227874d8][FATAL] Error: Query limit of 1000 reached for SecurityGroups module.
