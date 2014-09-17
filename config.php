@@ -1,5 +1,5 @@
 <?php
-// created: 2014-09-03 09:02:52
+// created: 2014-09-17 08:46:03
 $sugar_config = array (
   'SAML_X509Cert' => '',
   'SAML_loginurl' => '',
@@ -338,7 +338,7 @@ $sugar_config = array (
     'timeout' => 86400,
   ),
   'js_custom_version' => 1,
-  'js_lang_version' => 40,
+  'js_lang_version' => 42,
   'languages' => 
   array (
     'en_us' => 'English (US)',
@@ -347,7 +347,7 @@ $sugar_config = array (
   ),
   'large_scale_test' => false,
   'lead_conv_activity_opt' => 'donothing',
-  'list_max_entries_per_page' => '250',
+  'list_max_entries_per_page' => '5',
   'list_max_entries_per_subpanel' => '5',
   'lock_default_user_name' => false,
   'lock_homepage' => false,
@@ -368,7 +368,7 @@ $sugar_config = array (
       'suffix' => '',
     ),
   ),
-  'max_dashlets_homepage' => '15',
+  'max_dashlets_homepage' => '5',
   'name_formats' => 
   array (
     's f l' => 's f l',

@@ -22,7 +22,7 @@ $sugar_config['passwordsetting']['systexpirationlogin'] = '0';
 $sugar_config['SAML_loginurl'] = '';
 $sugar_config['SAML_X509Cert'] = '';
 $sugar_config['authenticationClass'] = '';
-$sugar_config['list_max_entries_per_page'] = '250';
+$sugar_config['list_max_entries_per_page'] = '5';
 $sugar_config['colourselector']['menu'] = 'A2CB37';
 $sugar_config['colourselector']['menufrom'] = '7B9D28';
 $sugar_config['colourselector']['menuto'] = 'A2CB37';
@@ -87,8 +87,6 @@ $sugar_config['addAjaxBannedModules']['39'] = 'Contacts';
 $sugar_config['addAjaxBannedModules']['40'] = 'Leads';
 $sugar_config['addAjaxBannedModules']['41'] = 'Meetings';
 $sugar_config['save_query'] = 'no';
+$sugar_config['resource_management']['default_limit'] = 5000;
+$sugar_config['max_dashlets_homepage'] = '5';
 /***CONFIGURATOR***/
-
-$sugar_config['resource_management']['default_limit'] = 5000; // default is 1000
-
-

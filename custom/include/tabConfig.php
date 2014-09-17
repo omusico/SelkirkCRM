@@ -1,5 +1,5 @@
 <?php
-// created: 2014-09-02 11:26:20
+// created: 2014-09-17 08:46:03
 $GLOBALS['tabStructure'] = array (
   'LBL_GROUPTAB0_1400340999' => 
   array (
@@ -21,6 +21,7 @@ $GLOBALS['tabStructure'] = array (
       12 => 'sel_Selkirk_Approvals',
       13 => 'AOR_Reports',
       14 => 'sel_Selkirk_Team',
+      15 => 'SecurityGroups',
     ),
   ),
   'LBL_GROUPTAB1_1409682380' => 
