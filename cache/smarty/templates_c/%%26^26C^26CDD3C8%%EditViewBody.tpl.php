@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-09-03 10:20:00
+<?php /* Smarty version 2.6.11, created on 2014-09-24 15:56:03
          compiled from modules/ACLRoles/EditViewBody.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getjspath', 'modules/ACLRoles/EditViewBody.tpl', 38, false),)), $this); ?>

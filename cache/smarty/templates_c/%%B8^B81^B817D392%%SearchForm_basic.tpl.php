@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.11, created on 2014-09-16 16:08:00
+<?php /* Smarty version 2.6.11, created on 2014-09-25 13:43:06
          compiled from cache/modules/sel_Selkirk_Client/SearchForm_basic.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'cache/modules/sel_Selkirk_Client/SearchForm_basic.tpl', 33, false),array('function', 'math', 'cache/modules/sel_Selkirk_Client/SearchForm_basic.tpl', 34, false),array('function', 'sugar_translate', 'cache/modules/sel_Selkirk_Client/SearchForm_basic.tpl', 43, false),array('function', 'sugar_getimagepath', 'cache/modules/sel_Selkirk_Client/SearchForm_basic.tpl', 72, false),array('modifier', 'count', 'cache/modules/sel_Selkirk_Client/SearchForm_basic.tpl', 59, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'cache/modules/sel_Selkirk_Client/SearchForm_basic.tpl', 33, false),array('function', 'math', 'cache/modules/sel_Selkirk_Client/SearchForm_basic.tpl', 34, false),array('function', 'sugar_translate', 'cache/modules/sel_Selkirk_Client/SearchForm_basic.tpl', 43, false),array('function', 'sugar_getimagepath', 'cache/modules/sel_Selkirk_Client/SearchForm_basic.tpl', 101, false),array('modifier', 'count', 'cache/modules/sel_Selkirk_Client/SearchForm_basic.tpl', 88, false),)), $this); ?>
 
 <input type='hidden' id="orderByInput" name='orderBy' value=''/>
 <input type='hidden' id="sortOrder" name='sortOrder' value=''/>
@@ -57,6 +57,34 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', '
     maxlength='255' 
     value='<?php echo $this->_tpl_vars['value']; ?>
 ' title=''      accesskey='9'  >
+   	   	</td>
+    
+      
+	<?php echo smarty_function_counter(array('assign' => 'index'), $this);?>
+
+	<?php echo smarty_function_math(array('equation' => "left % right",'left' => $this->_tpl_vars['index'],'right' => $this->_tpl_vars['basicMaxColumns'],'assign' => 'modVal'), $this);?>
+
+	<?php if (( $this->_tpl_vars['index'] % $this->_tpl_vars['basicMaxColumns'] == 1 && $this->_tpl_vars['index'] != 1 )): ?>
+		</tr><tr>
+	<?php endif; ?>
+	
+	<td scope="row" nowrap="nowrap" width='1%' >
+		
+		<label for='city_basic' ><?php echo smarty_function_sugar_translate(array('label' => 'LBL_CITY','module' => 'sel_Selkirk_Client'), $this);?>
+</label>
+    	</td>
+
+	
+	<td  nowrap="nowrap" width='1%'>
+			
+<?php if (strlen ( $this->_tpl_vars['fields']['city_basic']['value'] ) <= 0):  $this->assign('value', $this->_tpl_vars['fields']['city_basic']['default_value']);  else:  $this->assign('value', $this->_tpl_vars['fields']['city_basic']['value']);  endif; ?>  
+<input type='text' name='<?php echo $this->_tpl_vars['fields']['city_basic']['name']; ?>
+' 
+    id='<?php echo $this->_tpl_vars['fields']['city_basic']['name']; ?>
+' size='30' 
+    maxlength='255' 
+    value='<?php echo $this->_tpl_vars['value']; ?>
+' title=''      >
    	   	</td>
     <?php if (count($this->_tpl_vars['formData']) >= $this->_tpl_vars['basicMaxColumns']+1): ?>
     </tr>

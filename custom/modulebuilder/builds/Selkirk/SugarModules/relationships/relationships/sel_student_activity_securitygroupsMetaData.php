@@ -1,24 +1,26 @@
 <?php
-// created: 2014-09-02 14:59:48
+// created: 2014-09-24 13:45:51
 $dictionary["sel_student_activity_securitygroups"] = array (
   'true_relationship_type' => 'many-to-many',
   'relationships' => 
   array (
     'sel_student_activity_securitygroups' => 
     array (
-      'lhs_module' => 'sel_Student_Activity',
-      'lhs_table' => 'sel_student_activity',
+      'lhs_module' => 'SecurityGroups',
+      'lhs_table' => 'securitygroups',
       'lhs_key' => 'id',
-      'rhs_module' => 'SecurityGroups',
-      'rhs_table' => 'securitygroups',
+      'rhs_module' => 'sel_Student_Activity',
+      'rhs_table' => 'sel_student_activity',
       'rhs_key' => 'id',
+      'join_table' => 'securitygroups_records',
+      'join_key_lhs' => 'securitygroup_id',
+      'join_key_rhs' => 'record_id',
       'relationship_type' => 'many-to-many',
-      'join_table' => 'sel_student_activity_securitygroups_c',
-      'join_key_lhs' => 'sel_student_activity_securitygroupssel_student_activity_ida',
-      'join_key_rhs' => 'sel_student_activity_securitygroupssecuritygroups_idb',
+      'relationship_role_column' => 'module',
+      'relationship_role_column_value' => 'sel_student_activity',
     ),
   ),
-  'table' => 'sel_student_activity_securitygroups_c',
+  'table' => 'securitygroups_records',
   'fields' => 
   array (
     0 => 
@@ -42,13 +44,13 @@ $dictionary["sel_student_activity_securitygroups"] = array (
     ),
     3 => 
     array (
-      'name' => 'sel_student_activity_securitygroupssel_student_activity_ida',
+      'name' => 'securitygroup_id',
       'type' => 'varchar',
       'len' => 36,
     ),
     4 => 
     array (
-      'name' => 'sel_student_activity_securitygroupssecuritygroups_idb',
+      'name' => 'record_id',
       'type' => 'varchar',
       'len' => 36,
     ),
@@ -70,8 +72,8 @@ $dictionary["sel_student_activity_securitygroups"] = array (
       'type' => 'alternate_key',
       'fields' => 
       array (
-        0 => 'sel_student_activity_securitygroupssel_student_activity_ida',
-        1 => 'sel_student_activity_securitygroupssecuritygroups_idb',
+        0 => 'securitygroup_id',
+        1 => 'record_id',
       ),
     ),
   ),

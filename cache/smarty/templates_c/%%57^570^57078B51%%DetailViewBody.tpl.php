@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-09-03 10:19:11
+<?php /* Smarty version 2.6.11, created on 2014-09-25 10:30:57
          compiled from modules/ACLRoles/DetailViewBody.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'capitalize', 'modules/ACLRoles/DetailViewBody.tpl', 73, false),)), $this); ?>

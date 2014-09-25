@@ -1,5 +1,5 @@
 <?php
- // created: 2014-09-02 14:59:50
+ // created: 2014-09-24 13:45:53
 $layout_defs["sel_Selkirk_MileStone"]["subpanel_setup"]['sel_selkirk_milestone_securitygroups'] = array (
   'order' => 100,
   'module' => 'SecurityGroups',

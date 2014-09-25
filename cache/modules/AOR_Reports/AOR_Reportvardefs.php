@@ -280,6 +280,16 @@
       'bean_name' => 'AOR_Condition',
       'source' => 'non-db',
     ),
+    'securitygroups_aor_reports_1' => 
+    array (
+      'name' => 'securitygroups_aor_reports_1',
+      'type' => 'link',
+      'relationship' => 'securitygroups_aor_reports_1',
+      'source' => 'non-db',
+      'module' => 'SecurityGroups',
+      'bean_name' => 'SecurityGroup',
+      'vname' => 'LBL_SECURITYGROUPS_AOR_REPORTS_1_FROM_SECURITYGROUPS_TITLE',
+    ),
   ),
   'relationships' => 
   array (

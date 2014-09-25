@@ -505,3 +505,31 @@ Tue Sep  2 11:20:53 2014 [29509][1][FATAL] calls for aos_contracts_calls failed 
 Tue Sep  2 11:20:53 2014 [29509][1][FATAL] emails for emails_aos_contracts_rel failed to load
 
 Wed Sep  3 08:45:04 2014 [6074][18d76693-877a-bc05-c518-5396227874d8][FATAL] Error: Query limit of 1000 reached for SecurityGroups module.
+Mon Sep 22 14:30:58 2014 [23766][-none-][FATAL] SECURITY: User authentication for admin failed
+Mon Sep 22 14:30:58 2014 [23766][-none-][FATAL] FAILED LOGIN:attempts[1] - admin
+Tue Sep 23 15:10:52 2014 [28969][775274ac-69a2-9bd4-fc5c-5399c68d3a6d][FATAL]  Query Failed: SELECT id FROM aor_field WHERE aor_field.aor_report_id = '3d0a56a2-9fa6-5359-6257-5421ef0341fe' AND aor_field.deleted=0: MySQL error 1146: Table 'selkirkcrm.aor_field' doesn't exist
+Wed Sep 24 07:32:53 2014 [31762][1][FATAL]  Query Failed: SELECT id FROM aor_field WHERE aor_field.aor_report_id = 'a88d73fb-807b-e76c-3d02-5421f28f909a' AND aor_field.deleted=0: MySQL error 1146: Table 'selkirkcrm.aor_field' doesn't exist
+Wed Sep 24 14:50:40 2014 [3631][1][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0 ) as n: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Wed Sep 24 14:50:40 2014 [3631][1][FATAL]  Query Failed: SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0  LIMIT 0,20: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Wed Sep 24 14:52:22 2014 [3700][775274ac-69a2-9bd4-fc5c-5399c68d3a6d][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0 ) as n: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Wed Sep 24 14:52:22 2014 [3700][775274ac-69a2-9bd4-fc5c-5399c68d3a6d][FATAL]  Query Failed: SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0  LIMIT 0,20: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Wed Sep 24 15:14:51 2014 [3848][1][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0 ) as n: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Wed Sep 24 15:14:51 2014 [3848][1][FATAL]  Query Failed: SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0  LIMIT 0,20: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Wed Sep 24 15:31:30 2014 [3961][1][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0 ) as n: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Wed Sep 24 15:31:30 2014 [3961][1][FATAL]  Query Failed: SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0  LIMIT 0,20: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Wed Sep 24 15:32:23 2014 [4021][775274ac-69a2-9bd4-fc5c-5399c68d3a6d][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0 ) as n: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Wed Sep 24 15:32:23 2014 [4021][775274ac-69a2-9bd4-fc5c-5399c68d3a6d][FATAL]  Query Failed: SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0  LIMIT 0,20: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Wed Sep 24 15:43:33 2014 [4082][1][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0 ) as n: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Wed Sep 24 15:43:33 2014 [4082][1][FATAL]  Query Failed: SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0  LIMIT 0,20: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Wed Sep 24 15:43:33 2014 [4082][1][FATAL] Missing relationship definition securitygroups_aor_reports_1. skipping securitygroups_aor_reports_1 subpanel
+Wed Sep 24 15:43:33 2014 [4098][1][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0 ) as n: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Wed Sep 24 15:43:33 2014 [4098][1][FATAL]  Query Failed: SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0  LIMIT 0,20: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Wed Sep 24 15:43:33 2014 [4098][1][FATAL] Missing relationship definition securitygroups_aor_reports_1. skipping securitygroups_aor_reports_1 subpanel
+Wed Sep 24 15:45:24 2014 [4127][1][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0 ) as n: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Wed Sep 24 15:45:24 2014 [4127][1][FATAL]  Query Failed: SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0  LIMIT 0,20: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Wed Sep 24 15:55:03 2014 [4314][1][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0 ) as n: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Wed Sep 24 15:55:03 2014 [4314][1][FATAL]  Query Failed: SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0  LIMIT 0,20: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Wed Sep 24 15:59:25 2014 [4405][1][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0 ) as n: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Wed Sep 24 15:59:25 2014 [4405][1][FATAL]  Query Failed: SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0  LIMIT 0,20: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Wed Sep 24 16:00:18 2014 [4449][775274ac-69a2-9bd4-fc5c-5399c68d3a6d][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0 ) as n: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Wed Sep 24 16:00:18 2014 [4449][775274ac-69a2-9bd4-fc5c-5399c68d3a6d][FATAL]  Query Failed: SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0  LIMIT 0,20: MySQL error 1054: Unknown column 'config.id' in 'field list'

@@ -290,6 +290,16 @@
       'bean_name' => 'sel_Selkirk_Business_Case',
       'vname' => 'LBL_SEL_SELKIRK_BUSINESS_CASE_SECURITYGROUPS_FROM_SEL_SELKIRK_BUSINESS_CASE_TITLE',
     ),
+    'securitygroups_aor_reports_1' => 
+    array (
+      'name' => 'securitygroups_aor_reports_1',
+      'type' => 'link',
+      'relationship' => 'securitygroups_aor_reports_1',
+      'source' => 'non-db',
+      'module' => 'AOR_Reports',
+      'bean_name' => 'AOR_Report',
+      'vname' => 'LBL_SECURITYGROUPS_AOR_REPORTS_1_FROM_AOR_REPORTS_TITLE',
+    ),
     'sel_selkirk_activity_securitygroups' => 
     array (
       'name' => 'sel_selkirk_activity_securitygroups',

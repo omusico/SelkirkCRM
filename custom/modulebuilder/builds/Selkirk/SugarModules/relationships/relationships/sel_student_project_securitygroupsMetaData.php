@@ -1,24 +1,26 @@
 <?php
-// created: 2014-09-02 14:59:51
+// created: 2014-09-24 13:45:54
 $dictionary["sel_student_project_securitygroups"] = array (
   'true_relationship_type' => 'many-to-many',
   'relationships' => 
   array (
     'sel_student_project_securitygroups' => 
     array (
-      'lhs_module' => 'sel_Student_Project',
-      'lhs_table' => 'sel_student_project',
+      'lhs_module' => 'SecurityGroups',
+      'lhs_table' => 'securitygroups',
       'lhs_key' => 'id',
-      'rhs_module' => 'SecurityGroups',
-      'rhs_table' => 'securitygroups',
+      'rhs_module' => 'sel_Student_Project',
+      'rhs_table' => 'sel_student_project',
       'rhs_key' => 'id',
+      'join_table' => 'securitygroups_records',
+      'join_key_lhs' => 'securitygroup_id',
+      'join_key_rhs' => 'record_id',
       'relationship_type' => 'many-to-many',
-      'join_table' => 'sel_student_project_securitygroups_c',
-      'join_key_lhs' => 'sel_student_project_securitygroupssel_student_project_ida',
-      'join_key_rhs' => 'sel_student_project_securitygroupssecuritygroups_idb',
+      'relationship_role_column' => 'module',
+      'relationship_role_column_value' => 'sel_student_project',
     ),
   ),
-  'table' => 'sel_student_project_securitygroups_c',
+  'table' => 'securitygroups_records',
   'fields' => 
   array (
     0 => 
@@ -42,13 +44,13 @@ $dictionary["sel_student_project_securitygroups"] = array (
     ),
     3 => 
     array (
-      'name' => 'sel_student_project_securitygroupssel_student_project_ida',
+      'name' => 'securitygroup_id',
       'type' => 'varchar',
       'len' => 36,
     ),
     4 => 
     array (
-      'name' => 'sel_student_project_securitygroupssecuritygroups_idb',
+      'name' => 'record_id',
       'type' => 'varchar',
       'len' => 36,
     ),
@@ -70,8 +72,8 @@ $dictionary["sel_student_project_securitygroups"] = array (
       'type' => 'alternate_key',
       'fields' => 
       array (
-        0 => 'sel_student_project_securitygroupssel_student_project_ida',
-        1 => 'sel_student_project_securitygroupssecuritygroups_idb',
+        0 => 'securitygroup_id',
+        1 => 'record_id',
       ),
     ),
   ),

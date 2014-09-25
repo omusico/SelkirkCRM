@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
-// created: 2014-09-02 14:59:51
+// created: 2014-09-24 13:45:54
 $dictionary["sel_Selkirk_Client"]["fields"]["sel_selkirk_client_sel_student_activity"] = array (
   'name' => 'sel_selkirk_client_sel_student_activity',
   'type' => 'link',
@@ -15,7 +15,7 @@ $dictionary["sel_Selkirk_Client"]["fields"]["sel_selkirk_client_sel_student_acti
 );
 
 
-// created: 2014-09-02 14:59:49
+// created: 2014-09-24 13:45:52
 $dictionary["sel_Selkirk_Client"]["fields"]["sel_selkirk_document_sel_selkirk_client"] = array (
   'name' => 'sel_selkirk_document_sel_selkirk_client',
   'type' => 'link',
@@ -27,7 +27,7 @@ $dictionary["sel_Selkirk_Client"]["fields"]["sel_selkirk_document_sel_selkirk_cl
 );
 
 
-// created: 2014-09-02 14:59:50
+// created: 2014-09-24 13:45:53
 $dictionary["sel_Selkirk_Client"]["fields"]["sel_selkirk_client_sel_selkirk_service"] = array (
   'name' => 'sel_selkirk_client_sel_selkirk_service',
   'type' => 'link',
@@ -40,7 +40,7 @@ $dictionary["sel_Selkirk_Client"]["fields"]["sel_selkirk_client_sel_selkirk_serv
 );
 
 
-// created: 2014-09-02 14:59:50
+// created: 2014-09-24 13:45:54
 $dictionary["sel_Selkirk_Client"]["fields"]["sel_selkirk_client_sel_selkirk_activity"] = array (
   'name' => 'sel_selkirk_client_sel_selkirk_activity',
   'type' => 'link',
@@ -53,7 +53,7 @@ $dictionary["sel_Selkirk_Client"]["fields"]["sel_selkirk_client_sel_selkirk_acti
 );
 
 
-// created: 2014-09-02 14:59:51
+// created: 2014-09-24 13:45:54
 $dictionary["sel_Selkirk_Client"]["fields"]["sel_selkirk_client_securitygroups"] = array (
   'name' => 'sel_selkirk_client_securitygroups',
   'type' => 'link',
@@ -65,7 +65,7 @@ $dictionary["sel_Selkirk_Client"]["fields"]["sel_selkirk_client_securitygroups"]
 );
 
 
-// created: 2014-09-02 14:59:50
+// created: 2014-09-24 13:45:53
 $dictionary["sel_Selkirk_Client"]["fields"]["sel_selkirk_client_sel_selkirk_contact"] = array (
   'name' => 'sel_selkirk_client_sel_selkirk_contact',
   'type' => 'link',

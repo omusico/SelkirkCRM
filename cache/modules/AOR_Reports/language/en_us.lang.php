@@ -1,5 +1,5 @@
 <?php
-// created: 2014-09-17 08:46:04
+// created: 2014-09-25 13:37:15
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -39,4 +39,5 @@ $mod_strings = array (
   'LBL_EXPORT' => 'Export',
   'LBL_DOWNLOAD_PDF' => 'Download PDF',
   'LBL_ADD_TO_PROSPECT_LIST' => 'Add To Target List',
+  'LBL_SECURITYGROUPS_AOR_REPORTS_1_FROM_SECURITYGROUPS_TITLE' => 'Security Groups Management',
 );

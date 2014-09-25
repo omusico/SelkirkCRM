@@ -1,24 +1,26 @@
 <?php
-// created: 2014-09-02 14:59:50
+// created: 2014-09-24 13:45:53
 $dictionary["sel_selkirk_approvals_securitygroups"] = array (
   'true_relationship_type' => 'many-to-many',
   'relationships' => 
   array (
     'sel_selkirk_approvals_securitygroups' => 
     array (
-      'lhs_module' => 'sel_Selkirk_Approvals',
-      'lhs_table' => 'sel_selkirk_approvals',
+      'lhs_module' => 'SecurityGroups',
+      'lhs_table' => 'securitygroups',
       'lhs_key' => 'id',
-      'rhs_module' => 'SecurityGroups',
-      'rhs_table' => 'securitygroups',
+      'rhs_module' => 'sel_Selkirk_Approvals',
+      'rhs_table' => 'sel_selkirk_approvals',
       'rhs_key' => 'id',
+      'join_table' => 'securitygroups_records',
+      'join_key_lhs' => 'securitygroup_id',
+      'join_key_rhs' => 'record_id',
       'relationship_type' => 'many-to-many',
-      'join_table' => 'sel_selkirk_approvals_securitygroups_c',
-      'join_key_lhs' => 'sel_selkirk_approvals_securitygroupssel_selkirk_approvals_ida',
-      'join_key_rhs' => 'sel_selkirk_approvals_securitygroupssecuritygroups_idb',
+      'relationship_role_column' => 'module',
+      'relationship_role_column_value' => 'sel_selkirk_approvals',
     ),
   ),
-  'table' => 'sel_selkirk_approvals_securitygroups_c',
+  'table' => 'securitygroups_records',
   'fields' => 
   array (
     0 => 
@@ -42,13 +44,13 @@ $dictionary["sel_selkirk_approvals_securitygroups"] = array (
     ),
     3 => 
     array (
-      'name' => 'sel_selkirk_approvals_securitygroupssel_selkirk_approvals_ida',
+      'name' => 'securitygroup_id',
       'type' => 'varchar',
       'len' => 36,
     ),
     4 => 
     array (
-      'name' => 'sel_selkirk_approvals_securitygroupssecuritygroups_idb',
+      'name' => 'record_id',
       'type' => 'varchar',
       'len' => 36,
     ),
@@ -70,8 +72,8 @@ $dictionary["sel_selkirk_approvals_securitygroups"] = array (
       'type' => 'alternate_key',
       'fields' => 
       array (
-        0 => 'sel_selkirk_approvals_securitygroupssel_selkirk_approvals_ida',
-        1 => 'sel_selkirk_approvals_securitygroupssecuritygroups_idb',
+        0 => 'securitygroup_id',
+        1 => 'record_id',
       ),
     ),
   ),

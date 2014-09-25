@@ -39,11 +39,19 @@ array (
           0 => 'name',
           1 => 
           array (
+            'name' => 'student_number',
+            'label' => 'LBL_STUDENT_NUMBER',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
             'name' => 'course',
             'label' => 'LBL_COURSE',
           ),
         ),
-        1 => 
+        2 => 
         array (
           0 => 
           array (
@@ -56,7 +64,7 @@ array (
             'label' => 'LBL_END_DATE',
           ),
         ),
-        2 => 
+        3 => 
         array (
           0 => 
           array (
@@ -64,7 +72,7 @@ array (
             'label' => 'LBL_DURATION',
           ),
         ),
-        3 => 
+        4 => 
         array (
           0 => 
           array (
@@ -73,7 +81,7 @@ array (
             'label' => 'LBL_DESCRIPTION',
           ),
         ),
-        4 => 
+        5 => 
         array (
           0 => 
           array (

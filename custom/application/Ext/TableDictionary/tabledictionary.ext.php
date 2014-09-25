@@ -144,6 +144,11 @@ include('custom/metadata/sel_selkirk_client_securitygroupsMetaData.php');
 
  
  //WARNING: The contents of this file are auto-generated
+include('custom/metadata/securitygroups_aor_reports_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 include('custom/metadata/sel_selkirk_partner_sel_selkirk_clientMetaData.php');
 
 

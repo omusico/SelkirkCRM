@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
-// created: 2014-09-02 14:59:47
+// created: 2014-09-24 13:45:51
 $dictionary["sel_Selkirk_Activity"]["fields"]["sel_selkirk_activity_securitygroups"] = array (
   'name' => 'sel_selkirk_activity_securitygroups',
   'type' => 'link',
@@ -14,7 +14,7 @@ $dictionary["sel_Selkirk_Activity"]["fields"]["sel_selkirk_activity_securitygrou
 );
 
 
-// created: 2014-09-02 14:59:50
+// created: 2014-09-24 13:45:54
 $dictionary["sel_Selkirk_Activity"]["fields"]["sel_selkirk_client_sel_selkirk_activity"] = array (
   'name' => 'sel_selkirk_client_sel_selkirk_activity',
   'type' => 'link',
@@ -48,7 +48,7 @@ $dictionary["sel_Selkirk_Activity"]["fields"]["sel_selkirk_client_sel_selkirk_ac
 );
 
 
-// created: 2014-09-02 14:59:48
+// created: 2014-09-24 13:45:51
 $dictionary["sel_Selkirk_Activity"]["fields"]["sel_selkirk_contact_sel_selkirk_activity"] = array (
   'name' => 'sel_selkirk_contact_sel_selkirk_activity',
   'type' => 'link',

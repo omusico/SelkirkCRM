@@ -12,6 +12,14 @@ array (
         'default' => true,
         'width' => '10%',
       ),
+      'city' => 
+      array (
+        'type' => 'varchar',
+        'label' => 'LBL_CITY',
+        'width' => '10%',
+        'default' => true,
+        'name' => 'city',
+      ),
     ),
     'advanced_search' => 
     array (

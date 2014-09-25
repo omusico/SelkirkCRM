@@ -1,5 +1,5 @@
 <?php
- // created: 2014-09-02 14:59:50
+ // created: 2014-09-24 13:45:53
 $layout_defs["sel_Selkirk_Business_Case"]["subpanel_setup"]['sel_selkirk_business_case_sel_selkirk_approvals'] = array (
   'order' => 100,
   'module' => 'sel_Selkirk_Approvals',

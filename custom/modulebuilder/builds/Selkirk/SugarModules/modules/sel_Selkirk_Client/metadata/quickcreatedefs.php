@@ -151,7 +151,11 @@ array (
             'name' => 'selkirk_naics_code',
             'label' => 'LBL_SELKIRK_NAICS_CODE',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'assigned_user_name',
+            'label' => 'LBL_ASSIGNED_TO_NAME',
+          ),
         ),
       ),
       'lbl_editview_panel1' => 

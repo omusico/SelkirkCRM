@@ -147,7 +147,7 @@ $vardefs = array (
       'type' => 'text',
       'comment' => 'Full text of the note',
       'rows' => '6',
-      'cols' => '200',
+      'cols' => '100',
       'required' => false,
       'massupdate' => 0,
       'no_default' => false,
@@ -277,7 +277,7 @@ $vardefs = array (
       'size' => '20',
       'studio' => 'visible',
       'rows' => '6',
-      'cols' => '200',
+      'cols' => '100',
     ),
   ),
   'relationships' => 

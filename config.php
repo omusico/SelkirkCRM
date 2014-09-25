@@ -1,5 +1,5 @@
 <?php
-// created: 2014-09-17 08:46:03
+// created: 2014-09-24 10:03:06
 $sugar_config = array (
   'SAML_X509Cert' => '',
   'SAML_loginurl' => '',
@@ -303,7 +303,7 @@ $sugar_config = array (
   'default_user_is_admin' => false,
   'default_user_name' => '',
   'demoData' => 'no',
-  'developerMode' => false,
+  'developerMode' => true,
   'disable_convert_lead' => false,
   'disable_export' => false,
   'disable_persistent_connections' => 'false',
@@ -338,7 +338,7 @@ $sugar_config = array (
     'timeout' => 86400,
   ),
   'js_custom_version' => 1,
-  'js_lang_version' => 42,
+  'js_lang_version' => 43,
   'languages' => 
   array (
     'en_us' => 'English (US)',
@@ -424,8 +424,8 @@ $sugar_config = array (
   'securitysuite_inherit_parent' => false,
   'securitysuite_popup_select' => false,
   'securitysuite_strict_rights' => true,
-  'securitysuite_user_popup' => false,
-  'securitysuite_user_role_precedence' => false,
+  'securitysuite_user_popup' => true,
+  'securitysuite_user_role_precedence' => true,
   'securitysuite_version' => '6.5.16',
   'session_dir' => '',
   'showDetailData' => true,

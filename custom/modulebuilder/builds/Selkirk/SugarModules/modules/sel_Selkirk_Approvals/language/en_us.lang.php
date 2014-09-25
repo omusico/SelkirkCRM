@@ -36,7 +36,7 @@
 
 $mod_strings = array (
   'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
-  'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+  'LBL_ASSIGNED_TO_NAME' => 'Person To Approve',
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
   'LBL_DATE_MODIFIED' => 'Date Modified',
@@ -47,7 +47,7 @@ $mod_strings = array (
   'LBL_CREATED_ID' => 'Created By Id',
   'LBL_DESCRIPTION' => 'Recommendations/Comments',
   'LBL_DELETED' => 'Deleted',
-  'LBL_NAME' => 'Approver Name',
+  'LBL_NAME' => 'Your Name',
   'LBL_CREATED_USER' => 'Created by User',
   'LBL_MODIFIED_USER' => 'Modified by User',
   'LBL_LIST_NAME' => 'Name',

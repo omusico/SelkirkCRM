@@ -45,13 +45,13 @@ array (
         'default' => true,
         'name' => 'student_number',
       ),
-      'duration' => 
+      'course' => 
       array (
-        'type' => 'float',
-        'label' => 'LBL_DURATION',
+        'type' => 'varchar',
+        'label' => 'LBL_COURSE',
         'width' => '10%',
         'default' => true,
-        'name' => 'duration',
+        'name' => 'course',
       ),
     ),
   ),

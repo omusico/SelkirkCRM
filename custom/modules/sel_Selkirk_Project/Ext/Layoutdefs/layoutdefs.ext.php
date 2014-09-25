@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
- // created: 2014-09-02 14:59:49
+ // created: 2014-09-24 13:45:52
 $layout_defs["sel_Selkirk_Project"]["subpanel_setup"]['sel_selkirk_document_sel_selkirk_project'] = array (
   'order' => 100,
   'module' => 'sel_Selkirk_Document',
@@ -26,7 +26,7 @@ $layout_defs["sel_Selkirk_Project"]["subpanel_setup"]['sel_selkirk_document_sel_
 );
 
 
- // created: 2014-09-02 14:59:49
+ // created: 2014-09-24 13:45:52
 $layout_defs["sel_Selkirk_Project"]["subpanel_setup"]['sel_selkirk_project_securitygroups'] = array (
   'order' => 100,
   'module' => 'SecurityGroups',
@@ -50,7 +50,7 @@ $layout_defs["sel_Selkirk_Project"]["subpanel_setup"]['sel_selkirk_project_secur
 );
 
 
- // created: 2014-09-02 14:59:49
+ // created: 2014-09-24 13:45:52
 $layout_defs["sel_Selkirk_Project"]["subpanel_setup"]['sel_selkirk_project_sel_selkirk_business_case'] = array (
   'order' => 100,
   'module' => 'sel_Selkirk_Business_Case',
@@ -74,7 +74,7 @@ $layout_defs["sel_Selkirk_Project"]["subpanel_setup"]['sel_selkirk_project_sel_s
 );
 
 
- // created: 2014-09-02 14:59:49
+ // created: 2014-09-24 13:45:52
 $layout_defs["sel_Selkirk_Project"]["subpanel_setup"]['sel_selkirk_project_sel_selkirk_partner'] = array (
   'order' => 100,
   'module' => 'sel_Selkirk_Partner',
@@ -98,7 +98,7 @@ $layout_defs["sel_Selkirk_Project"]["subpanel_setup"]['sel_selkirk_project_sel_s
 );
 
 
- // created: 2014-09-02 14:59:49
+ // created: 2014-09-24 13:45:52
 $layout_defs["sel_Selkirk_Project"]["subpanel_setup"]['sel_selkirk_project_sel_selkirk_milestone'] = array (
   'order' => 100,
   'module' => 'sel_Selkirk_MileStone',
@@ -122,7 +122,7 @@ $layout_defs["sel_Selkirk_Project"]["subpanel_setup"]['sel_selkirk_project_sel_s
 );
 
 
- // created: 2014-09-02 14:59:49
+ // created: 2014-09-24 13:45:52
 $layout_defs["sel_Selkirk_Project"]["subpanel_setup"]['sel_selkirk_project_sel_selkirk_service'] = array (
   'order' => 100,
   'module' => 'sel_Selkirk_Service',
@@ -146,7 +146,7 @@ $layout_defs["sel_Selkirk_Project"]["subpanel_setup"]['sel_selkirk_project_sel_s
 );
 
 
- // created: 2014-09-02 14:59:49
+ // created: 2014-09-24 13:45:52
 $layout_defs["sel_Selkirk_Project"]["subpanel_setup"]['sel_selkirk_project_sel_selkirk_team'] = array (
   'order' => 100,
   'module' => 'sel_Selkirk_Team',
@@ -170,7 +170,7 @@ $layout_defs["sel_Selkirk_Project"]["subpanel_setup"]['sel_selkirk_project_sel_s
 );
 
 
- // created: 2014-09-02 14:59:49
+ // created: 2014-09-24 13:45:52
 $layout_defs["sel_Selkirk_Project"]["subpanel_setup"]['sel_selkirk_project_sel_selkirk_funding'] = array (
   'order' => 100,
   'module' => 'sel_Selkirk_Funding',

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-09-16 16:09:01
+<?php /* Smarty version 2.6.11, created on 2014-09-25 13:25:09
          compiled from include/ListView/ListViewNoMassUpdate.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'include/ListView/ListViewNoMassUpdate.tpl', 53, false),array('function', 'sugar_translate', 'include/ListView/ListViewNoMassUpdate.tpl', 58, false),array('function', 'sugar_getimage', 'include/ListView/ListViewNoMassUpdate.tpl', 63, false),array('function', 'sugar_evalcolumn_old', 'include/ListView/ListViewNoMassUpdate.tpl', 106, false),array('function', 'sugar_field', 'include/ListView/ListViewNoMassUpdate.tpl', 108, false),array('modifier', 'default', 'include/ListView/ListViewNoMassUpdate.tpl', 56, false),array('modifier', 'lower', 'include/ListView/ListViewNoMassUpdate.tpl', 58, false),)), $this); ?>

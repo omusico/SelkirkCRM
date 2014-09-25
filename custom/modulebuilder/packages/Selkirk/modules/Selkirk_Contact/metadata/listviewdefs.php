@@ -9,14 +9,6 @@ array (
     'default' => true,
     'link' => true,
   ),
-  'STATUS' => 
-  array (
-    'type' => 'enum',
-    'default' => true,
-    'studio' => 'visible',
-    'label' => 'LBL_STATUS',
-    'width' => '10%',
-  ),
   'EMAIL' => 
   array (
     'type' => 'varchar',

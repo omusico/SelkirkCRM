@@ -9,12 +9,28 @@ array (
     'default' => true,
     'link' => true,
   ),
-  'ASSIGNED_USER_NAME' => 
+  'CITY' => 
   array (
-    'link' => true,
+    'type' => 'varchar',
+    'label' => 'LBL_CITY',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'SELKIRK_ORGANIZATION_TYPE' => 
+  array (
+    'type' => 'enum',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_SELKIRK_ORGANIZATION_TYPE',
+    'width' => '10%',
+  ),
+  'PRIMARY_CONTACT' => 
+  array (
     'type' => 'relate',
-    'label' => 'LBL_ASSIGNED_TO_NAME',
-    'id' => 'ASSIGNED_USER_ID',
+    'studio' => 'visible',
+    'label' => 'LBL_PRIMARY_CONTACT',
+    'id' => 'SEL_SELKIRK_CONTACT_ID_C',
+    'link' => true,
     'width' => '10%',
     'default' => true,
   ),

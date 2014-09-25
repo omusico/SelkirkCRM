@@ -57,6 +57,36 @@
     maxlength='255' 
     value='{$value}' title=''      accesskey='9'  >
    	   	</td>
+    
+      
+	{counter assign=index}
+	{math equation="left % right"
+   		  left=$index
+          right=$basicMaxColumns
+          assign=modVal
+    }
+	{if ($index % $basicMaxColumns == 1 && $index != 1)}
+		</tr><tr>
+	{/if}
+	
+	<td scope="row" nowrap="nowrap" width='1%' >
+		
+		<label for='city_basic' >{sugar_translate label='LBL_CITY' module='sel_Selkirk_Client'}</label>
+    	</td>
+
+	
+	<td  nowrap="nowrap" width='1%'>
+			
+{if strlen($fields.city_basic.value) <= 0}
+{assign var="value" value=$fields.city_basic.default_value }
+{else}
+{assign var="value" value=$fields.city_basic.value }
+{/if}  
+<input type='text' name='{$fields.city_basic.name}' 
+    id='{$fields.city_basic.name}' size='30' 
+    maxlength='255' 
+    value='{$value}' title=''      >
+   	   	</td>
     {if $formData|@count >= $basicMaxColumns+1}
     </tr>
     <tr>

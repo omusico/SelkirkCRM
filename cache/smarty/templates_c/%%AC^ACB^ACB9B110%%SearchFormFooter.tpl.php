@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-09-16 16:01:04
+<?php /* Smarty version 2.6.11, created on 2014-09-25 13:37:09
          compiled from cache/modules/SecurityGroups/SearchFormFooter.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getimagepath', 'cache/modules/SecurityGroups/SearchFormFooter.tpl', 11, false),array('function', 'sugar_translate', 'cache/modules/SecurityGroups/SearchFormFooter.tpl', 12, false),)), $this); ?>

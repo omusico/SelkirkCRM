@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
-// created: 2014-09-02 14:59:49
+// created: 2014-09-24 13:45:52
 $dictionary["sel_Selkirk_Funding"]["fields"]["sel_selkirk_project_sel_selkirk_funding"] = array (
   'name' => 'sel_selkirk_project_sel_selkirk_funding',
   'type' => 'link',
@@ -36,7 +36,7 @@ $dictionary["sel_Selkirk_Funding"]["fields"]["sel_selkirk_project_sel_selkirk_fu
 );
 
 
-// created: 2014-09-02 14:59:48
+// created: 2014-09-24 13:45:51
 $dictionary["sel_Selkirk_Funding"]["fields"]["sel_selkirk_funding_securitygroups"] = array (
   'name' => 'sel_selkirk_funding_securitygroups',
   'type' => 'link',

@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
- // created: 2014-09-02 14:59:51
+ // created: 2014-09-24 13:45:54
 $layout_defs["sel_Student_Project"]["subpanel_setup"]['sel_student_project_sel_selkirk_document'] = array (
   'order' => 100,
   'module' => 'sel_Selkirk_Document',
@@ -26,7 +26,7 @@ $layout_defs["sel_Student_Project"]["subpanel_setup"]['sel_student_project_sel_s
 );
 
 
- // created: 2014-09-02 14:59:51
+ // created: 2014-09-24 13:45:54
 $layout_defs["sel_Student_Project"]["subpanel_setup"]['sel_student_project_sel_student_activity'] = array (
   'order' => 100,
   'module' => 'sel_Student_Activity',
@@ -50,7 +50,7 @@ $layout_defs["sel_Student_Project"]["subpanel_setup"]['sel_student_project_sel_s
 );
 
 
- // created: 2014-09-02 14:59:51
+ // created: 2014-09-24 13:45:54
 $layout_defs["sel_Student_Project"]["subpanel_setup"]['sel_student_project_securitygroups'] = array (
   'order' => 100,
   'module' => 'SecurityGroups',

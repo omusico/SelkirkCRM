@@ -1297,10 +1297,18 @@ EOHTML;
             }
         }
 
+        /*
         if(!empty($paramString)){
                $theTitle .= "<h2> $paramString </h2>\n";
            }
-
+	*/
+        // LP added start
+ 	global $app_list_strings;
+        $mod = $app_list_strings['moduleList'][ $this->module ];
+        if(!empty($paramString)){
+               $theTitle .= "<h2> $mod: $paramString </h2>\n";
+           }
+        // LP added end
 
         // bug 56131 - restore conditional so that link doesn't appear where it shouldn't
         if($show_help) {

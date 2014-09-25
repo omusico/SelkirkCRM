@@ -1,5 +1,5 @@
 <?php
-$app_strings['LBL_GROUPTAB0_1400340999'] = 'Menu';
+$app_strings['LBL_GROUPTAB0_1400340999'] = 'Main';
 
 $GLOBALS['app_list_strings']['selkirk_client_type']=array (
   'company' => 'Company',
@@ -143,4 +143,6 @@ $app_list_strings['moduleList']['sel_Student_Project']='Student Projects';
 $app_list_strings['moduleListSingular']['sel_Student_Activity']='Student Activity';
 $app_list_strings['moduleListSingular']['sel_Student_Project']='Student Project';
 $app_strings['LBL_GROUPTAB1_1409682380'] = 'Student Research Projects';
+
+$app_strings['LBL_GROUPTAB0_1400340999'] = 'Main';
 ?>

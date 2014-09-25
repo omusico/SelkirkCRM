@@ -12,15 +12,6 @@ array (
         'default' => true,
         'width' => '10%',
       ),
-      'status' => 
-      array (
-        'type' => 'enum',
-        'default' => true,
-        'studio' => 'visible',
-        'label' => 'LBL_STATUS',
-        'width' => '10%',
-        'name' => 'status',
-      ),
       'email' => 
       array (
         'type' => 'varchar',
@@ -28,24 +19,6 @@ array (
         'width' => '10%',
         'default' => true,
         'name' => 'email',
-      ),
-      'address_line_1' => 
-      array (
-        'type' => 'varchar',
-        'label' => 'LBL_ADDRESS_LINE_1',
-        'width' => '10%',
-        'default' => true,
-        'name' => 'address_line_1',
-      ),
-      'assigned_user_name' => 
-      array (
-        'link' => true,
-        'type' => 'relate',
-        'label' => 'LBL_ASSIGNED_TO_NAME',
-        'id' => 'ASSIGNED_USER_ID',
-        'width' => '10%',
-        'default' => true,
-        'name' => 'assigned_user_name',
       ),
     ),
     'advanced_search' => 
@@ -56,23 +29,6 @@ array (
         'default' => true,
         'width' => '10%',
       ),
-      'status' => 
-      array (
-        'type' => 'enum',
-        'default' => true,
-        'studio' => 'visible',
-        'label' => 'LBL_STATUS',
-        'width' => '10%',
-        'name' => 'status',
-      ),
-      'address_line_1' => 
-      array (
-        'type' => 'varchar',
-        'label' => 'LBL_ADDRESS_LINE_1',
-        'width' => '10%',
-        'default' => true,
-        'name' => 'address_line_1',
-      ),
       'email' => 
       array (
         'type' => 'varchar',
@@ -80,16 +36,6 @@ array (
         'width' => '10%',
         'default' => true,
         'name' => 'email',
-      ),
-      'assigned_user_name' => 
-      array (
-        'link' => true,
-        'type' => 'relate',
-        'label' => 'LBL_ASSIGNED_TO_NAME',
-        'width' => '10%',
-        'default' => true,
-        'id' => 'ASSIGNED_USER_ID',
-        'name' => 'assigned_user_name',
       ),
     ),
   ),
