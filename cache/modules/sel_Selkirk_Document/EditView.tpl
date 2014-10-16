@@ -81,7 +81,7 @@ value='{$value}' title=''      accesskey='7'  >
 <td valign="top" width='37.5%' >
 {counter name="panelFieldCount"}
 
-<script type="text/javascript" src='include/SugarFields/Fields/File/SugarFieldFile.js?v=xsia8jrIu5IeG_pdq4JCvw'></script>
+<script type="text/javascript" src='include/SugarFields/Fields/File/SugarFieldFile.js?v=gseMJIOrdYfoYrq3dADGpQ'></script>
 {if !empty($fields.uploadfile.value) }
 {assign var=showRemove value=true}
 {else}

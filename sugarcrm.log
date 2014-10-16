@@ -533,3 +533,88 @@ Wed Sep 24 15:59:25 2014 [4405][1][FATAL]  Query Failed: SELECT count(*) c FROM 
 Wed Sep 24 15:59:25 2014 [4405][1][FATAL]  Query Failed: SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0  LIMIT 0,20: MySQL error 1054: Unknown column 'config.id' in 'field list'
 Wed Sep 24 16:00:18 2014 [4449][775274ac-69a2-9bd4-fc5c-5399c68d3a6d][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0 ) as n: MySQL error 1054: Unknown column 'config.id' in 'field list'
 Wed Sep 24 16:00:18 2014 [4449][775274ac-69a2-9bd4-fc5c-5399c68d3a6d][FATAL]  Query Failed: SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0  LIMIT 0,20: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Fri Sep 26 11:51:56 2014 [19668][1][FATAL] holidays for users_holidays failed to load
+
+Fri Sep 26 11:51:56 2014 [19668][1][FATAL] error loading relationship holidays
+Fri Sep 26 11:51:56 2014 [19668][1][FATAL] project_resource for projects_users_resources failed to load
+
+Fri Sep 26 11:51:56 2014 [19668][1][FATAL] error loading relationship project_resource
+Wed Oct 15 12:43:33 2014 [623][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:43:33 2014 [623][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:43:33 2014 [623][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:43:33 2014 [623][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:43:33 2014 [623][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:43:33 2014 [623][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] error loading relationship aor_reports
+Wed Oct 15 12:43:33 2014 [623][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:43:33 2014 [623][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:43:33 2014 [623][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:43:33 2014 [623][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:43:33 2014 [623][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Oct 15 12:44:27 2014 [656][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:44:27 2014 [656][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:44:27 2014 [656][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:44:27 2014 [656][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:44:27 2014 [656][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:44:27 2014 [656][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:44:27 2014 [656][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Oct 15 12:44:27 2014 [656][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Oct 15 12:44:27 2014 [656][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Oct 15 12:44:27 2014 [656][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] error loading relationship aor_reports
+Wed Oct 15 12:45:35 2014 [710][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:45:35 2014 [710][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:45:35 2014 [710][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:45:35 2014 [710][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:45:35 2014 [710][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:45:35 2014 [710][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:45:35 2014 [710][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Oct 15 12:47:38 2014 [726][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:47:38 2014 [726][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:47:38 2014 [726][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:47:38 2014 [726][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:47:38 2014 [726][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:47:38 2014 [726][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 15 12:47:38 2014 [726][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Oct 15 12:47:38 2014 [726][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Oct 15 12:47:38 2014 [726][100f1963-3ed8-bcbd-065e-543ebc0f0491][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Oct 15 14:35:37 2014 [1683][-none-][FATAL] FAILED LOGIN:attempts[1] - s
+Wed Oct 15 16:14:26 2014 [1991][-none-][FATAL] SECURITY: User authentication for jtaylor failed
+Wed Oct 15 16:14:26 2014 [1991][-none-][FATAL] FAILED LOGIN:attempts[1] - jtaylor
+Wed Oct 15 16:15:02 2014 [1991][-none-][FATAL] SECURITY: User authentication for jtaylor failed
+Wed Oct 15 16:15:02 2014 [1991][-none-][FATAL] FAILED LOGIN:attempts[2] - jtaylor
+Wed Oct 15 16:16:30 2014 [2038][-none-][FATAL] SECURITY: User authentication for jtaylor failed
+Wed Oct 15 16:16:30 2014 [2038][-none-][FATAL] FAILED LOGIN:attempts[3] - jtaylor

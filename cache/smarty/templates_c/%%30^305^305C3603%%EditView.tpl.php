@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-09-25 14:23:28
+<?php /* Smarty version 2.6.11, created on 2014-10-01 14:43:15
          compiled from cache/modules/sel_Selkirk_Document/EditView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 44, false),array('function', 'counter', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 50, false),array('function', 'sugar_translate', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 56, false),array('function', 'sugar_getimage', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 167, false),array('function', 'html_options', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 237, false),array('function', 'sugar_getimagepath', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 265, false),array('function', 'sugar_getscript', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 570, false),array('modifier', 'strip_semicolon', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 57, false),array('modifier', 'default', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 178, false),array('modifier', 'lookup', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 262, false),array('modifier', 'count', 'cache/modules/sel_Selkirk_Document/EditView.tpl', 342, false),)), $this); ?>
@@ -129,7 +129,7 @@ value='<?php echo $this->_tpl_vars['value']; ?>
 <?php echo smarty_function_counter(array('name' => 'panelFieldCount'), $this);?>
 
 
-<script type="text/javascript" src='include/SugarFields/Fields/File/SugarFieldFile.js?v=xsia8jrIu5IeG_pdq4JCvw'></script>
+<script type="text/javascript" src='include/SugarFields/Fields/File/SugarFieldFile.js?v=gseMJIOrdYfoYrq3dADGpQ'></script>
 <?php if (! empty ( $this->_tpl_vars['fields']['uploadfile']['value'] )):  $this->assign('showRemove', true);  else:  $this->assign('showRemove', false);  endif;  $this->assign('noChange', false); ?>
 <input type="hidden" name="deleteAttachment" value="0">
 <input type="hidden" name="<?php echo $this->_tpl_vars['fields']['uploadfile']['name']; ?>

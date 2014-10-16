@@ -1,5 +1,5 @@
 <?php
-// created: 2014-09-17 10:53:26
+// created: 2014-10-15 12:52:35
 $GLOBALS['tabStructure'] = array (
   'LBL_GROUPTAB0_1400340999' => 
   array (
@@ -7,21 +7,17 @@ $GLOBALS['tabStructure'] = array (
     'modules' => 
     array (
       0 => 'Home',
-      1 => 'sel_Selkirk_Client',
-      2 => 'sel_Selkirk_Contact',
-      3 => 'sel_Selkirk_Activity',
+      1 => 'sel_Selkirk_Contact',
+      2 => 'sel_Selkirk_Client',
+      3 => 'sel_Selkirk_Service',
       4 => 'sel_Selkirk_Document',
-      5 => 'sel_Selkirk_Template',
-      6 => 'sel_Selkirk_Project',
-      7 => 'sel_Selkirk_Partner',
-      8 => 'sel_Selkirk_MileStone',
-      9 => 'sel_Selkirk_Funding',
-      10 => 'sel_Selkirk_Service',
-      11 => 'sel_Selkirk_Business_Case',
-      12 => 'sel_Selkirk_Approvals',
-      13 => 'AOR_Reports',
-      14 => 'sel_Selkirk_Team',
-      15 => 'SecurityGroups',
+      5 => 'sel_Selkirk_Project',
+      6 => 'sel_Selkirk_Template',
+      7 => 'sel_Selkirk_Funding',
+      8 => 'sel_Selkirk_Business_Case',
+      9 => 'sel_Selkirk_Approvals',
+      10 => 'AOR_Reports',
+      11 => 'sel_Selkirk_Team',
     ),
   ),
   'LBL_GROUPTAB1_1409682380' => 

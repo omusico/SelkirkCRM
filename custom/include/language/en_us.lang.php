@@ -1,11 +1,5 @@
 <?php
-$app_strings['LBL_GROUPTAB0_1400340999'] = 'Main';
-
-$GLOBALS['app_list_strings']['selkirk_client_type']=array (
-  'company' => 'Company',
-  'government' => 'Government',
-  'oganization' => 'Organization',
-);
+$app_strings['LBL_GROUPTAB0_1400340999'] = 'Main';
 $GLOBALS['app_list_strings']['selkirk_service_status']=array (
   'completed' => 'Completed',
   'in_progress' => 'In Progress',
@@ -145,4 +139,10 @@ $app_list_strings['moduleListSingular']['sel_Student_Project']='Student Project'
 $app_strings['LBL_GROUPTAB1_1409682380'] = 'Student Research Projects';
 
 $app_strings['LBL_GROUPTAB0_1400340999'] = 'Main';
-?>
+
+$GLOBALS['app_list_strings']['selkirk_client_type']=array (
+  'company' => 'Company',
+  'government' => 'Government',
+  'oganization' => 'Organization',
+  'internal' => 'Internal',
+);
