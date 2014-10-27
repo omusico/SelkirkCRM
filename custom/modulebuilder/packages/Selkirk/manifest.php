@@ -60,9 +60,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'Selkirk',
-  'published_date' => '2014-09-24 20:45:48',
+  'published_date' => '2014-10-21 21:38:01',
   'type' => 'module',
-  'version' => 1411591548,
+  'version' => 1413927482,
   'remove_tables' => 'prompt',
 );
 

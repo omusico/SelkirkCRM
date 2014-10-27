@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
- // created: 2014-09-24 13:45:52
+ // created: 2014-10-21 14:38:05
 $layout_defs["Users"]["subpanel_setup"]['sel_selkirk_team_users'] = array (
   'order' => 100,
   'module' => 'sel_Selkirk_Team',

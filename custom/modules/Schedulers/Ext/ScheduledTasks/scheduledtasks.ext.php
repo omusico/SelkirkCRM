@@ -20,7 +20,7 @@ function milestone_notification() {
         $message .= "Email Address: "  . $row['email_address'] . "\r\n";
 
         $to = $row['email_address'];
-        $to = "lperepolkin1@selkirk.ca";
+	// $to = "lperepolkin1@selkirk.ca";
         send_milestone_notification($to, $message);
 	
 	$milestone_id = $row['milestone_id']; 

@@ -1,5 +1,5 @@
 <?php
-// created: 2014-09-24 15:53:56
+// created: 2014-10-21 14:38:25
 $dashletsFiles = array (
   'AOD_IndexDashlet' => 
   array (

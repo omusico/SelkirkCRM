@@ -92,6 +92,57 @@ SUGAR.util.doWhen(function(){
 <tr>
 {counter name="fieldsUsed"}
 <td width='12.5%' scope="col">
+{if !$fields.service_category.hidden}
+{capture name="label" assign="label"}{sugar_translate label='LBL_SERVICE_CATEGORY' module='sel_Selkirk_Service'}{/capture}
+{$label|strip_semicolon}:
+{/if}
+</td>
+<td width='37.5%'  >
+{if !$fields.service_category.hidden}
+{counter name="panelFieldCount"}
+
+
+{if is_string($fields.service_category.options)}
+<input type="hidden" class="sugar_field" id="{$fields.service_category.name}" value="{ $fields.service_category.options }">
+{ $fields.service_category.options }
+{else}
+<input type="hidden" class="sugar_field" id="{$fields.service_category.name}" value="{ $fields.service_category.value }">
+{ $fields.service_category.options[$fields.service_category.value]}
+{/if}
+{/if}
+</td>
+{counter name="fieldsUsed"}
+<td width='12.5%' scope="col">
+{if !$fields.selkirk_service_status.hidden}
+{capture name="label" assign="label"}{sugar_translate label='LBL_SELKIRK_SERVICE_STATUS' module='sel_Selkirk_Service'}{/capture}
+{$label|strip_semicolon}:
+{/if}
+</td>
+<td width='37.5%'  >
+{if !$fields.selkirk_service_status.hidden}
+{counter name="panelFieldCount"}
+
+
+{if is_string($fields.selkirk_service_status.options)}
+<input type="hidden" class="sugar_field" id="{$fields.selkirk_service_status.name}" value="{ $fields.selkirk_service_status.options }">
+{ $fields.selkirk_service_status.options }
+{else}
+<input type="hidden" class="sugar_field" id="{$fields.selkirk_service_status.name}" value="{ $fields.selkirk_service_status.value }">
+{ $fields.selkirk_service_status.options[$fields.selkirk_service_status.value]}
+{/if}
+{/if}
+</td>
+</tr>
+{/capture}
+{if $fieldsUsed > 0 && $fieldsUsed != $fieldsHidden}
+{$tableRow}
+{/if}
+{counter name="fieldsUsed" start=0 print=false assign="fieldsUsed"}
+{counter name="fieldsHidden" start=0 print=false assign="fieldsHidden"}
+{capture name="tr" assign="tableRow"}
+<tr>
+{counter name="fieldsUsed"}
+<td width='12.5%' scope="col">
 {if !$fields.sel_selkirk_client_sel_selkirk_service_name.hidden}
 {capture name="label" assign="label"}{sugar_translate label='LBL_SEL_SELKIRK_CLIENT_SEL_SELKIRK_SERVICE_FROM_SEL_SELKIRK_CLIENT_TITLE' module='sel_Selkirk_Service'}{/capture}
 {$label|strip_semicolon}:
@@ -202,42 +253,12 @@ SUGAR.util.doWhen(function(){
 </td>
 {counter name="fieldsUsed"}
 <td width='12.5%' scope="col">
-{if !$fields.selkirk_service_status.hidden}
-{capture name="label" assign="label"}{sugar_translate label='LBL_SELKIRK_SERVICE_STATUS' module='sel_Selkirk_Service'}{/capture}
-{$label|strip_semicolon}:
-{/if}
-</td>
-<td width='37.5%'  >
-{if !$fields.selkirk_service_status.hidden}
-{counter name="panelFieldCount"}
-
-
-{if is_string($fields.selkirk_service_status.options)}
-<input type="hidden" class="sugar_field" id="{$fields.selkirk_service_status.name}" value="{ $fields.selkirk_service_status.options }">
-{ $fields.selkirk_service_status.options }
-{else}
-<input type="hidden" class="sugar_field" id="{$fields.selkirk_service_status.name}" value="{ $fields.selkirk_service_status.value }">
-{ $fields.selkirk_service_status.options[$fields.selkirk_service_status.value]}
-{/if}
-{/if}
-</td>
-</tr>
-{/capture}
-{if $fieldsUsed > 0 && $fieldsUsed != $fieldsHidden}
-{$tableRow}
-{/if}
-{counter name="fieldsUsed" start=0 print=false assign="fieldsUsed"}
-{counter name="fieldsHidden" start=0 print=false assign="fieldsHidden"}
-{capture name="tr" assign="tableRow"}
-<tr>
-{counter name="fieldsUsed"}
-<td width='12.5%' scope="col">
 {if !$fields.assigned_user_name.hidden}
 {capture name="label" assign="label"}{sugar_translate label='LBL_ASSIGNED_TO_NAME' module='sel_Selkirk_Service'}{/capture}
 {$label|strip_semicolon}:
 {/if}
 </td>
-<td width='37.5%' colspan='3' >
+<td width='37.5%'  >
 {if !$fields.assigned_user_name.hidden}
 {counter name="panelFieldCount"}
 

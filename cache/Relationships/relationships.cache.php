@@ -4464,6 +4464,63 @@
         'relationship_role_column_value' => 'sel_selkirk_service',
       ),
     ),
+    'table' => 'securitygroups_records',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sel_selkirk_service_securitygroupsspk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sel_selkirk_service_securitygroups_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'securitygroup_id',
+          1 => 'record_id',
+        ),
+      ),
+    ),
     'lhs_module' => 'SecurityGroups',
     'lhs_table' => 'securitygroups',
     'lhs_key' => 'id',
@@ -4593,6 +4650,63 @@
         'relationship_type' => 'many-to-many',
         'relationship_role_column' => 'module',
         'relationship_role_column_value' => 'sel_selkirk_funding',
+      ),
+    ),
+    'table' => 'securitygroups_records',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sel_selkirk_funding_securitygroupsspk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sel_selkirk_funding_securitygroups_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'securitygroup_id',
+          1 => 'record_id',
+        ),
       ),
     ),
     'lhs_module' => 'SecurityGroups',
@@ -6656,6 +6770,63 @@
         'relationship_role_column_value' => 'sel_student_activity',
       ),
     ),
+    'table' => 'securitygroups_records',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sel_student_activity_securitygroupsspk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sel_student_activity_securitygroups_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'securitygroup_id',
+          1 => 'record_id',
+        ),
+      ),
+    ),
     'lhs_module' => 'SecurityGroups',
     'lhs_table' => 'securitygroups',
     'lhs_key' => 'id',
@@ -6887,6 +7058,63 @@
         'relationship_type' => 'many-to-many',
         'relationship_role_column' => 'module',
         'relationship_role_column_value' => 'sel_selkirk_template',
+      ),
+    ),
+    'table' => 'securitygroups_records',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sel_selkirk_template_securitygroupsspk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sel_selkirk_template_securitygroups_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'securitygroup_id',
+          1 => 'record_id',
+        ),
       ),
     ),
     'lhs_module' => 'SecurityGroups',
@@ -7205,6 +7433,63 @@
         'relationship_role_column_value' => 'sel_student_project',
       ),
     ),
+    'table' => 'securitygroups_records',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sel_student_project_securitygroupsspk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sel_student_project_securitygroups_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'securitygroup_id',
+          1 => 'record_id',
+        ),
+      ),
+    ),
     'lhs_module' => 'SecurityGroups',
     'lhs_table' => 'securitygroups',
     'lhs_key' => 'id',
@@ -7420,6 +7705,63 @@
         'relationship_type' => 'many-to-many',
         'relationship_role_column' => 'module',
         'relationship_role_column_value' => 'sel_selkirk_client',
+      ),
+    ),
+    'table' => 'securitygroups_records',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sel_selkirk_client_securitygroupsspk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sel_selkirk_client_securitygroups_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'securitygroup_id',
+          1 => 'record_id',
+        ),
       ),
     ),
     'lhs_module' => 'SecurityGroups',
@@ -7722,6 +8064,63 @@
         'relationship_role_column_value' => 'sel_selkirk_approvals',
       ),
     ),
+    'table' => 'securitygroups_records',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sel_selkirk_approvals_securitygroupsspk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sel_selkirk_approvals_securitygroups_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'securitygroup_id',
+          1 => 'record_id',
+        ),
+      ),
+    ),
     'lhs_module' => 'SecurityGroups',
     'lhs_table' => 'securitygroups',
     'lhs_key' => 'id',
@@ -7939,6 +8338,63 @@
         'relationship_type' => 'many-to-many',
         'relationship_role_column' => 'module',
         'relationship_role_column_value' => 'sel_selkirk_activity',
+      ),
+    ),
+    'table' => 'securitygroups_records',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sel_selkirk_activity_securitygroupsspk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sel_selkirk_activity_securitygroups_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'securitygroup_id',
+          1 => 'record_id',
+        ),
       ),
     ),
     'lhs_module' => 'SecurityGroups',
@@ -8328,6 +8784,63 @@
         'relationship_role_column_value' => 'sel_selkirk_document',
       ),
     ),
+    'table' => 'securitygroups_records',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sel_selkirk_document_securitygroupsspk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sel_selkirk_document_securitygroups_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'securitygroup_id',
+          1 => 'record_id',
+        ),
+      ),
+    ),
     'lhs_module' => 'SecurityGroups',
     'lhs_table' => 'securitygroups',
     'lhs_key' => 'id',
@@ -8449,6 +8962,63 @@
         'relationship_type' => 'many-to-many',
         'relationship_role_column' => 'module',
         'relationship_role_column_value' => 'sel_selkirk_project',
+      ),
+    ),
+    'table' => 'securitygroups_records',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sel_selkirk_project_securitygroupsspk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sel_selkirk_project_securitygroups_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'securitygroup_id',
+          1 => 'record_id',
+        ),
       ),
     ),
     'lhs_module' => 'SecurityGroups',
@@ -8862,6 +9432,63 @@
         'relationship_role_column_value' => 'sel_selkirk_team',
       ),
     ),
+    'table' => 'securitygroups_records',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sel_selkirk_team_securitygroupsspk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sel_selkirk_team_securitygroups_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'securitygroup_id',
+          1 => 'record_id',
+        ),
+      ),
+    ),
     'lhs_module' => 'SecurityGroups',
     'lhs_table' => 'securitygroups',
     'lhs_key' => 'id',
@@ -9178,6 +9805,63 @@
         'relationship_role_column_value' => 'sel_selkirk_business_case',
       ),
     ),
+    'table' => 'securitygroups_records',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sel_selkirk_business_case_securitygroupsspk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sel_selkirk_business_case_securitygroups_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'securitygroup_id',
+          1 => 'record_id',
+        ),
+      ),
+    ),
     'lhs_module' => 'SecurityGroups',
     'lhs_table' => 'securitygroups',
     'lhs_key' => 'id',
@@ -9322,6 +10006,63 @@
         'relationship_role_column_value' => 'sel_selkirk_milestone',
       ),
     ),
+    'table' => 'securitygroups_records',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sel_selkirk_milestone_securitygroupsspk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sel_selkirk_milestone_securitygroups_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'securitygroup_id',
+          1 => 'record_id',
+        ),
+      ),
+    ),
     'lhs_module' => 'SecurityGroups',
     'lhs_table' => 'securitygroups',
     'lhs_key' => 'id',
@@ -9452,6 +10193,63 @@
         'relationship_type' => 'many-to-many',
         'relationship_role_column' => 'module',
         'relationship_role_column_value' => 'sel_selkirk_contact',
+      ),
+    ),
+    'table' => 'securitygroups_records',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sel_selkirk_contact_securitygroupsspk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sel_selkirk_contact_securitygroups_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'securitygroup_id',
+          1 => 'record_id',
+        ),
       ),
     ),
     'lhs_module' => 'SecurityGroups',
@@ -9671,6 +10469,63 @@
         'relationship_type' => 'many-to-many',
         'relationship_role_column' => 'module',
         'relationship_role_column_value' => 'sel_selkirk_partner',
+      ),
+    ),
+    'table' => 'securitygroups_records',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sel_selkirk_partner_securitygroupsspk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sel_selkirk_partner_securitygroups_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'securitygroup_id',
+          1 => 'record_id',
+        ),
       ),
     ),
     'lhs_module' => 'SecurityGroups',

@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
- // created: 2014-09-24 13:45:53
+ // created: 2014-10-21 14:38:07
 $layout_defs["sel_Selkirk_Business_Case"]["subpanel_setup"]['sel_selkirk_business_case_securitygroups'] = array (
   'order' => 100,
   'module' => 'SecurityGroups',
@@ -26,7 +26,7 @@ $layout_defs["sel_Selkirk_Business_Case"]["subpanel_setup"]['sel_selkirk_busines
 );
 
 
- // created: 2014-09-24 13:45:53
+ // created: 2014-10-21 14:38:07
 $layout_defs["sel_Selkirk_Business_Case"]["subpanel_setup"]['sel_selkirk_business_case_sel_selkirk_approvals'] = array (
   'order' => 100,
   'module' => 'sel_Selkirk_Approvals',
@@ -50,7 +50,7 @@ $layout_defs["sel_Selkirk_Business_Case"]["subpanel_setup"]['sel_selkirk_busines
 );
 
 
- // created: 2014-09-24 13:45:53
+ // created: 2014-10-21 14:38:07
 $layout_defs["sel_Selkirk_Business_Case"]["subpanel_setup"]['sel_selkirk_business_case_sel_selkirk_document'] = array (
   'order' => 100,
   'module' => 'sel_Selkirk_Document',
@@ -74,7 +74,7 @@ $layout_defs["sel_Selkirk_Business_Case"]["subpanel_setup"]['sel_selkirk_busines
 );
 
 
- // created: 2014-09-24 13:45:53
+ // created: 2014-10-21 14:38:07
 $layout_defs["sel_Selkirk_Business_Case"]["subpanel_setup"]['sel_selkirk_business_case_sel_selkirk_team'] = array (
   'order' => 100,
   'module' => 'sel_Selkirk_Team',
@@ -98,7 +98,7 @@ $layout_defs["sel_Selkirk_Business_Case"]["subpanel_setup"]['sel_selkirk_busines
 );
 
 
- // created: 2014-09-24 13:45:52
+ // created: 2014-10-21 14:38:06
 $layout_defs["sel_Selkirk_Business_Case"]["subpanel_setup"]['sel_selkirk_project_sel_selkirk_business_case'] = array (
   'order' => 100,
   'module' => 'sel_Selkirk_Project',

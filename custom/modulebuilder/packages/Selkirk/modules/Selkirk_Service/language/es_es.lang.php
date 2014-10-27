@@ -72,4 +72,5 @@ $mod_strings = array (
   'LBL_DURATION' => 'Duration (in hours)',
   'LBL_CLIENT' => 'Client',
   'LBL_PROJECT_TEST_RELATE' => 'project test relate',
+  'LBL_SERVICE_CATEGORY' => 'Service Category',
 );

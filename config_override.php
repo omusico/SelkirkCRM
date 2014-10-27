@@ -88,5 +88,5 @@ $sugar_config['addAjaxBannedModules']['40'] = 'Leads';
 $sugar_config['addAjaxBannedModules']['41'] = 'Meetings';
 $sugar_config['save_query'] = 'no';
 $sugar_config['resource_management']['default_limit'] = 5000;
-$sugar_config['max_dashlets_homepage'] = '5';
+$sugar_config['max_dashlets_homepage'] = '6';
 /***CONFIGURATOR***/

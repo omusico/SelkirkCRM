@@ -68,6 +68,7 @@ class sel_Selkirk_Service_sugar extends Basic {
 		var $end_date;
 		var $selkirk_service_status;
 		var $duration;
+		var $service_category;
 		function sel_Selkirk_Service_sugar(){	
 		parent::Basic();
 	}

@@ -1193,6 +1193,7 @@ $app_list_strings['moduleList']['sel_Selkirk_Student_Project'] = 'Student_Projec
 $app_list_strings['moduleList']['sel_Selkirk_Student_Project_Activity'] = 'Student_Activity';
 $app_list_strings['moduleList']['sel_Student_Activity'] = 'Student_Activity';
 $app_list_strings['moduleList']['sel_Student_Project'] = 'Student_Project';
+$app_list_strings['moduleList']['sel_Selkirk_Test'] = 'Test';
 $app_list_strings['sel_selkirk_document_category_dom'][''] = '';
 $app_list_strings['sel_selkirk_document_category_dom']['Marketing'] = 'Маркетинг';
 $app_list_strings['sel_selkirk_document_category_dom']['Knowledege Base'] = 'База знаний';
@@ -1350,6 +1351,9 @@ $app_list_strings['contact_type_list']['inactive'] = 'Inactive';
 $app_list_strings['contact_status_list']['lead'] = 'Lead';
 $app_list_strings['contact_status_list']['active'] = 'Active';
 $app_list_strings['contact_status_list']['inactive'] = 'Inactive';
+$app_list_strings['service_category_list']['business'] = 'Business';
+$app_list_strings['service_category_list']['technical'] = 'Technical';
+$app_list_strings['service_category_list']['other'] = 'Other/ Don’t know';
 
 
 /*********************************************************************************

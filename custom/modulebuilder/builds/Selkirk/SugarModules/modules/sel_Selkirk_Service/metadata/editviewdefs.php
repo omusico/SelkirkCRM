@@ -49,6 +49,21 @@ array (
         array (
           0 => 
           array (
+            'name' => 'service_category',
+            'studio' => 'visible',
+            'label' => 'LBL_SERVICE_CATEGORY',
+          ),
+          1 => 
+          array (
+            'name' => 'selkirk_service_status',
+            'studio' => 'visible',
+            'label' => 'LBL_SELKIRK_SERVICE_STATUS',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
             'name' => 'sel_selkirk_client_sel_selkirk_service_name',
           ),
           1 => 
@@ -56,7 +71,7 @@ array (
             'name' => 'sel_selkirk_project_sel_selkirk_service_name',
           ),
         ),
-        2 => 
+        3 => 
         array (
           0 => 
           array (
@@ -69,23 +84,14 @@ array (
             'label' => 'LBL_DURATION',
           ),
         ),
-        3 => 
+        4 => 
         array (
           0 => 
           array (
             'name' => 'end_date',
             'label' => 'LBL_END_DATE',
           ),
-          1 => 
-          array (
-            'name' => 'selkirk_service_status',
-            'studio' => 'visible',
-            'label' => 'LBL_SELKIRK_SERVICE_STATUS',
-          ),
-        ),
-        4 => 
-        array (
-          0 => 'assigned_user_name',
+          1 => 'assigned_user_name',
         ),
         5 => 
         array (

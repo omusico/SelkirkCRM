@@ -1,5 +1,5 @@
 <?php
-// created: 2014-10-16 07:25:42
+// created: 2014-10-27 09:52:52
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -38,6 +38,7 @@ $mod_strings = array (
   'LBL_DURATION' => 'Duration (in hours)',
   'LBL_CLIENT' => 'Client',
   'LBL_PROJECT_TEST_RELATE' => 'project test relate',
+  'LBL_SERVICE_CATEGORY' => 'Service Category',
   'LBL_SEL_SELKIRK_PROJECT_SEL_SELKIRK_SERVICE_FROM_SEL_SELKIRK_PROJECT_TITLE' => 'Selkirk_Project',
   'LBL_SEL_SELKIRK_CLIENT_SEL_SELKIRK_SERVICE_FROM_SEL_SELKIRK_CLIENT_TITLE' => 'Selkirk_Client',
   'LBL_SEL_SELKIRK_SERVICE_SEL_SELKIRK_PROJECT_FROM_SEL_SELKIRK_PROJECT_TITLE' => 'Selkirk_Project',

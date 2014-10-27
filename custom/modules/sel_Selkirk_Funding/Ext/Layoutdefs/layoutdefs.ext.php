@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
- // created: 2014-09-24 13:45:51
+ // created: 2014-10-21 14:38:05
 $layout_defs["sel_Selkirk_Funding"]["subpanel_setup"]['sel_selkirk_funding_securitygroups'] = array (
   'order' => 100,
   'module' => 'SecurityGroups',

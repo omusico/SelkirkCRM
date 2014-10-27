@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-09-24 15:53:46
+<?php /* Smarty version 2.6.11, created on 2014-10-21 14:34:25
          compiled from themes/Suite7/tpls/_globalLinks.tpl */ ?>
 
 <div id="globalLinks">

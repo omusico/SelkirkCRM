@@ -1,5 +1,5 @@
 <?php
-// created: 2014-09-24 13:45:54
+// created: 2014-10-21 14:38:08
 $dictionary["sel_student_project_securitygroups"] = array (
   'true_relationship_type' => 'many-to-many',
   'relationships' => 
@@ -20,6 +20,61 @@ $dictionary["sel_student_project_securitygroups"] = array (
       'relationship_role_column_value' => 'sel_student_project',
     ),
   ),
+  'table' => 'securitygroups_records',
+  'fields' => 
+  array (
+    0 => 
+    array (
+      'name' => 'id',
+      'type' => 'varchar',
+      'len' => 36,
+    ),
+    1 => 
+    array (
+      'name' => 'date_modified',
+      'type' => 'datetime',
+    ),
+    2 => 
+    array (
+      'name' => 'deleted',
+      'type' => 'bool',
+      'len' => '1',
+      'default' => '0',
+      'required' => true,
+    ),
+    3 => 
+    array (
+      'name' => 'securitygroup_id',
+      'type' => 'varchar',
+      'len' => 36,
+    ),
+    4 => 
+    array (
+      'name' => 'record_id',
+      'type' => 'varchar',
+      'len' => 36,
+    ),
+  ),
+  'indices' => 
+  array (
+    0 => 
+    array (
+      'name' => 'sel_student_project_securitygroupsspk',
+      'type' => 'primary',
+      'fields' => 
+      array (
+        0 => 'id',
+      ),
+    ),
+    1 => 
+    array (
+      'name' => 'sel_student_project_securitygroups_alt',
+      'type' => 'alternate_key',
+      'fields' => 
+      array (
+        0 => 'securitygroup_id',
+        1 => 'record_id',
+      ),
+    ),
+  ),
 );
-
-

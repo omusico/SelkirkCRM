@@ -1,5 +1,5 @@
 <?php
- // created: 2014-09-24 13:45:54
+ // created: 2014-10-21 14:38:08
 $layout_defs["sel_Student_Project"]["subpanel_setup"]['sel_student_project_securitygroups'] = array (
   'order' => 100,
   'module' => 'SecurityGroups',

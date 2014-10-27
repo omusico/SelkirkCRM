@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
- // created: 2014-09-24 13:45:51
+ // created: 2014-10-21 14:38:04
 $layout_defs["sel_Selkirk_Activity"]["subpanel_setup"]['sel_selkirk_activity_securitygroups'] = array (
   'order' => 100,
   'module' => 'SecurityGroups',

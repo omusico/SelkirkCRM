@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
- // created: 2014-09-24 13:45:51
+ // created: 2014-10-21 14:38:05
 $layout_defs["sel_Selkirk_Service"]["subpanel_setup"]['sel_selkirk_service_securitygroups'] = array (
   'order' => 100,
   'module' => 'SecurityGroups',
@@ -26,7 +26,7 @@ $layout_defs["sel_Selkirk_Service"]["subpanel_setup"]['sel_selkirk_service_secur
 );
 
 
- // created: 2014-09-24 13:45:52
+ // created: 2014-10-21 14:38:06
 $layout_defs["sel_Selkirk_Service"]["subpanel_setup"]['sel_selkirk_document_sel_selkirk_service'] = array (
   'order' => 100,
   'module' => 'sel_Selkirk_Document',
