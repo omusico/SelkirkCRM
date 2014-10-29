@@ -52,6 +52,82 @@ $(node).sugarActionMenu();
 {counter name="fieldsUsed" start=0 print=false assign="fieldsUsed"}
 {capture name="tr" assign="tableRow"}
 <tr>
+<td valign="top" id='sel_selkirk_client_sel_selkirk_service_name_label' width='12.5%' scope="col">
+{capture name="label" assign="label"}{sugar_translate label='LBL_SEL_SELKIRK_CLIENT_SEL_SELKIRK_SERVICE_FROM_SEL_SELKIRK_CLIENT_TITLE' module='sel_Selkirk_Service'}{/capture}
+{$label|strip_semicolon}:
+</td>
+{counter name="fieldsUsed"}
+
+<td valign="top" width='37.5%' >
+{counter name="panelFieldCount"}
+
+<input type="text" name="{$fields.sel_selkirk_client_sel_selkirk_service_name.name}" class="sqsEnabled" tabindex="0" id="{$fields.sel_selkirk_client_sel_selkirk_service_name.name}" size="" value="{$fields.sel_selkirk_client_sel_selkirk_service_name.value}" title='' autocomplete="off"  	 accesskey='7'  >
+<input type="hidden" name="{$fields.sel_selkirk_client_sel_selkirk_service_name.id_name}" 
+id="{$fields.sel_selkirk_client_sel_selkirk_service_name.id_name}" 
+value="{$fields.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.value}">
+<span class="id-ff multiple">
+<button type="button" name="btn_{$fields.sel_selkirk_client_sel_selkirk_service_name.name}" id="btn_{$fields.sel_selkirk_client_sel_selkirk_service_name.name}" tabindex="0" title="{sugar_translate label="LBL_SELECT_BUTTON_TITLE"}" class="button firstChild" value="{sugar_translate label="LBL_SELECT_BUTTON_LABEL"}"
+onclick='open_popup(
+"{$fields.sel_selkirk_client_sel_selkirk_service_name.module}", 
+600, 
+400, 
+"", 
+true, 
+false, 
+{literal}{"call_back_function":"set_return","form_name":"EditView","field_to_name_array":{"id":"sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida","name":"sel_selkirk_client_sel_selkirk_service_name"}}{/literal}, 
+"single", 
+true
+);' ><img src="{sugar_getimagepath file="id-ff-select.png"}"></button><button type="button" name="btn_clr_{$fields.sel_selkirk_client_sel_selkirk_service_name.name}" id="btn_clr_{$fields.sel_selkirk_client_sel_selkirk_service_name.name}" tabindex="0" title="{sugar_translate label="LBL_ACCESSKEY_CLEAR_RELATE_TITLE"}"  class="button lastChild"
+onclick="SUGAR.clearRelateField(this.form, '{$fields.sel_selkirk_client_sel_selkirk_service_name.name}', '{$fields.sel_selkirk_client_sel_selkirk_service_name.id_name}');"  value="{sugar_translate label="LBL_ACCESSKEY_CLEAR_RELATE_LABEL"}" ><img src="{sugar_getimagepath file="id-ff-clear.png"}"></button>
+</span>
+<script type="text/javascript">
+SUGAR.util.doWhen(
+		"typeof(sqs_objects) != 'undefined' && typeof(sqs_objects['{$form_name}_{$fields.sel_selkirk_client_sel_selkirk_service_name.name}']) != 'undefined'",
+		enableQS
+);
+</script>
+<td valign="top" id='sel_selkirk_project_sel_selkirk_service_name_label' width='12.5%' scope="col">
+{capture name="label" assign="label"}{sugar_translate label='LBL_SEL_SELKIRK_PROJECT_SEL_SELKIRK_SERVICE_FROM_SEL_SELKIRK_PROJECT_TITLE' module='sel_Selkirk_Service'}{/capture}
+{$label|strip_semicolon}:
+</td>
+{counter name="fieldsUsed"}
+
+<td valign="top" width='37.5%' >
+{counter name="panelFieldCount"}
+
+<input type="text" name="{$fields.sel_selkirk_project_sel_selkirk_service_name.name}" class="sqsEnabled" tabindex="0" id="{$fields.sel_selkirk_project_sel_selkirk_service_name.name}" size="" value="{$fields.sel_selkirk_project_sel_selkirk_service_name.value}" title='' autocomplete="off"  	 >
+<input type="hidden" name="{$fields.sel_selkirk_project_sel_selkirk_service_name.id_name}" 
+id="{$fields.sel_selkirk_project_sel_selkirk_service_name.id_name}" 
+value="{$fields.sel_selkirk_project_sel_selkirk_servicesel_selkirk_project_ida.value}">
+<span class="id-ff multiple">
+<button type="button" name="btn_{$fields.sel_selkirk_project_sel_selkirk_service_name.name}" id="btn_{$fields.sel_selkirk_project_sel_selkirk_service_name.name}" tabindex="0" title="{sugar_translate label="LBL_SELECT_BUTTON_TITLE"}" class="button firstChild" value="{sugar_translate label="LBL_SELECT_BUTTON_LABEL"}"
+onclick='open_popup(
+"{$fields.sel_selkirk_project_sel_selkirk_service_name.module}", 
+600, 
+400, 
+"", 
+true, 
+false, 
+{literal}{"call_back_function":"set_return","form_name":"EditView","field_to_name_array":{"id":"sel_selkirk_project_sel_selkirk_servicesel_selkirk_project_ida","name":"sel_selkirk_project_sel_selkirk_service_name"}}{/literal}, 
+"single", 
+true
+);' ><img src="{sugar_getimagepath file="id-ff-select.png"}"></button><button type="button" name="btn_clr_{$fields.sel_selkirk_project_sel_selkirk_service_name.name}" id="btn_clr_{$fields.sel_selkirk_project_sel_selkirk_service_name.name}" tabindex="0" title="{sugar_translate label="LBL_ACCESSKEY_CLEAR_RELATE_TITLE"}"  class="button lastChild"
+onclick="SUGAR.clearRelateField(this.form, '{$fields.sel_selkirk_project_sel_selkirk_service_name.name}', '{$fields.sel_selkirk_project_sel_selkirk_service_name.id_name}');"  value="{sugar_translate label="LBL_ACCESSKEY_CLEAR_RELATE_LABEL"}" ><img src="{sugar_getimagepath file="id-ff-clear.png"}"></button>
+</span>
+<script type="text/javascript">
+SUGAR.util.doWhen(
+		"typeof(sqs_objects) != 'undefined' && typeof(sqs_objects['{$form_name}_{$fields.sel_selkirk_project_sel_selkirk_service_name.name}']) != 'undefined'",
+		enableQS
+);
+</script>
+</tr>
+{/capture}
+{if $fieldsUsed > 0 }
+{$tableRow}
+{/if}
+{counter name="fieldsUsed" start=0 print=false assign="fieldsUsed"}
+{capture name="tr" assign="tableRow"}
+<tr>
 <td valign="top" id='selkirk_service_type_label' width='12.5%' scope="col">
 {capture name="label" assign="label"}{sugar_translate label='LBL_SELKIRK_SERVICE_TYPE' module='sel_Selkirk_Service'}{/capture}
 {$label|strip_semicolon}:
@@ -64,7 +140,7 @@ $(node).sugarActionMenu();
 {if !isset($config.enable_autocomplete) || $config.enable_autocomplete==false}
 <select name="{$fields.selkirk_service_type.name}" 
 id="{$fields.selkirk_service_type.name}" 
-title=''      accesskey='7'   
+title=''       
 >
 {if isset($fields.selkirk_service_type.value) && $fields.selkirk_service_type.value != ''}
 {html_options options=$fields.selkirk_service_type.options selected=$fields.selkirk_service_type.value}
@@ -80,7 +156,7 @@ title=''      accesskey='7'
 {assign var="ac_key" value=$smarty.capture.ac_key}
 <select style='display:none' name="{$fields.selkirk_service_type.name}" 
 id="{$fields.selkirk_service_type.name}" 
-title=''          accesskey='7'  
+title=''          
 >
 {if isset($fields.selkirk_service_type.value) && $fields.selkirk_service_type.value != ''}
 {html_options options=$fields.selkirk_service_type.options selected=$fields.selkirk_service_type.value}
@@ -738,82 +814,6 @@ SyncToHidden(e.result.raw.key);
 {counter name="fieldsUsed" start=0 print=false assign="fieldsUsed"}
 {capture name="tr" assign="tableRow"}
 <tr>
-<td valign="top" id='sel_selkirk_client_sel_selkirk_service_name_label' width='12.5%' scope="col">
-{capture name="label" assign="label"}{sugar_translate label='LBL_SEL_SELKIRK_CLIENT_SEL_SELKIRK_SERVICE_FROM_SEL_SELKIRK_CLIENT_TITLE' module='sel_Selkirk_Service'}{/capture}
-{$label|strip_semicolon}:
-</td>
-{counter name="fieldsUsed"}
-
-<td valign="top" width='37.5%' >
-{counter name="panelFieldCount"}
-
-<input type="text" name="{$fields.sel_selkirk_client_sel_selkirk_service_name.name}" class="sqsEnabled" tabindex="0" id="{$fields.sel_selkirk_client_sel_selkirk_service_name.name}" size="" value="{$fields.sel_selkirk_client_sel_selkirk_service_name.value}" title='' autocomplete="off"  	 >
-<input type="hidden" name="{$fields.sel_selkirk_client_sel_selkirk_service_name.id_name}" 
-id="{$fields.sel_selkirk_client_sel_selkirk_service_name.id_name}" 
-value="{$fields.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.value}">
-<span class="id-ff multiple">
-<button type="button" name="btn_{$fields.sel_selkirk_client_sel_selkirk_service_name.name}" id="btn_{$fields.sel_selkirk_client_sel_selkirk_service_name.name}" tabindex="0" title="{sugar_translate label="LBL_SELECT_BUTTON_TITLE"}" class="button firstChild" value="{sugar_translate label="LBL_SELECT_BUTTON_LABEL"}"
-onclick='open_popup(
-"{$fields.sel_selkirk_client_sel_selkirk_service_name.module}", 
-600, 
-400, 
-"", 
-true, 
-false, 
-{literal}{"call_back_function":"set_return","form_name":"EditView","field_to_name_array":{"id":"sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida","name":"sel_selkirk_client_sel_selkirk_service_name"}}{/literal}, 
-"single", 
-true
-);' ><img src="{sugar_getimagepath file="id-ff-select.png"}"></button><button type="button" name="btn_clr_{$fields.sel_selkirk_client_sel_selkirk_service_name.name}" id="btn_clr_{$fields.sel_selkirk_client_sel_selkirk_service_name.name}" tabindex="0" title="{sugar_translate label="LBL_ACCESSKEY_CLEAR_RELATE_TITLE"}"  class="button lastChild"
-onclick="SUGAR.clearRelateField(this.form, '{$fields.sel_selkirk_client_sel_selkirk_service_name.name}', '{$fields.sel_selkirk_client_sel_selkirk_service_name.id_name}');"  value="{sugar_translate label="LBL_ACCESSKEY_CLEAR_RELATE_LABEL"}" ><img src="{sugar_getimagepath file="id-ff-clear.png"}"></button>
-</span>
-<script type="text/javascript">
-SUGAR.util.doWhen(
-		"typeof(sqs_objects) != 'undefined' && typeof(sqs_objects['{$form_name}_{$fields.sel_selkirk_client_sel_selkirk_service_name.name}']) != 'undefined'",
-		enableQS
-);
-</script>
-<td valign="top" id='sel_selkirk_project_sel_selkirk_service_name_label' width='12.5%' scope="col">
-{capture name="label" assign="label"}{sugar_translate label='LBL_SEL_SELKIRK_PROJECT_SEL_SELKIRK_SERVICE_FROM_SEL_SELKIRK_PROJECT_TITLE' module='sel_Selkirk_Service'}{/capture}
-{$label|strip_semicolon}:
-</td>
-{counter name="fieldsUsed"}
-
-<td valign="top" width='37.5%' >
-{counter name="panelFieldCount"}
-
-<input type="text" name="{$fields.sel_selkirk_project_sel_selkirk_service_name.name}" class="sqsEnabled" tabindex="0" id="{$fields.sel_selkirk_project_sel_selkirk_service_name.name}" size="" value="{$fields.sel_selkirk_project_sel_selkirk_service_name.value}" title='' autocomplete="off"  	 >
-<input type="hidden" name="{$fields.sel_selkirk_project_sel_selkirk_service_name.id_name}" 
-id="{$fields.sel_selkirk_project_sel_selkirk_service_name.id_name}" 
-value="{$fields.sel_selkirk_project_sel_selkirk_servicesel_selkirk_project_ida.value}">
-<span class="id-ff multiple">
-<button type="button" name="btn_{$fields.sel_selkirk_project_sel_selkirk_service_name.name}" id="btn_{$fields.sel_selkirk_project_sel_selkirk_service_name.name}" tabindex="0" title="{sugar_translate label="LBL_SELECT_BUTTON_TITLE"}" class="button firstChild" value="{sugar_translate label="LBL_SELECT_BUTTON_LABEL"}"
-onclick='open_popup(
-"{$fields.sel_selkirk_project_sel_selkirk_service_name.module}", 
-600, 
-400, 
-"", 
-true, 
-false, 
-{literal}{"call_back_function":"set_return","form_name":"EditView","field_to_name_array":{"id":"sel_selkirk_project_sel_selkirk_servicesel_selkirk_project_ida","name":"sel_selkirk_project_sel_selkirk_service_name"}}{/literal}, 
-"single", 
-true
-);' ><img src="{sugar_getimagepath file="id-ff-select.png"}"></button><button type="button" name="btn_clr_{$fields.sel_selkirk_project_sel_selkirk_service_name.name}" id="btn_clr_{$fields.sel_selkirk_project_sel_selkirk_service_name.name}" tabindex="0" title="{sugar_translate label="LBL_ACCESSKEY_CLEAR_RELATE_TITLE"}"  class="button lastChild"
-onclick="SUGAR.clearRelateField(this.form, '{$fields.sel_selkirk_project_sel_selkirk_service_name.name}', '{$fields.sel_selkirk_project_sel_selkirk_service_name.id_name}');"  value="{sugar_translate label="LBL_ACCESSKEY_CLEAR_RELATE_LABEL"}" ><img src="{sugar_getimagepath file="id-ff-clear.png"}"></button>
-</span>
-<script type="text/javascript">
-SUGAR.util.doWhen(
-		"typeof(sqs_objects) != 'undefined' && typeof(sqs_objects['{$form_name}_{$fields.sel_selkirk_project_sel_selkirk_service_name.name}']) != 'undefined'",
-		enableQS
-);
-</script>
-</tr>
-{/capture}
-{if $fieldsUsed > 0 }
-{$tableRow}
-{/if}
-{counter name="fieldsUsed" start=0 print=false assign="fieldsUsed"}
-{capture name="tr" assign="tableRow"}
-<tr>
 <td valign="top" id='start_date_label' width='12.5%' scope="col">
 {capture name="label" assign="label"}{sugar_translate label='LBL_START_DATE' module='sel_Selkirk_Service'}{/capture}
 {$label|strip_semicolon}:
@@ -844,35 +844,6 @@ weekNumbers:false
 {rdelim}
 );
 </script>
-<td valign="top" id='duration_label' width='12.5%' scope="col">
-{capture name="label" assign="label"}{sugar_translate label='LBL_DURATION' module='sel_Selkirk_Service'}{/capture}
-{$label|strip_semicolon}:
-</td>
-{counter name="fieldsUsed"}
-
-<td valign="top" width='37.5%' >
-{counter name="panelFieldCount"}
-
-{if strlen($fields.duration.value) <= 0}
-{assign var="value" value=$fields.duration.default_value }
-{else}
-{assign var="value" value=$fields.duration.value }
-{/if}  
-<input type='text' name='{$fields.duration.name}'
-id='{$fields.duration.name}'
-size='30'
-maxlength='6'value='{sugar_number_format var=$value precision=2 }'
-title=''
-tabindex='0'
->
-</tr>
-{/capture}
-{if $fieldsUsed > 0 }
-{$tableRow}
-{/if}
-{counter name="fieldsUsed" start=0 print=false assign="fieldsUsed"}
-{capture name="tr" assign="tableRow"}
-<tr>
 <td valign="top" id='end_date_label' width='12.5%' scope="col">
 {capture name="label" assign="label"}{sugar_translate label='LBL_END_DATE' module='sel_Selkirk_Service'}{/capture}
 {$label|strip_semicolon}:
@@ -903,6 +874,35 @@ weekNumbers:false
 {rdelim}
 );
 </script>
+</tr>
+{/capture}
+{if $fieldsUsed > 0 }
+{$tableRow}
+{/if}
+{counter name="fieldsUsed" start=0 print=false assign="fieldsUsed"}
+{capture name="tr" assign="tableRow"}
+<tr>
+<td valign="top" id='duration_label' width='12.5%' scope="col">
+{capture name="label" assign="label"}{sugar_translate label='LBL_DURATION' module='sel_Selkirk_Service'}{/capture}
+{$label|strip_semicolon}:
+</td>
+{counter name="fieldsUsed"}
+
+<td valign="top" width='37.5%' >
+{counter name="panelFieldCount"}
+
+{if strlen($fields.duration.value) <= 0}
+{assign var="value" value=$fields.duration.default_value }
+{else}
+{assign var="value" value=$fields.duration.value }
+{/if}  
+<input type='text' name='{$fields.duration.name}'
+id='{$fields.duration.name}'
+size='30'
+maxlength='6'value='{sugar_number_format var=$value precision=2 }'
+title=''
+tabindex='0'
+>
 <td valign="top" id='assigned_user_name_label' width='12.5%' scope="col">
 {capture name="label" assign="label"}{sugar_translate label='LBL_ASSIGNED_TO_NAME' module='sel_Selkirk_Service'}{/capture}
 {$label|strip_semicolon}:

@@ -1,10 +1,5 @@
 <?php
 $app_strings['LBL_GROUPTAB0_1400340999'] = 'Main';
-$GLOBALS['app_list_strings']['selkirk_service_status']=array (
-  'completed' => 'Completed',
-  'in_progress' => 'In Progress',
-  'start_date_not_scheduled' => 'Start Date Not Scheduled',
-);
 $app_list_strings['moduleList']['sel_Selkirk_Funding']='Funding';
 $app_list_strings['moduleList']['sel_Selkirk_Project']='Projects';
 $app_list_strings['moduleList']['sel_Selkirk_Document']='Documents';
@@ -31,15 +26,6 @@ $GLOBALS['app_list_strings']['selkirk_project_type']=array (
   'federally_funded' => 'Federally Funded',
   'provincially_funded' => 'Provincially Funded',
   'other' => 'Other',
-);
-$GLOBALS['app_list_strings']['selkirk_service_type_list']=array (
-  'awareness_outreach' => 'Awareness / Outreach',
-  'Consultation' => 'Consultation',
-  'proposal' => 'Proposal Development',
-  'data_requests' => 'Data Requests',
-  'advisory' => 'Advisory Services',
-  'direct_support' => 'Direct Support',
-  'training' => 'Training',
 );
 $app_list_strings['moduleList']['sel_Selkirk_Client']='Organizations';
 $app_list_strings['moduleListSingular']['sel_Selkirk_Client']='Organization';
@@ -145,4 +131,59 @@ $GLOBALS['app_list_strings']['selkirk_client_type']=array (
   'government' => 'Government',
   'oganization' => 'Organization',
   'internal' => 'Internal',
+);
+$GLOBALS['app_list_strings']['selkirk_service_type_list']=array (
+  'administration' => 'Administration',
+  'advisory' => 'Advisory Services',
+  'awareness_outreach' => 'Awareness / Outreach',
+  'Consultation' => 'Consultation',
+  'data_requests' => 'Data Requests',
+  'direct_support' => 'Direct Support',
+  'proposal' => 'Proposal Development',
+  'training' => 'Training',
+);
+$GLOBALS['app_list_strings']['sekirk_activity_type']=array (
+  'meeting' => 'Meeting',
+  'other' => 'Other',
+  'phone_call' => 'Phone Call',
+);
+$GLOBALS['app_list_strings']['selkirk_organization_type_list']=array (
+  'business_research_support_granting_agency' => 'Business & Research Support (Granting Agency)',
+  'business_research_support_incubator_acceleator' => 'Business & Research Support (Incubator/Acceleator)',
+  'business_research_support_rural_economic_development' => 'Business & Research Support (Rural/Economic Development)',
+  'for_profit_organization_private' => 'For Profit Organization (Private)',
+  'for_profit_organization_public' => 'For Profit Organization (Public)',
+  'institution_college' => 'Institution (College)',
+  'institution_hospital' => 'Institution (Hospital)',
+  'institution_research' => 'Institution (Research)',
+  'institution_university' => 'Institution (University)',
+  'not_for_profit_organization_association' => 'Not for Profit Organization (Association)',
+  'not_for_profit_organization_charity' => 'Not for Profit Organization (Charity)',
+  'not_for_profit_organization_foundation' => 'Not for Profit Organization (Foundation)',
+  'not_for_profit_organization_service_provider' => 'Not for Profit Organization (Service Provider)',
+);
+$GLOBALS['app_list_strings']['selkirk_service_status']=array (
+  'completed' => 'Completed',
+  'in_progress' => 'In Progress',
+  'start_date_not_scheduled' => 'Start Date Not Scheduled',
+);
+$GLOBALS['app_list_strings']['selkirk_project_status']=array (
+  'completed' => 'Completed',
+  'contribution_agreement_in_place' => 'Contribution Agreement In Place',
+  'direct_award' => 'Direct Award',
+  'draft_proposal' => 'Draft Proposal',
+  'in_kind' => 'In-kind',
+  'letter_of_intent_submitted' => 'Letter of Intent Submitted',
+  'on_going_project' => 'On-going Project',
+  'ongoing_partnership' => 'Ongoing partnership',
+  'pending' => 'Pending',
+  'proposal_submitted' => 'Proposal Submitted',
+  'succcessful_proposal' => 'Succcessful Proposal',
+  'unsucccessful_proposal' => 'Unsucccessful Proposal',
+);
+
+$GLOBALS['app_list_strings']['service_category_list']=array (
+  'business' => 'Business',
+  'technical' => 'Technical',
+  'other' => 'Other/ Don’t know',
 );

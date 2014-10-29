@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-10-27 09:53:07
+<?php /* Smarty version 2.6.11, created on 2014-10-27 09:57:59
          compiled from cache/modules/sel_Selkirk_Contact/SearchForm_popup_query_form.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'cache/modules/sel_Selkirk_Contact/SearchForm_popup_query_form.tpl', 26, false),array('function', 'math', 'cache/modules/sel_Selkirk_Contact/SearchForm_popup_query_form.tpl', 27, false),array('function', 'sugar_getimagepath', 'cache/modules/sel_Selkirk_Contact/SearchForm_popup_query_form.tpl', 35, false),array('function', 'sugar_translate', 'cache/modules/sel_Selkirk_Contact/SearchForm_popup_query_form.tpl', 44, false),array('function', 'sugar_getimage', 'cache/modules/sel_Selkirk_Contact/SearchForm_popup_query_form.tpl', 105, false),)), $this); ?>

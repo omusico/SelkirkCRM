@@ -621,3 +621,7 @@ Wed Oct 15 16:16:30 2014 [2038][-none-][FATAL] FAILED LOGIN:attempts[3] - jtaylo
 Mon Oct 20 11:42:30 2014 [24469][-none-][FATAL] FAILED LOGIN:attempts[1] - smart user
 Wed Oct 22 04:32:05 2014 [1943][-none-][FATAL] SECURITY: User authentication for jtaylor failed
 Wed Oct 22 04:32:05 2014 [1943][-none-][FATAL] FAILED LOGIN:attempts[1] - jtaylor
+Tue Oct 28 15:00:11 2014 [6608][-none-][FATAL] SECURITY: User authentication for ncoburn failed
+Tue Oct 28 15:00:11 2014 [6608][-none-][FATAL] FAILED LOGIN:attempts[1] - ncoburn
+Tue Oct 28 15:01:49 2014 [6635][-none-][FATAL] SECURITY: User authentication for ncoburn failed
+Tue Oct 28 15:01:49 2014 [6635][-none-][FATAL] FAILED LOGIN:attempts[2] - ncoburn
