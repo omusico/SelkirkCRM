@@ -132,16 +132,6 @@ $GLOBALS['app_list_strings']['selkirk_client_type']=array (
   'oganization' => 'Organization',
   'internal' => 'Internal',
 );
-$GLOBALS['app_list_strings']['selkirk_service_type_list']=array (
-  'administration' => 'Administration',
-  'advisory' => 'Advisory Services',
-  'awareness_outreach' => 'Awareness / Outreach',
-  'Consultation' => 'Consultation',
-  'data_requests' => 'Data Requests',
-  'direct_support' => 'Direct Support',
-  'proposal' => 'Proposal Development',
-  'training' => 'Training',
-);
 $GLOBALS['app_list_strings']['sekirk_activity_type']=array (
   'meeting' => 'Meeting',
   'other' => 'Other',
@@ -186,4 +176,16 @@ $GLOBALS['app_list_strings']['service_category_list']=array (
   'business' => 'Business',
   'technical' => 'Technical',
   'other' => 'Other/ Don’t know',
+);
+
+$GLOBALS['app_list_strings']['selkirk_service_type_list']=array (
+  'administration' => 'Administration',
+  'advisory' => 'Advisory Services',
+  'awareness_outreach' => 'Awareness / Outreach',
+  'Consultation' => 'Consultation',
+  'data_requests' => 'Data Requests',
+  'direct_support' => 'Direct Support',
+  'proposal' => 'Proposal Development / Work Plan',
+  'referrals' => 'Referrals',
+  'training' => 'Training',
 );

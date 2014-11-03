@@ -25,9 +25,8 @@
       'unified_search' => false,
       'full_text_search' => 
       array (
-        'boost' => 3,
       ),
-      'required' => true,
+      'required' => false,
       'importable' => 'required',
       'duplicate_merge' => 'disabled',
       'merge_filter' => 'disabled',

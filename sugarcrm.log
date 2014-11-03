@@ -625,3 +625,69 @@ Tue Oct 28 15:00:11 2014 [6608][-none-][FATAL] SECURITY: User authentication for
 Tue Oct 28 15:00:11 2014 [6608][-none-][FATAL] FAILED LOGIN:attempts[1] - ncoburn
 Tue Oct 28 15:01:49 2014 [6635][-none-][FATAL] SECURITY: User authentication for ncoburn failed
 Tue Oct 28 15:01:49 2014 [6635][-none-][FATAL] FAILED LOGIN:attempts[2] - ncoburn
+Wed Oct 29 12:06:35 2014 [11112][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Oct 29 12:06:35 2014 [11112][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] error loading relationship aor_reports
+Wed Oct 29 12:06:35 2014 [11112][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Oct 29 12:06:35 2014 [11112][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] error loading relationship aor_reports
+Wed Oct 29 12:07:44 2014 [11178][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 29 12:07:44 2014 [11178][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 29 12:07:44 2014 [11178][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 29 12:07:44 2014 [11178][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 29 12:07:44 2014 [11178][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 29 12:07:44 2014 [11178][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 29 12:07:44 2014 [11178][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Oct 29 12:09:59 2014 [11201][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 29 12:09:59 2014 [11201][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 29 12:09:59 2014 [11201][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 29 12:09:59 2014 [11201][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 29 12:09:59 2014 [11201][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 29 12:09:59 2014 [11201][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 29 12:09:59 2014 [11201][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Oct 29 12:09:59 2014 [11201][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Oct 29 12:09:59 2014 [11201][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Oct 29 12:32:17 2014 [11395][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 29 12:32:17 2014 [11395][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] error loading relationship aor_reports
+Wed Oct 29 12:32:17 2014 [11395][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 29 12:32:17 2014 [11395][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] error loading relationship aor_reports
+Wed Oct 29 12:32:17 2014 [11395][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 29 12:32:17 2014 [11395][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] error loading relationship aor_reports
+Wed Oct 29 12:32:38 2014 [11420][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 29 12:32:38 2014 [11420][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 29 12:32:38 2014 [11420][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 29 12:32:38 2014 [11420][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 29 12:32:38 2014 [11420][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 29 12:32:38 2014 [11420][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] error loading relationship aor_reports
+Wed Oct 29 12:32:38 2014 [11420][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Oct 29 13:08:49 2014 [11557][-none-][FATAL] SECURITY: User authentication for lrethoret failed
+Wed Oct 29 13:08:49 2014 [11557][-none-][FATAL] FAILED LOGIN:attempts[1] - lrethoret
+Wed Oct 29 13:09:34 2014 [11511][-none-][FATAL] SECURITY: User authentication for lrethoret failed
+Wed Oct 29 13:09:34 2014 [11511][-none-][FATAL] FAILED LOGIN:attempts[2] - lrethoret
+Wed Oct 29 14:10:04 2014 [12090][-none-][FATAL] SECURITY: User authentication for lperepolkin1 failed
+Wed Oct 29 14:10:04 2014 [12090][-none-][FATAL] FAILED LOGIN:attempts[1] - lperepolkin1

@@ -82,6 +82,13 @@ $dictionary["sel_Selkirk_Service"]["fields"]["sel_selkirk_project_sel_selkirk_se
 );
 
 
+ // created: 2014-10-29 13:52:51
+$dictionary['sel_Selkirk_Service']['fields']['name']['required']=false;
+$dictionary['sel_Selkirk_Service']['fields']['name']['full_text_search']=array (
+);
+
+ 
+
 // created: 2014-10-21 14:38:06
 $dictionary["sel_Selkirk_Service"]["fields"]["sel_selkirk_document_sel_selkirk_service"] = array (
   'name' => 'sel_selkirk_document_sel_selkirk_service',

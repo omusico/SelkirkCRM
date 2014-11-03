@@ -3119,6 +3119,7 @@ body
 h1, h2, h3
 {
     color: #000000;
+    font-weight: bolder;
 }
 
 .h3Row
@@ -4392,7 +4393,7 @@ a#create_link.utilsLink:hover {
 
 h1,h2,h3,h4 {
     color:#f10202;
-    font-weight:normal;
+    font-weight:bolder;
 }
 
 select {
