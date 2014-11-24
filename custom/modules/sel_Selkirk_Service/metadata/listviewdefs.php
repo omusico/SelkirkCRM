@@ -9,6 +9,7 @@ array (
     'studio' => 'visible',
     'label' => 'LBL_SELKIRK_SERVICE_TYPE',
     'width' => '10%',
+    'link' => true,
   ),
   'SERVICE_CATEGORY' => 
   array (

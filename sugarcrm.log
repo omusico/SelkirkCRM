@@ -691,3 +691,7 @@ Wed Oct 29 13:09:34 2014 [11511][-none-][FATAL] SECURITY: User authentication fo
 Wed Oct 29 13:09:34 2014 [11511][-none-][FATAL] FAILED LOGIN:attempts[2] - lrethoret
 Wed Oct 29 14:10:04 2014 [12090][-none-][FATAL] SECURITY: User authentication for lperepolkin1 failed
 Wed Oct 29 14:10:04 2014 [12090][-none-][FATAL] FAILED LOGIN:attempts[1] - lperepolkin1
+Fri Nov 21 10:07:14 2014 [20940][-none-][FATAL] SECURITY: User authentication for tmac failed
+Fri Nov 21 10:07:14 2014 [20940][-none-][FATAL] FAILED LOGIN:attempts[1] - tmac
+Fri Nov 21 10:07:22 2014 [20941][-none-][FATAL] SECURITY: User authentication for tmac failed
+Fri Nov 21 10:07:22 2014 [20941][-none-][FATAL] FAILED LOGIN:attempts[2] - tmac
