@@ -695,3 +695,9 @@ Fri Nov 21 10:07:14 2014 [20940][-none-][FATAL] SECURITY: User authentication fo
 Fri Nov 21 10:07:14 2014 [20940][-none-][FATAL] FAILED LOGIN:attempts[1] - tmac
 Fri Nov 21 10:07:22 2014 [20941][-none-][FATAL] SECURITY: User authentication for tmac failed
 Fri Nov 21 10:07:22 2014 [20941][-none-][FATAL] FAILED LOGIN:attempts[2] - tmac
+Mon Nov 24 13:45:09 2014 [2093][-none-][FATAL] SECURITY: User authentication for randrews failed
+Mon Nov 24 13:45:09 2014 [2093][-none-][FATAL] FAILED LOGIN:attempts[1] - randrews
+Mon Nov 24 13:45:17 2014 [1990][-none-][FATAL] SECURITY: User authentication for randrews failed
+Mon Nov 24 13:45:17 2014 [1990][-none-][FATAL] FAILED LOGIN:attempts[2] - randrews
+Wed Nov 26 13:29:21 2014 [12179][-none-][FATAL] SECURITY: User authentication for lrethoret failed
+Wed Nov 26 13:29:21 2014 [12179][-none-][FATAL] FAILED LOGIN:attempts[1] - lrethoret
