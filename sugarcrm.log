@@ -701,3 +701,1424 @@ Mon Nov 24 13:45:17 2014 [1990][-none-][FATAL] SECURITY: User authentication for
 Mon Nov 24 13:45:17 2014 [1990][-none-][FATAL] FAILED LOGIN:attempts[2] - randrews
 Wed Nov 26 13:29:21 2014 [12179][-none-][FATAL] SECURITY: User authentication for lrethoret failed
 Wed Nov 26 13:29:21 2014 [12179][-none-][FATAL] FAILED LOGIN:attempts[1] - lrethoret
+Fri Nov 28 18:55:18 2014 [23525][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 18:55:18 2014 [23525][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] error loading relationship aor_reports
+Fri Nov 28 18:55:18 2014 [23525][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT sel_selkirk_service.id AS 'sel_selkirk_service_id', SUM(sel_selkirk_service.duration) AS 'Duration_(in_hours)0' FROM sel_selkirk_service  WHERE sel_selkirk_service.start_date = DATE_ADD(sel_selkirk_service.start_date, INTERVAL +  hour) AND sel_selkirk_service.end_date = DATE_ADD(sel_selkirk_service.end_date, INTERVAL +  hour) AND sel_selkirk_service.deleted = 0  ) as n: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND sel_selkirk_service.end_date = DATE_ADD(sel_selkirk_service.end_date, INTE' at line 1
+Fri Nov 28 18:55:18 2014 [23525][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL]  Query Failed: SELECT sel_selkirk_service.id AS 'sel_selkirk_service_id', SUM(sel_selkirk_service.duration) AS 'Duration_(in_hours)0' FROM sel_selkirk_service  WHERE sel_selkirk_service.start_date = DATE_ADD(sel_selkirk_service.start_date, INTERVAL +  hour) AND sel_selkirk_service.end_date = DATE_ADD(sel_selkirk_service.end_date, INTERVAL +  hour) AND sel_selkirk_service.deleted = 0  ORDER BY sel_selkirk_service.duration ASC LIMIT 0,20: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND sel_selkirk_service.end_date = DATE_ADD(sel_selkirk_service.end_date, INTE' at line 1
+Fri Nov 28 19:03:41 2014 [23610][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:03:41 2014 [23610][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:03:41 2014 [23610][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:03:41 2014 [23610][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:03:41 2014 [23610][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:03:41 2014 [23610][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:03:41 2014 [23610][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:03:41 2014 [23610][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:03:41 2014 [23610][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:04:55 2014 [23705][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:04:55 2014 [23705][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:04:55 2014 [23705][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:04:55 2014 [23705][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:04:55 2014 [23705][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:04:55 2014 [23705][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:04:55 2014 [23705][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:04:55 2014 [23705][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:04:55 2014 [23705][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:05:34 2014 [23704][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:05:34 2014 [23704][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:05:34 2014 [23704][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:05:34 2014 [23704][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:05:34 2014 [23704][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:05:34 2014 [23704][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:05:34 2014 [23704][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:05:34 2014 [23704][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:05:34 2014 [23704][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:08:43 2014 [23754][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:08:43 2014 [23754][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:08:43 2014 [23754][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:08:43 2014 [23754][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:08:43 2014 [23754][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:08:43 2014 [23754][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:08:43 2014 [23754][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:08:43 2014 [23754][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:08:43 2014 [23754][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:08:43 2014 [23754][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:11:58 2014 [23754][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL]  Query Failed: SELECT id FROM aor_field WHERE aor_field.aor_report_id = 'c0852204-610b-0efb-6f7f-547936ef9665' AND aor_field.deleted=0: MySQL error 1146: Table 'selkirkcrm.aor_field' doesn't exist
+Fri Nov 28 19:11:58 2014 [23754][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL]  Query Failed: SELECT id FROM aor_field WHERE aor_field.aor_report_id = '257d9882-d919-51dd-44dc-5479352b5e9b' AND aor_field.deleted=0: MySQL error 1146: Table 'selkirkcrm.aor_field' doesn't exist
+Fri Nov 28 19:14:50 2014 [23915][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:14:50 2014 [23915][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:14:50 2014 [23915][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:14:50 2014 [23915][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:14:50 2014 [23915][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:14:50 2014 [23915][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:14:50 2014 [23915][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:14:50 2014 [23915][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:14:50 2014 [23915][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:14:50 2014 [23915][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:15:51 2014 [23938][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:15:51 2014 [23938][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:15:51 2014 [23938][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:15:51 2014 [23938][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:15:51 2014 [23938][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:15:51 2014 [23938][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:15:51 2014 [23938][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:15:51 2014 [23938][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:15:51 2014 [23938][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:15:51 2014 [23938][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:21:22 2014 [23992][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:21:22 2014 [23992][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:21:22 2014 [23992][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:21:22 2014 [23992][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:21:22 2014 [23992][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:21:22 2014 [23992][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:21:22 2014 [23992][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:21:22 2014 [23992][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:21:22 2014 [23992][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:21:22 2014 [23992][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:22:22 2014 [24027][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:22:22 2014 [24027][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:22:22 2014 [24027][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:22:22 2014 [24027][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:22:22 2014 [24027][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:22:22 2014 [24027][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:22:22 2014 [24027][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:22:22 2014 [24027][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:22:22 2014 [24027][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:22:22 2014 [24027][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:23:39 2014 [24062][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:23:39 2014 [24062][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:23:39 2014 [24062][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:23:39 2014 [24062][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:23:39 2014 [24062][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:23:39 2014 [24062][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:23:39 2014 [24062][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:23:39 2014 [24062][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:23:39 2014 [24062][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:23:39 2014 [24062][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:25:08 2014 [24092][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:25:08 2014 [24092][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:25:08 2014 [24092][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:25:08 2014 [24092][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:25:08 2014 [24092][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:25:08 2014 [24092][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:25:08 2014 [24092][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:25:08 2014 [24092][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:25:08 2014 [24092][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:25:08 2014 [24092][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:26:33 2014 [24098][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:26:33 2014 [24098][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:26:33 2014 [24098][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:26:33 2014 [24098][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:26:33 2014 [24098][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:26:33 2014 [24098][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:26:33 2014 [24098][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:26:33 2014 [24098][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:26:33 2014 [24098][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:26:33 2014 [24098][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:28:56 2014 [24157][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:28:56 2014 [24157][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:28:56 2014 [24157][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:28:56 2014 [24157][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:28:56 2014 [24157][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:28:56 2014 [24157][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:28:56 2014 [24157][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:28:56 2014 [24157][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:28:56 2014 [24157][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:28:56 2014 [24157][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:29:49 2014 [24188][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:29:49 2014 [24188][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:29:49 2014 [24188][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:29:49 2014 [24188][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:29:49 2014 [24188][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:29:49 2014 [24188][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:29:50 2014 [24188][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:29:50 2014 [24188][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:29:50 2014 [24188][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:29:50 2014 [24188][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:34:52 2014 [24306][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:34:52 2014 [24306][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:34:52 2014 [24306][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:34:52 2014 [24306][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:34:52 2014 [24306][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:34:52 2014 [24306][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:34:52 2014 [24306][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:34:52 2014 [24306][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:34:52 2014 [24306][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:34:52 2014 [24306][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:45:46 2014 [24442][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:45:46 2014 [24442][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:45:46 2014 [24442][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:45:46 2014 [24442][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:45:46 2014 [24442][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:45:46 2014 [24442][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:45:46 2014 [24442][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:45:46 2014 [24442][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:45:46 2014 [24442][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:45:46 2014 [24442][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:46:09 2014 [24506][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:46:09 2014 [24506][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:46:09 2014 [24506][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:46:09 2014 [24506][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:46:09 2014 [24506][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:46:09 2014 [24506][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:46:09 2014 [24506][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:46:09 2014 [24506][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:46:09 2014 [24506][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:46:09 2014 [24506][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:47:13 2014 [24447][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:47:13 2014 [24447][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:47:13 2014 [24447][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:47:13 2014 [24447][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:47:13 2014 [24447][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:47:13 2014 [24447][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:47:13 2014 [24447][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:47:13 2014 [24447][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:47:13 2014 [24447][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:47:13 2014 [24447][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:47:50 2014 [24552][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:47:50 2014 [24552][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:47:50 2014 [24552][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:47:50 2014 [24552][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:47:50 2014 [24552][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:47:50 2014 [24552][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:47:50 2014 [24552][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:47:50 2014 [24552][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:47:50 2014 [24552][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:47:50 2014 [24552][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:48:50 2014 [24552][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:48:50 2014 [24552][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:48:50 2014 [24552][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:48:50 2014 [24552][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:48:50 2014 [24552][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:48:50 2014 [24552][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:48:50 2014 [24552][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:48:50 2014 [24552][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:48:50 2014 [24552][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:48:50 2014 [24552][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:49:55 2014 [24603][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:49:55 2014 [24603][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:49:55 2014 [24603][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:49:55 2014 [24603][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:49:55 2014 [24603][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:49:55 2014 [24603][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:49:55 2014 [24603][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:49:55 2014 [24603][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:49:55 2014 [24603][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:49:55 2014 [24603][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:50:16 2014 [24603][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:50:16 2014 [24603][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:50:16 2014 [24603][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:50:16 2014 [24603][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:50:16 2014 [24603][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:50:16 2014 [24603][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:50:16 2014 [24603][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:50:16 2014 [24603][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:50:16 2014 [24603][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:50:16 2014 [24603][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:51:33 2014 [24611][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:51:33 2014 [24611][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:51:33 2014 [24611][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:51:33 2014 [24611][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:51:33 2014 [24611][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:51:33 2014 [24611][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:51:33 2014 [24611][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:51:33 2014 [24611][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:51:33 2014 [24611][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:51:33 2014 [24611][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:52:09 2014 [24692][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:52:09 2014 [24692][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:52:09 2014 [24692][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:52:09 2014 [24692][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:52:09 2014 [24692][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:52:09 2014 [24692][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:52:09 2014 [24692][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:52:09 2014 [24692][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:52:09 2014 [24692][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:52:09 2014 [24692][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:53:24 2014 [24714][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:53:24 2014 [24714][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:53:24 2014 [24714][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:53:24 2014 [24714][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:53:24 2014 [24714][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:53:24 2014 [24714][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:53:24 2014 [24714][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 19:53:24 2014 [24714][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:53:25 2014 [24714][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 19:53:25 2014 [24714][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:03:56 2014 [24918][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:03:56 2014 [24918][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:03:56 2014 [24918][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:03:56 2014 [24918][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:03:56 2014 [24918][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:03:56 2014 [24918][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:03:56 2014 [24918][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:03:56 2014 [24918][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:03:56 2014 [24918][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:03:56 2014 [24918][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:05:18 2014 [24918][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:05:18 2014 [24918][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:05:18 2014 [24918][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:05:18 2014 [24918][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:05:18 2014 [24918][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:05:18 2014 [24918][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:05:18 2014 [24918][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:05:18 2014 [24918][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:05:18 2014 [24918][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:05:18 2014 [24918][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:05:52 2014 [24979][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:05:52 2014 [24979][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:05:52 2014 [24979][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:05:52 2014 [24979][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:05:52 2014 [24979][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:05:52 2014 [24979][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:05:52 2014 [24979][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:05:52 2014 [24979][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:05:52 2014 [24979][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:05:52 2014 [24979][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:06:42 2014 [24949][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:06:42 2014 [24949][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:06:42 2014 [24949][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:06:42 2014 [24949][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:06:42 2014 [24949][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:06:42 2014 [24949][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:06:42 2014 [24949][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:06:42 2014 [24949][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:06:42 2014 [24949][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:06:42 2014 [24949][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:07:18 2014 [25038][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:07:18 2014 [25038][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:07:18 2014 [25038][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:07:18 2014 [25038][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:07:18 2014 [25038][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:07:18 2014 [25038][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:07:18 2014 [25038][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:07:18 2014 [25038][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:07:18 2014 [25038][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:07:18 2014 [25038][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:07:48 2014 [25067][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:07:48 2014 [25067][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:07:48 2014 [25067][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:07:48 2014 [25067][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:07:48 2014 [25067][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:07:48 2014 [25067][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:07:48 2014 [25067][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:07:48 2014 [25067][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:07:48 2014 [25067][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:07:48 2014 [25067][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:09:56 2014 [25096][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:09:56 2014 [25096][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:09:56 2014 [25096][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:09:56 2014 [25096][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:09:56 2014 [25096][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:09:56 2014 [25096][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:09:56 2014 [25096][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:09:56 2014 [25096][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:09:56 2014 [25096][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:09:56 2014 [25096][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:13:26 2014 [25147][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:13:26 2014 [25147][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:13:26 2014 [25147][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:13:26 2014 [25147][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:13:26 2014 [25147][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:13:26 2014 [25147][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:13:26 2014 [25147][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:13:26 2014 [25147][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:13:26 2014 [25147][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:13:26 2014 [25147][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:26:39 2014 [25307][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:26:39 2014 [25307][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:26:39 2014 [25307][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:26:39 2014 [25307][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:26:39 2014 [25307][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:26:39 2014 [25307][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:26:39 2014 [25307][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:26:39 2014 [25307][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:26:39 2014 [25307][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:26:39 2014 [25307][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:27:08 2014 [25201][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:27:08 2014 [25201][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:27:08 2014 [25201][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:27:08 2014 [25201][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:27:08 2014 [25201][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:27:08 2014 [25201][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:27:08 2014 [25201][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:27:08 2014 [25201][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:27:08 2014 [25201][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:27:08 2014 [25201][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:27:33 2014 [25331][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:27:34 2014 [25331][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:27:34 2014 [25331][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:27:34 2014 [25331][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:27:34 2014 [25331][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:27:34 2014 [25331][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:27:34 2014 [25331][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:27:34 2014 [25331][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:27:34 2014 [25331][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:27:34 2014 [25331][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:28:41 2014 [25331][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL]  Query Failed: SELECT id FROM aor_field WHERE aor_field.aor_report_id = '666be07f-2103-e653-b527-5398c9f04720' AND aor_field.deleted=0: MySQL error 1146: Table 'selkirkcrm.aor_field' doesn't exist
+Fri Nov 28 20:29:09 2014 [25424][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL]  Query Failed: SELECT id FROM aor_field WHERE aor_field.aor_report_id = 'a5ac1ddc-fe9e-4238-4f17-54794b1ddd22' AND aor_field.deleted=0: MySQL error 1146: Table 'selkirkcrm.aor_field' doesn't exist
+Fri Nov 28 20:30:59 2014 [25457][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0 ) as n: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Fri Nov 28 20:30:59 2014 [25457][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL]  Query Failed: SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0  LIMIT 0,20: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Fri Nov 28 20:31:00 2014 [25485][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0 ) as n: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Fri Nov 28 20:31:00 2014 [25485][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL]  Query Failed: SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0  LIMIT 0,20: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Fri Nov 28 20:35:03 2014 [25564][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:35:03 2014 [25564][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:35:03 2014 [25564][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:35:03 2014 [25564][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:35:03 2014 [25564][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:35:03 2014 [25564][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:35:03 2014 [25564][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 20:35:03 2014 [25564][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:35:03 2014 [25564][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:35:03 2014 [25564][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 20:43:04 2014 [25679][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL]  Query Failed: SELECT id FROM aor_field WHERE aor_field.aor_report_id = '23f5629e-02e8-d7cd-0b55-54794b8d419f' AND aor_field.deleted=0: MySQL error 1146: Table 'selkirkcrm.aor_field' doesn't exist
+Fri Nov 28 21:22:00 2014 [26007][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 21:22:00 2014 [26007][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 21:22:00 2014 [26007][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 21:22:00 2014 [26007][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 21:22:00 2014 [26007][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 21:22:00 2014 [26007][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 21:22:00 2014 [26007][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 21:22:00 2014 [26007][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 21:22:00 2014 [26007][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 21:22:00 2014 [26007][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 21:41:54 2014 [26236][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL]  Query Failed: SELECT id FROM aor_field WHERE aor_field.aor_report_id = '7116fd90-3299-7586-6ba1-54794f054e29' AND aor_field.deleted=0: MySQL error 1146: Table 'selkirkcrm.aor_field' doesn't exist
+Fri Nov 28 21:54:40 2014 [26388][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 21:54:40 2014 [26388][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 21:54:40 2014 [26388][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 21:54:40 2014 [26388][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 21:54:40 2014 [26388][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 21:54:40 2014 [26388][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 21:54:40 2014 [26388][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 21:54:40 2014 [26388][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 21:54:40 2014 [26388][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 21:54:40 2014 [26388][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 21:58:06 2014 [26429][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 21:58:06 2014 [26429][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 21:58:06 2014 [26429][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 21:58:06 2014 [26429][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 21:58:06 2014 [26429][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 21:58:06 2014 [26429][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 21:58:06 2014 [26429][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Nov 28 21:58:06 2014 [26429][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 21:58:06 2014 [26429][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 21:58:06 2014 [26429][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Nov 28 22:18:49 2014 [26518][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL]  Query Failed: SELECT id FROM aor_field WHERE aor_field.aor_report_id = '868c08e6-916d-49d2-6bb6-54794401f23d' AND aor_field.deleted=0: MySQL error 1146: Table 'selkirkcrm.aor_field' doesn't exist
+Fri Nov 28 22:18:49 2014 [26518][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL]  Query Failed: SELECT id FROM aor_field WHERE aor_field.aor_report_id = '82e8acba-e1ab-4346-503b-54794445fbed' AND aor_field.deleted=0: MySQL error 1146: Table 'selkirkcrm.aor_field' doesn't exist
+Fri Nov 28 22:18:49 2014 [26518][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL]  Query Failed: SELECT id FROM aor_field WHERE aor_field.aor_report_id = '25c8ec64-2375-c986-aeea-54795007e8fd' AND aor_field.deleted=0: MySQL error 1146: Table 'selkirkcrm.aor_field' doesn't exist
+Fri Nov 28 22:18:49 2014 [26518][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL]  Query Failed: SELECT id FROM aor_field WHERE aor_field.aor_report_id = '2f7ccb0d-8725-8bf6-260b-54794d3862da' AND aor_field.deleted=0: MySQL error 1146: Table 'selkirkcrm.aor_field' doesn't exist
+Sat Nov 29 00:17:56 2014 [27492][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Nov 29 00:17:56 2014 [27492][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Nov 29 00:17:56 2014 [27492][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Nov 29 00:17:56 2014 [27492][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Nov 29 00:17:56 2014 [27492][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Nov 29 00:17:56 2014 [27492][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Nov 29 00:17:56 2014 [27492][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Nov 29 00:17:56 2014 [27492][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sat Nov 29 00:17:56 2014 [27492][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sat Nov 29 00:17:56 2014 [27492][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 13:30:16 2014 [1344][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:30:16 2014 [1344][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:30:16 2014 [1344][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:30:16 2014 [1344][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:30:16 2014 [1344][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:30:16 2014 [1344][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:30:16 2014 [1344][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:30:16 2014 [1344][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 13:30:16 2014 [1344][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 13:30:16 2014 [1344][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 13:40:04 2014 [1506][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:40:04 2014 [1506][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:40:04 2014 [1506][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:40:04 2014 [1506][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:40:04 2014 [1506][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:40:04 2014 [1506][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:40:04 2014 [1506][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:40:04 2014 [1506][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 13:40:04 2014 [1506][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 13:40:04 2014 [1506][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 13:47:06 2014 [1658][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:47:06 2014 [1658][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:47:06 2014 [1658][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:47:06 2014 [1658][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:47:06 2014 [1658][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:47:06 2014 [1658][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:47:06 2014 [1658][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:47:06 2014 [1658][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 13:47:06 2014 [1658][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 13:47:06 2014 [1658][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 13:49:37 2014 [1701][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:49:37 2014 [1701][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:49:37 2014 [1701][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:49:37 2014 [1701][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:49:37 2014 [1701][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:49:37 2014 [1701][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:49:38 2014 [1701][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:49:38 2014 [1701][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 13:49:38 2014 [1701][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 13:49:38 2014 [1701][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 13:50:29 2014 [1731][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:50:29 2014 [1731][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:50:29 2014 [1731][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:50:29 2014 [1731][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:50:29 2014 [1731][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:50:29 2014 [1731][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:50:29 2014 [1731][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:50:29 2014 [1731][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 13:50:29 2014 [1731][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 13:50:29 2014 [1731][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 13:53:34 2014 [1701][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:53:34 2014 [1701][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:53:34 2014 [1701][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:53:34 2014 [1701][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:53:34 2014 [1701][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:53:34 2014 [1701][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:53:34 2014 [1701][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:53:34 2014 [1701][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 13:53:34 2014 [1701][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 13:53:34 2014 [1701][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 13:54:23 2014 [1803][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:54:23 2014 [1803][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:54:23 2014 [1803][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:54:23 2014 [1803][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:54:23 2014 [1803][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:54:23 2014 [1803][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:54:23 2014 [1803][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:54:23 2014 [1803][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 13:54:23 2014 [1803][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 13:54:23 2014 [1803][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 13:55:07 2014 [1838][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:55:07 2014 [1838][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:55:07 2014 [1838][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:55:07 2014 [1838][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:55:07 2014 [1838][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:55:07 2014 [1838][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:55:07 2014 [1838][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 13:55:07 2014 [1838][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 13:55:07 2014 [1838][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 13:55:07 2014 [1838][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 15:48:49 2014 [2258][-none-][FATAL] FAILED LOGIN:attempts[1] - ss
+Sun Nov 30 15:53:53 2014 [2316][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 15:53:53 2014 [2316][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 15:53:53 2014 [2316][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 15:53:53 2014 [2316][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 15:53:53 2014 [2316][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 15:53:53 2014 [2316][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 15:53:53 2014 [2316][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sun Nov 30 15:53:53 2014 [2316][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 15:53:53 2014 [2316][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sun Nov 30 15:53:53 2014 [2316][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:20:38 2014 [5392][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:20:38 2014 [5392][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:20:38 2014 [5392][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:20:38 2014 [5392][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:20:38 2014 [5392][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:20:38 2014 [5392][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:20:38 2014 [5392][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:20:38 2014 [5392][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:20:38 2014 [5392][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:20:38 2014 [5392][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:21:53 2014 [5440][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:21:53 2014 [5440][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:21:53 2014 [5440][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:21:53 2014 [5440][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:21:53 2014 [5440][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:21:53 2014 [5440][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:21:53 2014 [5440][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:21:53 2014 [5440][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:21:53 2014 [5440][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:21:53 2014 [5440][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] error loading relationship aor_reports
+Mon Dec  1 10:21:53 2014 [5440][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:21:53 2014 [5440][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:21:53 2014 [5440][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:21:53 2014 [5440][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:22:27 2014 [5461][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:22:27 2014 [5461][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:22:27 2014 [5461][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:22:27 2014 [5461][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:22:27 2014 [5461][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:22:27 2014 [5461][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:22:27 2014 [5461][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:22:27 2014 [5461][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:22:27 2014 [5461][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:22:27 2014 [5461][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:32:01 2014 [5551][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:32:01 2014 [5551][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:32:01 2014 [5551][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:32:01 2014 [5551][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:32:01 2014 [5551][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:32:01 2014 [5551][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:32:01 2014 [5551][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:32:01 2014 [5551][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:32:01 2014 [5551][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:32:01 2014 [5551][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:32:29 2014 [5610][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:32:29 2014 [5610][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:32:29 2014 [5610][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:32:29 2014 [5610][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:32:29 2014 [5610][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:32:29 2014 [5610][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:32:29 2014 [5610][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:32:29 2014 [5610][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:32:29 2014 [5610][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:32:29 2014 [5610][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:37:00 2014 [5719][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:37:00 2014 [5719][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:37:00 2014 [5719][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:37:00 2014 [5719][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:37:00 2014 [5719][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:37:00 2014 [5719][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:37:00 2014 [5719][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:37:00 2014 [5719][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:37:00 2014 [5719][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:37:00 2014 [5719][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:37:16 2014 [5719][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:37:16 2014 [5719][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:37:16 2014 [5719][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:37:16 2014 [5719][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:37:16 2014 [5719][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:37:16 2014 [5719][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:37:16 2014 [5719][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:37:16 2014 [5719][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:37:16 2014 [5719][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:37:16 2014 [5719][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:38:15 2014 [5748][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:38:15 2014 [5748][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:38:15 2014 [5748][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:38:16 2014 [5748][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:38:16 2014 [5748][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:38:16 2014 [5748][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:38:16 2014 [5748][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:38:16 2014 [5748][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:38:16 2014 [5748][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:38:16 2014 [5748][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:39:25 2014 [5800][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:39:25 2014 [5800][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:39:25 2014 [5800][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:39:25 2014 [5800][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:39:25 2014 [5800][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:39:25 2014 [5800][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:39:25 2014 [5800][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:39:25 2014 [5800][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:39:25 2014 [5800][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:39:25 2014 [5800][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:40:19 2014 [5834][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:40:19 2014 [5834][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:40:19 2014 [5834][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:40:19 2014 [5834][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:40:19 2014 [5834][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:40:19 2014 [5834][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:40:19 2014 [5834][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:40:19 2014 [5834][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:40:19 2014 [5834][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:40:19 2014 [5834][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:43:27 2014 [5901][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:43:27 2014 [5901][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:43:27 2014 [5901][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:43:27 2014 [5901][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:43:27 2014 [5901][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:43:27 2014 [5901][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:43:27 2014 [5901][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:43:27 2014 [5901][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:43:27 2014 [5901][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:43:27 2014 [5901][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:44:35 2014 [5915][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:44:35 2014 [5915][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:44:35 2014 [5915][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:44:35 2014 [5915][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:44:35 2014 [5915][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:44:35 2014 [5915][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:44:35 2014 [5915][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:44:35 2014 [5915][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:44:35 2014 [5915][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:44:35 2014 [5915][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:45:13 2014 [5930][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:45:13 2014 [5930][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:45:13 2014 [5930][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:45:13 2014 [5930][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:45:13 2014 [5930][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:45:13 2014 [5930][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:45:13 2014 [5930][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:45:13 2014 [5930][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:45:13 2014 [5930][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:45:13 2014 [5930][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:45:42 2014 [6009][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:45:42 2014 [6009][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:45:42 2014 [6009][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:45:42 2014 [6009][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:45:42 2014 [6009][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:45:42 2014 [6009][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:45:42 2014 [6009][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 10:45:42 2014 [6009][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:45:42 2014 [6009][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 10:45:42 2014 [6009][d3e37a08-4c2a-5abf-70c0-53971a571df8][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 12:04:46 2014 [6374][1][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0 ) as n: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Mon Dec  1 12:04:46 2014 [6374][1][FATAL]  Query Failed: SELECT config.id AS 'config_id' FROM config  WHERE config.deleted = 0  LIMIT 0,20: MySQL error 1054: Unknown column 'config.id' in 'field list'
+Mon Dec  1 12:06:43 2014 [6412][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:06:43 2014 [6412][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:06:43 2014 [6412][1][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 12:07:03 2014 [6412][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:07:03 2014 [6412][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:07:03 2014 [6412][1][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 12:07:16 2014 [6436][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:07:16 2014 [6436][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:07:16 2014 [6436][1][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 12:07:16 2014 [6436][1][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 12:07:16 2014 [6436][1][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 12:07:16 2014 [6436][1][FATAL] error loading relationship aor_reports
+Mon Dec  1 12:08:38 2014 [6423][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:08:38 2014 [6423][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:08:38 2014 [6423][1][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 12:09:14 2014 [6476][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:09:14 2014 [6476][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:09:14 2014 [6476][1][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 12:10:45 2014 [6472][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:10:45 2014 [6472][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:10:45 2014 [6472][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:10:45 2014 [6472][1][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 12:25:15 2014 [6584][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:25:15 2014 [6584][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:25:15 2014 [6584][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:25:15 2014 [6584][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:25:15 2014 [6584][1][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 12:36:39 2014 [6712][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:36:39 2014 [6712][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:36:39 2014 [6712][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:36:39 2014 [6712][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:36:39 2014 [6712][1][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 12:47:48 2014 [6875][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:47:48 2014 [6875][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:47:48 2014 [6875][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:47:48 2014 [6875][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:47:48 2014 [6875][1][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 12:48:25 2014 [6896][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:48:25 2014 [6896][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:48:25 2014 [6896][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:48:25 2014 [6896][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:48:25 2014 [6896][1][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 12:49:04 2014 [6918][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:49:04 2014 [6918][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:49:04 2014 [6918][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:49:04 2014 [6918][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:49:04 2014 [6918][1][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 12:50:51 2014 [6947][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:50:51 2014 [6947][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:50:51 2014 [6947][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:50:51 2014 [6947][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:50:51 2014 [6947][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:50:51 2014 [6947][1][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 12:55:40 2014 [7041][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:55:40 2014 [7041][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:55:40 2014 [7041][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:55:40 2014 [7041][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:55:40 2014 [7041][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:55:40 2014 [7041][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:55:40 2014 [7041][1][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Mon Dec  1 12:56:44 2014 [7039][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:56:44 2014 [7039][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:56:44 2014 [7039][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:56:44 2014 [7039][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:56:44 2014 [7039][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:56:44 2014 [7039][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:56:44 2014 [7039][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:56:44 2014 [7039][1][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Dec  1 12:56:44 2014 [7039][1][FATAL] error loading relationship aor_reports
+Mon Dec  1 12:56:44 2014 [7039][1][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
