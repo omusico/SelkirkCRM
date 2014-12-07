@@ -421,6 +421,107 @@ class AOR_Report extends Basic {
         require_once('include/export_utils.php');
 
         $delimiter = getDelimiter();
+        //text/comma-separated-values
+
+        $user_agent = isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : '';
+        if ($GLOBALS['locale']->getExportCharset() == 'UTF-8' &&
+            ! preg_match('/macintosh|mac os x|mac_powerpc/i', $user_agent)) // Bug 60377 - Mac Excel doesn't support UTF-8
+        {
+            //Bug 55520 - add BOM to the exporting CSV so any symbols are displayed correctly in Excel
+            $BOM = "\xEF\xBB\xBF";
+            $csv = $BOM;
+        }
+        else
+        {
+            $csv = '';
+        }
+
+        $sql = "SELECT id FROM aor_fields WHERE aor_report_id = '".$this->id."' AND deleted = 0 ORDER BY field_order ASC";
+        $result = $this->db->query($sql);
+
+        $fields = array();
+        $i = 0;
+        $first_item = true;
+        while ($row = $this->db->fetchByAssoc($result)) {
+            $field = new AOR_Field();
+            $field->retrieve($row['id']);
+
+            $path = unserialize(base64_decode($field->module_path));
+
+            $field_module = $this->report_module;
+            if($path[0] != $this->report_module){
+                foreach($path as $rel){
+                    $field_module = getRelatedModule($field_module,$rel);
+                }
+            }
+            $label = str_replace(' ','_',$field->label).$i;
+            $fields[$label]['field'] = $field->field;
+            $fields[$label]['display'] = $field->display;
+            $fields[$label]['function'] = $field->field_function;
+            $fields[$label]['module'] = $field_module;
+
+
+            if($field->display){
+                if(!$first_item)
+                    $csv .= $delimiter;
+                else
+                    $first_item = false;
+
+                $csv.= '"'.preg_replace("/\"/","\"\"", $field->label).'"';
+            }
+            ++$i;
+        }
+
+        $sql = $this->build_report_query();
+        $result = $this->db->query($sql);
+
+        while ($row = $this->db->fetchByAssoc($result)) {
+            $csv .= "\r\n";
+            $first_item = true;
+            foreach($fields as $name => $att){
+                if($att['display']){
+                    if(!$first_item)
+                        $csv .= $delimiter;
+                    else
+                        $first_item = false;
+
+                    if($att['function'] != '' )
+                        $csv .= '"'.preg_replace("/\"/","\"\"", $row[$name]).'"';
+                    else
+                        $csv .= '"'.preg_replace("/\"/","\"\"", trim(strip_tags(getModuleField($att['module'], $att['field'], $att['field'], 'DetailView',$row[$name])))).'"';
+                }
+            }
+        }
+
+        $csv= $GLOBALS['locale']->translateCharset($csv, 'UTF-8', $GLOBALS['locale']->getExportCharset());
+
+        ob_clean();
+        header("Pragma: cache");
+        header("Content-type: text/comma-separated-values; charset=".$GLOBALS['locale']->getExportCharset());
+        header("Content-Disposition: attachment; filename=\"{$this->name}.csv\"");
+        header("Content-transfer-encoding: binary");
+        header("Expires: Mon, 26 Jul 1997 05:00:00 GMT" );
+        header("Last-Modified: " . TimeDate::httpTime() );
+        header("Cache-Control: post-check=0, pre-check=0", false );
+        header("Content-Length: ".mb_strlen($csv, '8bit'));
+
+        print $csv;
+
+        sugar_cleanup(true);
+    }
+
+
+
+
+
+    function build_report_csv_old_buggy(){
+
+        ini_set('zlib.output_compression', 'Off');
+
+        ob_start();
+        require_once('include/export_utils.php');
+
+        $delimiter = getDelimiter();
         $csv = '';
         //text/comma-separated-values
 
