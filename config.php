@@ -1,5 +1,5 @@
 <?php
-// created: 2014-10-15 12:52:35
+// created: 2014-12-07 13:59:47
 $sugar_config = array (
   'SAML_X509Cert' => '',
   'SAML_loginurl' => '',
@@ -173,6 +173,7 @@ $sugar_config = array (
     'autofree' => false,
     'debug' => 0,
     'ssl' => false,
+    'collation' => 'utf8_general_ci',
   ),
   'default_action' => 'index',
   'default_charset' => 'UTF-8',
@@ -273,7 +274,7 @@ $sugar_config = array (
   'default_currency_name' => 'CA Dollars',
   'default_currency_significant_digits' => 2,
   'default_currency_symbol' => '$',
-  'default_date_format' => 'm/d/Y',
+  'default_date_format' => 'Y-m-d',
   'default_decimal_seperator' => '.',
   'default_email_charset' => 'UTF-8',
   'default_email_client' => 'sugar',
@@ -281,7 +282,7 @@ $sugar_config = array (
   'default_export_charset' => 'UTF-8',
   'default_language' => 'en_us',
   'default_locale_name_format' => 's f l',
-  'default_max_tabs' => 10,
+  'default_max_tabs' => '7',
   'default_module' => 'Home',
   'default_module_favicon' => false,
   'default_navigation_paradigm' => 'gm',
@@ -303,7 +304,7 @@ $sugar_config = array (
   'default_user_is_admin' => false,
   'default_user_name' => '',
   'demoData' => 'no',
-  'developerMode' => true,
+  'developerMode' => false,
   'disable_convert_lead' => false,
   'disable_export' => false,
   'disable_persistent_connections' => 'false',
@@ -338,7 +339,7 @@ $sugar_config = array (
     'timeout' => 86400,
   ),
   'js_custom_version' => 1,
-  'js_lang_version' => 44,
+  'js_lang_version' => 45,
   'languages' => 
   array (
     'en_us' => 'English (US)',
@@ -347,7 +348,7 @@ $sugar_config = array (
   ),
   'large_scale_test' => false,
   'lead_conv_activity_opt' => 'donothing',
-  'list_max_entries_per_page' => '250',
+  'list_max_entries_per_page' => '20',
   'list_max_entries_per_subpanel' => '5',
   'lock_default_user_name' => false,
   'lock_homepage' => false,
@@ -368,7 +369,7 @@ $sugar_config = array (
       'suffix' => '',
     ),
   ),
-  'max_dashlets_homepage' => '5',
+  'max_dashlets_homepage' => '6',
   'name_formats' => 
   array (
     's f l' => 's f l',
@@ -411,7 +412,7 @@ $sugar_config = array (
       3 => 'Administration',
       4 => 'Sync',
     ),
-    'default_limit' => 5000,
+    'default_limit' => 20000,
   ),
   'rss_cache_time' => '10800',
   'save_query' => 'no',
@@ -433,9 +434,9 @@ $sugar_config = array (
   'site_url' => 'http://rdi-connect.sgrc.selkirk.ca/SelkirkCRM',
   'slow_query_time_msec' => '100',
   'stack_trace_errors' => false,
-  'sugar_version' => '6.5.16',
+  'sugar_version' => '6.5.18',
   'sugarbeet' => false,
-  'suitecrm_version' => '7.1.1',
+  'suitecrm_version' => '7.1.4',
   'time_formats' => 
   array (
     'H:i' => '23:00',

@@ -1,5 +1,5 @@
 <?php
-// created: 2014-12-07 06:08:55
+// created: 2014-12-07 14:02:46
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -27,4 +27,10 @@ $mod_strings = array (
   'LBL_SUBTOTAL_TAX_AMOUNT' => 'Subtotal + Tax',
   'LBL_GROUP_TOTAL' => 'Group Total',
   'LBL_LIST_NUM' => 'Number',
+  'LBL_SUBTOTAL_AMOUNT_USDOLLAR' => 'Subtotal (Default Currency)',
+  'LBL_DISCOUNT_AMOUNT_USDOLLAR' => 'Discount (Default Currency)',
+  'LBL_TAX_AMOUNT_USDOLLAR' => 'Tax (Default Currency)',
+  'LBL_TOTAL_AMT_USDOLLAR' => 'Total (Default Currency)',
+  'LBL_GROUP_TOTAL_USDOLLAR' => 'Group Total (Default Currency)',
+  'LBL_SUBTOTAL_TAX_AMOUNT_USDOLLAR' => 'Subtotal + Tax (Default Currency)',
 );

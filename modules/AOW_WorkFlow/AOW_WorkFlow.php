@@ -251,6 +251,7 @@ class AOW_WorkFlow extends Basic {
                     }
                     if(  (isset($data['source']) && $data['source'] == 'custom_fields')) {
                         $field = $table_alias.'_cstm.'.$condition->field;
+                        $query = $this->build_flow_query_join($table_alias.'_cstm', $condition_module, 'custom', $query);
                     } else {
                         $field = $table_alias.'.'.$condition->field;
                     }
@@ -264,6 +265,7 @@ class AOW_WorkFlow extends Basic {
                             }
                             if(  (isset($data['source']) && $data['source'] == 'custom_fields')) {
                                 $value = $table_alias.'_cstm.'.$condition->value;
+                                $query = $this->build_flow_query_join($table_alias.'_cstm', $condition_module, 'custom', $query);
                             } else {
                                 $value = $table_alias.'.'.$condition->value;
                             }
@@ -275,14 +277,15 @@ class AOW_WorkFlow extends Basic {
                             $params =  unserialize(base64_decode($condition->value));
                             if($params[0] == 'now'){
                                 if($sugar_config['dbconfig']['db_type'] == 'mssql'){
-                                    $value  = 'GetDate()';
+                                    $value  = 'GetUTCDate()';
                                 } else {
-                                    $value = 'NOW()';
+                                    $value = 'UTC_TIMESTAMP()';
                                 }
                             } else {
                                 $data = $condition_module->field_defs[$params[0]];
                                 if(  (isset($data['source']) && $data['source'] == 'custom_fields')) {
                                     $value = $table_alias.'_cstm.'.$params[0];
+                                    $query = $this->build_flow_query_join($table_alias.'_cstm', $condition_module, 'custom', $query);
                                 } else {
                                     $value = $table_alias.'.'.$params[0];
                                 }
@@ -310,9 +313,18 @@ class AOW_WorkFlow extends Basic {
                             $multi_values = unencodeMultienum($condition->value);
                             if(!empty($multi_values)){
                                 $value = '(';
-                                foreach($multi_values as $multi_value){
-                                    if($value != '(') $value .= $sep;
-                                    $value .= $field.' '.$app_list_strings['aow_sql_operator_list'][$condition->operator]." '".$multi_value."'";
+                                if($data['type'] == 'multienum'){
+                                    $multi_operator =  $condition->operator == 'Equal_To' ? 'LIKE' : 'NOT LIKE';
+                                    foreach($multi_values as $multi_value){
+                                        if($value != '(') $value .= $sep;
+                                        $value .= $field." $multi_operator '%^".$multi_value."^%'";
+                                    }
+                                }
+                                else {
+                                    foreach($multi_values as $multi_value){
+                                        if($value != '(') $value .= $sep;
+                                        $value .= $field.' '.$app_list_strings['aow_sql_operator_list'][$condition->operator]." '".$multi_value."'";
+                                    }
                                 }
                                 $value .= ')';
                                 $query['where'][] = $value;
@@ -484,6 +496,7 @@ class AOW_WorkFlow extends Basic {
                     case 'Multi':
 
                         $value = unencodeMultienum($value);
+                        if($data['type'] == 'multienum') $field = unencodeMultienum($field);
                         switch($condition->operator) {
                             case 'Not_Equal_To';
                                 $condition->operator = 'Not_Contains';
@@ -506,7 +519,7 @@ class AOW_WorkFlow extends Basic {
                         }
                     case 'Value':
                     default:
-                        if(in_array($data['type'],$dateFields)) {
+                        if(in_array($data['type'],$dateFields) && trim($value) != '') {
                             $value = strtotime($value);
                         }
                         break;
@@ -529,8 +542,22 @@ class AOW_WorkFlow extends Basic {
             case "Less_Than":  return $var1 <  $var2;
             case "Greater_Than_or_Equal_To": return $var1 >= $var2;
             case "Less_Than_or_Equal_To": return $var1 <= $var2;
-            case "Contains": return in_array($var1,$var2);
-            case "Not_Contains": return !in_array($var1,$var2);
+            case "Contains":
+                if(is_array($var1)){
+                    foreach($var1 as $var){
+                        if(in_array($var,$var2)) return true;
+                    }
+                    return false;
+                }
+                else return in_array($var1,$var2);
+            case "Not_Contains":
+                if(is_array($var1)){
+                    foreach($var1 as $var){
+                        if(in_array($var,$var2)) return false;
+                    }
+                    return true;
+                }
+                else return !in_array($var1,$var2);
             case "Equal_To":
             default: return $var1 == $var2;
         }

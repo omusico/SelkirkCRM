@@ -1,11 +1,11 @@
 <?php
-$searchdefs ['Meetings'] = 
-array (
+// created: 2014-12-07 13:58:36
+$searchdefs['Meetings'] = array (
   'layout' => 
   array (
     'basic_search' => 
     array (
-      'collection' => 
+      0 => 
       array (
         'name' => 'collection',
         'label' => 'LBL_COLLECTION_TYPE',
@@ -13,19 +13,21 @@ array (
         'default' => true,
         'width' => '10%',
       ),
-      'name' => 
+      1 => 
       array (
         'name' => 'name',
         'default' => true,
         'width' => '10%',
       ),
-      'date_modified' => 
+      2 => 
       array (
+        'type' => 'datetime',
+        'label' => 'LBL_DATE_MODIFIED',
         'name' => 'date_modified',
         'default' => true,
         'width' => '10%',
       ),
-      'current_user_only' => 
+      3 => 
       array (
         'name' => 'current_user_only',
         'label' => 'LBL_CURRENT_USER_FILTER',
@@ -36,13 +38,13 @@ array (
     ),
     'advanced_search' => 
     array (
-      'name' => 
+      0 => 
       array (
         'name' => 'name',
         'default' => true,
         'width' => '10%',
       ),
-      'parent_name' => 
+      1 => 
       array (
         'type' => 'parent',
         'label' => 'LBL_LIST_RELATED_TO',
@@ -50,7 +52,7 @@ array (
         'default' => true,
         'name' => 'parent_name',
       ),
-      'current_user_only' => 
+      2 => 
       array (
         'name' => 'current_user_only',
         'label' => 'LBL_CURRENT_USER_FILTER',
@@ -58,13 +60,13 @@ array (
         'default' => true,
         'width' => '10%',
       ),
-      'status' => 
+      3 => 
       array (
         'name' => 'status',
         'default' => true,
         'width' => '10%',
       ),
-      'assigned_user_id' => 
+      4 => 
       array (
         'name' => 'assigned_user_id',
         'type' => 'enum',
@@ -93,4 +95,3 @@ array (
     ),
   ),
 );
-?>

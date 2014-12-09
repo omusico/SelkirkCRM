@@ -1153,6 +1153,7 @@ $app_list_strings['marker_image_list']['zoo'] = 'Zoo';
 $app_list_strings["moduleList"]["SecurityGroups"] = 'AdministraciÃ³n de Grupos de Seguridad';
 $app_strings['LBL_LOGIN_AS'] = "Conexión como ";
 $app_strings['LBL_LOGOUT_AS'] = "Cerrar sesión como ";
+$app_strings['LBL_SECURITYGROUP'] = 'AdministraciÃ³n de Grupo';
 
 
  

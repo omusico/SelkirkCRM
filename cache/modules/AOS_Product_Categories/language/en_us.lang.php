@@ -1,5 +1,5 @@
 <?php
-// created: 2014-12-01 12:54:25
+// created: 2014-12-07 14:01:55
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -36,4 +36,5 @@ $mod_strings = array (
   'LBL_SUB_CATEGORIES' => 'Sub categories',
   'LBL_PRODUCT_CATEGORIES' => 'Parent category',
   'LBL_PRODUCT_CATEGORYS_NAME' => 'Parent category',
+  'LBL_PARENT_CATEGORY_ID' => 'Parent Category ID',
 );

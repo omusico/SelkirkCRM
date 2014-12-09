@@ -431,8 +431,8 @@ $app_list_strings['product_type_dom']['Service'] = 'Услуга';
 $app_list_strings['product_quote_parent_type_dom']['AOS_Quotes'] = 'Предложения';
 $app_list_strings['product_quote_parent_type_dom']['AOS_Invoices'] = 'Счета';
 
-$app_list_strings['pdf_template_type_dom']['Quotes'] = 'Предложений';
-$app_list_strings['pdf_template_type_dom']['Invoices'] = 'Счетов';
+$app_list_strings['pdf_template_type_dom']['AOS_Quotes'] = 'Предложений';
+$app_list_strings['pdf_template_type_dom']['AOS_Invoices'] = 'Счетов';
 $app_list_strings['pdf_template_type_dom']['Accounts'] = 'Контрагентов';
 $app_list_strings['pdf_template_type_dom']['Contacts'] = 'Контактов';
 $app_list_strings['pdf_template_type_dom']['Leads'] = 'Предварит. контактов';
@@ -569,9 +569,11 @@ $app_list_strings['case_status_dom'] =
     ); 
 
 
-$app_list_strings["moduleList"]["SecurityGroups"] = 'Группы пользователей';
-$app_strings['LBL_LOGIN_AS'] = "Login as ";
-$app_strings['LBL_LOGOUT_AS'] = "Logout as ";
+$app_list_strings["moduleList"]["SecurityGroups"] = 'Управление Группами пользователей';
+$app_strings['LBL_LOGIN_AS'] = "Войти как ";
+$app_strings['LBL_LOGOUT_AS'] = "Выйти как ";
+$app_strings['LBL_SECURITYGROUP'] = 'Управление Группами';
+
 
 
 
@@ -744,8 +746,16 @@ $app_list_strings['aow_assign_options']['security_group'] = 'ВСЕ пользо
 
 $app_list_strings['aow_email_type_list']['Email Address'] = 'Вручную';
 $app_list_strings['aow_email_type_list']['Record Email'] = 'Отобранной записи';
-$app_list_strings['aow_email_type_list']['Specify User'] = 'Пользователя';
 $app_list_strings['aow_email_type_list']['Related Field'] = 'Связанного модуля';
+$app_list_strings['aow_email_type_list']['Specify User'] = 'Пользователя';
+$app_list_strings['aow_email_type_list']['Users'] = 'Пользователей';
+$app_list_strings['aow_email_to_list']['to'] = 'Кому';
+$app_list_strings['aow_email_to_list']['cc'] = 'Копия';
+$app_list_strings['aow_email_to_list']['bcc'] = 'Скрытая копия';
+
+$app_list_strings['aow_run_on_list']['All_Records'] = 'Всех записей';
+$app_list_strings['aow_run_on_list']['New_Records'] = 'Создаваемых записей';
+$app_list_strings['aow_run_on_list']['Modified_Records'] = 'Изменяемых записей';
 
 $app_list_strings['aow_run_on_list']['All_Records'] = 'Всех записей';
 $app_list_strings['aow_run_on_list']['New_Records'] = 'Создаваемых записей';

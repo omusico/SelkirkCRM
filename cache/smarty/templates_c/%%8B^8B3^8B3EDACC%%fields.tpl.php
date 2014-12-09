@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-12-01 12:53:09
+<?php /* Smarty version 2.6.11, created on 2014-12-08 06:11:58
          compiled from modules/ModuleBuilder/tpls/MBModule/fields.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_translate', 'modules/ModuleBuilder/tpls/MBModule/fields.tpl', 52, false),)), $this); ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-12-01 12:38:18
+<?php /* Smarty version 2.6.11, created on 2014-12-07 14:01:56
          compiled from themes/Suite7/tpls/_headerModuleList.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_link', 'themes/Suite7/tpls/_headerModuleList.tpl', 46, false),)), $this); ?>
@@ -92,8 +92,7 @@ if ($this->_foreach['groupList']['total'] > 0):
 </a>
                     </span>
                 <span class="notCurrentTabRight">&nbsp;</span>
-                <ul class="cssmenu" id="<?php echo $this->_tpl_vars['group']; ?>
-">
+                <ul class="cssmenu"<?php if (($this->_foreach['groupList']['iteration'] == $this->_foreach['groupList']['total'])): ?> id="All"<?php endif; ?>>
                     <?php $_from = $this->_tpl_vars['modules']['modules']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
     foreach ($_from as $this->_tpl_vars['modulekey'] => $this->_tpl_vars['module']):
 ?>

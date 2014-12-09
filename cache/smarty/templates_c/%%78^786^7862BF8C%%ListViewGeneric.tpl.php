@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.11, created on 2014-12-01 12:38:18
+<?php /* Smarty version 2.6.11, created on 2014-12-07 14:02:20
          compiled from include/ListView/ListViewGeneric.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getjspath', 'include/ListView/ListViewGeneric.tpl', 43, false),array('function', 'counter', 'include/ListView/ListViewGeneric.tpl', 125, false),array('function', 'sugar_translate', 'include/ListView/ListViewGeneric.tpl', 139, false),array('function', 'sugar_getimage', 'include/ListView/ListViewGeneric.tpl', 145, false),array('function', 'sugar_ajax_url', 'include/ListView/ListViewGeneric.tpl', 213, false),array('function', 'sugar_evalcolumn_old', 'include/ListView/ListViewGeneric.tpl', 216, false),array('function', 'sugar_field', 'include/ListView/ListViewGeneric.tpl', 218, false),array('modifier', 'replace', 'include/ListView/ListViewGeneric.tpl', 78, false),array('modifier', 'default', 'include/ListView/ListViewGeneric.tpl', 128, false),array('modifier', 'lower', 'include/ListView/ListViewGeneric.tpl', 131, false),array('modifier', 'upper', 'include/ListView/ListViewGeneric.tpl', 134, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getjspath', 'include/ListView/ListViewGeneric.tpl', 46, false),array('function', 'counter', 'include/ListView/ListViewGeneric.tpl', 125, false),array('function', 'sugar_translate', 'include/ListView/ListViewGeneric.tpl', 139, false),array('function', 'sugar_getimage', 'include/ListView/ListViewGeneric.tpl', 145, false),array('function', 'sugar_ajax_url', 'include/ListView/ListViewGeneric.tpl', 213, false),array('function', 'sugar_evalcolumn_old', 'include/ListView/ListViewGeneric.tpl', 216, false),array('function', 'sugar_field', 'include/ListView/ListViewGeneric.tpl', 218, false),array('modifier', 'replace', 'include/ListView/ListViewGeneric.tpl', 81, false),array('modifier', 'default', 'include/ListView/ListViewGeneric.tpl', 128, false),array('modifier', 'lower', 'include/ListView/ListViewGeneric.tpl', 131, false),array('modifier', 'upper', 'include/ListView/ListViewGeneric.tpl', 134, false),)), $this); ?>
 
 <script type='text/javascript' src='<?php echo smarty_function_sugar_getjspath(array('file' => 'include/javascript/popup_helper.js'), $this);?>
 '></script>
@@ -48,10 +48,6 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getjs
 </a><?php $this->_smarty_vars['capture']['default'] = ob_get_contents();  $this->assign('helpLink', ob_get_contents());ob_end_clean(); ?>
                 <p class="msg">
                     <?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['APP']['MSG_EMPTY_LIST_VIEW_NO_RESULTS'])) ? $this->_run_mod_handler('replace', true, $_tmp, "<item2>", $this->_tpl_vars['createLink']) : smarty_modifier_replace($_tmp, "<item2>", $this->_tpl_vars['createLink'])))) ? $this->_run_mod_handler('replace', true, $_tmp, "<item3>", $this->_tpl_vars['importLink']) : smarty_modifier_replace($_tmp, "<item3>", $this->_tpl_vars['importLink'])); ?>
-
-                </p>
-                <p class="submsg">
-                    <?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['APP']['MSG_EMPTY_LIST_VIEW_NO_RESULTS_SUBMSG'])) ? $this->_run_mod_handler('replace', true, $_tmp, "<item1>", $this->_tpl_vars['moduleName']) : smarty_modifier_replace($_tmp, "<item1>", $this->_tpl_vars['moduleName'])))) ? $this->_run_mod_handler('replace', true, $_tmp, "<item4>", $this->_tpl_vars['helpLink']) : smarty_modifier_replace($_tmp, "<item4>", $this->_tpl_vars['helpLink'])); ?>
 
                 </p>
         <?php elseif ($this->_tpl_vars['query'] == "-advanced_search"): ?>

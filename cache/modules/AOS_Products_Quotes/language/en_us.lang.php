@@ -1,5 +1,5 @@
 <?php
-// created: 2014-12-01 12:54:25
+// created: 2014-12-07 14:02:46
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -50,4 +50,13 @@ $mod_strings = array (
   'LBL_PRODUCT' => 'Product',
   'LBL_SERVICE_MODULE_NAME' => 'Services',
   'LBL_LIST_NUM' => 'Number',
+  'LBL_PARENT_ID' => 'Parent ID',
+  'LBL_GROUP_NAME' => 'Group',
+  'LBL_PRODUCT_COST_PRICE_USDOLLAR' => 'Cost Price (Default Currency)',
+  'LBL_PRODUCT_LIST_PRICE_USDOLLAR' => 'List Price (Default Currency)',
+  'LBL_PRODUCT_UNIT_PRICE_USDOLLAR' => 'Unit Price (Default Currency)',
+  'LBL_PRODUCT_TOTAL_PRICE_USDOLLAR' => 'Total Price (Default Currency)',
+  'LBL_PRODUCT_DISCOUNT_USDOLLAR' => 'Discount (Default Currency)',
+  'LBL_PRODUCT_DISCOUNT_AMOUNT_USDOLLAR' => 'Discount Amount (Default Currency)',
+  'LBL_VAT_AMT_USDOLLAR' => 'Tax Amount (Default Currency)',
 );

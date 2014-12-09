@@ -1,13 +1,6 @@
 <?php
-// created: 2014-12-01 16:33:47
+// created: 2014-12-07 13:59:58
 $dashletsFiles = array (
-  'AOD_IndexDashlet' => 
-  array (
-    'file' => 'modules/AOD_Index/Dashlets/AOD_IndexDashlet/AOD_IndexDashlet.php',
-    'class' => 'AOD_IndexDashlet',
-    'meta' => 'modules/AOD_Index/Dashlets/AOD_IndexDashlet/AOD_IndexDashlet.meta.php',
-    'module' => 'AOD_Index',
-  ),
   'sel_Selkirk_FundingDashlet' => 
   array (
     'file' => 'modules/sel_Selkirk_Funding/Dashlets/sel_Selkirk_FundingDashlet/sel_Selkirk_FundingDashlet.php',
@@ -26,6 +19,8 @@ $dashletsFiles = array (
   array (
     'file' => 'custom/modules/SugarFeed/Dashlets/SugarFeedDashlet/SugarFeedDashlet.php',
     'class' => 'SugarFeedDashlet',
+    'meta' => 'custom/modules/SugarFeed/Dashlets/SugarFeedDashlet/SugarFeedDashlet.meta.php',
+    'module' => 'SugarFeed',
   ),
   'AOS_ProductsDashlet' => 
   array (
@@ -95,13 +90,6 @@ $dashletsFiles = array (
     'class' => 'MyProjectTaskDashlet',
     'meta' => 'modules/ProjectTask/Dashlets/MyProjectTaskDashlet/MyProjectTaskDashlet.meta.php',
     'module' => 'ProjectTask',
-  ),
-  'AOD_IndexEventDashlet' => 
-  array (
-    'file' => 'modules/AOD_IndexEvent/Dashlets/AOD_IndexEventDashlet/AOD_IndexEventDashlet.php',
-    'class' => 'AOD_IndexEventDashlet',
-    'meta' => 'modules/AOD_IndexEvent/Dashlets/AOD_IndexEventDashlet/AOD_IndexEventDashlet.meta.php',
-    'module' => 'AOD_IndexEvent',
   ),
   'sel_Selkirk_ContactDashlet' => 
   array (

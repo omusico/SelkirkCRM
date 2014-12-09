@@ -1,5 +1,5 @@
 <?php
-// created: 2014-12-07 06:08:55
+// created: 2014-12-07 14:01:55
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -172,4 +172,12 @@ $mod_strings = array (
   'LBL_SHIPPING_TAX_AMT' => 'Shipping Tax',
   'LBL_IMPORT_LINE_ITEMS' => 'Import Line Items',
   'LBL_CREATE_OPPORTUNITY' => 'Create Opportunity',
+  'LBL_SUBTOTAL_AMOUNT_USDOLLAR' => 'Subtotal (Default Currency)',
+  'LBL_DISCOUNT_AMOUNT_USDOLLAR' => 'Discount (Default Currency)',
+  'LBL_TAX_AMOUNT_USDOLLAR' => 'Tax (Default Currency)',
+  'LBL_SHIPPING_AMOUNT_USDOLLAR' => 'Shipping (Default Currency)',
+  'LBL_TOTAL_AMT_USDOLLAR' => 'Total (Default Currency)',
+  'LBL_SHIPPING_TAX_USDOLLAR' => 'Shipping Tax (Default Currency)',
+  'LBL_SHIPPING_TAX_AMT_USDOLLAR' => 'Shipping Tax (Default Currency)',
+  'LBL_GRAND_TOTAL_USDOLLAR' => 'Grand Total (Default Currency)',
 );

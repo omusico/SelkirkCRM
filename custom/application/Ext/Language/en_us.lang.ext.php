@@ -366,14 +366,23 @@ $app_list_strings['marker_image_list']['zoo'] = 'Zoo';
  * or write to the Free Software Foundation,Inc., 51 Franklin Street,
  * Fifth Floor, Boston, MA 02110-1301  USA
  *
- * @author Salesagility Ltd <support@salesagility.com>
+ * @author Salesagility Ltd <info@salesagility.com>
  */
 
-$mod_strings = array (
-    'TWITTER_USER_C' => 'Twitter User',
-    'FACEBOOK_USER_C' => 'Facebook User',
-);
+$app_list_strings['call_reschedule_dom'][''] = '';
+$app_list_strings['call_reschedule_dom']['Out of Office'] = 'Out of Office';
+$app_list_strings['call_reschedule_dom']['In a Meeting'] = 'In a Meeting';
 
+$app_strings['LBL_RESCHEDULE_LABEL'] = 'Reschedule';
+$app_strings['LBL_RESCHEDULE_TITLE'] = 'Please enter the reschedule information';
+$app_strings['LBL_RESCHEDULE_DATE'] = 'Date:';
+$app_strings['LBL_RESCHEDULE_REASON'] = 'Reason:';
+$app_strings['LBL_RESCHEDULE_ERROR1'] = 'Please select a valid date';
+$app_strings['LBL_RESCHEDULE_ERROR2'] = 'Please select a reason';
+
+$app_strings['LBL_RESCHEDULE_PANEL'] = 'Reschedule';
+$app_strings['LBL_RESCHEDULE_HISTORY'] = 'Call attempt history';
+$app_strings['LBL_RESCHEDULE_COUNT'] = 'Call Attempts';
 
 
 
@@ -1106,8 +1115,10 @@ $app_list_strings['product_type_dom']['Good'] = 'Good';
 $app_list_strings['product_type_dom']['Service'] = 'Service';
 $app_list_strings['product_quote_parent_type_dom']['AOS_Quotes'] = 'Quotes';
 $app_list_strings['product_quote_parent_type_dom']['AOS_Invoices'] = 'Invoices';
+$app_list_strings['product_quote_parent_type_dom']['AOS_Contracts'] = 'Contracts';
 $app_list_strings['pdf_template_type_dom']['AOS_Quotes'] = 'Quotes';
 $app_list_strings['pdf_template_type_dom']['AOS_Invoices'] = 'Invoices';
+$app_list_strings['pdf_template_type_dom']['AOS_Contracts'] = 'Contracts';
 $app_list_strings['pdf_template_type_dom']['Accounts'] = 'Accounts';
 $app_list_strings['pdf_template_type_dom']['Contacts'] = 'Contacts';
 $app_list_strings['pdf_template_type_dom']['Leads'] = 'Leads';
@@ -1349,6 +1360,7 @@ $app_list_strings['moduleList']['AOD_Index'] = 'Index';
 $app_list_strings["moduleList"]["SecurityGroups"] = 'Security Groups Management';
 $app_strings['LBL_LOGIN_AS'] = "Login as ";
 $app_strings['LBL_LOGOUT_AS'] = "Logout as ";
+$app_strings['LBL_SECURITYGROUP'] = 'Security Group';
 
 
  

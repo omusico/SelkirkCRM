@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-12-07 06:07:58
+<?php /* Smarty version 2.6.11, created on 2014-12-07 14:04:06
          compiled from cache/modules/AOW_WorkFlow/sel_Selkirk_ServiceDetailViewdescription.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape', 'cache/modules/AOW_WorkFlow/sel_Selkirk_ServiceDetailViewdescription.tpl', 2, false),array('modifier', 'url2html', 'cache/modules/AOW_WorkFlow/sel_Selkirk_ServiceDetailViewdescription.tpl', 2, false),array('modifier', 'nl2br', 'cache/modules/AOW_WorkFlow/sel_Selkirk_ServiceDetailViewdescription.tpl', 2, false),)), $this); ?>

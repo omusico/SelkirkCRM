@@ -319,6 +319,19 @@
       'massupdate' => false,
       'comment' => 'The account to which the case is associated',
     ),
+    'state' => 
+    array (
+      'name' => 'state',
+      'vname' => 'LBL_STATE',
+      'type' => 'enum',
+      'options' => 'case_state_dom',
+      'len' => 100,
+      'audited' => true,
+      'comment' => 'The state of the case (i.e. open/closed)',
+      'default' => 'Open',
+      'parentenum' => 'status',
+      'merge_filter' => 'disabled',
+    ),
     'tasks' => 
     array (
       'name' => 'tasks',
@@ -434,19 +447,6 @@
       'vname' => 'LBL_INTERNAL',
       'type' => 'bool',
       'studio' => 'visible',
-    ),
-    'state' => 
-    array (
-      'name' => 'state',
-      'vname' => 'LBL_STATE',
-      'type' => 'enum',
-      'options' => 'case_state_dom',
-      'len' => 100,
-      'audited' => true,
-      'comment' => 'The state of the case (i.e. open/closed)',
-      'default' => 'Open',
-      'parentenum' => 'status',
-      'merge_filter' => 'disabled',
     ),
     'aop_case_updates_threaded' => 
     array (

@@ -295,7 +295,6 @@ $sprites["themes/Suite7/images/icon_email_attach.gif"] = array ("class"=>"e6dd0b
 $sprites["themes/Suite7/images/icon_FavoriteReports_32.gif"] = array ("class"=>"628da460535bb53a92f291e5f0ce3f6e","width"=>"32","height"=>"32");
 $sprites["themes/Suite7/images/icon_Charts_GroupBy_32.gif"] = array ("class"=>"e124a80f4a2227041e0c6100fb4dfd9e","width"=>"32","height"=>"32");
 $sprites["themes/Suite7/images/icon_Teams_32.gif"] = array ("class"=>"851562313835a734a8d44ff05dd51579","width"=>"32","height"=>"32");
-$sprites["themes/Suite7/images/sugar_icon.ico"] = array ("class"=>"b61543f6c71dea47a67bcba383011bb6","width"=>"36","height"=>"36");
 $sprites["themes/Suite7/images/hide.gif"] = array ("class"=>"c7fa56c7442db36145f294963e9c527b","width"=>"10","height"=>"25");
 $sprites["themes/Suite7/images/icon_DCEClusters_32.gif"] = array ("class"=>"7cb8b85163c4b33134b3c883be25189e","width"=>"32","height"=>"32");
 $sprites["themes/Suite7/images/Layout.gif"] = array ("class"=>"8e2b86f19c0c66569183a6322400be16","width"=>"16","height"=>"16");

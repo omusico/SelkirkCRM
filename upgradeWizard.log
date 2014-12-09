@@ -4,3 +4,654 @@ Sat, 07 Jun 2014 08:42:25 -0700 [UpgradeWizard] - Upgrade started. At start.php
 Sat, 07 Jun 2014 08:42:25 -0700 [UpgradeWizard] - at unlinkUWTempFiles()
 Sat, 07 Jun 2014 08:42:25 -0700 [UpgradeWizard] - finished!
 Sat, 07 Jun 2014 08:42:25 -0700 [UpgradeWizard] - resetting $_SESSION
+Sun, 07 Dec 2014 13:45:38 -0800 [UpgradeWizard] - setting session variables...
+Sun, 07 Dec 2014 13:45:38 -0800 [UpgradeWizard] - -----------------------------------------------------------------------------
+Sun, 07 Dec 2014 13:45:38 -0800 [UpgradeWizard] - Upgrade started. At start.php
+Sun, 07 Dec 2014 13:45:38 -0800 [UpgradeWizard] - at unlinkUWTempFiles()
+Sun, 07 Dec 2014 13:45:38 -0800 [UpgradeWizard] - finished!
+Sun, 07 Dec 2014 13:45:38 -0800 [UpgradeWizard] - resetting $_SESSION
+Sun, 07 Dec 2014 13:45:43 -0800 [UpgradeWizard] - setting session variables...
+Sun, 07 Dec 2014 13:45:43 -0800 [UpgradeWizard] - [At systemCheck.php]
+Sun, 07 Dec 2014 13:45:43 -0800 [UpgradeWizard] - Starting file permission check...
+Sun, 07 Dec 2014 13:46:30 -0800 [UpgradeWizard] - File [/srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/metadata/securitygroups_aor_reports_1MetaData.php.bak] not writable - saving for display
+Sun, 07 Dec 2014 13:46:51 -0800 [UpgradeWizard] - setting session variables...
+Sun, 07 Dec 2014 13:46:51 -0800 [UpgradeWizard] - -----------------------------------------------------------------------------
+Sun, 07 Dec 2014 13:46:51 -0800 [UpgradeWizard] - Upgrade started. At start.php
+Sun, 07 Dec 2014 13:46:51 -0800 [UpgradeWizard] - at unlinkUWTempFiles()
+Sun, 07 Dec 2014 13:46:51 -0800 [UpgradeWizard] - finished!
+Sun, 07 Dec 2014 13:46:51 -0800 [UpgradeWizard] - resetting $_SESSION
+Sun, 07 Dec 2014 13:46:55 -0800 [UpgradeWizard] - setting session variables...
+Sun, 07 Dec 2014 13:46:55 -0800 [UpgradeWizard] - [At systemCheck.php]
+Sun, 07 Dec 2014 13:46:55 -0800 [UpgradeWizard] - Starting file permission check...
+Sun, 07 Dec 2014 13:47:42 -0800 [UpgradeWizard] - File [/srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/metadata/securitygroups_aor_reports_1MetaData.php.bak] not writable - saving for display
+Sun, 07 Dec 2014 13:48:28 -0800 [UpgradeWizard] - setting session variables...
+Sun, 07 Dec 2014 13:48:28 -0800 [UpgradeWizard] - [At systemCheck.php]
+Sun, 07 Dec 2014 13:48:28 -0800 [UpgradeWizard] - Starting file permission check...
+Sun, 07 Dec 2014 13:48:58 -0800 [UpgradeWizard] - File [/srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/metadata/securitygroups_aor_reports_1MetaData.php.bak] not writable - saving for display
+Sun, 07 Dec 2014 13:49:19 -0800 [UpgradeWizard] - setting session variables...
+Sun, 07 Dec 2014 13:49:19 -0800 [UpgradeWizard] - -----------------------------------------------------------------------------
+Sun, 07 Dec 2014 13:49:19 -0800 [UpgradeWizard] - Upgrade started. At start.php
+Sun, 07 Dec 2014 13:49:19 -0800 [UpgradeWizard] - at unlinkUWTempFiles()
+Sun, 07 Dec 2014 13:49:19 -0800 [UpgradeWizard] - finished!
+Sun, 07 Dec 2014 13:49:19 -0800 [UpgradeWizard] - resetting $_SESSION
+Sun, 07 Dec 2014 13:49:22 -0800 [UpgradeWizard] - setting session variables...
+Sun, 07 Dec 2014 13:49:22 -0800 [UpgradeWizard] - [At systemCheck.php]
+Sun, 07 Dec 2014 13:49:22 -0800 [UpgradeWizard] - Starting file permission check...
+Sun, 07 Dec 2014 13:49:52 -0800 [UpgradeWizard] - File [/srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/metadata/securitygroups_aor_reports_1MetaData.php.bak] not writable - saving for display
+Sun, 07 Dec 2014 13:56:13 -0800 [UpgradeWizard] - setting session variables...
+Sun, 07 Dec 2014 13:56:13 -0800 [UpgradeWizard] - -----------------------------------------------------------------------------
+Sun, 07 Dec 2014 13:56:13 -0800 [UpgradeWizard] - Upgrade started. At start.php
+Sun, 07 Dec 2014 13:56:13 -0800 [UpgradeWizard] - at unlinkUWTempFiles()
+Sun, 07 Dec 2014 13:56:13 -0800 [UpgradeWizard] - finished!
+Sun, 07 Dec 2014 13:56:13 -0800 [UpgradeWizard] - resetting $_SESSION
+Sun, 07 Dec 2014 13:56:22 -0800 [UpgradeWizard] - setting session variables...
+Sun, 07 Dec 2014 13:56:22 -0800 [UpgradeWizard] - [At systemCheck.php]
+Sun, 07 Dec 2014 13:56:22 -0800 [UpgradeWizard] - Starting file permission check...
+Sun, 07 Dec 2014 13:57:09 -0800 [UpgradeWizard] - Finished file permission check.
+Sun, 07 Dec 2014 13:57:09 -0800 [UpgradeWizard] - Starting database permissions check...
+Sun, 07 Dec 2014 13:57:09 -0800 [UpgradeWizard] - Checking CREATE TABLE permissions...
+Sun, 07 Dec 2014 13:57:09 -0800 [UpgradeWizard] - Checking INSERT INTO permissions...
+Sun, 07 Dec 2014 13:57:09 -0800 [UpgradeWizard] - Checking UPDATE TABLE permissions...
+Sun, 07 Dec 2014 13:57:09 -0800 [UpgradeWizard] - Checking SELECT permissions...
+Sun, 07 Dec 2014 13:57:09 -0800 [UpgradeWizard] - Checking DELETE FROM permissions...
+Sun, 07 Dec 2014 13:57:09 -0800 [UpgradeWizard] - Checking ALTER TABLE ADD COLUMN permissions...
+Sun, 07 Dec 2014 13:57:09 -0800 [UpgradeWizard] - Checking ALTER TABLE CHANGE COLUMN permissions...
+Sun, 07 Dec 2014 13:57:09 -0800 [UpgradeWizard] - Checking ALTER TABLE DROP COLUMN permissions...
+Sun, 07 Dec 2014 13:57:09 -0800 [UpgradeWizard] - Checking DROP TABLE permissions...
+Sun, 07 Dec 2014 13:57:09 -0800 [UpgradeWizard] - No permissions errors found!
+Sun, 07 Dec 2014 13:57:09 -0800 [UpgradeWizard] - Finished database permissions check.
+Sun, 07 Dec 2014 13:57:18 -0800 [UpgradeWizard] - setting session variables...
+Sun, 07 Dec 2014 13:57:18 -0800 [UpgradeWizard] - At upload.php
+Sun, 07 Dec 2014 13:57:18 -0800 [UpgradeWizard] - finding new files for upgrade
+Sun, 07 Dec 2014 13:57:20 -0800 [UpgradeWizard] - *** Potential error: patch found with either no 'type' or non-patch type [ upload://upgrades/module/Selkirk2014_09_02_110926.zip ]
+Sun, 07 Dec 2014 13:57:20 -0800 [UpgradeWizard] - *** Potential error: patch found with either no 'type' or non-patch type [ upload://upgrades/module/Selkirk2014_09_02_110757.zip ]
+Sun, 07 Dec 2014 13:57:20 -0800 [UpgradeWizard] - *** Potential error: patch found with either no 'type' or non-patch type [ upload://upgrades/module/Selkirk2014_09_02_110010.zip ]
+Sun, 07 Dec 2014 13:57:20 -0800 [UpgradeWizard] - *** Potential error: patch found with either no 'type' or non-patch type [ upload://upgrades/module/Selkirk2014_09_02_105718.zip ]
+Sun, 07 Dec 2014 13:57:20 -0800 [UpgradeWizard] - *** Potential error: patch found with either no 'type' or non-patch type [ upload://upgrades/module/Selkirk2014_07_15_141420.zip ]
+Sun, 07 Dec 2014 13:57:20 -0800 [UpgradeWizard] - *** Potential error: patch found with either no 'type' or non-patch type [ upload://upgrades/module/Selkirk2014_07_15_141123.zip ]
+Sun, 07 Dec 2014 13:57:20 -0800 [UpgradeWizard] - *** Potential error: patch found with either no 'type' or non-patch type [ upload://upgrades/module/Selkirk2014_07_14_140512.zip ]
+Sun, 07 Dec 2014 13:57:20 -0800 [UpgradeWizard] - *** Potential error: patch found with either no 'type' or non-patch type [ upload://upgrades/module/Selkirk2014_06_13_081200.zip ]
+Sun, 07 Dec 2014 13:57:20 -0800 [UpgradeWizard] - *** UW using [  ] as source for patch files.
+Sun, 07 Dec 2014 13:57:50 -0800 [UpgradeWizard] - setting session variables...
+Sun, 07 Dec 2014 13:57:50 -0800 [UpgradeWizard] - At upload.php
+Sun, 07 Dec 2014 13:57:50 -0800 [UpgradeWizard] - running upload
+Sun, 07 Dec 2014 13:57:50 -0800 [UpgradeWizard] - File uploaded to upload://SuiteCRM-Upgrade-7.1.x-to-7.1.4.zip
+Sun, 07 Dec 2014 13:57:50 -0800 [UpgradeWizard] - extracting manifest.
+Sun, 07 Dec 2014 13:57:50 -0800 [UpgradeWizard] - validating manifest.php file
+Sun, 07 Dec 2014 13:57:50 -0800 [UpgradeWizard] - copying manifest.php to final destination.
+Sun, 07 Dec 2014 13:57:50 -0800 [UpgradeWizard] - zip file moved to [SuiteCRM-Upgrade-7.1.x-to-7.1.4.zip]
+Sun, 07 Dec 2014 13:57:50 -0800 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_step2.php
+Sun, 07 Dec 2014 13:57:50 -0800 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_step1.php
+Sun, 07 Dec 2014 13:57:50 -0800 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_dce_step2.php
+Sun, 07 Dec 2014 13:57:50 -0800 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_dce_step1.php
+Sun, 07 Dec 2014 13:57:50 -0800 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade.php
+Sun, 07 Dec 2014 13:57:50 -0800 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/commit.php
+Sun, 07 Dec 2014 13:57:50 -0800 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_step2.php
+Sun, 07 Dec 2014 13:57:50 -0800 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_step1.php
+Sun, 07 Dec 2014 13:57:50 -0800 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_dce_step2.php
+Sun, 07 Dec 2014 13:57:50 -0800 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_dce_step1.php
+Sun, 07 Dec 2014 13:57:50 -0800 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade.php
+Sun, 07 Dec 2014 13:57:50 -0800 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/commit.php
+Sun, 07 Dec 2014 13:57:50 -0800 [UpgradeWizard] - updating UpgradeWizard code: ModuleInstall/ModuleScanner.php
+Sun, 07 Dec 2014 13:57:50 -0800 [UpgradeWizard] - finding new files for upgrade
+Sun, 07 Dec 2014 13:57:51 -0800 [UpgradeWizard] - *** Potential error: patch found with either no 'type' or non-patch type [ upload://upgrades/module/Selkirk2014_09_02_110926.zip ]
+Sun, 07 Dec 2014 13:57:51 -0800 [UpgradeWizard] - *** Potential error: patch found with either no 'type' or non-patch type [ upload://upgrades/module/Selkirk2014_09_02_110757.zip ]
+Sun, 07 Dec 2014 13:57:51 -0800 [UpgradeWizard] - *** Potential error: patch found with either no 'type' or non-patch type [ upload://upgrades/module/Selkirk2014_09_02_110010.zip ]
+Sun, 07 Dec 2014 13:57:51 -0800 [UpgradeWizard] - *** Potential error: patch found with either no 'type' or non-patch type [ upload://upgrades/module/Selkirk2014_09_02_105718.zip ]
+Sun, 07 Dec 2014 13:57:51 -0800 [UpgradeWizard] - *** Potential error: patch found with either no 'type' or non-patch type [ upload://upgrades/module/Selkirk2014_07_15_141420.zip ]
+Sun, 07 Dec 2014 13:57:51 -0800 [UpgradeWizard] - *** Potential error: patch found with either no 'type' or non-patch type [ upload://upgrades/module/Selkirk2014_07_15_141123.zip ]
+Sun, 07 Dec 2014 13:57:51 -0800 [UpgradeWizard] - *** Potential error: patch found with either no 'type' or non-patch type [ upload://upgrades/module/Selkirk2014_07_14_140512.zip ]
+Sun, 07 Dec 2014 13:57:51 -0800 [UpgradeWizard] - *** Potential error: patch found with either no 'type' or non-patch type [ upload://upgrades/module/Selkirk2014_06_13_081200.zip ]
+Sun, 07 Dec 2014 13:57:51 -0800 [UpgradeWizard] - *** UW using [ upload://upgrades/patch/SuiteCRM-Upgrade-7.1.x-to-7.1.4.zip ] as source for patch files.
+Sun, 07 Dec 2014 13:58:10 -0800 [UpgradeWizard] - setting session variables...
+Sun, 07 Dec 2014 13:58:10 -0800 [UpgradeWizard] - at preflight.php
+Sun, 07 Dec 2014 13:58:10 -0800 [UpgradeWizard] - unzipping files in upgrade archive...
+Sun, 07 Dec 2014 13:58:10 -0800 [UpgradeWizard] - verifying md5 checksums for files...
+Sun, 07 Dec 2014 13:58:10 -0800 [UpgradeWizard] - found a file with a differing md5: [./modules/Users/language/en_us.lang.php]
+Sun, 07 Dec 2014 13:58:10 -0800 [UpgradeWizard] - found a file with a differing md5: [./modules/Opportunities/Dashlets/MyOpportunitiesDashlet/MyOpportunitiesDashlet.php]
+Sun, 07 Dec 2014 13:58:10 -0800 [UpgradeWizard] - found a file with a differing md5: [./modules/Meetings/metadata/searchdefs.php]
+Sun, 07 Dec 2014 13:58:10 -0800 [UpgradeWizard] - found a file with a differing md5: [./modules/Cases/vardefs.php]
+Sun, 07 Dec 2014 13:58:10 -0800 [UpgradeWizard] - found a file with a differing md5: [./modules/Administration/metadata/adminpaneldefs.php]
+Sun, 07 Dec 2014 13:58:10 -0800 [UpgradeWizard] - found a file with a differing md5: [./jssource/src_files/include/javascript/sugar_3.js]
+Sun, 07 Dec 2014 13:58:10 -0800 [UpgradeWizard] - found a file with a differing md5: [./install/performSetup.php]
+Sun, 07 Dec 2014 13:58:10 -0800 [UpgradeWizard] - found a file with a differing md5: [./install/install_utils.php]
+Sun, 07 Dec 2014 13:58:10 -0800 [UpgradeWizard] - found a file with a differing md5: [./install/dbConfig_a.php]
+Sun, 07 Dec 2014 13:58:10 -0800 [UpgradeWizard] - found a file with a differing md5: [./install.php]
+Sun, 07 Dec 2014 13:58:10 -0800 [UpgradeWizard] - found a file with a differing md5: [./include/javascript/sugar_3.js]
+Sun, 07 Dec 2014 13:58:10 -0800 [UpgradeWizard] - found a file with a differing md5: [./include/export_utils.php]
+Sun, 07 Dec 2014 13:58:10 -0800 [UpgradeWizard] - found a file with a differing md5: [./include/SugarOAuthServer.php]
+Sun, 07 Dec 2014 13:58:10 -0800 [UpgradeWizard] - md5 verification done.
+Sun, 07 Dec 2014 13:58:10 -0800 [UpgradeWizard] - file preflight check passed successfully.
+Sun, 07 Dec 2014 13:58:10 -0800 [UpgradeWizard] - starting schema preflight check...
+Sun, 07 Dec 2014 13:58:10 -0800 [UpgradeWizard] - looking for schema script at: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/cache/upgrades/temp/sazjCa/scripts/650_to_710_mysql.sql
+Sun, 07 Dec 2014 13:58:10 -0800 [UpgradeWizard] - no schema script found - all schema preflight skipped
+Sun, 07 Dec 2014 13:58:10 -0800 [UpgradeWizard] - schema preflight done.
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - setting session variables...
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - [At commit.php]
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Setting error_reporting() to E_ERROR while running upgrade
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - backing up files to be overwritten...
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/themes/Suite7/tpls/_headerModuleList.tpl
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/themes/Suite7/css/style.css
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/themes/Suite7/css/colourSelector.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/suitecrm_version.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/sugar_version.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/sugar_version.json
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/jjwg_Markers/vardefs.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/jjwg_Maps/vardefs.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/jjwg_Address_Cache/vardefs.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/Users/language/ru_ru.lang.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/Users/language/en_us.lang.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/Users/controller.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/Users/Save.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/UpgradeWizard/silentUpgrade_step2.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/UpgradeWizard/silentUpgrade_step1.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/UpgradeWizard/silentUpgrade_dce_step2.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/UpgradeWizard/silentUpgrade_dce_step1.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/UpgradeWizard/silentUpgrade.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/UpgradeWizard/commit.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/SecurityGroups/config.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/SecurityGroups/config.html
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/SecurityGroups/SecurityGroup.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/SecurityGroups/SaveConfig.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/Opportunities/Dashlets/MyOpportunitiesDashlet/MyOpportunitiesDashlet.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/Meetings/metadata/searchdefs.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/InboundEmail/InboundEmail.js
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/Import/views/view.step2.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/Import/views/view.confirm.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/Import/controller.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/Home/QuickSearch.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/Home/Dashlets/RSSDashlet/RSSDashlet.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/FP_events/controller.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/Documents/Document.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/Connectors/connectors/sources/ext/rest/insideview/InsideViewLogicHook.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/Configurator/views/view.addfontresult.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/Configurator/tpls/addFontView.tpl
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/Configurator/controller.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/Cases/vardefs.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/Calls_Reschedule/vardefs.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/Calendar/tpls/main.tpl
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/Calendar/CalendarActivity.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/Administration/metadata/adminpaneldefs.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/Administration/controller.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOW_WorkFlow/AOW_WorkFlow.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOW_Actions/language/ru_ru.lang.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOW_Actions/actions/actionSendEmail.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOW_Actions/actions/actionModifyRecord.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOW_Actions/actions/actionCreateRecord.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_Quotes/language/en_us.lang.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_Quotes/createOpportunity.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_Quotes/createContract.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_Quotes/converToInvoice.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_Quotes/AOS_Quotes.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_Products_Quotes/vardefs.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_Products_Quotes/line_items.js
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_Products_Quotes/language/en_us.lang.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_Products_Quotes/AOS_Utils.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_Products_Quotes/AOS_Products_Quotes.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_Products/vardefs.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_Products/language/en_us.lang.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_Products/AOS_Products.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_Product_Categories/language/en_us.lang.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_PDF_Templates/templateParser.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_PDF_Templates/sendEmail.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_PDF_Templates/generatePdf.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_Line_Item_Groups/language/en_us.lang.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_Line_Item_Groups/AOS_Line_Item_Groups.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_Invoices/language/en_us.lang.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_Invoices/AOS_Invoices.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_Contracts/metadata/subpaneldefs.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_Contracts/metadata/detailviewdefs.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_Contracts/language/en_us.lang.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_Contracts/controller.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_Contracts/AOS_Contracts_sugar.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOS_Contracts/AOS_Contracts.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOR_Reports/AOR_Report.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOD_IndexEvent/vardefs.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOD_Index/AOD_LogicHooks.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/AOD_Index/AOD_Index.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/jssource/src_files/modules/InboundEmail/InboundEmail.js
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/jssource/src_files/include/javascript/sugar_3.js
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/install/suite_install/suite_install.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/install/suite_install/colourSelector.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/install/suite_install/SecurityGroups.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/install/suite_install/AdvancedOpenDiscovery.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/install/performSetup.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/install/install_utils.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/install/dbConfig_a.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/install/checkDBSettings.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/install.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/include/language/en_us.lang.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/include/javascript/sugar_3.js
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/include/generic/SugarWidgets/SugarWidgetFieldmultienum.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/include/export_utils.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/include/connectors/sources/loc/xml.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/include/SugarOAuthServer.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/include/MVC/Controller/SugarController.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/include/ListView/ListViewGeneric.tpl
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/modules/logic_hooks.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/modules/SugarFeed/Dashlets/SugarFeedDashlet/SugarFeedDashlet.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/modules/Home/UnifiedSearch.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/modules/Cases/SugarFeeds/CaseFeed.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/modules/Administration/updatequickcrm.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/modules/Administration/genJSfromSugar.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/modules/Administration/colourAdmin.tpl
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/modules/Administration/colourAdmin.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/metadata/securitygroups_usersMetaData.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/include/social/twitter/twitterapi.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/include/social/twitter/twitter_auth/twitteroauth/OAuth.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/include/social/twitter/twitter_auth/callback.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/include/social/get_feed_data.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/include/social/get_data.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/include/javascript/checkbox.js
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/include/SubPanel/SubPanelSearchForm.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/include/MySugar/MySugar.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/QuickCRM/getConfig.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/Extension/application/Ext/Language/ua_ua.SecurityGroups.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/Extension/application/Ext/Language/ru_ru.SecurityGroups.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/Extension/application/Ext/Language/ru_ru.AdvancedOpenWorkflow.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/Extension/application/Ext/Language/ru_ru.AdvancedOpenSales.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/Extension/application/Ext/Language/pt_br.SecurityGroups.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/Extension/application/Ext/Language/nl_NL.SecurityGroups.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/Extension/application/Ext/Language/it_it.SecurityGroups.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/Extension/application/Ext/Language/hu_hu.SecurityGroups.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/Extension/application/Ext/Language/fr_FR.SecurityGroups.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/Extension/application/Ext/Language/es_es.SecurityGroups.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/Extension/application/Ext/Language/en_us.SecurityGroups.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/Extension/application/Ext/Language/en_us.Reschedule.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/Extension/application/Ext/Language/en_us.AdvancedOpenWorkflow.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/Extension/application/Ext/Language/en_us.AdvancedOpenSales.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/Extension/application/Ext/Language/de_de.SecurityGroups.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Backing up file: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/ModuleInstall/ModuleScanner.php
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - file backup done.
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Running pre_install()...
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - pre_install() done.
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Commit step finished SugarMerge run with the following results:Array
+(
+    [ACLRoles] => Array
+        (
+        )
+
+    [SugarFeed] => Array
+        (
+        )
+
+    [Users] => Array
+        (
+        )
+
+    [Accounts] => Array
+        (
+        )
+
+    [sel_Selkirk_Service] => Array
+        (
+        )
+
+    [Leads] => Array
+        (
+        )
+
+    [Project] => Array
+        (
+        )
+
+    [Calls] => Array
+        (
+        )
+
+    [Cases] => Array
+        (
+        )
+
+    [Meetings] => Array
+        (
+            [searchdefs.php] => 1
+        )
+
+    [Opportunities] => Array
+        (
+        )
+
+    [Employees] => Array
+        (
+        )
+
+    [Prospects] => Array
+        (
+        )
+
+    [Connectors] => Array
+        (
+        )
+
+    [Contacts] => Array
+        (
+        )
+
+    [Groups] => Array
+        (
+        )
+
+    [AOS_PDF_Templates] => Array
+        (
+        )
+
+)
+
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Starting file copy process...
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Skipping "sugar_version.php" - file copy will occur at end of successful upgrade
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - File copy done.
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Starting post_install()...
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Entered post_install function.
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Upgrading the database from 6.5.16 to version 6.5.18
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Running SQL file /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/cache/upgrades/temp/sazjCa/scripts/65x_to_65x_mysql.sql
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Applying .htaccess update security fix.
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Rebuilding SugarLogic Cache
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Rebuilding JS Langauages
+Sun, 07 Dec 2014 13:58:36 -0800 [UpgradeWizard] - Rebuilding Dashlets
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - At updateVersions()... updating config table and sugar_version.php.
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - sugar_version.php successfully updated!
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - Deleting old DB version info from config table.
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - Inserting updated version info into config table.
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - updateVersions() complete.
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - Found 0 escaped emails. Ignoring for now
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - Found 0 emails whose caps field does not match.
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - ------------------------------------------------------------------
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - Determining which email addresses are duplicated within the system
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - Repairing duplicate email address relationships and marking duplicates as deleted
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - Performing UWrebuild()...
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - Registering rebuild record: DELETE FROM versions WHERE name='Rebuild Extensions'
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - Rebuild done.
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - Registering rebuild record in versions table: INSERT INTO versions (id, deleted, date_entered, date_modified, modified_user_id, created_by, name, file_version, db_version) VALUES ('145d7ab4-ca8e-11c3-f599-5484cdf4bae7', '0', '2014-12-07 21:58:37', '2014-12-07 21:58:37', '1', '1', 'Rebuild Extensions', '4.0.0', '4.0.0')
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - UWrebuild() done.
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - post_install() done.
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - check if current_db_version in $_SESSION equals target_db_version in $_SESSION
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - finished check to see if current_db_version in $_SESSION equals target_db_version in $_SESSION
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - running deleteChance() function
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - running deleteCache() function
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - call addNewSystemTabsFromUpgrade(upload://upgrades/patch/SuiteCRM-Upgrade-7.1.x-to-7.1.4-restore)
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - check to see if new modules exist
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - new modules to add are array (
+  'Home' => 'Home',
+  'Calendar' => 'Calendar',
+  'Calls' => 'Calls',
+  'Meetings' => 'Meetings',
+  'Tasks' => 'Tasks',
+  'Notes' => 'Notes',
+  'Leads' => 'Leads',
+  'Contacts' => 'Contacts',
+  'Accounts' => 'Accounts',
+  'Opportunities' => 'Opportunities',
+  'Emails' => 'Emails',
+  'Campaigns' => 'Campaigns',
+  'Prospects' => 'Prospects',
+  'ProspectLists' => 'ProspectLists',
+  'Documents' => 'Documents',
+  'Cases' => 'Cases',
+  'Project' => 'Project',
+  'Bugs' => 'Bugs',
+  'AOR_Reports' => 'AOR_Reports',
+  'jjwg_Maps' => 'jjwg_Maps',
+  'jjwg_Markers' => 'jjwg_Markers',
+  'jjwg_Areas' => 'jjwg_Areas',
+  'jjwg_Address_Cache' => 'jjwg_Address_Cache',
+  'FP_events' => 'FP_events',
+  'FP_Event_Locations' => 'FP_Event_Locations',
+  'SecurityGroups' => 'SecurityGroups',
+  'AOW_WorkFlow' => 'AOW_WorkFlow',
+  'AOS_Contracts' => 'AOS_Contracts',
+  'AOS_Invoices' => 'AOS_Invoices',
+  'AOS_PDF_Templates' => 'AOS_PDF_Templates',
+  'AOS_Product_Categories' => 'AOS_Product_Categories',
+  'AOS_Products' => 'AOS_Products',
+  'AOS_Quotes' => 'AOS_Quotes',
+  'sel_Selkirk_Activity' => 'sel_Selkirk_Activity',
+  'sel_Selkirk_Service' => 'sel_Selkirk_Service',
+  'sel_Selkirk_Funding' => 'sel_Selkirk_Funding',
+  'sel_Selkirk_Template' => 'sel_Selkirk_Template',
+  'sel_Selkirk_Contact' => 'sel_Selkirk_Contact',
+  'sel_Student_Activity' => 'sel_Student_Activity',
+  'sel_Selkirk_Team' => 'sel_Selkirk_Team',
+  'sel_Selkirk_Document' => 'sel_Selkirk_Document',
+  'sel_Selkirk_Project' => 'sel_Selkirk_Project',
+  'sel_Selkirk_Business_Case' => 'sel_Selkirk_Business_Case',
+  'sel_Selkirk_Approvals' => 'sel_Selkirk_Approvals',
+  'sel_Selkirk_MileStone' => 'sel_Selkirk_MileStone',
+  'sel_Selkirk_Client' => 'sel_Selkirk_Client',
+  'sel_Selkirk_Partner' => 'sel_Selkirk_Partner',
+  'sel_Student_Project' => 'sel_Student_Project',
+)
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - module tabs updated
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - finished addNewSystemTabsFromUpgrade
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - Registering upgrade with UpgradeHistory
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - Resetting error_reporting() to system level.
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - Rebuilding style js file: cache/themes/Suite7/js/style-min.js
+Sun, 07 Dec 2014 13:58:37 -0800 [UpgradeWizard] - Rebuilding language cache
+Sun, 07 Dec 2014 13:59:10 -0800 [UpgradeWizard] - setting session variables...
+Sun, 07 Dec 2014 13:59:10 -0800 [UpgradeWizard] - Upgrade Wizard At Layout Commits
+Sun, 07 Dec 2014 13:59:10 -0800 [UpgradeWizard] - Layout Commits about to show selection table
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - setting session variables...
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Upgrade Wizard At Layout Commits
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Layout Commits examining modules to revert
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Layout Commits, selected modules by user: Array
+(
+    [0] => Meetings
+)
+
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Adding ACLRoles module to rollback list.
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Adding SugarFeed module to rollback list.
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Adding Users module to rollback list.
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Adding Accounts module to rollback list.
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Adding sel_Selkirk_Service module to rollback list.
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Adding Leads module to rollback list.
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Adding Project module to rollback list.
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Adding Calls module to rollback list.
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Adding Cases module to rollback list.
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Adding Opportunities module to rollback list.
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Adding Employees module to rollback list.
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Adding Prospects module to rollback list.
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Adding Connectors module to rollback list.
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Adding Contacts module to rollback list.
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Adding Groups module to rollback list.
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Adding AOS_PDF_Templates module to rollback list.
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Layout Commits will rollback the following modules: Array
+(
+    [ACLRoles] => Array
+        (
+        )
+
+    [SugarFeed] => Array
+        (
+        )
+
+    [Users] => Array
+        (
+        )
+
+    [Accounts] => Array
+        (
+        )
+
+    [sel_Selkirk_Service] => Array
+        (
+        )
+
+    [Leads] => Array
+        (
+        )
+
+    [Project] => Array
+        (
+        )
+
+    [Calls] => Array
+        (
+        )
+
+    [Cases] => Array
+        (
+        )
+
+    [Opportunities] => Array
+        (
+        )
+
+    [Employees] => Array
+        (
+        )
+
+    [Prospects] => Array
+        (
+        )
+
+    [Connectors] => Array
+        (
+        )
+
+    [Contacts] => Array
+        (
+        )
+
+    [Groups] => Array
+        (
+        )
+
+    [AOS_PDF_Templates] => Array
+        (
+        )
+
+)
+
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Layout Commits merged the following modules: Array
+(
+    [Meetings] => Array
+        (
+            [searchdefs.php] => 1
+        )
+
+)
+
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Layout Commits, starting rollback
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Layout Commits, iterating over module:ACLRoles
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Layout Commits, iterating over module:SugarFeed
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Layout Commits, iterating over module:Users
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Layout Commits, iterating over module:Accounts
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Layout Commits, iterating over module:sel_Selkirk_Service
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Layout Commits, iterating over module:Leads
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Layout Commits, iterating over module:Project
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Layout Commits, iterating over module:Calls
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Layout Commits, iterating over module:Cases
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Layout Commits, iterating over module:Opportunities
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Layout Commits, iterating over module:Employees
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Layout Commits, iterating over module:Prospects
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Layout Commits, iterating over module:Connectors
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Layout Commits, iterating over module:Contacts
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Layout Commits, iterating over module:Groups
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Layout Commits, iterating over module:AOS_PDF_Templates
+Sun, 07 Dec 2014 13:59:21 -0800 [UpgradeWizard] - Layout Commits completed successfully
+Sun, 07 Dec 2014 13:59:42 -0800 [UpgradeWizard] - setting session variables...
+Sun, 07 Dec 2014 13:59:44 -0800 [UpgradeWizard] - [At end.php]
+Sun, 07 Dec 2014 13:59:44 -0800 [UpgradeWizard] -  Writing FTS hooks
+Sun, 07 Dec 2014 13:59:44 -0800 [UpgradeWizard] - About to repair the database.
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - Running sql:/* Table : jjwg_markers */
+/*COLUMNS*/
+/*MISMATCH WITH DATABASE - jjwg_maps_lat -  ROW [name] => 'jjwg_maps_lat'  [type] => 'float'  [len] => '10,8'  [default] => '0.00000000'  */
+/* VARDEF - jjwg_maps_lat -  ROW[required] => ''  [name] => 'jjwg_maps_lat'  [vname] => 'LBL_JJWG_MAPS_LAT'  [type] => 'float'  [massupdate] => '0'  [default] => '0.00000000'  [comments] => ''  [help] => 'Latitude'  [importable] => 'true'  [duplicate_merge] => 'disabled'  [duplicate_merge_dom_value] => '0'  [audited] => ''  [reportable] => '1'  [len] => '26,8'  [size] => '20'  [precision] => '8'  [dbType] => 'float'  */
+/*MISMATCH WITH DATABASE - jjwg_maps_lng -  ROW [name] => 'jjwg_maps_lng'  [type] => 'float'  [len] => '11,8'  [default] => '0.00000000'  */
+/* VARDEF - jjwg_maps_lng -  ROW[required] => ''  [name] => 'jjwg_maps_lng'  [vname] => 'LBL_JJWG_MAPS_LNG'  [type] => 'float'  [massupdate] => '0'  [default] => '0.00000000'  [comments] => ''  [help] => 'Longitude'  [importable] => 'true'  [duplicate_merge] => 'disabled'  [duplicate_merge_dom_value] => '0'  [audited] => ''  [reportable] => '1'  [len] => '26,8'  [size] => '20'  [precision] => '8'  [dbType] => 'float'  */
+/* INDEXES */
+ALTER TABLE jjwg_markers   modify COLUMN jjwg_maps_lat float(26,8)  DEFAULT '0.00000000' NULL ,  modify COLUMN jjwg_maps_lng float(26,8)  DEFAULT '0.00000000' NULL 
+
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - Running sql:/* Table : jjwg_address_cache */
+/*COLUMNS*/
+/*MISMATCH WITH DATABASE - lat -  ROW [name] => 'lat'  [type] => 'float'  [len] => '10,8'  */
+/* VARDEF - lat -  ROW[required] => ''  [name] => 'lat'  [vname] => 'LBL_LAT'  [type] => 'float'  [massupdate] => '0'  [comments] => ''  [help] => 'Latitude'  [importable] => 'true'  [duplicate_merge] => 'disabled'  [duplicate_merge_dom_value] => '0'  [audited] => ''  [reportable] => '1'  [len] => '26,8'  [size] => '20'  [precision] => '8'  [dbType] => 'float'  */
+/*MISMATCH WITH DATABASE - lng -  ROW [name] => 'lng'  [type] => 'float'  [len] => '11,8'  */
+/* VARDEF - lng -  ROW[required] => ''  [name] => 'lng'  [vname] => 'LBL_LNG'  [type] => 'float'  [massupdate] => '0'  [comments] => ''  [help] => 'Longitude'  [importable] => 'true'  [duplicate_merge] => 'disabled'  [duplicate_merge_dom_value] => '0'  [audited] => ''  [reportable] => '1'  [len] => '26,8'  [size] => '20'  [precision] => '8'  [dbType] => 'float'  */
+/* INDEXES */
+ALTER TABLE jjwg_address_cache   modify COLUMN lat float(26,8)  NULL ,  modify COLUMN lng float(26,8)  NULL 
+
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - database repaired
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] -  Start Rebuilding the config file again
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] -  Finish Rebuilding the config file again
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - Begin upgrade_connectors
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - Success :Copying file to destination: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/Connectors/connectors/formatters/ext/rest/linkedin/tpls
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - Success :Copying file to destination: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/Connectors/connectors/formatters/ext/rest/linkedin
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - Success :Copying file to destination: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/Connectors/connectors/sources/ext/rest/linkedin/language
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - Success :Copying file to destination: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/modules/Connectors/connectors/sources/ext/rest/linkedin
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - Success :Copying file to destination: /srv/connect.cbrdi.ca/htdocs/SelkirkCRM/custom/modules/Connectors/connectors/sources/ext/rest/linkedin
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - End upgrade_connectors
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - Running UpgradeRemoval instance UpgradeRemoval62x
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - Files will be backed up to custom/backup
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - Running UpgradeRemoval instance UpgradeRemoval64x
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - Files will be backed up to custom/backup
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - Running UpgradeRemoval instance UpgradeRemoval65x
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - Files will be backed up to custom/backup
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/modules/Accounts/Ext/Language/ru_ru.lang.ext.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/modules/ACLActions/Ext/Language/ru_ru.lang.ext.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/modules/Administration/Ext/Language/ru_ru.lang.ext.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/modules/Bugs/Ext/Language/ru_ru.lang.ext.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/modules/Calendar/Ext/Language/ru_ru.lang.ext.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/modules/Calls/Ext/Language/ru_ru.lang.ext.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/modules/Campaigns/Ext/Language/ru_ru.lang.ext.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/modules/Cases/Ext/Language/ru_ru.lang.ext.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/modules/Contacts/Ext/Language/ru_ru.lang.ext.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/modules/Documents/Ext/Language/ru_ru.lang.ext.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/modules/Emails/Ext/Language/ru_ru.lang.ext.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/modules/EmailTemplates/Ext/Language/ru_ru.lang.ext.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/modules/Leads/Ext/Language/ru_ru.lang.ext.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/modules/Meetings/Ext/Language/ru_ru.lang.ext.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/modules/ModuleBuilder/Ext/Language/ru_ru.lang.ext.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/modules/Notes/Ext/Language/ru_ru.lang.ext.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/modules/Opportunities/Ext/Language/ru_ru.lang.ext.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/modules/Project/Ext/Language/ru_ru.lang.ext.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/modules/ProjectTask/Ext/Language/ru_ru.lang.ext.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/modules/ProspectLists/Ext/Language/ru_ru.lang.ext.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/modules/Prospects/Ext/Language/ru_ru.lang.ext.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/modules/Tasks/Ext/Language/ru_ru.lang.ext.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/modules/Users/Ext/Language/ru_ru.lang.ext.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/Extension/modules/Accounts/Ext/Language/ru_ru.SecurityGroups.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/Extension/modules/ACLActions/Ext/Language/ru_ru.SecurityGroups.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/Extension/modules/Administration/Ext/Language/ru_ru.SecurityGroups.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/Extension/modules/Bugs/Ext/Language/ru_ru.SecurityGroups.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/Extension/modules/Calendar/Ext/Language/ru_ru.SecurityGroups.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/Extension/modules/Calls/Ext/Language/ru_ru.SecurityGroups.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/Extension/modules/Campaigns/Ext/Language/ru_ru.SecurityGroups.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/Extension/modules/Cases/Ext/Language/ru_ru.SecurityGroups.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/Extension/modules/Contacts/Ext/Language/ru_ru.SecurityGroups.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/Extension/modules/Documents/Ext/Language/ru_ru.SecurityGroups.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/Extension/modules/Emails/Ext/Language/ru_ru.SecurityGroups.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/Extension/modules/EmailTemplates/Ext/Language/ru_ru.SecurityGroups.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/Extension/modules/Leads/Ext/Language/ru_ru.SecurityGroups.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/Extension/modules/Meetings/Ext/Language/ru_ru.SecurityGroups.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/Extension/modules/ModuleBuilder/Ext/Language/ru_ru.SecurityGroups.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/Extension/modules/Notes/Ext/Language/ru_ru.SecurityGroups.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/Extension/modules/Opportunities/Ext/Language/ru_ru.SecurityGroups.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/Extension/modules/Project/Ext/Language/ru_ru.SecurityGroups.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/Extension/modules/ProjectTask/Ext/Language/ru_ru.SecurityGroups.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/Extension/modules/ProspectLists/Ext/Language/ru_ru.SecurityGroups.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/Extension/modules/Prospects/Ext/Language/ru_ru.SecurityGroups.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/Extension/modules/Tasks/Ext/Language/ru_ru.SecurityGroups.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/Extension/modules/Users/Ext/Language/ru_ru.SecurityGroups.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/themes/default/images/icon_Jjwg_Maps.gif
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/themes/default/images/icon_jjwg_Maps.gif
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/themes/default/images/icon_Jjwg_Maps.png
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/themes/default/images/icon_jjwg_Maps.png
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/Extension/application/EXT/LogicHooks/SugarFTSHooks.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - modules/AOR_Reports/aor_utils.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - mobile/js/quickcrm-utils.min.js
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - mobile/js/quickcrm-ce-3.0.0.min.js
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - mobile/js/quickcrm-ce-3.2.2.min.js
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/Extension/modules/Contacts/Ext/Vardefs/sugarfield_facebook_username_c.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - custom/Extension/modules/Opportunities/Ext/Vardefs/sugarfield_textarea_c.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - modules/AOD_Index/Dashlets/AOD_IndexDashlet/AOD_IndexDashlet.meta.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - modules/AOD_Index/Dashlets/AOD_IndexDashlet/AOD_IndexDashlet.php
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - modules/AOD_IndexEvent/Dashlets/AOD_IndexEventDashlet/AOD_IndexEventDashlet.meta
+Sun, 07 Dec 2014 13:59:47 -0800 [UpgradeWizard] - modules/AOD_IndexEvent/Dashlets/AOD_IndexEventDashlet/AOD_IndexEventDashlet.php
+Sun, 07 Dec 2014 13:59:58 -0800 [UpgradeWizard] - Start Updating the license 
+Sun, 07 Dec 2014 13:59:58 -0800 [UpgradeWizard] - End Updating the license 
+Sun, 07 Dec 2014 13:59:58 -0800 [UpgradeWizard] - Cleaning up the session.  Goodbye.
+Sun, 07 Dec 2014 13:59:58 -0800 [UpgradeWizard] - at unlinkUWTempFiles()
+Sun, 07 Dec 2014 13:59:58 -0800 [UpgradeWizard] - finished!
+Sun, 07 Dec 2014 13:59:58 -0800 [UpgradeWizard] - Cleaning up the session.  Goodbye.
+Sun, 07 Dec 2014 13:59:58 -0800 [UpgradeWizard] - resetting $_SESSION

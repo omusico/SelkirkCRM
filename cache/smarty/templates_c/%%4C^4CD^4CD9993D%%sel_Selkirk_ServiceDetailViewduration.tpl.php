@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-12-07 06:07:58
+<?php /* Smarty version 2.6.11, created on 2014-12-07 14:02:29
          compiled from cache/modules/AOW_WorkFlow/sel_Selkirk_ServiceDetailViewduration.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_number_format', 'cache/modules/AOW_WorkFlow/sel_Selkirk_ServiceDetailViewduration.tpl', 3, false),)), $this); ?>

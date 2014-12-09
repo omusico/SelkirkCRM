@@ -10784,6 +10784,7 @@
         'vname' => 'LBL_NONINHERITABLE',
         'type' => 'bool',
         'reportable' => false,
+        'default' => '0',
         'comment' => 'Indicator for whether a group can be inherited by a record',
       ),
     ),

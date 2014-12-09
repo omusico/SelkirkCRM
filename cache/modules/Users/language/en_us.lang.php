@@ -1,5 +1,5 @@
 <?php
-// created: 2014-12-01 12:37:53
+// created: 2014-12-07 14:01:56
 $mod_strings = array (
   'LBL_DELETE_USER_CONFIRM' => 'When the User record is deleted, the corresponding Employee record will also be deleted.<br/><br/>Click OK to delete the User record.',
   'LBL_DELETE_GROUP_CONFIRM' => 'Are you sure you want to delete this Group User? Click OK to delete the User record.<br/>After clicking OK, you will be given the ability to reassign records assigned to the Group User to another user.',
@@ -48,7 +48,7 @@ If you are not setting up Inbound Email, please clear all fields in that section
   'LBL_ADDRESS_COUNTRY' => 'Address Country',
   'LBL_ADDRESS_INFORMATION' => 'Address Information',
   'LBL_ADDRESS_POSTALCODE' => 'Address Postal Code',
-  'LBL_ADDRESS_STATE' => 'Address Province',
+  'LBL_ADDRESS_STATE' => 'Address State',
   'LBL_ADDRESS_STREET' => 'Address Street',
   'LBL_ADDRESS' => 'Address',
   'LBL_ADMIN_USER' => 'System Administrator User',

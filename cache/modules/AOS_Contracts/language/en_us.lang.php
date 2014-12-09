@@ -1,5 +1,5 @@
 <?php
-// created: 2014-12-07 06:08:55
+// created: 2014-12-07 14:01:55
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -75,4 +75,17 @@ $mod_strings = array (
   'LBL_SHIPPING_TAX_AMT' => 'Shipping Tax',
   'LBL_ADD_PRODUCT_LINE' => 'Add Product Line',
   'LBL_ADD_SERVICE_LINE' => 'Add Service Line ',
+  'LBL_PRINT_AS_PDF' => 'Print as PDF',
+  'LBL_EMAIL_PDF' => 'Email PDF',
+  'LBL_PDF_NAME' => 'Contract',
+  'LBL_EMAIL_NAME' => 'Contract for',
+  'LBL_NO_TEMPLATE' => 'ERROR\\nNo templates found. If you have not created an Contract template, go to the PDF templates module and create one',
+  'LBL_SUBTOTAL_AMOUNT_USDOLLAR' => 'Subtotal (Default Currency)',
+  'LBL_DISCOUNT_AMOUNT_USDOLLAR' => 'Discount (Default Currency)',
+  'LBL_TAX_AMOUNT_USDOLLAR' => 'Tax (Default Currency)',
+  'LBL_SHIPPING_AMOUNT_USDOLLAR' => 'Shipping (Default Currency)',
+  'LBL_TOTAL_AMT_USDOLLAR' => 'Total (Default Currency)',
+  'LBL_SHIPPING_TAX_USDOLLAR' => 'Shipping Tax (Default Currency)',
+  'LBL_SHIPPING_TAX_AMT_USDOLLAR' => 'Shipping Tax (Default Currency)',
+  'LBL_GRAND_TOTAL_USDOLLAR' => 'Grand Total (Default Currency)',
 );
