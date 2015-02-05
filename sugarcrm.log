@@ -2793,3 +2793,10 @@ Fri Jan  9 11:46:05 2015 [3147][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor
 
 Fri Jan  9 11:46:05 2015 [3147][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
 
+Tue Feb  3 10:43:10 2015 [31534][-none-][FATAL] SECURITY: User authentication for jbuttle failed
+Tue Feb  3 10:43:10 2015 [31534][-none-][FATAL] FAILED LOGIN:attempts[1] - jbuttle
+Tue Feb  3 10:44:09 2015 [31587][-none-][FATAL] SECURITY: User authentication for jbuttle failed
+Tue Feb  3 10:44:09 2015 [31587][-none-][FATAL] FAILED LOGIN:attempts[1] - jbuttle
+Wed Feb  4 10:41:16 2015 [6047][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Feb  4 10:41:16 2015 [6047][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] error loading relationship aor_reports
