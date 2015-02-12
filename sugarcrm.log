@@ -2800,3 +2800,38 @@ Tue Feb  3 10:44:09 2015 [31587][-none-][FATAL] FAILED LOGIN:attempts[1] - jbutt
 Wed Feb  4 10:41:16 2015 [6047][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
 
 Wed Feb  4 10:41:16 2015 [6047][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] error loading relationship aor_reports
+Tue Feb 10 12:28:31 2015 [17105][-none-][FATAL] SECURITY: User authentication for iparfitt failed
+Tue Feb 10 12:28:31 2015 [17105][-none-][FATAL] FAILED LOGIN:attempts[1] - iparfitt
+Tue Feb 10 12:28:40 2015 [17124][-none-][FATAL] SECURITY: User authentication for iparfitt failed
+Tue Feb 10 12:28:40 2015 [17124][-none-][FATAL] FAILED LOGIN:attempts[2] - iparfitt
+Tue Feb 10 13:24:54 2015 [17746][-none-][FATAL] SECURITY: User authentication for kwoodbeck failed
+Tue Feb 10 13:24:54 2015 [17746][-none-][FATAL] FAILED LOGIN:attempts[1] - kwoodbeck
+Wed Feb 11 11:45:48 2015 [22594][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Feb 11 11:45:48 2015 [22594][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Feb 11 11:45:48 2015 [22594][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Feb 11 11:45:48 2015 [22594][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Feb 11 11:45:48 2015 [22594][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Feb 11 11:45:48 2015 [22594][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Feb 11 11:45:48 2015 [22594][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Feb 11 11:45:48 2015 [22594][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Feb 11 11:45:48 2015 [22594][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Feb 11 11:45:49 2015 [22594][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Feb 11 11:45:49 2015 [22594][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Feb 11 11:45:49 2015 [22594][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Feb 11 11:45:49 2015 [22594][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Feb 11 11:45:49 2015 [22594][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Feb 11 11:45:49 2015 [22594][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] error loading relationship aor_reports
