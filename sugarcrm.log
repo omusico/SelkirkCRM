@@ -2930,3 +2930,1625 @@ Fri Feb 13 08:50:39 2015 [31284][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] ao
 
 Fri Feb 13 08:50:39 2015 [31284][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
 
+Sat Feb 28 14:54:05 2015 [16838][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sat Feb 28 14:54:05 2015 [16838][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] error loading relationship aor_reports
+Sat Feb 28 14:54:05 2015 [16838][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sat Feb 28 14:54:05 2015 [16838][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] error loading relationship aor_reports
+Sat Feb 28 14:54:07 2015 [16838][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT sel_selkirk_service.id AS 'sel_selkirk_service_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id AS 'sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.name AS 'Client_Name0', sel_selkirk_service.selkirk_service_type AS 'Service_Type1', sel_selkirk_service.duration AS 'Duration_(in_hours)2', sel_selkirk_project_sel_selkirk_service.id AS 'sel_selkirk_project_sel_selkirk_service_id', sel_selkirk_project_sel_selkirk_service.name AS 'Project_Name3', sel_selkirk_service.assigned_user_id AS 'Assigned_to4', sel_selkirk_service.description AS 'Notes5', sel_selkirk_service.end_date AS 'End_Date6', sel_selkirk_service.start_date AS 'Start_Date7', sel_selkirk_client_sel_selkirk_service.id AS 'sel_selkirk_client_sel_selkirk_service_id' FROM sel_selkirk_service LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida ON sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_project_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_project_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_project sel_selkirk_project_sel_selkirk_service ON sel_selkirk_project_sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_project_ida AND sel_selkirk_project_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_project_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Project'
+                       WHERE   secr.record_id = sel_selkirk_project_sel_selkirk_service.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_service ON sel_selkirk_client_sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_service.id
+                               AND secg.deleted = 0) )  WHERE sel_selkirk_client_sel_selkirk_service.id = '51c9356c-8db7-c8e0-ee38-5477e14ed100' AND sel_selkirk_service.deleted = 0  AND ( sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Service'
+                       WHERE   secr.record_id = sel_selkirk_service.id
+                               AND secg.deleted = 0) )  ) as n: MySQL error 1066: Not unique table/alias: 'sel_selkirk_client_sel_selkirk_service_c'
+Sat Feb 28 14:54:07 2015 [16838][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL]  Query Failed: SELECT sel_selkirk_service.id AS 'sel_selkirk_service_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id AS 'sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.name AS 'Client_Name0', sel_selkirk_service.selkirk_service_type AS 'Service_Type1', sel_selkirk_service.duration AS 'Duration_(in_hours)2', sel_selkirk_project_sel_selkirk_service.id AS 'sel_selkirk_project_sel_selkirk_service_id', sel_selkirk_project_sel_selkirk_service.name AS 'Project_Name3', sel_selkirk_service.assigned_user_id AS 'Assigned_to4', sel_selkirk_service.description AS 'Notes5', sel_selkirk_service.end_date AS 'End_Date6', sel_selkirk_service.start_date AS 'Start_Date7', sel_selkirk_client_sel_selkirk_service.id AS 'sel_selkirk_client_sel_selkirk_service_id' FROM sel_selkirk_service LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida ON sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_project_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_project_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_project sel_selkirk_project_sel_selkirk_service ON sel_selkirk_project_sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_project_ida AND sel_selkirk_project_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_project_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Project'
+                       WHERE   secr.record_id = sel_selkirk_project_sel_selkirk_service.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_service ON sel_selkirk_client_sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_service.id
+                               AND secg.deleted = 0) )  WHERE sel_selkirk_client_sel_selkirk_service.id = '51c9356c-8db7-c8e0-ee38-5477e14ed100' AND sel_selkirk_service.deleted = 0  AND ( sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Service'
+                       WHERE   secr.record_id = sel_selkirk_service.id
+                               AND secg.deleted = 0) )  ORDER BY sel_selkirk_service.start_date ASC LIMIT 0,20: MySQL error 1066: Not unique table/alias: 'sel_selkirk_client_sel_selkirk_service_c'
+Sat Feb 28 14:55:11 2015 [16919][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:55:11 2015 [16919][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:55:12 2015 [16919][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:55:12 2015 [16919][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:55:12 2015 [16919][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:55:12 2015 [16919][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:55:12 2015 [16919][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:55:12 2015 [16919][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:55:12 2015 [16919][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sat Feb 28 14:55:13 2015 [16919][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT sel_selkirk_service.id AS 'sel_selkirk_service_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id AS 'sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.name AS 'Client_Name0', sel_selkirk_service.selkirk_service_type AS 'Service_Type1', sel_selkirk_service.duration AS 'Duration_(in_hours)2', sel_selkirk_project_sel_selkirk_service.id AS 'sel_selkirk_project_sel_selkirk_service_id', sel_selkirk_project_sel_selkirk_service.name AS 'Project_Name3', sel_selkirk_service.assigned_user_id AS 'Assigned_to4', sel_selkirk_service.description AS 'Notes5', sel_selkirk_service.end_date AS 'End_Date6', sel_selkirk_service.start_date AS 'Start_Date7', sel_selkirk_client_sel_selkirk_service.id AS 'sel_selkirk_client_sel_selkirk_service_id' FROM sel_selkirk_service LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida ON sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_project_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_project_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_project sel_selkirk_project_sel_selkirk_service ON sel_selkirk_project_sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_project_ida AND sel_selkirk_project_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_project_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Project'
+                       WHERE   secr.record_id = sel_selkirk_project_sel_selkirk_service.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_service ON sel_selkirk_client_sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_service.id
+                               AND secg.deleted = 0) )  WHERE sel_selkirk_client_sel_selkirk_service.id = '51c9356c-8db7-c8e0-ee38-5477e14ed100' AND sel_selkirk_service.deleted = 0  AND ( sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Service'
+                       WHERE   secr.record_id = sel_selkirk_service.id
+                               AND secg.deleted = 0) )  ) as n: MySQL error 1066: Not unique table/alias: 'sel_selkirk_client_sel_selkirk_service_c'
+Sat Feb 28 14:55:13 2015 [16919][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL]  Query Failed: SELECT sel_selkirk_service.id AS 'sel_selkirk_service_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id AS 'sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.name AS 'Client_Name0', sel_selkirk_service.selkirk_service_type AS 'Service_Type1', sel_selkirk_service.duration AS 'Duration_(in_hours)2', sel_selkirk_project_sel_selkirk_service.id AS 'sel_selkirk_project_sel_selkirk_service_id', sel_selkirk_project_sel_selkirk_service.name AS 'Project_Name3', sel_selkirk_service.assigned_user_id AS 'Assigned_to4', sel_selkirk_service.description AS 'Notes5', sel_selkirk_service.end_date AS 'End_Date6', sel_selkirk_service.start_date AS 'Start_Date7', sel_selkirk_client_sel_selkirk_service.id AS 'sel_selkirk_client_sel_selkirk_service_id' FROM sel_selkirk_service LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida ON sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_project_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_project_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_project sel_selkirk_project_sel_selkirk_service ON sel_selkirk_project_sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_project_ida AND sel_selkirk_project_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_project_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Project'
+                       WHERE   secr.record_id = sel_selkirk_project_sel_selkirk_service.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_service ON sel_selkirk_client_sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_service.id
+                               AND secg.deleted = 0) )  WHERE sel_selkirk_client_sel_selkirk_service.id = '51c9356c-8db7-c8e0-ee38-5477e14ed100' AND sel_selkirk_service.deleted = 0  AND ( sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Service'
+                       WHERE   secr.record_id = sel_selkirk_service.id
+                               AND secg.deleted = 0) )  ORDER BY sel_selkirk_service.start_date ASC LIMIT 0,20: MySQL error 1066: Not unique table/alias: 'sel_selkirk_client_sel_selkirk_service_c'
+Sat Feb 28 14:56:47 2015 [16892][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:56:47 2015 [16892][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:56:48 2015 [16892][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:56:48 2015 [16892][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:56:48 2015 [16892][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:56:48 2015 [16892][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:56:48 2015 [16892][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:56:48 2015 [16892][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:56:48 2015 [16892][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sat Feb 28 14:56:49 2015 [16892][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT sel_selkirk_service.id AS 'sel_selkirk_service_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id AS 'sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.name AS 'Client_Name0', sel_selkirk_service.selkirk_service_type AS 'Service_Type1', sel_selkirk_service.duration AS 'Duration_(in_hours)2', sel_selkirk_project_sel_selkirk_service.id AS 'sel_selkirk_project_sel_selkirk_service_id', sel_selkirk_project_sel_selkirk_service.name AS 'Project_Name3', sel_selkirk_service.assigned_user_id AS 'Assigned_to4', sel_selkirk_service.description AS 'Notes5', sel_selkirk_service.end_date AS 'End_Date6', sel_selkirk_service.start_date AS 'Start_Date7', sel_selkirk_client_sel_selkirk_service.id AS 'sel_selkirk_client_sel_selkirk_service_id' FROM sel_selkirk_service LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida ON sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_project_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_project_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_project sel_selkirk_project_sel_selkirk_service ON sel_selkirk_project_sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_project_ida AND sel_selkirk_project_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_project_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Project'
+                       WHERE   secr.record_id = sel_selkirk_project_sel_selkirk_service.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_service ON sel_selkirk_client_sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_service.id
+                               AND secg.deleted = 0) )  WHERE sel_selkirk_client_sel_selkirk_service.id = sel_selkirk_service.51c9356c-8db7-c8e0-ee38-5477e14ed100 AND sel_selkirk_service.deleted = 0  AND ( sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Service'
+                       WHERE   secr.record_id = sel_selkirk_service.id
+                               AND secg.deleted = 0) )  ) as n: MySQL error 1066: Not unique table/alias: 'sel_selkirk_client_sel_selkirk_service_c'
+Sat Feb 28 14:56:49 2015 [16892][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL]  Query Failed: SELECT sel_selkirk_service.id AS 'sel_selkirk_service_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id AS 'sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.name AS 'Client_Name0', sel_selkirk_service.selkirk_service_type AS 'Service_Type1', sel_selkirk_service.duration AS 'Duration_(in_hours)2', sel_selkirk_project_sel_selkirk_service.id AS 'sel_selkirk_project_sel_selkirk_service_id', sel_selkirk_project_sel_selkirk_service.name AS 'Project_Name3', sel_selkirk_service.assigned_user_id AS 'Assigned_to4', sel_selkirk_service.description AS 'Notes5', sel_selkirk_service.end_date AS 'End_Date6', sel_selkirk_service.start_date AS 'Start_Date7', sel_selkirk_client_sel_selkirk_service.id AS 'sel_selkirk_client_sel_selkirk_service_id' FROM sel_selkirk_service LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida ON sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_project_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_project_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_project sel_selkirk_project_sel_selkirk_service ON sel_selkirk_project_sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_project_ida AND sel_selkirk_project_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_project_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Project'
+                       WHERE   secr.record_id = sel_selkirk_project_sel_selkirk_service.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_service ON sel_selkirk_client_sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_service.id
+                               AND secg.deleted = 0) )  WHERE sel_selkirk_client_sel_selkirk_service.id = sel_selkirk_service.51c9356c-8db7-c8e0-ee38-5477e14ed100 AND sel_selkirk_service.deleted = 0  AND ( sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Service'
+                       WHERE   secr.record_id = sel_selkirk_service.id
+                               AND secg.deleted = 0) )  ORDER BY sel_selkirk_service.start_date ASC LIMIT 0,20: MySQL error 1066: Not unique table/alias: 'sel_selkirk_client_sel_selkirk_service_c'
+Sat Feb 28 14:57:19 2015 [16951][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:57:19 2015 [16951][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:57:20 2015 [16951][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:57:20 2015 [16951][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:57:20 2015 [16951][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:57:20 2015 [16951][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:57:20 2015 [16951][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:57:20 2015 [16951][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:57:21 2015 [16951][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sat Feb 28 14:57:22 2015 [16951][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT sel_selkirk_service.id AS 'sel_selkirk_service_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id AS 'sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.name AS 'Client_Name0', sel_selkirk_service.selkirk_service_type AS 'Service_Type1', sel_selkirk_service.duration AS 'Duration_(in_hours)2', sel_selkirk_project_sel_selkirk_service.id AS 'sel_selkirk_project_sel_selkirk_service_id', sel_selkirk_project_sel_selkirk_service.name AS 'Project_Name3', sel_selkirk_service.assigned_user_id AS 'Assigned_to4', sel_selkirk_service.description AS 'Notes5', sel_selkirk_service.end_date AS 'End_Date6', sel_selkirk_service.start_date AS 'Start_Date7', sel_selkirk_client_sel_selkirk_service.id AS 'sel_selkirk_client_sel_selkirk_service_id' FROM sel_selkirk_service LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida ON sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_project_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_project_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_project sel_selkirk_project_sel_selkirk_service ON sel_selkirk_project_sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_project_ida AND sel_selkirk_project_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_project_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Project'
+                       WHERE   secr.record_id = sel_selkirk_project_sel_selkirk_service.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_service ON sel_selkirk_client_sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_service.id
+                               AND secg.deleted = 0) )  WHERE sel_selkirk_client_sel_selkirk_service.id = '51c9356c-8db7-c8e0-ee38-5477e14ed100' AND sel_selkirk_service.deleted = 0  AND ( sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Service'
+                       WHERE   secr.record_id = sel_selkirk_service.id
+                               AND secg.deleted = 0) )  ) as n: MySQL error 1066: Not unique table/alias: 'sel_selkirk_client_sel_selkirk_service_c'
+Sat Feb 28 14:57:22 2015 [16951][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL]  Query Failed: SELECT sel_selkirk_service.id AS 'sel_selkirk_service_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id AS 'sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.name AS 'Client_Name0', sel_selkirk_service.selkirk_service_type AS 'Service_Type1', sel_selkirk_service.duration AS 'Duration_(in_hours)2', sel_selkirk_project_sel_selkirk_service.id AS 'sel_selkirk_project_sel_selkirk_service_id', sel_selkirk_project_sel_selkirk_service.name AS 'Project_Name3', sel_selkirk_service.assigned_user_id AS 'Assigned_to4', sel_selkirk_service.description AS 'Notes5', sel_selkirk_service.end_date AS 'End_Date6', sel_selkirk_service.start_date AS 'Start_Date7', sel_selkirk_client_sel_selkirk_service.id AS 'sel_selkirk_client_sel_selkirk_service_id' FROM sel_selkirk_service LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida ON sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_project_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_project_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_project sel_selkirk_project_sel_selkirk_service ON sel_selkirk_project_sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_project_ida AND sel_selkirk_project_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_project_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Project'
+                       WHERE   secr.record_id = sel_selkirk_project_sel_selkirk_service.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_service ON sel_selkirk_client_sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_service.id
+                               AND secg.deleted = 0) )  WHERE sel_selkirk_client_sel_selkirk_service.id = '51c9356c-8db7-c8e0-ee38-5477e14ed100' AND sel_selkirk_service.deleted = 0  AND ( sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Service'
+                       WHERE   secr.record_id = sel_selkirk_service.id
+                               AND secg.deleted = 0) )  ORDER BY sel_selkirk_service.start_date ASC LIMIT 0,20: MySQL error 1066: Not unique table/alias: 'sel_selkirk_client_sel_selkirk_service_c'
+Sat Feb 28 14:59:24 2015 [16978][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:59:25 2015 [16978][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:59:25 2015 [16978][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:59:25 2015 [16978][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:59:25 2015 [16978][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:59:25 2015 [16978][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:59:25 2015 [16978][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:59:26 2015 [16978][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 14:59:26 2015 [16978][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sat Feb 28 14:59:26 2015 [16978][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] error loading relationship aor_reports
+Sat Feb 28 14:59:26 2015 [16978][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sat Feb 28 14:59:26 2015 [16978][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] error loading relationship aor_reports
+Sat Feb 28 14:59:27 2015 [16978][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT sel_selkirk_service.id AS 'sel_selkirk_service_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id AS 'sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.name AS 'Client_Name0', sel_selkirk_service.selkirk_service_type AS 'Service_Type1', sel_selkirk_service.duration AS 'Duration_(in_hours)2', sel_selkirk_project_sel_selkirk_service.id AS 'sel_selkirk_project_sel_selkirk_service_id', sel_selkirk_project_sel_selkirk_service.name AS 'Project_Name3', sel_selkirk_service.assigned_user_id AS 'Assigned_to4', sel_selkirk_service.description AS 'Notes5', sel_selkirk_service.end_date AS 'End_Date6', sel_selkirk_service.start_date AS 'Start_Date7', sel_selkirk_client_sel_selkirk_service.id AS 'sel_selkirk_client_sel_selkirk_service_id' FROM sel_selkirk_service LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida ON sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_project_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_project_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_project sel_selkirk_project_sel_selkirk_service ON sel_selkirk_project_sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_project_ida AND sel_selkirk_project_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_project_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Project'
+                       WHERE   secr.record_id = sel_selkirk_project_sel_selkirk_service.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_service ON sel_selkirk_client_sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_service.id
+                               AND secg.deleted = 0) )  WHERE sel_selkirk_client_sel_selkirk_service.id = '51c9356c-8db7-c8e0-ee38-5477e14ed100' AND sel_selkirk_service.deleted = 0  AND ( sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Service'
+                       WHERE   secr.record_id = sel_selkirk_service.id
+                               AND secg.deleted = 0) )  ) as n: MySQL error 1066: Not unique table/alias: 'sel_selkirk_client_sel_selkirk_service_c'
+Sat Feb 28 14:59:27 2015 [16978][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL]  Query Failed: SELECT sel_selkirk_service.id AS 'sel_selkirk_service_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id AS 'sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.name AS 'Client_Name0', sel_selkirk_service.selkirk_service_type AS 'Service_Type1', sel_selkirk_service.duration AS 'Duration_(in_hours)2', sel_selkirk_project_sel_selkirk_service.id AS 'sel_selkirk_project_sel_selkirk_service_id', sel_selkirk_project_sel_selkirk_service.name AS 'Project_Name3', sel_selkirk_service.assigned_user_id AS 'Assigned_to4', sel_selkirk_service.description AS 'Notes5', sel_selkirk_service.end_date AS 'End_Date6', sel_selkirk_service.start_date AS 'Start_Date7', sel_selkirk_client_sel_selkirk_service.id AS 'sel_selkirk_client_sel_selkirk_service_id' FROM sel_selkirk_service LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida ON sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_project_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_project_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_project sel_selkirk_project_sel_selkirk_service ON sel_selkirk_project_sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_project_ida AND sel_selkirk_project_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_project_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Project'
+                       WHERE   secr.record_id = sel_selkirk_project_sel_selkirk_service.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_service ON sel_selkirk_client_sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_service.id
+                               AND secg.deleted = 0) )  WHERE sel_selkirk_client_sel_selkirk_service.id = '51c9356c-8db7-c8e0-ee38-5477e14ed100' AND sel_selkirk_service.deleted = 0  AND ( sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Service'
+                       WHERE   secr.record_id = sel_selkirk_service.id
+                               AND secg.deleted = 0) )  ORDER BY sel_selkirk_service.start_date ASC LIMIT 0,20: MySQL error 1066: Not unique table/alias: 'sel_selkirk_client_sel_selkirk_service_c'
+Sat Feb 28 15:00:35 2015 [17051][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:00:35 2015 [17051][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:00:35 2015 [17051][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:00:35 2015 [17051][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:00:36 2015 [17051][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:00:36 2015 [17051][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:00:36 2015 [17051][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:00:37 2015 [17051][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:00:37 2015 [17051][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sat Feb 28 15:00:39 2015 [17051][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT sel_selkirk_service.id AS 'sel_selkirk_service_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id AS 'sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.name AS 'Client_Name0', sel_selkirk_service.selkirk_service_type AS 'Service_Type1', sel_selkirk_service.duration AS 'Duration_(in_hours)2', sel_selkirk_project_sel_selkirk_service.id AS 'sel_selkirk_project_sel_selkirk_service_id', sel_selkirk_project_sel_selkirk_service.name AS 'Project_Name3', sel_selkirk_service.assigned_user_id AS 'Assigned_to4', sel_selkirk_service.description AS 'Notes5', sel_selkirk_service.end_date AS 'End_Date6', sel_selkirk_service.start_date AS 'Start_Date7', sel_selkirk_client_sel_selkirk_service.id AS 'sel_selkirk_client_sel_selkirk_service_id' FROM sel_selkirk_service LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida ON sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_project_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_project_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_project sel_selkirk_project_sel_selkirk_service ON sel_selkirk_project_sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_project_ida AND sel_selkirk_project_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_project_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Project'
+                       WHERE   secr.record_id = sel_selkirk_project_sel_selkirk_service.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_service ON sel_selkirk_client_sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_service.id
+                               AND secg.deleted = 0) )  WHERE sel_selkirk_client_sel_selkirk_service.name = 'K9' AND sel_selkirk_service.deleted = 0  AND ( sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Service'
+                       WHERE   secr.record_id = sel_selkirk_service.id
+                               AND secg.deleted = 0) )  ) as n: MySQL error 1066: Not unique table/alias: 'sel_selkirk_client_sel_selkirk_service_c'
+Sat Feb 28 15:00:39 2015 [17051][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL]  Query Failed: SELECT sel_selkirk_service.id AS 'sel_selkirk_service_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id AS 'sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.name AS 'Client_Name0', sel_selkirk_service.selkirk_service_type AS 'Service_Type1', sel_selkirk_service.duration AS 'Duration_(in_hours)2', sel_selkirk_project_sel_selkirk_service.id AS 'sel_selkirk_project_sel_selkirk_service_id', sel_selkirk_project_sel_selkirk_service.name AS 'Project_Name3', sel_selkirk_service.assigned_user_id AS 'Assigned_to4', sel_selkirk_service.description AS 'Notes5', sel_selkirk_service.end_date AS 'End_Date6', sel_selkirk_service.start_date AS 'Start_Date7', sel_selkirk_client_sel_selkirk_service.id AS 'sel_selkirk_client_sel_selkirk_service_id' FROM sel_selkirk_service LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida ON sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_project_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_project_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_project sel_selkirk_project_sel_selkirk_service ON sel_selkirk_project_sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_project_ida AND sel_selkirk_project_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_project_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Project'
+                       WHERE   secr.record_id = sel_selkirk_project_sel_selkirk_service.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_service ON sel_selkirk_client_sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_service.id
+                               AND secg.deleted = 0) )  WHERE sel_selkirk_client_sel_selkirk_service.name = 'K9' AND sel_selkirk_service.deleted = 0  AND ( sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Service'
+                       WHERE   secr.record_id = sel_selkirk_service.id
+                               AND secg.deleted = 0) )  ORDER BY sel_selkirk_service.start_date ASC LIMIT 0,20: MySQL error 1066: Not unique table/alias: 'sel_selkirk_client_sel_selkirk_service_c'
+Sat Feb 28 15:01:34 2015 [17078][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:01:34 2015 [17078][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:01:35 2015 [17078][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:01:35 2015 [17078][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:01:35 2015 [17078][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:01:35 2015 [17078][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:01:36 2015 [17078][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:01:36 2015 [17078][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:01:36 2015 [17078][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sat Feb 28 15:01:38 2015 [17078][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT sel_selkirk_service.id AS 'sel_selkirk_service_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id AS 'sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.name AS 'Client_Name0', sel_selkirk_service.selkirk_service_type AS 'Service_Type1', sel_selkirk_service.duration AS 'Duration_(in_hours)2', sel_selkirk_project_sel_selkirk_service.id AS 'sel_selkirk_project_sel_selkirk_service_id', sel_selkirk_project_sel_selkirk_service.name AS 'Project_Name3', sel_selkirk_service.assigned_user_id AS 'Assigned_to4', sel_selkirk_service.description AS 'Notes5', sel_selkirk_service.end_date AS 'End_Date6', sel_selkirk_service.start_date AS 'Start_Date7', sel_selkirk_client_sel_selkirk_service.id AS 'sel_selkirk_client_sel_selkirk_service_id' FROM sel_selkirk_service LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida ON sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_project_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_project_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_project sel_selkirk_project_sel_selkirk_service ON sel_selkirk_project_sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_project_ida AND sel_selkirk_project_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_project_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Project'
+                       WHERE   secr.record_id = sel_selkirk_project_sel_selkirk_service.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_service ON sel_selkirk_client_sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_service.id
+                               AND secg.deleted = 0) )  WHERE sel_selkirk_client_sel_selkirk_service.id = 'c9a6ece1-fc0a-f659-26f9-54da6aaefc5d' AND sel_selkirk_service.deleted = 0  AND ( sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Service'
+                       WHERE   secr.record_id = sel_selkirk_service.id
+                               AND secg.deleted = 0) )  ) as n: MySQL error 1066: Not unique table/alias: 'sel_selkirk_client_sel_selkirk_service_c'
+Sat Feb 28 15:01:38 2015 [17078][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL]  Query Failed: SELECT sel_selkirk_service.id AS 'sel_selkirk_service_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id AS 'sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.name AS 'Client_Name0', sel_selkirk_service.selkirk_service_type AS 'Service_Type1', sel_selkirk_service.duration AS 'Duration_(in_hours)2', sel_selkirk_project_sel_selkirk_service.id AS 'sel_selkirk_project_sel_selkirk_service_id', sel_selkirk_project_sel_selkirk_service.name AS 'Project_Name3', sel_selkirk_service.assigned_user_id AS 'Assigned_to4', sel_selkirk_service.description AS 'Notes5', sel_selkirk_service.end_date AS 'End_Date6', sel_selkirk_service.start_date AS 'Start_Date7', sel_selkirk_client_sel_selkirk_service.id AS 'sel_selkirk_client_sel_selkirk_service_id' FROM sel_selkirk_service LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida ON sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_project_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_project_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_project sel_selkirk_project_sel_selkirk_service ON sel_selkirk_project_sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_project_ida AND sel_selkirk_project_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_project_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Project'
+                       WHERE   secr.record_id = sel_selkirk_project_sel_selkirk_service.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_service ON sel_selkirk_client_sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_service.id
+                               AND secg.deleted = 0) )  WHERE sel_selkirk_client_sel_selkirk_service.id = 'c9a6ece1-fc0a-f659-26f9-54da6aaefc5d' AND sel_selkirk_service.deleted = 0  AND ( sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Service'
+                       WHERE   secr.record_id = sel_selkirk_service.id
+                               AND secg.deleted = 0) )  ORDER BY sel_selkirk_service.start_date ASC LIMIT 0,20: MySQL error 1066: Not unique table/alias: 'sel_selkirk_client_sel_selkirk_service_c'
+Sat Feb 28 15:02:27 2015 [17075][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:02:27 2015 [17075][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:02:27 2015 [17075][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:02:27 2015 [17075][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:02:27 2015 [17075][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:02:27 2015 [17075][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:02:28 2015 [17075][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:02:28 2015 [17075][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:02:28 2015 [17075][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sat Feb 28 15:02:29 2015 [17075][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT sel_selkirk_service.id AS 'sel_selkirk_service_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id AS 'sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.name AS 'Client_Name0', sel_selkirk_service.selkirk_service_type AS 'Service_Type1', sel_selkirk_service.duration AS 'Duration_(in_hours)2', sel_selkirk_project_sel_selkirk_service.id AS 'sel_selkirk_project_sel_selkirk_service_id', sel_selkirk_project_sel_selkirk_service.name AS 'Project_Name3', sel_selkirk_service.assigned_user_id AS 'Assigned_to4', sel_selkirk_service.description AS 'Notes5', sel_selkirk_service.end_date AS 'End_Date6', sel_selkirk_service.start_date AS 'Start_Date7', sel_selkirk_client_sel_selkirk_service.id AS 'sel_selkirk_client_sel_selkirk_service_id' FROM sel_selkirk_service LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida ON sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_project_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_project_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_project sel_selkirk_project_sel_selkirk_service ON sel_selkirk_project_sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_project_ida AND sel_selkirk_project_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_project_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Project'
+                       WHERE   secr.record_id = sel_selkirk_project_sel_selkirk_service.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_service ON sel_selkirk_client_sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_service.id
+                               AND secg.deleted = 0) )  WHERE sel_selkirk_client_sel_selkirk_service.name = '' AND sel_selkirk_service.deleted = 0  AND ( sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Service'
+                       WHERE   secr.record_id = sel_selkirk_service.id
+                               AND secg.deleted = 0) )  ) as n: MySQL error 1066: Not unique table/alias: 'sel_selkirk_client_sel_selkirk_service_c'
+Sat Feb 28 15:02:29 2015 [17075][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL]  Query Failed: SELECT sel_selkirk_service.id AS 'sel_selkirk_service_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id AS 'sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.name AS 'Client_Name0', sel_selkirk_service.selkirk_service_type AS 'Service_Type1', sel_selkirk_service.duration AS 'Duration_(in_hours)2', sel_selkirk_project_sel_selkirk_service.id AS 'sel_selkirk_project_sel_selkirk_service_id', sel_selkirk_project_sel_selkirk_service.name AS 'Project_Name3', sel_selkirk_service.assigned_user_id AS 'Assigned_to4', sel_selkirk_service.description AS 'Notes5', sel_selkirk_service.end_date AS 'End_Date6', sel_selkirk_service.start_date AS 'Start_Date7', sel_selkirk_client_sel_selkirk_service.id AS 'sel_selkirk_client_sel_selkirk_service_id' FROM sel_selkirk_service LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida ON sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_project_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_project_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_project sel_selkirk_project_sel_selkirk_service ON sel_selkirk_project_sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_project_ida AND sel_selkirk_project_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_project_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Project'
+                       WHERE   secr.record_id = sel_selkirk_project_sel_selkirk_service.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_service ON sel_selkirk_client_sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_service.id
+                               AND secg.deleted = 0) )  WHERE sel_selkirk_client_sel_selkirk_service.name = '' AND sel_selkirk_service.deleted = 0  AND ( sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Service'
+                       WHERE   secr.record_id = sel_selkirk_service.id
+                               AND secg.deleted = 0) )  ORDER BY sel_selkirk_service.start_date ASC LIMIT 0,20: MySQL error 1066: Not unique table/alias: 'sel_selkirk_client_sel_selkirk_service_c'
+Sat Feb 28 15:02:59 2015 [17108][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:02:59 2015 [17108][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:02:59 2015 [17108][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:02:59 2015 [17108][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:02:59 2015 [17108][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:02:59 2015 [17108][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:02:59 2015 [17108][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:02:59 2015 [17108][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:02:59 2015 [17108][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Sat Feb 28 15:03:00 2015 [17108][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT sel_selkirk_service.id AS 'sel_selkirk_service_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id AS 'sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.name AS 'Client_Name0', sel_selkirk_service.selkirk_service_type AS 'Service_Type1', sel_selkirk_service.duration AS 'Duration_(in_hours)2', sel_selkirk_project_sel_selkirk_service.id AS 'sel_selkirk_project_sel_selkirk_service_id', sel_selkirk_project_sel_selkirk_service.name AS 'Project_Name3', sel_selkirk_service.assigned_user_id AS 'Assigned_to4', sel_selkirk_service.description AS 'Notes5', sel_selkirk_service.end_date AS 'End_Date6', sel_selkirk_service.start_date AS 'Start_Date7', sel_selkirk_client_sel_selkirk_service.id AS 'sel_selkirk_client_sel_selkirk_service_id' FROM sel_selkirk_service LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida ON sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_project_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_project_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_project sel_selkirk_project_sel_selkirk_service ON sel_selkirk_project_sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_project_ida AND sel_selkirk_project_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_project_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Project'
+                       WHERE   secr.record_id = sel_selkirk_project_sel_selkirk_service.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_service ON sel_selkirk_client_sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_service.id
+                               AND secg.deleted = 0) )  WHERE sel_selkirk_client_sel_selkirk_service.name = 'K9' AND sel_selkirk_service.deleted = 0  AND ( sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Service'
+                       WHERE   secr.record_id = sel_selkirk_service.id
+                               AND secg.deleted = 0) )  ) as n: MySQL error 1066: Not unique table/alias: 'sel_selkirk_client_sel_selkirk_service_c'
+Sat Feb 28 15:03:00 2015 [17108][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL]  Query Failed: SELECT sel_selkirk_service.id AS 'sel_selkirk_service_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id AS 'sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.name AS 'Client_Name0', sel_selkirk_service.selkirk_service_type AS 'Service_Type1', sel_selkirk_service.duration AS 'Duration_(in_hours)2', sel_selkirk_project_sel_selkirk_service.id AS 'sel_selkirk_project_sel_selkirk_service_id', sel_selkirk_project_sel_selkirk_service.name AS 'Project_Name3', sel_selkirk_service.assigned_user_id AS 'Assigned_to4', sel_selkirk_service.description AS 'Notes5', sel_selkirk_service.end_date AS 'End_Date6', sel_selkirk_service.start_date AS 'Start_Date7', sel_selkirk_client_sel_selkirk_service.id AS 'sel_selkirk_client_sel_selkirk_service_id' FROM sel_selkirk_service LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida ON sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_project_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_project_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_project sel_selkirk_project_sel_selkirk_service ON sel_selkirk_project_sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_project_ida AND sel_selkirk_project_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_project_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Project'
+                       WHERE   secr.record_id = sel_selkirk_project_sel_selkirk_service.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_service ON sel_selkirk_client_sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_service.id
+                               AND secg.deleted = 0) )  WHERE sel_selkirk_client_sel_selkirk_service.name = 'K9' AND sel_selkirk_service.deleted = 0  AND ( sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Service'
+                       WHERE   secr.record_id = sel_selkirk_service.id
+                               AND secg.deleted = 0) )  ORDER BY sel_selkirk_service.start_date ASC LIMIT 0,20: MySQL error 1066: Not unique table/alias: 'sel_selkirk_client_sel_selkirk_service_c'
+Sat Feb 28 15:03:37 2015 [17126][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT sel_selkirk_service.id AS 'sel_selkirk_service_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id AS 'sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.name AS 'Client_Name0', sel_selkirk_service.selkirk_service_type AS 'Service_Type1', sel_selkirk_service.duration AS 'Duration_(in_hours)2', sel_selkirk_project_sel_selkirk_service.id AS 'sel_selkirk_project_sel_selkirk_service_id', sel_selkirk_project_sel_selkirk_service.name AS 'Project_Name3', sel_selkirk_service.assigned_user_id AS 'Assigned_to4', sel_selkirk_service.description AS 'Notes5', sel_selkirk_service.end_date AS 'End_Date6', sel_selkirk_service.start_date AS 'Start_Date7', sel_selkirk_client_sel_selkirk_service.id AS 'sel_selkirk_client_sel_selkirk_service_id' FROM sel_selkirk_service LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida ON sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_project_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_project_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_project sel_selkirk_project_sel_selkirk_service ON sel_selkirk_project_sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_project_ida AND sel_selkirk_project_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_project_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Project'
+                       WHERE   secr.record_id = sel_selkirk_project_sel_selkirk_service.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_service ON sel_selkirk_client_sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_service.id
+                               AND secg.deleted = 0) )  WHERE sel_selkirk_client_sel_selkirk_service.name = 'K9' AND sel_selkirk_service.deleted = 0  AND ( sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Service'
+                       WHERE   secr.record_id = sel_selkirk_service.id
+                               AND secg.deleted = 0) )  ) as n: MySQL error 1066: Not unique table/alias: 'sel_selkirk_client_sel_selkirk_service_c'
+Sat Feb 28 15:03:37 2015 [17126][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL]  Query Failed: SELECT sel_selkirk_service.id AS 'sel_selkirk_service_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id AS 'sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.name AS 'Client_Name0', sel_selkirk_service.selkirk_service_type AS 'Service_Type1', sel_selkirk_service.duration AS 'Duration_(in_hours)2', sel_selkirk_project_sel_selkirk_service.id AS 'sel_selkirk_project_sel_selkirk_service_id', sel_selkirk_project_sel_selkirk_service.name AS 'Project_Name3', sel_selkirk_service.assigned_user_id AS 'Assigned_to4', sel_selkirk_service.description AS 'Notes5', sel_selkirk_service.end_date AS 'End_Date6', sel_selkirk_service.start_date AS 'Start_Date7', sel_selkirk_client_sel_selkirk_service.id AS 'sel_selkirk_client_sel_selkirk_service_id' FROM sel_selkirk_service LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida ON sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_project_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_project_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_project sel_selkirk_project_sel_selkirk_service ON sel_selkirk_project_sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_project_ida AND sel_selkirk_project_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_project_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Project'
+                       WHERE   secr.record_id = sel_selkirk_project_sel_selkirk_service.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_service ON sel_selkirk_client_sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_service.id
+                               AND secg.deleted = 0) )  WHERE sel_selkirk_client_sel_selkirk_service.name = 'K9' AND sel_selkirk_service.deleted = 0  AND ( sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Service'
+                       WHERE   secr.record_id = sel_selkirk_service.id
+                               AND secg.deleted = 0) )  ORDER BY sel_selkirk_service.start_date ASC LIMIT 0,20: MySQL error 1066: Not unique table/alias: 'sel_selkirk_client_sel_selkirk_service_c'
+Sat Feb 28 15:06:02 2015 [17172][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL]  Query Failed: SELECT count(*) c FROM (SELECT sel_selkirk_service.id AS 'sel_selkirk_service_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id AS 'sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.name AS 'Client_Name0', sel_selkirk_service.selkirk_service_type AS 'Service_Type1', sel_selkirk_service.duration AS 'Duration_(in_hours)2', sel_selkirk_project_sel_selkirk_service.id AS 'sel_selkirk_project_sel_selkirk_service_id', sel_selkirk_project_sel_selkirk_service.name AS 'Project_Name3', sel_selkirk_service.assigned_user_id AS 'Assigned_to4', sel_selkirk_service.description AS 'Notes5', sel_selkirk_service.end_date AS 'End_Date6', sel_selkirk_service.start_date AS 'Start_Date7', sel_selkirk_client_sel_selkirk_service.id AS 'sel_selkirk_client_sel_selkirk_service_id' FROM sel_selkirk_service LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida ON sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_project_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_project_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_project sel_selkirk_project_sel_selkirk_service ON sel_selkirk_project_sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_project_ida AND sel_selkirk_project_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_project_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Project'
+                       WHERE   secr.record_id = sel_selkirk_project_sel_selkirk_service.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_service ON sel_selkirk_client_sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_service.id
+                               AND secg.deleted = 0) )  WHERE sel_selkirk_client_sel_selkirk_service.name = 'K9' AND sel_selkirk_service.deleted = 0  AND ( sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Service'
+                       WHERE   secr.record_id = sel_selkirk_service.id
+                               AND secg.deleted = 0) )  ) as n: MySQL error 1066: Not unique table/alias: 'sel_selkirk_client_sel_selkirk_service_c'
+Sat Feb 28 15:06:02 2015 [17172][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL]  Query Failed: SELECT sel_selkirk_service.id AS 'sel_selkirk_service_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id AS 'sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida_id', sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.name AS 'Client_Name0', sel_selkirk_service.selkirk_service_type AS 'Service_Type1', sel_selkirk_service.duration AS 'Duration_(in_hours)2', sel_selkirk_project_sel_selkirk_service.id AS 'sel_selkirk_project_sel_selkirk_service_id', sel_selkirk_project_sel_selkirk_service.name AS 'Project_Name3', sel_selkirk_service.assigned_user_id AS 'Assigned_to4', sel_selkirk_service.description AS 'Notes5', sel_selkirk_service.end_date AS 'End_Date6', sel_selkirk_service.start_date AS 'Start_Date7', sel_selkirk_client_sel_selkirk_service.id AS 'sel_selkirk_client_sel_selkirk_service_id' FROM sel_selkirk_service LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida ON sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_project_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_project_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_project sel_selkirk_project_sel_selkirk_service ON sel_selkirk_project_sel_selkirk_service.id=sel_selkirk_project_sel_selkirk_service_c.sel_selkirk_project_sel_selkirk_servicesel_selkirk_project_ida AND sel_selkirk_project_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_project_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Project'
+                       WHERE   secr.record_id = sel_selkirk_project_sel_selkirk_service.id
+                               AND secg.deleted = 0) ) LEFT JOIN sel_selkirk_client_sel_selkirk_service_c ON sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_service_idb AND sel_selkirk_client_sel_selkirk_service_c.deleted=0
+
+LEFT JOIN sel_selkirk_client sel_selkirk_client_sel_selkirk_service ON sel_selkirk_client_sel_selkirk_service.id=sel_selkirk_client_sel_selkirk_service_c.sel_selkirk_client_sel_selkirk_servicesel_selkirk_client_ida AND sel_selkirk_client_sel_selkirk_service.deleted=0
+ AND ( sel_selkirk_client_sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Client'
+                       WHERE   secr.record_id = sel_selkirk_client_sel_selkirk_service.id
+                               AND secg.deleted = 0) )  WHERE sel_selkirk_client_sel_selkirk_service.name = 'K9' AND sel_selkirk_service.deleted = 0  AND ( sel_selkirk_service.assigned_user_id ='de300c7b-31bd-e51a-9894-537b7e0e4b1d'  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu 
+                            ON secg.id = secu.securitygroup_id 
+                               AND secu.deleted = 0 
+                               AND secu.user_id = 'de300c7b-31bd-e51a-9894-537b7e0e4b1d'
+                          INNER JOIN securitygroups_records secr 
+                            ON secg.id = secr.securitygroup_id 
+                               AND secr.deleted = 0 
+                               AND secr.module = 'sel_Selkirk_Service'
+                       WHERE   secr.record_id = sel_selkirk_service.id
+                               AND secg.deleted = 0) )  ORDER BY sel_selkirk_service.start_date ASC LIMIT 0,20: MySQL error 1066: Not unique table/alias: 'sel_selkirk_client_sel_selkirk_service_c'
+Sat Feb 28 15:06:51 2015 [17187][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:06:51 2015 [17187][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:06:51 2015 [17187][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:06:51 2015 [17187][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:06:52 2015 [17187][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:06:52 2015 [17187][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:06:52 2015 [17187][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:06:52 2015 [17187][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Feb 28 15:06:52 2015 [17187][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar  5 14:37:54 2015 [7476][-none-][FATAL] SECURITY: User authentication for jrobinson failed
+Thu Mar  5 14:37:54 2015 [7476][-none-][FATAL] FAILED LOGIN:attempts[1] - jrobinson
+Thu Mar  5 14:38:05 2015 [7476][-none-][FATAL] SECURITY: User authentication for jrobinson failed
+Thu Mar  5 14:38:05 2015 [7476][-none-][FATAL] FAILED LOGIN:attempts[2] - jrobinson
+Thu Mar  5 14:38:15 2015 [7738][-none-][FATAL] SECURITY: User authentication for jrobinson failed
+Thu Mar  5 14:38:15 2015 [7738][-none-][FATAL] FAILED LOGIN:attempts[3] - jrobinson
+Thu Mar 12 10:50:42 2015 [29076][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 12 10:50:43 2015 [29076][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 12 10:50:43 2015 [29076][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 12 10:50:43 2015 [29076][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 12 10:50:43 2015 [29076][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 12 10:50:43 2015 [29076][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 12 10:50:43 2015 [29076][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 12 10:50:44 2015 [29076][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 12 10:50:44 2015 [29076][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 12 10:50:44 2015 [29076][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 12 10:50:44 2015 [29076][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 12 11:09:27 2015 [29259][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 12 11:09:27 2015 [29259][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 12 11:09:27 2015 [29259][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 12 11:09:28 2015 [29259][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 12 11:09:28 2015 [29259][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 12 11:09:28 2015 [29259][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 12 11:09:28 2015 [29259][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 12 11:09:29 2015 [29259][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 12 11:09:29 2015 [29259][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 12 11:09:29 2015 [29259][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 12 11:09:29 2015 [29259][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 12 11:09:30 2015 [29259][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 12 11:09:30 2015 [29259][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] error loading relationship aor_reports
+Thu Mar 12 11:09:30 2015 [29259][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Mar 13 14:08:04 2015 [1500][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Mar 13 14:08:04 2015 [1500][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Mar 13 14:08:04 2015 [1500][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Mar 13 14:08:04 2015 [1500][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Mar 13 14:08:04 2015 [1500][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Mar 13 14:08:04 2015 [1500][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Mar 13 14:08:04 2015 [1500][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Mar 13 14:08:04 2015 [1500][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Fri Mar 13 14:08:04 2015 [1500][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Mar 13 14:08:05 2015 [1500][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Fri Mar 13 14:08:37 2015 [1523][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL]  Query Failed: SELECT id FROM aor_field WHERE aor_field.aor_report_id = 'eebfc708-1bb0-eb15-87eb-5501d5237108' AND aor_field.deleted=0: MySQL error 1146: Table 'selkirkcrm.aor_field' doesn't exist
+Mon Mar 23 09:57:59 2015 [26599][-none-][FATAL] SECURITY: User authentication for lrethoret failed
+Mon Mar 23 09:57:59 2015 [26599][-none-][FATAL] FAILED LOGIN:attempts[1] - lrethoret
+Mon Mar 23 13:02:40 2015 [27574][-none-][FATAL] SECURITY: User authentication for kwoodbeck failed
+Mon Mar 23 13:02:40 2015 [27574][-none-][FATAL] FAILED LOGIN:attempts[1] - kwoodbeck
+Mon Mar 23 13:20:02 2015 [27835][-none-][FATAL] SECURITY: User authentication for iparfitt failed
+Mon Mar 23 13:20:02 2015 [27835][-none-][FATAL] FAILED LOGIN:attempts[1] - iparfitt
+Tue Mar 24 15:59:43 2015 [812][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Tue Mar 24 15:59:43 2015 [812][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Tue Mar 24 15:59:43 2015 [812][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Tue Mar 24 16:00:34 2015 [844][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL]  Query Failed: SELECT id FROM aor_field WHERE aor_field.aor_report_id = '63d8b972-2431-7e9f-a192-5511ec57cec4' AND aor_field.deleted=0: MySQL error 1146: Table 'selkirkcrm.aor_field' doesn't exist
+Tue Mar 24 16:17:02 2015 [1036][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL]  Query Failed: SELECT id FROM aor_field WHERE aor_field.aor_report_id = '3465b699-95ba-16ca-d336-5511eccc1408' AND aor_field.deleted=0: MySQL error 1146: Table 'selkirkcrm.aor_field' doesn't exist
+Wed Mar 25 14:37:09 2015 [6279][-none-][FATAL] SECURITY: User authentication for sector failed
+Wed Mar 25 14:37:09 2015 [6279][-none-][FATAL] FAILED LOGIN:attempts[1] - sector
+Wed Mar 25 14:37:22 2015 [6295][-none-][FATAL] SECURITY: User authentication for sector failed
+Wed Mar 25 14:37:22 2015 [6295][-none-][FATAL] FAILED LOGIN:attempts[2] - sector
+Thu Mar 26 11:37:33 2015 [10559][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:37:33 2015 [10559][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:37:33 2015 [10559][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:37:33 2015 [10559][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:37:34 2015 [10559][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:37:34 2015 [10559][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:37:34 2015 [10559][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:37:34 2015 [10559][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:37:34 2015 [10559][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 11:37:35 2015 [10559][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 11:37:35 2015 [10559][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 11:37:35 2015 [10559][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 11:39:25 2015 [10592][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:39:25 2015 [10592][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:39:25 2015 [10592][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:39:26 2015 [10592][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:39:26 2015 [10592][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:39:26 2015 [10592][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:39:27 2015 [10592][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:39:27 2015 [10592][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:39:27 2015 [10592][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 11:39:28 2015 [10592][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 11:39:28 2015 [10592][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 11:39:28 2015 [10592][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 11:46:26 2015 [10632][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:46:27 2015 [10632][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:46:27 2015 [10632][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:46:28 2015 [10632][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:46:28 2015 [10632][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:46:28 2015 [10632][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:46:29 2015 [10632][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:46:29 2015 [10632][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:46:30 2015 [10632][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 11:46:30 2015 [10632][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 11:46:30 2015 [10632][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 11:46:30 2015 [10632][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 11:58:06 2015 [10707][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:58:06 2015 [10707][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:58:06 2015 [10707][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:58:06 2015 [10707][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:58:07 2015 [10707][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:58:07 2015 [10707][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:58:07 2015 [10707][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:58:07 2015 [10707][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:58:07 2015 [10707][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 11:58:07 2015 [10707][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 11:58:07 2015 [10707][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 11:58:08 2015 [10707][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 11:58:28 2015 [10740][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:58:28 2015 [10740][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:58:28 2015 [10740][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:58:28 2015 [10740][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:58:29 2015 [10740][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:58:29 2015 [10740][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:58:29 2015 [10740][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:58:29 2015 [10740][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 11:58:29 2015 [10740][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 11:58:30 2015 [10740][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 11:58:30 2015 [10740][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 11:58:30 2015 [10740][93bcca65-6f92-43bb-1cc3-53a490543f94][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 13:05:21 2015 [11185][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 13:05:21 2015 [11185][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 13:05:22 2015 [11185][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 13:05:22 2015 [11185][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 13:05:22 2015 [11185][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 13:05:22 2015 [11185][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 13:05:22 2015 [11185][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 13:05:22 2015 [11185][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 13:05:22 2015 [11185][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 13:05:22 2015 [11185][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 13:05:22 2015 [11185][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 13:05:23 2015 [11185][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 13:06:34 2015 [11206][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 13:06:34 2015 [11206][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 13:06:34 2015 [11206][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 13:06:34 2015 [11206][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 13:06:34 2015 [11206][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 13:06:35 2015 [11206][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 13:06:35 2015 [11206][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 13:06:35 2015 [11206][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Thu Mar 26 13:06:35 2015 [11206][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 13:06:35 2015 [11206][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 13:06:35 2015 [11206][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Thu Mar 26 13:06:36 2015 [11206][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
