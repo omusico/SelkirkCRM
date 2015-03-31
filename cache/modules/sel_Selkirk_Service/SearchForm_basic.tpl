@@ -41,21 +41,49 @@
 	{/if}
 	
 	<td scope="row" nowrap="nowrap" width='1%' >
-			<label for='name_basic'> {sugar_translate label='LBL_NAME' module='sel_Selkirk_Service'}
-		</td>
+		
+		<label for='current_user_only_basic' >{sugar_translate label='LBL_CURRENT_USER_FILTER' module='sel_Selkirk_Service'}</label>
+    	</td>
 
 	
 	<td  nowrap="nowrap" width='1%'>
 			
-{if strlen($fields.name_basic.value) <= 0}
-{assign var="value" value=$fields.name_basic.default_value }
+{if strval($fields.current_user_only_basic.value) == "1" || strval($fields.current_user_only_basic.value) == "yes" || strval($fields.current_user_only_basic.value) == "on"} 
+{assign var="checked" value="CHECKED"}
 {else}
-{assign var="value" value=$fields.name_basic.value }
-{/if}  
-<input type='text' name='{$fields.name_basic.name}' 
-    id='{$fields.name_basic.name}' size='30' 
-    maxlength='255' 
-    value='{$value}' title=''      accesskey='9'  >
+{assign var="checked" value=""}
+{/if}
+<input type="hidden" name="{$fields.current_user_only_basic.name}" value="0"> 
+<input type="checkbox" id="{$fields.current_user_only_basic.name}" 
+name="{$fields.current_user_only_basic.name}" 
+value="1" title='' tabindex=""  accesskey='9' {$checked} >
+   	   	</td>
+    
+      
+	{counter assign=index}
+	{math equation="left % right"
+   		  left=$index
+          right=$basicMaxColumns
+          assign=modVal
+    }
+	{if ($index % $basicMaxColumns == 1 && $index != 1)}
+		</tr><tr>
+	{/if}
+	
+	<td scope="row" nowrap="nowrap" width='1%' >
+		
+		<label for='assigned_user_name_basic' >{sugar_translate label='LBL_ASSIGNED_TO_NAME' module='sel_Selkirk_Service'}</label>
+    	</td>
+
+	
+	<td  nowrap="nowrap" width='1%'>
+			
+<input type="text" name="{$fields.assigned_user_name_basic.name}"  class="sqsEnabled"   id="{$fields.assigned_user_name_basic.name}" size="" value="{$fields.assigned_user_name_basic.value}" title='' autocomplete="off"  >
+<input type="hidden" name="{$fields.assigned_user_id_basic.name}" id="{$fields.assigned_user_id_basic.name}" value="{$fields.assigned_user_id_basic.value}">
+<span class="id-ff multiple">
+<button type="button" name="btn_{$fields.assigned_user_name_basic.name}"   title="{$APP.LBL_SELECT_BUTTON_TITLE}" class="button firstChild" value="{$APP.LBL_SELECT_BUTTON_LABEL}" onclick='open_popup("{$fields.assigned_user_name_basic.module}", 600, 400, "", true, false, {literal}{"call_back_function":"set_return","form_name":"search_form","field_to_name_array":{"id":"assigned_user_id_basic","user_name":"assigned_user_name_basic"}}{/literal}, "single", true);'>{sugar_getimage alt=$app_strings.LBL_ID_FF_SELECT name="id-ff-select" ext=".png" other_attributes=''}</button><button type="button" name="btn_clr_{$fields.assigned_user_name_basic.name}"   title="{$APP.LBL_CLEAR_BUTTON_TITLE}" class="button lastChild" onclick="this.form.{$fields.assigned_user_name_basic.name}.value = ''; this.form.{$fields.assigned_user_id_basic.name}.value = '';" value="{$APP.LBL_CLEAR_BUTTON_LABEL}">{sugar_getimage name="id-ff-clear" alt=$app_strings.LBL_ID_FF_CLEAR ext=".png" other_attributes=''}</button>
+</span>
+
    	   	</td>
     
       

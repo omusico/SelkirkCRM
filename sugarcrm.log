@@ -4552,3 +4552,9 @@ Thu Mar 26 13:06:35 2015 [11206][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] ao
 
 Thu Mar 26 13:06:36 2015 [11206][de300c7b-31bd-e51a-9894-537b7e0e4b1d][FATAL] aor_reports for aor_report_aor_conditions failed to load
 
+Mon Mar 30 10:32:14 2015 [29670][-none-][FATAL] SECURITY: User authentication for jrobinson failed
+Mon Mar 30 10:32:14 2015 [29670][-none-][FATAL] FAILED LOGIN:attempts[1] - jrobinson
+Mon Mar 30 10:32:19 2015 [29670][-none-][FATAL] SECURITY: User authentication for jrobinson failed
+Mon Mar 30 10:32:19 2015 [29670][-none-][FATAL] FAILED LOGIN:attempts[2] - jrobinson
+Mon Mar 30 10:32:26 2015 [29934][-none-][FATAL] SECURITY: User authentication for jrobinson failed
+Mon Mar 30 10:32:26 2015 [29934][-none-][FATAL] FAILED LOGIN:attempts[3] - jrobinson

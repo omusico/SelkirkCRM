@@ -2,6 +2,13 @@
 $module_name = 'sel_Selkirk_Service';
 $listViewDefs [$module_name] = 
 array (
+  'DATE_MODIFIED' => 
+  array (
+    'type' => 'datetime',
+    'label' => 'LBL_DATE_MODIFIED',
+    'width' => '10%',
+    'default' => true,
+  ),
   'SELKIRK_SERVICE_TYPE' => 
   array (
     'type' => 'enum',

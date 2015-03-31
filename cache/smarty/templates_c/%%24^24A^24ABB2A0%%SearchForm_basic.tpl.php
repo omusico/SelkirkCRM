@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.11, created on 2014-12-07 14:14:43
+<?php /* Smarty version 2.6.11, created on 2015-03-27 10:42:42
          compiled from cache/modules/sel_Selkirk_Service/SearchForm_basic.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'cache/modules/sel_Selkirk_Service/SearchForm_basic.tpl', 33, false),array('function', 'math', 'cache/modules/sel_Selkirk_Service/SearchForm_basic.tpl', 34, false),array('function', 'sugar_translate', 'cache/modules/sel_Selkirk_Service/SearchForm_basic.tpl', 43, false),array('function', 'sugar_getimage', 'cache/modules/sel_Selkirk_Service/SearchForm_basic.tpl', 81, false),array('function', 'sugar_getimagepath', 'cache/modules/sel_Selkirk_Service/SearchForm_basic.tpl', 124, false),array('modifier', 'count', 'cache/modules/sel_Selkirk_Service/SearchForm_basic.tpl', 111, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'cache/modules/sel_Selkirk_Service/SearchForm_basic.tpl', 33, false),array('function', 'math', 'cache/modules/sel_Selkirk_Service/SearchForm_basic.tpl', 34, false),array('function', 'sugar_translate', 'cache/modules/sel_Selkirk_Service/SearchForm_basic.tpl', 44, false),array('function', 'sugar_getimage', 'cache/modules/sel_Selkirk_Service/SearchForm_basic.tpl', 82, false),array('function', 'sugar_getimagepath', 'cache/modules/sel_Selkirk_Service/SearchForm_basic.tpl', 151, false),array('modifier', 'count', 'cache/modules/sel_Selkirk_Service/SearchForm_basic.tpl', 138, false),)), $this); ?>
 
 <input type='hidden' id="orderByInput" name='orderBy' value=''/>
 <input type='hidden' id="sortOrder" name='sortOrder' value=''/>
@@ -42,21 +42,68 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', '
 	<?php endif; ?>
 	
 	<td scope="row" nowrap="nowrap" width='1%' >
-			<label for='name_basic'> <?php echo smarty_function_sugar_translate(array('label' => 'LBL_NAME','module' => 'sel_Selkirk_Service'), $this);?>
-
-		</td>
+		
+		<label for='current_user_only_basic' ><?php echo smarty_function_sugar_translate(array('label' => 'LBL_CURRENT_USER_FILTER','module' => 'sel_Selkirk_Service'), $this);?>
+</label>
+    	</td>
 
 	
 	<td  nowrap="nowrap" width='1%'>
 			
-<?php if (strlen ( $this->_tpl_vars['fields']['name_basic']['value'] ) <= 0):  $this->assign('value', $this->_tpl_vars['fields']['name_basic']['default_value']);  else:  $this->assign('value', $this->_tpl_vars['fields']['name_basic']['value']);  endif; ?>  
-<input type='text' name='<?php echo $this->_tpl_vars['fields']['name_basic']['name']; ?>
-' 
-    id='<?php echo $this->_tpl_vars['fields']['name_basic']['name']; ?>
-' size='30' 
-    maxlength='255' 
-    value='<?php echo $this->_tpl_vars['value']; ?>
-' title=''      accesskey='9'  >
+<?php if (strval ( $this->_tpl_vars['fields']['current_user_only_basic']['value'] ) == '1' || strval ( $this->_tpl_vars['fields']['current_user_only_basic']['value'] ) == 'yes' || strval ( $this->_tpl_vars['fields']['current_user_only_basic']['value'] ) == 'on'): ?> 
+<?php $this->assign('checked', 'CHECKED');  else:  $this->assign('checked', "");  endif; ?>
+<input type="hidden" name="<?php echo $this->_tpl_vars['fields']['current_user_only_basic']['name']; ?>
+" value="0"> 
+<input type="checkbox" id="<?php echo $this->_tpl_vars['fields']['current_user_only_basic']['name']; ?>
+" 
+name="<?php echo $this->_tpl_vars['fields']['current_user_only_basic']['name']; ?>
+" 
+value="1" title='' tabindex=""  accesskey='9' <?php echo $this->_tpl_vars['checked']; ?>
+ >
+   	   	</td>
+    
+      
+	<?php echo smarty_function_counter(array('assign' => 'index'), $this);?>
+
+	<?php echo smarty_function_math(array('equation' => "left % right",'left' => $this->_tpl_vars['index'],'right' => $this->_tpl_vars['basicMaxColumns'],'assign' => 'modVal'), $this);?>
+
+	<?php if (( $this->_tpl_vars['index'] % $this->_tpl_vars['basicMaxColumns'] == 1 && $this->_tpl_vars['index'] != 1 )): ?>
+		</tr><tr>
+	<?php endif; ?>
+	
+	<td scope="row" nowrap="nowrap" width='1%' >
+		
+		<label for='assigned_user_name_basic' ><?php echo smarty_function_sugar_translate(array('label' => 'LBL_ASSIGNED_TO_NAME','module' => 'sel_Selkirk_Service'), $this);?>
+</label>
+    	</td>
+
+	
+	<td  nowrap="nowrap" width='1%'>
+			
+<input type="text" name="<?php echo $this->_tpl_vars['fields']['assigned_user_name_basic']['name']; ?>
+"  class="sqsEnabled"   id="<?php echo $this->_tpl_vars['fields']['assigned_user_name_basic']['name']; ?>
+" size="" value="<?php echo $this->_tpl_vars['fields']['assigned_user_name_basic']['value']; ?>
+" title='' autocomplete="off"  >
+<input type="hidden" name="<?php echo $this->_tpl_vars['fields']['assigned_user_id_basic']['name']; ?>
+" id="<?php echo $this->_tpl_vars['fields']['assigned_user_id_basic']['name']; ?>
+" value="<?php echo $this->_tpl_vars['fields']['assigned_user_id_basic']['value']; ?>
+">
+<span class="id-ff multiple">
+<button type="button" name="btn_<?php echo $this->_tpl_vars['fields']['assigned_user_name_basic']['name']; ?>
+"   title="<?php echo $this->_tpl_vars['APP']['LBL_SELECT_BUTTON_TITLE']; ?>
+" class="button firstChild" value="<?php echo $this->_tpl_vars['APP']['LBL_SELECT_BUTTON_LABEL']; ?>
+" onclick='open_popup("<?php echo $this->_tpl_vars['fields']['assigned_user_name_basic']['module']; ?>
+", 600, 400, "", true, false, <?php echo '{"call_back_function":"set_return","form_name":"search_form","field_to_name_array":{"id":"assigned_user_id_basic","user_name":"assigned_user_name_basic"}}'; ?>
+, "single", true);'><?php echo smarty_function_sugar_getimage(array('alt' => $this->_tpl_vars['app_strings']['LBL_ID_FF_SELECT'],'name' => "id-ff-select",'ext' => ".png",'other_attributes' => ''), $this);?>
+</button><button type="button" name="btn_clr_<?php echo $this->_tpl_vars['fields']['assigned_user_name_basic']['name']; ?>
+"   title="<?php echo $this->_tpl_vars['APP']['LBL_CLEAR_BUTTON_TITLE']; ?>
+" class="button lastChild" onclick="this.form.<?php echo $this->_tpl_vars['fields']['assigned_user_name_basic']['name']; ?>
+.value = ''; this.form.<?php echo $this->_tpl_vars['fields']['assigned_user_id_basic']['name']; ?>
+.value = '';" value="<?php echo $this->_tpl_vars['APP']['LBL_CLEAR_BUTTON_LABEL']; ?>
+"><?php echo smarty_function_sugar_getimage(array('name' => "id-ff-clear",'alt' => $this->_tpl_vars['app_strings']['LBL_ID_FF_CLEAR'],'ext' => ".png",'other_attributes' => ''), $this);?>
+</button>
+</span>
+
    	   	</td>
     
       
